@@ -1,0 +1,15 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity Full_Adder is
+port( a,b,x :in std_logic;
+      s,c:out std_logic);
+end Full_Adder;
+
+architecture struct of Full_Adder is
+signal s1,s2,s3:std_logic;
+
+begin 
+	s <= (a xor b) xor x;
+	c <= ((a xor b) nand x) nand (a nand b);
+end struct; 

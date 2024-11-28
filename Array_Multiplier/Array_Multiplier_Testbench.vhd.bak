@@ -1,0 +1,13 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity testbench is
+end entity;
+
+architecture bhv of Testbench is
+	component Array_Multiplier is
+		port(x,y: in std_logic_vector(15 downto 0);
+			  p: out std_logic_vector(7 downto 0)
+			 );
+	end component;
+end architecture bhv;

@@ -1,0 +1,592 @@
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# ERROR: No extended dataflow license exists
+# do Array_Multiplier_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/Array_Multiplier/Full_Adder.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:24:19 on Nov 28,2024
+# vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/Array_Multiplier/Full_Adder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Full_Adder
+# -- Compiling architecture struct of Full_Adder
+# End time: 21:24:19 on Nov 28,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/Array_Multiplier/Array_Multiplier_Node.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:24:19 on Nov 28,2024
+# vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/Array_Multiplier/Array_Multiplier_Node.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Array_Multiplier_Node
+# -- Compiling architecture struct1 of Array_Multiplier_Node
+# End time: 21:24:19 on Nov 28,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/Array_Multiplier/Array_Multiplier.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:24:19 on Nov 28,2024
+# vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/Array_Multiplier/Array_Multiplier.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Array_Multiplier
+# -- Compiling architecture Struct2 of Array_Multiplier
+# End time: 21:24:19 on Nov 28,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/Array_Multiplier/Array_Multiplier_Testbench.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:24:19 on Nov 28,2024
+# vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/Array_Multiplier/Array_Multiplier_Testbench.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Array_Multiplier_Testbench
+# -- Compiling architecture bhv of Array_Multiplier_Testbench
+# End time: 21:24:19 on Nov 28,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs="+acc"  Array_Multiplier_Testbench
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs=""+acc"" Array_Multiplier_Testbench 
+# Start time: 21:24:19 on Nov 28,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.array_multiplier_testbench(bhv)
+# Loading work.array_multiplier(struct2)
+# Loading work.array_multiplier_node(struct1)
+# Loading work.full_adder(struct)
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Note: For x = 0 and y = 0 got p=0
+#    Time: 10 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 0 and y = 1 got p=0
+#    Time: 20 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 0 and y = 2 got p=0
+#    Time: 30 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 0 and y = 3 got p=0
+#    Time: 40 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 0 and y = 4 got p=0
+#    Time: 50 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 0 and y = 5 got p=0
+#    Time: 60 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 0 and y = 6 got p=0
+#    Time: 70 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 0 and y = 7 got p=0
+#    Time: 80 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 0 and y = 8 got p=0
+#    Time: 90 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 0 and y = 9 got p=0
+#    Time: 100 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 0 and y = 10 got p=0
+#    Time: 110 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 0 and y = 11 got p=0
+#    Time: 120 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 0 and y = 12 got p=0
+#    Time: 130 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 0 and y = 13 got p=0
+#    Time: 140 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 0 and y = 14 got p=0
+#    Time: 150 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 0 and y = 15 got p=0
+#    Time: 160 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 1 and y = 0 got p=0
+#    Time: 170 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 1 and y = 1 got p=1
+#    Time: 180 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 1 and y = 2 got p=2
+#    Time: 190 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 1 and y = 3 got p=3
+#    Time: 200 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 1 and y = 4 got p=4
+#    Time: 210 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 1 and y = 5 got p=5
+#    Time: 220 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 1 and y = 6 got p=6
+#    Time: 230 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 1 and y = 7 got p=7
+#    Time: 240 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 1 and y = 8 got p=8
+#    Time: 250 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 1 and y = 9 got p=9
+#    Time: 260 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 1 and y = 10 got p=10
+#    Time: 270 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 1 and y = 11 got p=11
+#    Time: 280 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 1 and y = 12 got p=12
+#    Time: 290 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 1 and y = 13 got p=13
+#    Time: 300 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 1 and y = 14 got p=14
+#    Time: 310 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 1 and y = 15 got p=15
+#    Time: 320 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 2 and y = 0 got p=0
+#    Time: 330 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 2 and y = 1 got p=2
+#    Time: 340 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 2 and y = 2 got p=4
+#    Time: 350 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 2 and y = 3 got p=6
+#    Time: 360 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 2 and y = 4 got p=8
+#    Time: 370 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 2 and y = 5 got p=10
+#    Time: 380 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 2 and y = 6 got p=12
+#    Time: 390 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 2 and y = 7 got p=14
+#    Time: 400 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 2 and y = 8 got p=16
+#    Time: 410 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 2 and y = 9 got p=18
+#    Time: 420 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 2 and y = 10 got p=20
+#    Time: 430 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 2 and y = 11 got p=22
+#    Time: 440 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 2 and y = 12 got p=24
+#    Time: 450 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 2 and y = 13 got p=26
+#    Time: 460 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 2 and y = 14 got p=28
+#    Time: 470 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 2 and y = 15 got p=30
+#    Time: 480 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 3 and y = 0 got p=0
+#    Time: 490 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 3 and y = 1 got p=3
+#    Time: 500 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 3 and y = 2 got p=6
+#    Time: 510 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 3 and y = 3 got p=9
+#    Time: 520 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 3 and y = 4 got p=12
+#    Time: 530 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 3 and y = 5 got p=15
+#    Time: 540 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 3 and y = 6 got p=18
+#    Time: 550 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 3 and y = 7 got p=21
+#    Time: 560 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 3 and y = 8 got p=24
+#    Time: 570 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 3 and y = 9 got p=27
+#    Time: 580 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 3 and y = 10 got p=30
+#    Time: 590 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 3 and y = 11 got p=33
+#    Time: 600 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 3 and y = 12 got p=36
+#    Time: 610 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 3 and y = 13 got p=39
+#    Time: 620 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 3 and y = 14 got p=42
+#    Time: 630 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 3 and y = 15 got p=45
+#    Time: 640 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 4 and y = 0 got p=0
+#    Time: 650 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 4 and y = 1 got p=4
+#    Time: 660 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 4 and y = 2 got p=8
+#    Time: 670 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 4 and y = 3 got p=12
+#    Time: 680 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 4 and y = 4 got p=16
+#    Time: 690 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 4 and y = 5 got p=20
+#    Time: 700 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 4 and y = 6 got p=24
+#    Time: 710 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 4 and y = 7 got p=28
+#    Time: 720 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 4 and y = 8 got p=32
+#    Time: 730 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 4 and y = 9 got p=36
+#    Time: 740 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 4 and y = 10 got p=40
+#    Time: 750 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 4 and y = 11 got p=44
+#    Time: 760 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 4 and y = 12 got p=48
+#    Time: 770 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 4 and y = 13 got p=52
+#    Time: 780 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 4 and y = 14 got p=56
+#    Time: 790 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 4 and y = 15 got p=60
+#    Time: 800 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 5 and y = 0 got p=0
+#    Time: 810 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 5 and y = 1 got p=5
+#    Time: 820 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 5 and y = 2 got p=10
+#    Time: 830 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 5 and y = 3 got p=15
+#    Time: 840 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 5 and y = 4 got p=20
+#    Time: 850 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 5 and y = 5 got p=25
+#    Time: 860 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 5 and y = 6 got p=30
+#    Time: 870 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 5 and y = 7 got p=35
+#    Time: 880 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 5 and y = 8 got p=40
+#    Time: 890 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 5 and y = 9 got p=45
+#    Time: 900 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 5 and y = 10 got p=50
+#    Time: 910 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 5 and y = 11 got p=55
+#    Time: 920 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 5 and y = 12 got p=60
+#    Time: 930 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 5 and y = 13 got p=65
+#    Time: 940 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 5 and y = 14 got p=70
+#    Time: 950 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 5 and y = 15 got p=75
+#    Time: 960 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 6 and y = 0 got p=0
+#    Time: 970 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 6 and y = 1 got p=6
+#    Time: 980 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 6 and y = 2 got p=12
+#    Time: 990 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 6 and y = 3 got p=18
+#    Time: 1 us  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 6 and y = 4 got p=24
+#    Time: 1010 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 6 and y = 5 got p=30
+#    Time: 1020 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 6 and y = 6 got p=36
+#    Time: 1030 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 6 and y = 7 got p=42
+#    Time: 1040 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 6 and y = 8 got p=48
+#    Time: 1050 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 6 and y = 9 got p=54
+#    Time: 1060 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 6 and y = 10 got p=60
+#    Time: 1070 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 6 and y = 11 got p=66
+#    Time: 1080 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 6 and y = 12 got p=72
+#    Time: 1090 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 6 and y = 13 got p=78
+#    Time: 1100 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 6 and y = 14 got p=84
+#    Time: 1110 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 6 and y = 15 got p=90
+#    Time: 1120 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 7 and y = 0 got p=0
+#    Time: 1130 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 7 and y = 1 got p=7
+#    Time: 1140 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 7 and y = 2 got p=14
+#    Time: 1150 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 7 and y = 3 got p=21
+#    Time: 1160 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 7 and y = 4 got p=28
+#    Time: 1170 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 7 and y = 5 got p=35
+#    Time: 1180 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 7 and y = 6 got p=42
+#    Time: 1190 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 7 and y = 7 got p=49
+#    Time: 1200 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 7 and y = 8 got p=56
+#    Time: 1210 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 7 and y = 9 got p=63
+#    Time: 1220 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 7 and y = 10 got p=70
+#    Time: 1230 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 7 and y = 11 got p=77
+#    Time: 1240 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 7 and y = 12 got p=84
+#    Time: 1250 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 7 and y = 13 got p=91
+#    Time: 1260 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 7 and y = 14 got p=98
+#    Time: 1270 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 7 and y = 15 got p=105
+#    Time: 1280 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 8 and y = 0 got p=0
+#    Time: 1290 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 8 and y = 1 got p=8
+#    Time: 1300 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 8 and y = 2 got p=16
+#    Time: 1310 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 8 and y = 3 got p=24
+#    Time: 1320 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 8 and y = 4 got p=32
+#    Time: 1330 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 8 and y = 5 got p=40
+#    Time: 1340 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 8 and y = 6 got p=48
+#    Time: 1350 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 8 and y = 7 got p=56
+#    Time: 1360 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 8 and y = 8 got p=64
+#    Time: 1370 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 8 and y = 9 got p=72
+#    Time: 1380 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 8 and y = 10 got p=80
+#    Time: 1390 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 8 and y = 11 got p=88
+#    Time: 1400 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 8 and y = 12 got p=96
+#    Time: 1410 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 8 and y = 13 got p=104
+#    Time: 1420 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 8 and y = 14 got p=112
+#    Time: 1430 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 8 and y = 15 got p=120
+#    Time: 1440 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 9 and y = 0 got p=0
+#    Time: 1450 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 9 and y = 1 got p=9
+#    Time: 1460 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 9 and y = 2 got p=18
+#    Time: 1470 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 9 and y = 3 got p=27
+#    Time: 1480 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 9 and y = 4 got p=36
+#    Time: 1490 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 9 and y = 5 got p=45
+#    Time: 1500 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 9 and y = 6 got p=54
+#    Time: 1510 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 9 and y = 7 got p=63
+#    Time: 1520 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 9 and y = 8 got p=72
+#    Time: 1530 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 9 and y = 9 got p=81
+#    Time: 1540 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 9 and y = 10 got p=90
+#    Time: 1550 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 9 and y = 11 got p=99
+#    Time: 1560 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 9 and y = 12 got p=108
+#    Time: 1570 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 9 and y = 13 got p=117
+#    Time: 1580 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 9 and y = 14 got p=126
+#    Time: 1590 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 9 and y = 15 got p=135
+#    Time: 1600 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 10 and y = 0 got p=0
+#    Time: 1610 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 10 and y = 1 got p=10
+#    Time: 1620 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 10 and y = 2 got p=20
+#    Time: 1630 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 10 and y = 3 got p=30
+#    Time: 1640 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 10 and y = 4 got p=40
+#    Time: 1650 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 10 and y = 5 got p=50
+#    Time: 1660 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 10 and y = 6 got p=60
+#    Time: 1670 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 10 and y = 7 got p=70
+#    Time: 1680 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 10 and y = 8 got p=80
+#    Time: 1690 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 10 and y = 9 got p=90
+#    Time: 1700 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 10 and y = 10 got p=100
+#    Time: 1710 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 10 and y = 11 got p=110
+#    Time: 1720 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 10 and y = 12 got p=120
+#    Time: 1730 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 10 and y = 13 got p=130
+#    Time: 1740 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 10 and y = 14 got p=140
+#    Time: 1750 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 10 and y = 15 got p=150
+#    Time: 1760 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 11 and y = 0 got p=0
+#    Time: 1770 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 11 and y = 1 got p=11
+#    Time: 1780 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 11 and y = 2 got p=22
+#    Time: 1790 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 11 and y = 3 got p=33
+#    Time: 1800 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 11 and y = 4 got p=44
+#    Time: 1810 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 11 and y = 5 got p=55
+#    Time: 1820 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 11 and y = 6 got p=66
+#    Time: 1830 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 11 and y = 7 got p=77
+#    Time: 1840 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 11 and y = 8 got p=88
+#    Time: 1850 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 11 and y = 9 got p=99
+#    Time: 1860 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 11 and y = 10 got p=110
+#    Time: 1870 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 11 and y = 11 got p=121
+#    Time: 1880 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 11 and y = 12 got p=132
+#    Time: 1890 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 11 and y = 13 got p=143
+#    Time: 1900 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 11 and y = 14 got p=154
+#    Time: 1910 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 11 and y = 15 got p=165
+#    Time: 1920 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 12 and y = 0 got p=0
+#    Time: 1930 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 12 and y = 1 got p=12
+#    Time: 1940 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 12 and y = 2 got p=24
+#    Time: 1950 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 12 and y = 3 got p=36
+#    Time: 1960 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 12 and y = 4 got p=48
+#    Time: 1970 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 12 and y = 5 got p=60
+#    Time: 1980 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 12 and y = 6 got p=72
+#    Time: 1990 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 12 and y = 7 got p=84
+#    Time: 2 us  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 12 and y = 8 got p=96
+#    Time: 2010 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 12 and y = 9 got p=108
+#    Time: 2020 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 12 and y = 10 got p=120
+#    Time: 2030 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 12 and y = 11 got p=132
+#    Time: 2040 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 12 and y = 12 got p=144
+#    Time: 2050 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 12 and y = 13 got p=156
+#    Time: 2060 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 12 and y = 14 got p=168
+#    Time: 2070 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 12 and y = 15 got p=180
+#    Time: 2080 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 13 and y = 0 got p=0
+#    Time: 2090 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 13 and y = 1 got p=13
+#    Time: 2100 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 13 and y = 2 got p=26
+#    Time: 2110 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 13 and y = 3 got p=39
+#    Time: 2120 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 13 and y = 4 got p=52
+#    Time: 2130 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 13 and y = 5 got p=65
+#    Time: 2140 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 13 and y = 6 got p=78
+#    Time: 2150 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 13 and y = 7 got p=91
+#    Time: 2160 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 13 and y = 8 got p=104
+#    Time: 2170 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 13 and y = 9 got p=117
+#    Time: 2180 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 13 and y = 10 got p=130
+#    Time: 2190 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 13 and y = 11 got p=143
+#    Time: 2200 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 13 and y = 12 got p=156
+#    Time: 2210 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 13 and y = 13 got p=169
+#    Time: 2220 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 13 and y = 14 got p=182
+#    Time: 2230 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 13 and y = 15 got p=195
+#    Time: 2240 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 14 and y = 0 got p=0
+#    Time: 2250 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 14 and y = 1 got p=14
+#    Time: 2260 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 14 and y = 2 got p=28
+#    Time: 2270 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 14 and y = 3 got p=42
+#    Time: 2280 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 14 and y = 4 got p=56
+#    Time: 2290 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 14 and y = 5 got p=70
+#    Time: 2300 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 14 and y = 6 got p=84
+#    Time: 2310 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 14 and y = 7 got p=98
+#    Time: 2320 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 14 and y = 8 got p=112
+#    Time: 2330 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 14 and y = 9 got p=126
+#    Time: 2340 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 14 and y = 10 got p=140
+#    Time: 2350 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 14 and y = 11 got p=154
+#    Time: 2360 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 14 and y = 12 got p=168
+#    Time: 2370 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 14 and y = 13 got p=182
+#    Time: 2380 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 14 and y = 14 got p=196
+#    Time: 2390 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 14 and y = 15 got p=210
+#    Time: 2400 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 15 and y = 0 got p=0
+#    Time: 2410 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 15 and y = 1 got p=15
+#    Time: 2420 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 15 and y = 2 got p=30
+#    Time: 2430 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 15 and y = 3 got p=45
+#    Time: 2440 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 15 and y = 4 got p=60
+#    Time: 2450 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 15 and y = 5 got p=75
+#    Time: 2460 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 15 and y = 6 got p=90
+#    Time: 2470 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 15 and y = 7 got p=105
+#    Time: 2480 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 15 and y = 8 got p=120
+#    Time: 2490 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 15 and y = 9 got p=135
+#    Time: 2500 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 15 and y = 10 got p=150
+#    Time: 2510 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 15 and y = 11 got p=165
+#    Time: 2520 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 15 and y = 12 got p=180
+#    Time: 2530 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 15 and y = 13 got p=195
+#    Time: 2540 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 15 and y = 14 got p=210
+#    Time: 2550 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# ** Note: For x = 15 and y = 15 got p=225
+#    Time: 2560 ns  Iteration: 0  Instance: /array_multiplier_testbench
+# End time: 21:24:43 on Nov 28,2024, Elapsed time: 0:00:24
+# Errors: 0, Warnings: 0

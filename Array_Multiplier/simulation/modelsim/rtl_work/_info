@@ -1,0 +1,168 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/Semester_3/Digital Systems/Project_Part_B/Array_Multiplier/simulation/modelsim
+Earray_multiplier
+Z1 w1732808632
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8E:/Semester_3/Digital Systems/Project_Part_B/Array_Multiplier/Array_Multiplier.vhd
+Z5 FE:/Semester_3/Digital Systems/Project_Part_B/Array_Multiplier/Array_Multiplier.vhd
+l0
+L4
+V[60[c<KMj73ohOW>f3ei=0
+!s100 <KO<C^V3cVM2I;i_kZ`b<2
+Z6 OV;C;10.5b;63
+31
+Z7 !s110 1732809259
+!i10b 1
+Z8 !s108 1732809259.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|E:/Semester_3/Digital Systems/Project_Part_B/Array_Multiplier/Array_Multiplier.vhd|
+Z10 !s107 E:/Semester_3/Digital Systems/Project_Part_B/Array_Multiplier/Array_Multiplier.vhd|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Astruct2
+R2
+R3
+DEx4 work 16 array_multiplier 0 22 [60[c<KMj73ohOW>f3ei=0
+l26
+L10
+V^6T:@mCe1bgm6O=JJnlJ52
+!s100 MB^Fl`^jnUF2C9gmGbhC83
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Earray_multiplier_node
+Z13 w1732808462
+R2
+R3
+R0
+Z14 8E:/Semester_3/Digital Systems/Project_Part_B/Array_Multiplier/Array_Multiplier_Node.vhd
+Z15 FE:/Semester_3/Digital Systems/Project_Part_B/Array_Multiplier/Array_Multiplier_Node.vhd
+l0
+L4
+Vfl8Z7[AaTzkLz=0^M_AQA2
+!s100 B`o?8iM_P:aCV:VS`mmol1
+R6
+31
+R7
+!i10b 1
+R8
+Z16 !s90 -reportprogress|300|-93|-work|work|E:/Semester_3/Digital Systems/Project_Part_B/Array_Multiplier/Array_Multiplier_Node.vhd|
+Z17 !s107 E:/Semester_3/Digital Systems/Project_Part_B/Array_Multiplier/Array_Multiplier_Node.vhd|
+!i113 1
+R11
+R12
+Astruct1
+R2
+R3
+DEx4 work 21 array_multiplier_node 0 22 fl8Z7[AaTzkLz=0^M_AQA2
+l16
+L10
+V@UmYIEWRcS98;<cAEZgf60
+!s100 GgE0_DBhHP0SFeW2;bB6[1
+R6
+31
+R7
+!i10b 1
+R8
+R16
+R17
+!i113 1
+R11
+R12
+Earray_multiplier_testbench
+Z18 w1732809236
+Z19 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R2
+R3
+R0
+Z20 8E:/Semester_3/Digital Systems/Project_Part_B/Array_Multiplier/Array_Multiplier_Testbench.vhd
+Z21 FE:/Semester_3/Digital Systems/Project_Part_B/Array_Multiplier/Array_Multiplier_Testbench.vhd
+l0
+L5
+VaGRed>4=^Q;1fDboiX^]N2
+!s100 VekbhHEQ2;6Fe1RY^`FZ43
+R6
+31
+R7
+!i10b 1
+R8
+Z22 !s90 -reportprogress|300|-93|-work|work|E:/Semester_3/Digital Systems/Project_Part_B/Array_Multiplier/Array_Multiplier_Testbench.vhd|
+Z23 !s107 E:/Semester_3/Digital Systems/Project_Part_B/Array_Multiplier/Array_Multiplier_Testbench.vhd|
+!i113 1
+R11
+R12
+Abhv
+R19
+R2
+R3
+DEx4 work 26 array_multiplier_testbench 0 22 aGRed>4=^Q;1fDboiX^]N2
+l17
+L8
+V[:HkHW6RCndn<dgi]<0cO1
+!s100 S4ZU1NN>[?@bjG9P2BF@K2
+R6
+31
+R7
+!i10b 1
+R8
+R22
+R23
+!i113 1
+R11
+R12
+Efull_adder
+Z24 w1732806349
+R2
+R3
+R0
+Z25 8E:/Semester_3/Digital Systems/Project_Part_B/Array_Multiplier/Full_Adder.vhd
+Z26 FE:/Semester_3/Digital Systems/Project_Part_B/Array_Multiplier/Full_Adder.vhd
+l0
+L4
+VWCY^HbCc61k4VfJAG61e03
+!s100 0GAJL]3YV45:Ro?KO:Dfl0
+R6
+31
+R7
+!i10b 1
+R8
+Z27 !s90 -reportprogress|300|-93|-work|work|E:/Semester_3/Digital Systems/Project_Part_B/Array_Multiplier/Full_Adder.vhd|
+Z28 !s107 E:/Semester_3/Digital Systems/Project_Part_B/Array_Multiplier/Full_Adder.vhd|
+!i113 1
+R11
+R12
+Astruct
+R2
+R3
+DEx4 work 10 full_adder 0 22 WCY^HbCc61k4VfJAG61e03
+l10
+L9
+VIQZi@^Z3oiDgIHK[J<SNV1
+!s100 d44l8mICUfRoAmWY;kM[@3
+R6
+31
+R7
+!i10b 1
+R8
+R27
+R28
+!i113 1
+R11
+R12

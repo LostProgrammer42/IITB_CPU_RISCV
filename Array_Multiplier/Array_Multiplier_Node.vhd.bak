@@ -1,0 +1,10 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity Array_Multiplier_Node is
+	port(Ppk,yj,xi,ci: in std_logic;
+		  Ppk_1, co: out std_logic;
+		  )
+end Array_Multiplier_Node;
+
+

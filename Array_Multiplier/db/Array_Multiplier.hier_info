@@ -1,0 +1,351 @@
+|Array_Multiplier
+x[0] => p.IN0
+x[0] => ppk1_1.IN0
+x[0] => ppk1_2.IN0
+x[0] => ppk1_3.IN0
+x[1] => Array_Multiplier_Node:Node1_1.xi
+x[1] => Array_Multiplier_Node:Node1_2.xi
+x[1] => Array_Multiplier_Node:Node1_3.xi
+x[1] => Array_Multiplier_Node:Node1_4.xi
+x[2] => Array_Multiplier_Node:Node2_1.xi
+x[2] => Array_Multiplier_Node:Node2_2.xi
+x[2] => Array_Multiplier_Node:Node2_3.xi
+x[2] => Array_Multiplier_Node:Node2_4.xi
+x[3] => Array_Multiplier_Node:Node3_1.xi
+x[3] => Array_Multiplier_Node:Node3_2.xi
+x[3] => Array_Multiplier_Node:Node3_3.xi
+x[3] => Array_Multiplier_Node:Node3_4.xi
+x[4] => ~NO_FANOUT~
+x[5] => ~NO_FANOUT~
+x[6] => ~NO_FANOUT~
+x[7] => ~NO_FANOUT~
+x[8] => ~NO_FANOUT~
+x[9] => ~NO_FANOUT~
+x[10] => ~NO_FANOUT~
+x[11] => ~NO_FANOUT~
+x[12] => ~NO_FANOUT~
+x[13] => ~NO_FANOUT~
+x[14] => ~NO_FANOUT~
+x[15] => ~NO_FANOUT~
+y[0] => p.IN1
+y[0] => Array_Multiplier_Node:Node1_1.yj
+y[0] => Array_Multiplier_Node:Node2_1.yj
+y[0] => Array_Multiplier_Node:Node3_1.yj
+y[1] => ppk1_1.IN1
+y[1] => Array_Multiplier_Node:Node1_2.yj
+y[1] => Array_Multiplier_Node:Node2_2.yj
+y[1] => Array_Multiplier_Node:Node3_2.yj
+y[2] => ppk1_2.IN1
+y[2] => Array_Multiplier_Node:Node1_3.yj
+y[2] => Array_Multiplier_Node:Node2_3.yj
+y[2] => Array_Multiplier_Node:Node3_3.yj
+y[3] => ppk1_3.IN1
+y[3] => Array_Multiplier_Node:Node1_4.yj
+y[3] => Array_Multiplier_Node:Node2_4.yj
+y[3] => Array_Multiplier_Node:Node3_4.yj
+y[4] => ~NO_FANOUT~
+y[5] => ~NO_FANOUT~
+y[6] => ~NO_FANOUT~
+y[7] => ~NO_FANOUT~
+y[8] => ~NO_FANOUT~
+y[9] => ~NO_FANOUT~
+y[10] => ~NO_FANOUT~
+y[11] => ~NO_FANOUT~
+y[12] => ~NO_FANOUT~
+y[13] => ~NO_FANOUT~
+y[14] => ~NO_FANOUT~
+y[15] => ~NO_FANOUT~
+p[0] << p.DB_MAX_OUTPUT_PORT_TYPE
+p[1] << Array_Multiplier_Node:Node1_1.Ppk_1
+p[2] << Array_Multiplier_Node:Node2_1.Ppk_1
+p[3] << Array_Multiplier_Node:Node3_1.Ppk_1
+p[4] << Full_Adder:FA4_1.s
+p[5] << Full_Adder:FA4_2.s
+p[6] << Full_Adder:FA4_3.s
+p[7] << Full_Adder:FA4_4.s
+
+
+|Array_Multiplier|Array_Multiplier_Node:Node1_1
+Ppk => Full_Adder:instFA.a
+yj => s1.IN0
+xi => s1.IN1
+ci => Full_Adder:instFA.c
+Ppk_1 <= Full_Adder:instFA.s
+co <= Full_Adder:instFA.cout
+
+
+|Array_Multiplier|Array_Multiplier_Node:Node1_1|Full_Adder:instFA
+a => s.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+c => s.IN1
+c => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Array_Multiplier|Array_Multiplier_Node:Node1_2
+Ppk => Full_Adder:instFA.a
+yj => s1.IN0
+xi => s1.IN1
+ci => Full_Adder:instFA.c
+Ppk_1 <= Full_Adder:instFA.s
+co <= Full_Adder:instFA.cout
+
+
+|Array_Multiplier|Array_Multiplier_Node:Node1_2|Full_Adder:instFA
+a => s.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+c => s.IN1
+c => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Array_Multiplier|Array_Multiplier_Node:Node1_3
+Ppk => Full_Adder:instFA.a
+yj => s1.IN0
+xi => s1.IN1
+ci => Full_Adder:instFA.c
+Ppk_1 <= Full_Adder:instFA.s
+co <= Full_Adder:instFA.cout
+
+
+|Array_Multiplier|Array_Multiplier_Node:Node1_3|Full_Adder:instFA
+a => s.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+c => s.IN1
+c => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Array_Multiplier|Array_Multiplier_Node:Node1_4
+Ppk => Full_Adder:instFA.a
+yj => s1.IN0
+xi => s1.IN1
+ci => Full_Adder:instFA.c
+Ppk_1 <= Full_Adder:instFA.s
+co <= Full_Adder:instFA.cout
+
+
+|Array_Multiplier|Array_Multiplier_Node:Node1_4|Full_Adder:instFA
+a => s.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+c => s.IN1
+c => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Array_Multiplier|Array_Multiplier_Node:Node2_1
+Ppk => Full_Adder:instFA.a
+yj => s1.IN0
+xi => s1.IN1
+ci => Full_Adder:instFA.c
+Ppk_1 <= Full_Adder:instFA.s
+co <= Full_Adder:instFA.cout
+
+
+|Array_Multiplier|Array_Multiplier_Node:Node2_1|Full_Adder:instFA
+a => s.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+c => s.IN1
+c => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Array_Multiplier|Array_Multiplier_Node:Node2_2
+Ppk => Full_Adder:instFA.a
+yj => s1.IN0
+xi => s1.IN1
+ci => Full_Adder:instFA.c
+Ppk_1 <= Full_Adder:instFA.s
+co <= Full_Adder:instFA.cout
+
+
+|Array_Multiplier|Array_Multiplier_Node:Node2_2|Full_Adder:instFA
+a => s.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+c => s.IN1
+c => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Array_Multiplier|Array_Multiplier_Node:Node2_3
+Ppk => Full_Adder:instFA.a
+yj => s1.IN0
+xi => s1.IN1
+ci => Full_Adder:instFA.c
+Ppk_1 <= Full_Adder:instFA.s
+co <= Full_Adder:instFA.cout
+
+
+|Array_Multiplier|Array_Multiplier_Node:Node2_3|Full_Adder:instFA
+a => s.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+c => s.IN1
+c => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Array_Multiplier|Array_Multiplier_Node:Node2_4
+Ppk => Full_Adder:instFA.a
+yj => s1.IN0
+xi => s1.IN1
+ci => Full_Adder:instFA.c
+Ppk_1 <= Full_Adder:instFA.s
+co <= Full_Adder:instFA.cout
+
+
+|Array_Multiplier|Array_Multiplier_Node:Node2_4|Full_Adder:instFA
+a => s.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+c => s.IN1
+c => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Array_Multiplier|Array_Multiplier_Node:Node3_1
+Ppk => Full_Adder:instFA.a
+yj => s1.IN0
+xi => s1.IN1
+ci => Full_Adder:instFA.c
+Ppk_1 <= Full_Adder:instFA.s
+co <= Full_Adder:instFA.cout
+
+
+|Array_Multiplier|Array_Multiplier_Node:Node3_1|Full_Adder:instFA
+a => s.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+c => s.IN1
+c => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Array_Multiplier|Array_Multiplier_Node:Node3_2
+Ppk => Full_Adder:instFA.a
+yj => s1.IN0
+xi => s1.IN1
+ci => Full_Adder:instFA.c
+Ppk_1 <= Full_Adder:instFA.s
+co <= Full_Adder:instFA.cout
+
+
+|Array_Multiplier|Array_Multiplier_Node:Node3_2|Full_Adder:instFA
+a => s.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+c => s.IN1
+c => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Array_Multiplier|Array_Multiplier_Node:Node3_3
+Ppk => Full_Adder:instFA.a
+yj => s1.IN0
+xi => s1.IN1
+ci => Full_Adder:instFA.c
+Ppk_1 <= Full_Adder:instFA.s
+co <= Full_Adder:instFA.cout
+
+
+|Array_Multiplier|Array_Multiplier_Node:Node3_3|Full_Adder:instFA
+a => s.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+c => s.IN1
+c => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Array_Multiplier|Array_Multiplier_Node:Node3_4
+Ppk => Full_Adder:instFA.a
+yj => s1.IN0
+xi => s1.IN1
+ci => Full_Adder:instFA.c
+Ppk_1 <= Full_Adder:instFA.s
+co <= Full_Adder:instFA.cout
+
+
+|Array_Multiplier|Array_Multiplier_Node:Node3_4|Full_Adder:instFA
+a => s.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+c => s.IN1
+c => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Array_Multiplier|Full_Adder:FA4_1
+a => s.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+c => s.IN1
+c => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Array_Multiplier|Full_Adder:FA4_2
+a => s.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+c => s.IN1
+c => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Array_Multiplier|Full_Adder:FA4_3
+a => s.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+c => s.IN1
+c => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Array_Multiplier|Full_Adder:FA4_4
+a => s.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+c => s.IN1
+c => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
