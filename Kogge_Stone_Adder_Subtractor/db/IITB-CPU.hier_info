@@ -1,0 +1,921 @@
+|kogge_stone
+A[0] => preprocessing:inst1.A[0]
+A[1] => preprocessing:inst1.A[1]
+A[2] => preprocessing:inst1.A[2]
+A[3] => preprocessing:inst1.A[3]
+A[4] => preprocessing:inst1.A[4]
+A[5] => preprocessing:inst1.A[5]
+A[6] => preprocessing:inst1.A[6]
+A[7] => preprocessing:inst1.A[7]
+A[8] => preprocessing:inst1.A[8]
+A[9] => preprocessing:inst1.A[9]
+A[10] => preprocessing:inst1.A[10]
+A[11] => preprocessing:inst1.A[11]
+A[12] => preprocessing:inst1.A[12]
+A[13] => preprocessing:inst1.A[13]
+A[14] => preprocessing:inst1.A[14]
+A[15] => preprocessing:inst1.A[15]
+B[0] => preprocessing:inst1.B[0]
+B[1] => preprocessing:inst1.B[1]
+B[2] => preprocessing:inst1.B[2]
+B[3] => preprocessing:inst1.B[3]
+B[4] => preprocessing:inst1.B[4]
+B[5] => preprocessing:inst1.B[5]
+B[6] => preprocessing:inst1.B[6]
+B[7] => preprocessing:inst1.B[7]
+B[8] => preprocessing:inst1.B[8]
+B[9] => preprocessing:inst1.B[9]
+B[10] => preprocessing:inst1.B[10]
+B[11] => preprocessing:inst1.B[11]
+B[12] => preprocessing:inst1.B[12]
+B[13] => preprocessing:inst1.B[13]
+B[14] => preprocessing:inst1.B[14]
+B[15] => preprocessing:inst1.B[15]
+C[0] << postprocessing:inst8.S[0]
+C[1] << postprocessing:inst8.S[1]
+C[2] << postprocessing:inst8.S[2]
+C[3] << postprocessing:inst8.S[3]
+C[4] << postprocessing:inst8.S[4]
+C[5] << postprocessing:inst8.S[5]
+C[6] << postprocessing:inst8.S[6]
+C[7] << postprocessing:inst8.S[7]
+C[8] << postprocessing:inst8.S[8]
+C[9] << postprocessing:inst8.S[9]
+C[10] << postprocessing:inst8.S[10]
+C[11] << postprocessing:inst8.S[11]
+C[12] << postprocessing:inst8.S[12]
+C[13] << postprocessing:inst8.S[13]
+C[14] << postprocessing:inst8.S[14]
+C[15] << postprocessing:inst8.S[15]
+C[16] << postprocessing:inst8.C[16]
+M => ~NO_FANOUT~
+Cin => postprocessing:inst8.Cin
+k1[0] << preprocessing:inst1.G[0]
+k1[1] << preprocessing:inst1.G[1]
+k1[2] << preprocessing:inst1.G[2]
+k1[3] << preprocessing:inst1.G[3]
+k1[4] << preprocessing:inst1.G[4]
+k1[5] << preprocessing:inst1.G[5]
+k1[6] << preprocessing:inst1.G[6]
+k1[7] << preprocessing:inst1.G[7]
+k1[8] << preprocessing:inst1.G[8]
+k1[9] << preprocessing:inst1.G[9]
+k1[10] << preprocessing:inst1.G[10]
+k1[11] << preprocessing:inst1.G[11]
+k1[12] << preprocessing:inst1.G[12]
+k1[13] << preprocessing:inst1.G[13]
+k1[14] << preprocessing:inst1.G[14]
+k1[15] << preprocessing:inst1.G[15]
+k2[0] << preprocessing:inst1.P[0]
+k2[1] << preprocessing:inst1.P[1]
+k2[2] << preprocessing:inst1.P[2]
+k2[3] << preprocessing:inst1.P[3]
+k2[4] << preprocessing:inst1.P[4]
+k2[5] << preprocessing:inst1.P[5]
+k2[6] << preprocessing:inst1.P[6]
+k2[7] << preprocessing:inst1.P[7]
+k2[8] << preprocessing:inst1.P[8]
+k2[9] << preprocessing:inst1.P[9]
+k2[10] << preprocessing:inst1.P[10]
+k2[11] << preprocessing:inst1.P[11]
+k2[12] << preprocessing:inst1.P[12]
+k2[13] << preprocessing:inst1.P[13]
+k2[14] << preprocessing:inst1.P[14]
+k2[15] << preprocessing:inst1.P[15]
+k3[0] << preprocessing:inst1.G[0]
+k3[1] << kogge_stone_node:inst4:1:inst4a.g_out
+k3[2] << kogge_stone_node:inst5:2:inst5a.g_out
+k3[3] << kogge_stone_node:inst5:3:inst5a.g_out
+k3[4] << kogge_stone_node:inst6:4:inst6a.g_out
+k3[5] << kogge_stone_node:inst6:5:inst6a.g_out
+k3[6] << kogge_stone_node:inst6:6:inst6a.g_out
+k3[7] << kogge_stone_node:inst6:7:inst6a.g_out
+k3[8] << kogge_stone_node:inst7:8:inst7a.g_out
+k3[9] << kogge_stone_node:inst7:9:inst7a.g_out
+k3[10] << kogge_stone_node:inst7:10:inst7a.g_out
+k3[11] << kogge_stone_node:inst7:11:inst7a.g_out
+k3[12] << kogge_stone_node:inst7:12:inst7a.g_out
+k3[13] << kogge_stone_node:inst7:13:inst7a.g_out
+k3[14] << kogge_stone_node:inst7:14:inst7a.g_out
+k3[15] << kogge_stone_node:inst7:15:inst7a.g_out
+k4[0] << preprocessing:inst1.P[0]
+k4[1] << kogge_stone_node:inst4:1:inst4a.p_out
+k4[2] << kogge_stone_node:inst5:2:inst5a.p_out
+k4[3] << kogge_stone_node:inst5:3:inst5a.p_out
+k4[4] << kogge_stone_node:inst6:4:inst6a.p_out
+k4[5] << kogge_stone_node:inst6:5:inst6a.p_out
+k4[6] << kogge_stone_node:inst6:6:inst6a.p_out
+k4[7] << kogge_stone_node:inst6:7:inst6a.p_out
+k4[8] << kogge_stone_node:inst7:8:inst7a.p_out
+k4[9] << kogge_stone_node:inst7:9:inst7a.p_out
+k4[10] << kogge_stone_node:inst7:10:inst7a.p_out
+k4[11] << kogge_stone_node:inst7:11:inst7a.p_out
+k4[12] << kogge_stone_node:inst7:12:inst7a.p_out
+k4[13] << kogge_stone_node:inst7:13:inst7a.p_out
+k4[14] << kogge_stone_node:inst7:14:inst7a.p_out
+k4[15] << kogge_stone_node:inst7:15:inst7a.p_out
+temp1_Go[0] << preprocessing:inst1.G[0]
+temp1_Go[1] << preprocessing:inst1.G[1]
+temp1_Go[2] << preprocessing:inst1.G[2]
+temp1_Go[3] << preprocessing:inst1.G[3]
+temp1_Go[4] << preprocessing:inst1.G[4]
+temp1_Go[5] << preprocessing:inst1.G[5]
+temp1_Go[6] << preprocessing:inst1.G[6]
+temp1_Go[7] << preprocessing:inst1.G[7]
+temp1_Go[8] << preprocessing:inst1.G[8]
+temp1_Go[9] << preprocessing:inst1.G[9]
+temp1_Go[10] << preprocessing:inst1.G[10]
+temp1_Go[11] << preprocessing:inst1.G[11]
+temp1_Go[12] << preprocessing:inst1.G[12]
+temp1_Go[13] << preprocessing:inst1.G[13]
+temp1_Go[14] << preprocessing:inst1.G[14]
+temp1_Go[15] << preprocessing:inst1.G[15]
+temp1_Po[0] << preprocessing:inst1.P[0]
+temp1_Po[1] << preprocessing:inst1.P[1]
+temp1_Po[2] << preprocessing:inst1.P[2]
+temp1_Po[3] << preprocessing:inst1.P[3]
+temp1_Po[4] << preprocessing:inst1.P[4]
+temp1_Po[5] << preprocessing:inst1.P[5]
+temp1_Po[6] << preprocessing:inst1.P[6]
+temp1_Po[7] << preprocessing:inst1.P[7]
+temp1_Po[8] << preprocessing:inst1.P[8]
+temp1_Po[9] << preprocessing:inst1.P[9]
+temp1_Po[10] << preprocessing:inst1.P[10]
+temp1_Po[11] << preprocessing:inst1.P[11]
+temp1_Po[12] << preprocessing:inst1.P[12]
+temp1_Po[13] << preprocessing:inst1.P[13]
+temp1_Po[14] << preprocessing:inst1.P[14]
+temp1_Po[15] << preprocessing:inst1.P[15]
+temp2_Go[0] << preprocessing:inst1.G[0]
+temp2_Go[1] << kogge_stone_node:inst4:1:inst4a.g_out
+temp2_Go[2] << kogge_stone_node:inst4:2:inst4a.g_out
+temp2_Go[3] << kogge_stone_node:inst4:3:inst4a.g_out
+temp2_Go[4] << kogge_stone_node:inst4:4:inst4a.g_out
+temp2_Go[5] << kogge_stone_node:inst4:5:inst4a.g_out
+temp2_Go[6] << kogge_stone_node:inst4:6:inst4a.g_out
+temp2_Go[7] << kogge_stone_node:inst4:7:inst4a.g_out
+temp2_Go[8] << kogge_stone_node:inst4:8:inst4a.g_out
+temp2_Go[9] << kogge_stone_node:inst4:9:inst4a.g_out
+temp2_Go[10] << kogge_stone_node:inst4:10:inst4a.g_out
+temp2_Go[11] << kogge_stone_node:inst4:11:inst4a.g_out
+temp2_Go[12] << kogge_stone_node:inst4:12:inst4a.g_out
+temp2_Go[13] << kogge_stone_node:inst4:13:inst4a.g_out
+temp2_Go[14] << kogge_stone_node:inst4:14:inst4a.g_out
+temp2_Go[15] << kogge_stone_node:inst4:15:inst4a.g_out
+temp2_Po[0] << preprocessing:inst1.P[0]
+temp2_Po[1] << kogge_stone_node:inst4:1:inst4a.p_out
+temp2_Po[2] << kogge_stone_node:inst4:2:inst4a.p_out
+temp2_Po[3] << kogge_stone_node:inst4:3:inst4a.p_out
+temp2_Po[4] << kogge_stone_node:inst4:4:inst4a.p_out
+temp2_Po[5] << kogge_stone_node:inst4:5:inst4a.p_out
+temp2_Po[6] << kogge_stone_node:inst4:6:inst4a.p_out
+temp2_Po[7] << kogge_stone_node:inst4:7:inst4a.p_out
+temp2_Po[8] << kogge_stone_node:inst4:8:inst4a.p_out
+temp2_Po[9] << kogge_stone_node:inst4:9:inst4a.p_out
+temp2_Po[10] << kogge_stone_node:inst4:10:inst4a.p_out
+temp2_Po[11] << kogge_stone_node:inst4:11:inst4a.p_out
+temp2_Po[12] << kogge_stone_node:inst4:12:inst4a.p_out
+temp2_Po[13] << kogge_stone_node:inst4:13:inst4a.p_out
+temp2_Po[14] << kogge_stone_node:inst4:14:inst4a.p_out
+temp2_Po[15] << kogge_stone_node:inst4:15:inst4a.p_out
+temp3_Go[0] << preprocessing:inst1.G[0]
+temp3_Go[1] << kogge_stone_node:inst4:1:inst4a.g_out
+temp3_Go[2] << kogge_stone_node:inst5:2:inst5a.g_out
+temp3_Go[3] << kogge_stone_node:inst5:3:inst5a.g_out
+temp3_Go[4] << kogge_stone_node:inst5:4:inst5a.g_out
+temp3_Go[5] << kogge_stone_node:inst5:5:inst5a.g_out
+temp3_Go[6] << kogge_stone_node:inst5:6:inst5a.g_out
+temp3_Go[7] << kogge_stone_node:inst5:7:inst5a.g_out
+temp3_Go[8] << kogge_stone_node:inst5:8:inst5a.g_out
+temp3_Go[9] << kogge_stone_node:inst5:9:inst5a.g_out
+temp3_Go[10] << kogge_stone_node:inst5:10:inst5a.g_out
+temp3_Go[11] << kogge_stone_node:inst5:11:inst5a.g_out
+temp3_Go[12] << kogge_stone_node:inst5:12:inst5a.g_out
+temp3_Go[13] << kogge_stone_node:inst5:13:inst5a.g_out
+temp3_Go[14] << kogge_stone_node:inst5:14:inst5a.g_out
+temp3_Go[15] << kogge_stone_node:inst5:15:inst5a.g_out
+temp3_Po[0] << preprocessing:inst1.P[0]
+temp3_Po[1] << kogge_stone_node:inst4:1:inst4a.p_out
+temp3_Po[2] << kogge_stone_node:inst5:2:inst5a.p_out
+temp3_Po[3] << kogge_stone_node:inst5:3:inst5a.p_out
+temp3_Po[4] << kogge_stone_node:inst5:4:inst5a.p_out
+temp3_Po[5] << kogge_stone_node:inst5:5:inst5a.p_out
+temp3_Po[6] << kogge_stone_node:inst5:6:inst5a.p_out
+temp3_Po[7] << kogge_stone_node:inst5:7:inst5a.p_out
+temp3_Po[8] << kogge_stone_node:inst5:8:inst5a.p_out
+temp3_Po[9] << kogge_stone_node:inst5:9:inst5a.p_out
+temp3_Po[10] << kogge_stone_node:inst5:10:inst5a.p_out
+temp3_Po[11] << kogge_stone_node:inst5:11:inst5a.p_out
+temp3_Po[12] << kogge_stone_node:inst5:12:inst5a.p_out
+temp3_Po[13] << kogge_stone_node:inst5:13:inst5a.p_out
+temp3_Po[14] << kogge_stone_node:inst5:14:inst5a.p_out
+temp3_Po[15] << kogge_stone_node:inst5:15:inst5a.p_out
+temp4_Go[0] << preprocessing:inst1.G[0]
+temp4_Go[1] << kogge_stone_node:inst4:1:inst4a.g_out
+temp4_Go[2] << kogge_stone_node:inst5:2:inst5a.g_out
+temp4_Go[3] << kogge_stone_node:inst5:3:inst5a.g_out
+temp4_Go[4] << kogge_stone_node:inst6:4:inst6a.g_out
+temp4_Go[5] << kogge_stone_node:inst6:5:inst6a.g_out
+temp4_Go[6] << kogge_stone_node:inst6:6:inst6a.g_out
+temp4_Go[7] << kogge_stone_node:inst6:7:inst6a.g_out
+temp4_Go[8] << kogge_stone_node:inst6:8:inst6a.g_out
+temp4_Go[9] << kogge_stone_node:inst6:9:inst6a.g_out
+temp4_Go[10] << kogge_stone_node:inst6:10:inst6a.g_out
+temp4_Go[11] << kogge_stone_node:inst6:11:inst6a.g_out
+temp4_Go[12] << kogge_stone_node:inst6:12:inst6a.g_out
+temp4_Go[13] << kogge_stone_node:inst6:13:inst6a.g_out
+temp4_Go[14] << kogge_stone_node:inst6:14:inst6a.g_out
+temp4_Go[15] << kogge_stone_node:inst6:15:inst6a.g_out
+temp4_Po[0] << preprocessing:inst1.P[0]
+temp4_Po[1] << kogge_stone_node:inst4:1:inst4a.p_out
+temp4_Po[2] << kogge_stone_node:inst5:2:inst5a.p_out
+temp4_Po[3] << kogge_stone_node:inst5:3:inst5a.p_out
+temp4_Po[4] << kogge_stone_node:inst6:4:inst6a.p_out
+temp4_Po[5] << kogge_stone_node:inst6:5:inst6a.p_out
+temp4_Po[6] << kogge_stone_node:inst6:6:inst6a.p_out
+temp4_Po[7] << kogge_stone_node:inst6:7:inst6a.p_out
+temp4_Po[8] << kogge_stone_node:inst6:8:inst6a.p_out
+temp4_Po[9] << kogge_stone_node:inst6:9:inst6a.p_out
+temp4_Po[10] << kogge_stone_node:inst6:10:inst6a.p_out
+temp4_Po[11] << kogge_stone_node:inst6:11:inst6a.p_out
+temp4_Po[12] << kogge_stone_node:inst6:12:inst6a.p_out
+temp4_Po[13] << kogge_stone_node:inst6:13:inst6a.p_out
+temp4_Po[14] << kogge_stone_node:inst6:14:inst6a.p_out
+temp4_Po[15] << kogge_stone_node:inst6:15:inst6a.p_out
+
+
+|kogge_stone|preprocessing:inst1
+A[0] => G.IN0
+A[0] => P.IN0
+A[1] => G.IN0
+A[1] => P.IN0
+A[2] => G.IN0
+A[2] => P.IN0
+A[3] => G.IN0
+A[3] => P.IN0
+A[4] => G.IN0
+A[4] => P.IN0
+A[5] => G.IN0
+A[5] => P.IN0
+A[6] => G.IN0
+A[6] => P.IN0
+A[7] => G.IN0
+A[7] => P.IN0
+A[8] => G.IN0
+A[8] => P.IN0
+A[9] => G.IN0
+A[9] => P.IN0
+A[10] => G.IN0
+A[10] => P.IN0
+A[11] => G.IN0
+A[11] => P.IN0
+A[12] => G.IN0
+A[12] => P.IN0
+A[13] => G.IN0
+A[13] => P.IN0
+A[14] => G.IN0
+A[14] => P.IN0
+A[15] => G.IN0
+A[15] => P.IN0
+B[0] => G.IN1
+B[0] => P.IN1
+B[1] => G.IN1
+B[1] => P.IN1
+B[2] => G.IN1
+B[2] => P.IN1
+B[3] => G.IN1
+B[3] => P.IN1
+B[4] => G.IN1
+B[4] => P.IN1
+B[5] => G.IN1
+B[5] => P.IN1
+B[6] => G.IN1
+B[6] => P.IN1
+B[7] => G.IN1
+B[7] => P.IN1
+B[8] => G.IN1
+B[8] => P.IN1
+B[9] => G.IN1
+B[9] => P.IN1
+B[10] => G.IN1
+B[10] => P.IN1
+B[11] => G.IN1
+B[11] => P.IN1
+B[12] => G.IN1
+B[12] => P.IN1
+B[13] => G.IN1
+B[13] => P.IN1
+B[14] => G.IN1
+B[14] => P.IN1
+B[15] => G.IN1
+B[15] => P.IN1
+G[0] <= G.DB_MAX_OUTPUT_PORT_TYPE
+G[1] <= G.DB_MAX_OUTPUT_PORT_TYPE
+G[2] <= G.DB_MAX_OUTPUT_PORT_TYPE
+G[3] <= G.DB_MAX_OUTPUT_PORT_TYPE
+G[4] <= G.DB_MAX_OUTPUT_PORT_TYPE
+G[5] <= G.DB_MAX_OUTPUT_PORT_TYPE
+G[6] <= G.DB_MAX_OUTPUT_PORT_TYPE
+G[7] <= G.DB_MAX_OUTPUT_PORT_TYPE
+G[8] <= G.DB_MAX_OUTPUT_PORT_TYPE
+G[9] <= G.DB_MAX_OUTPUT_PORT_TYPE
+G[10] <= G.DB_MAX_OUTPUT_PORT_TYPE
+G[11] <= G.DB_MAX_OUTPUT_PORT_TYPE
+G[12] <= G.DB_MAX_OUTPUT_PORT_TYPE
+G[13] <= G.DB_MAX_OUTPUT_PORT_TYPE
+G[14] <= G.DB_MAX_OUTPUT_PORT_TYPE
+G[15] <= G.DB_MAX_OUTPUT_PORT_TYPE
+P[0] <= P.DB_MAX_OUTPUT_PORT_TYPE
+P[1] <= P.DB_MAX_OUTPUT_PORT_TYPE
+P[2] <= P.DB_MAX_OUTPUT_PORT_TYPE
+P[3] <= P.DB_MAX_OUTPUT_PORT_TYPE
+P[4] <= P.DB_MAX_OUTPUT_PORT_TYPE
+P[5] <= P.DB_MAX_OUTPUT_PORT_TYPE
+P[6] <= P.DB_MAX_OUTPUT_PORT_TYPE
+P[7] <= P.DB_MAX_OUTPUT_PORT_TYPE
+P[8] <= P.DB_MAX_OUTPUT_PORT_TYPE
+P[9] <= P.DB_MAX_OUTPUT_PORT_TYPE
+P[10] <= P.DB_MAX_OUTPUT_PORT_TYPE
+P[11] <= P.DB_MAX_OUTPUT_PORT_TYPE
+P[12] <= P.DB_MAX_OUTPUT_PORT_TYPE
+P[13] <= P.DB_MAX_OUTPUT_PORT_TYPE
+P[14] <= P.DB_MAX_OUTPUT_PORT_TYPE
+P[15] <= P.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|kogge_stone|kogge_stone_node:\inst4:1:inst4a
+g_in1 => g_out.IN0
+g_in2 => g_out.IN1
+p_in1 => p_out.IN0
+p_in2 => g_out.IN1
+p_in2 => p_out.IN1
+g_out <= g_out.DB_MAX_OUTPUT_PORT_TYPE
+p_out <= p_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|kogge_stone|kogge_stone_node:\inst4:2:inst4a
+g_in1 => g_out.IN0
+g_in2 => g_out.IN1
+p_in1 => p_out.IN0
+p_in2 => g_out.IN1
+p_in2 => p_out.IN1
+g_out <= g_out.DB_MAX_OUTPUT_PORT_TYPE
+p_out <= p_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|kogge_stone|kogge_stone_node:\inst4:3:inst4a
+g_in1 => g_out.IN0
+g_in2 => g_out.IN1
+p_in1 => p_out.IN0
+p_in2 => g_out.IN1
+p_in2 => p_out.IN1
+g_out <= g_out.DB_MAX_OUTPUT_PORT_TYPE
+p_out <= p_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|kogge_stone|kogge_stone_node:\inst4:4:inst4a
+g_in1 => g_out.IN0
+g_in2 => g_out.IN1
+p_in1 => p_out.IN0
+p_in2 => g_out.IN1
+p_in2 => p_out.IN1
+g_out <= g_out.DB_MAX_OUTPUT_PORT_TYPE
+p_out <= p_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|kogge_stone|kogge_stone_node:\inst4:5:inst4a
+g_in1 => g_out.IN0
+g_in2 => g_out.IN1
+p_in1 => p_out.IN0
+p_in2 => g_out.IN1
+p_in2 => p_out.IN1
+g_out <= g_out.DB_MAX_OUTPUT_PORT_TYPE
+p_out <= p_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|kogge_stone|kogge_stone_node:\inst4:6:inst4a
+g_in1 => g_out.IN0
+g_in2 => g_out.IN1
+p_in1 => p_out.IN0
+p_in2 => g_out.IN1
+p_in2 => p_out.IN1
+g_out <= g_out.DB_MAX_OUTPUT_PORT_TYPE
+p_out <= p_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|kogge_stone|kogge_stone_node:\inst4:7:inst4a
+g_in1 => g_out.IN0
+g_in2 => g_out.IN1
+p_in1 => p_out.IN0
+p_in2 => g_out.IN1
+p_in2 => p_out.IN1
+g_out <= g_out.DB_MAX_OUTPUT_PORT_TYPE
+p_out <= p_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|kogge_stone|kogge_stone_node:\inst4:8:inst4a
+g_in1 => g_out.IN0
+g_in2 => g_out.IN1
+p_in1 => p_out.IN0
+p_in2 => g_out.IN1
+p_in2 => p_out.IN1
+g_out <= g_out.DB_MAX_OUTPUT_PORT_TYPE
+p_out <= p_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|kogge_stone|kogge_stone_node:\inst4:9:inst4a
+g_in1 => g_out.IN0
+g_in2 => g_out.IN1
+p_in1 => p_out.IN0
+p_in2 => g_out.IN1
+p_in2 => p_out.IN1
+g_out <= g_out.DB_MAX_OUTPUT_PORT_TYPE
+p_out <= p_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|kogge_stone|kogge_stone_node:\inst4:10:inst4a
+g_in1 => g_out.IN0
+g_in2 => g_out.IN1
+p_in1 => p_out.IN0
+p_in2 => g_out.IN1
+p_in2 => p_out.IN1
+g_out <= g_out.DB_MAX_OUTPUT_PORT_TYPE
+p_out <= p_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|kogge_stone|kogge_stone_node:\inst4:11:inst4a
+g_in1 => g_out.IN0
+g_in2 => g_out.IN1
+p_in1 => p_out.IN0
+p_in2 => g_out.IN1
+p_in2 => p_out.IN1
+g_out <= g_out.DB_MAX_OUTPUT_PORT_TYPE
+p_out <= p_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|kogge_stone|kogge_stone_node:\inst4:12:inst4a
+g_in1 => g_out.IN0
+g_in2 => g_out.IN1
+p_in1 => p_out.IN0
+p_in2 => g_out.IN1
+p_in2 => p_out.IN1
+g_out <= g_out.DB_MAX_OUTPUT_PORT_TYPE
+p_out <= p_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|kogge_stone|kogge_stone_node:\inst4:13:inst4a
+g_in1 => g_out.IN0
+g_in2 => g_out.IN1
+p_in1 => p_out.IN0
+p_in2 => g_out.IN1
+p_in2 => p_out.IN1
+g_out <= g_out.DB_MAX_OUTPUT_PORT_TYPE
+p_out <= p_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|kogge_stone|kogge_stone_node:\inst4:14:inst4a
+g_in1 => g_out.IN0
+g_in2 => g_out.IN1
+p_in1 => p_out.IN0
+p_in2 => g_out.IN1
+p_in2 => p_out.IN1
+g_out <= g_out.DB_MAX_OUTPUT_PORT_TYPE
+p_out <= p_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|kogge_stone|kogge_stone_node:\inst4:15:inst4a
+g_in1 => g_out.IN0
+g_in2 => g_out.IN1
+p_in1 => p_out.IN0
+p_in2 => g_out.IN1
+p_in2 => p_out.IN1
+g_out <= g_out.DB_MAX_OUTPUT_PORT_TYPE
+p_out <= p_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|kogge_stone|kogge_stone_node:\inst5:2:inst5a
+g_in1 => g_out.IN0
+g_in2 => g_out.IN1
+p_in1 => p_out.IN0
+p_in2 => g_out.IN1
+p_in2 => p_out.IN1
+g_out <= g_out.DB_MAX_OUTPUT_PORT_TYPE
+p_out <= p_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|kogge_stone|kogge_stone_node:\inst5:3:inst5a
+g_in1 => g_out.IN0
+g_in2 => g_out.IN1
+p_in1 => p_out.IN0
+p_in2 => g_out.IN1
+p_in2 => p_out.IN1
+g_out <= g_out.DB_MAX_OUTPUT_PORT_TYPE
+p_out <= p_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|kogge_stone|kogge_stone_node:\inst5:4:inst5a
+g_in1 => g_out.IN0
+g_in2 => g_out.IN1
+p_in1 => p_out.IN0
+p_in2 => g_out.IN1
+p_in2 => p_out.IN1
+g_out <= g_out.DB_MAX_OUTPUT_PORT_TYPE
+p_out <= p_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|kogge_stone|kogge_stone_node:\inst5:5:inst5a
+g_in1 => g_out.IN0
+g_in2 => g_out.IN1
+p_in1 => p_out.IN0
+p_in2 => g_out.IN1
+p_in2 => p_out.IN1
+g_out <= g_out.DB_MAX_OUTPUT_PORT_TYPE
+p_out <= p_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|kogge_stone|kogge_stone_node:\inst5:6:inst5a
+g_in1 => g_out.IN0
+g_in2 => g_out.IN1
+p_in1 => p_out.IN0
+p_in2 => g_out.IN1
+p_in2 => p_out.IN1
+g_out <= g_out.DB_MAX_OUTPUT_PORT_TYPE
+p_out <= p_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|kogge_stone|kogge_stone_node:\inst5:7:inst5a
+g_in1 => g_out.IN0
+g_in2 => g_out.IN1
+p_in1 => p_out.IN0
+p_in2 => g_out.IN1
+p_in2 => p_out.IN1
+g_out <= g_out.DB_MAX_OUTPUT_PORT_TYPE
+p_out <= p_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|kogge_stone|kogge_stone_node:\inst5:8:inst5a
+g_in1 => g_out.IN0
+g_in2 => g_out.IN1
+p_in1 => p_out.IN0
+p_in2 => g_out.IN1
+p_in2 => p_out.IN1
+g_out <= g_out.DB_MAX_OUTPUT_PORT_TYPE
+p_out <= p_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|kogge_stone|kogge_stone_node:\inst5:9:inst5a
+g_in1 => g_out.IN0
+g_in2 => g_out.IN1
+p_in1 => p_out.IN0
+p_in2 => g_out.IN1
+p_in2 => p_out.IN1
+g_out <= g_out.DB_MAX_OUTPUT_PORT_TYPE
+p_out <= p_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|kogge_stone|kogge_stone_node:\inst5:10:inst5a
+g_in1 => g_out.IN0
+g_in2 => g_out.IN1
+p_in1 => p_out.IN0
+p_in2 => g_out.IN1
+p_in2 => p_out.IN1
+g_out <= g_out.DB_MAX_OUTPUT_PORT_TYPE
+p_out <= p_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|kogge_stone|kogge_stone_node:\inst5:11:inst5a
+g_in1 => g_out.IN0
+g_in2 => g_out.IN1
+p_in1 => p_out.IN0
+p_in2 => g_out.IN1
+p_in2 => p_out.IN1
+g_out <= g_out.DB_MAX_OUTPUT_PORT_TYPE
+p_out <= p_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|kogge_stone|kogge_stone_node:\inst5:12:inst5a
+g_in1 => g_out.IN0
+g_in2 => g_out.IN1
+p_in1 => p_out.IN0
+p_in2 => g_out.IN1
+p_in2 => p_out.IN1
+g_out <= g_out.DB_MAX_OUTPUT_PORT_TYPE
+p_out <= p_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|kogge_stone|kogge_stone_node:\inst5:13:inst5a
+g_in1 => g_out.IN0
+g_in2 => g_out.IN1
+p_in1 => p_out.IN0
+p_in2 => g_out.IN1
+p_in2 => p_out.IN1
+g_out <= g_out.DB_MAX_OUTPUT_PORT_TYPE
+p_out <= p_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|kogge_stone|kogge_stone_node:\inst5:14:inst5a
+g_in1 => g_out.IN0
+g_in2 => g_out.IN1
+p_in1 => p_out.IN0
+p_in2 => g_out.IN1
+p_in2 => p_out.IN1
+g_out <= g_out.DB_MAX_OUTPUT_PORT_TYPE
+p_out <= p_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|kogge_stone|kogge_stone_node:\inst5:15:inst5a
+g_in1 => g_out.IN0
+g_in2 => g_out.IN1
+p_in1 => p_out.IN0
+p_in2 => g_out.IN1
+p_in2 => p_out.IN1
+g_out <= g_out.DB_MAX_OUTPUT_PORT_TYPE
+p_out <= p_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|kogge_stone|kogge_stone_node:\inst6:4:inst6a
+g_in1 => g_out.IN0
+g_in2 => g_out.IN1
+p_in1 => p_out.IN0
+p_in2 => g_out.IN1
+p_in2 => p_out.IN1
+g_out <= g_out.DB_MAX_OUTPUT_PORT_TYPE
+p_out <= p_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|kogge_stone|kogge_stone_node:\inst6:5:inst6a
+g_in1 => g_out.IN0
+g_in2 => g_out.IN1
+p_in1 => p_out.IN0
+p_in2 => g_out.IN1
+p_in2 => p_out.IN1
+g_out <= g_out.DB_MAX_OUTPUT_PORT_TYPE
+p_out <= p_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|kogge_stone|kogge_stone_node:\inst6:6:inst6a
+g_in1 => g_out.IN0
+g_in2 => g_out.IN1
+p_in1 => p_out.IN0
+p_in2 => g_out.IN1
+p_in2 => p_out.IN1
+g_out <= g_out.DB_MAX_OUTPUT_PORT_TYPE
+p_out <= p_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|kogge_stone|kogge_stone_node:\inst6:7:inst6a
+g_in1 => g_out.IN0
+g_in2 => g_out.IN1
+p_in1 => p_out.IN0
+p_in2 => g_out.IN1
+p_in2 => p_out.IN1
+g_out <= g_out.DB_MAX_OUTPUT_PORT_TYPE
+p_out <= p_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|kogge_stone|kogge_stone_node:\inst6:8:inst6a
+g_in1 => g_out.IN0
+g_in2 => g_out.IN1
+p_in1 => p_out.IN0
+p_in2 => g_out.IN1
+p_in2 => p_out.IN1
+g_out <= g_out.DB_MAX_OUTPUT_PORT_TYPE
+p_out <= p_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|kogge_stone|kogge_stone_node:\inst6:9:inst6a
+g_in1 => g_out.IN0
+g_in2 => g_out.IN1
+p_in1 => p_out.IN0
+p_in2 => g_out.IN1
+p_in2 => p_out.IN1
+g_out <= g_out.DB_MAX_OUTPUT_PORT_TYPE
+p_out <= p_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|kogge_stone|kogge_stone_node:\inst6:10:inst6a
+g_in1 => g_out.IN0
+g_in2 => g_out.IN1
+p_in1 => p_out.IN0
+p_in2 => g_out.IN1
+p_in2 => p_out.IN1
+g_out <= g_out.DB_MAX_OUTPUT_PORT_TYPE
+p_out <= p_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|kogge_stone|kogge_stone_node:\inst6:11:inst6a
+g_in1 => g_out.IN0
+g_in2 => g_out.IN1
+p_in1 => p_out.IN0
+p_in2 => g_out.IN1
+p_in2 => p_out.IN1
+g_out <= g_out.DB_MAX_OUTPUT_PORT_TYPE
+p_out <= p_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|kogge_stone|kogge_stone_node:\inst6:12:inst6a
+g_in1 => g_out.IN0
+g_in2 => g_out.IN1
+p_in1 => p_out.IN0
+p_in2 => g_out.IN1
+p_in2 => p_out.IN1
+g_out <= g_out.DB_MAX_OUTPUT_PORT_TYPE
+p_out <= p_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|kogge_stone|kogge_stone_node:\inst6:13:inst6a
+g_in1 => g_out.IN0
+g_in2 => g_out.IN1
+p_in1 => p_out.IN0
+p_in2 => g_out.IN1
+p_in2 => p_out.IN1
+g_out <= g_out.DB_MAX_OUTPUT_PORT_TYPE
+p_out <= p_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|kogge_stone|kogge_stone_node:\inst6:14:inst6a
+g_in1 => g_out.IN0
+g_in2 => g_out.IN1
+p_in1 => p_out.IN0
+p_in2 => g_out.IN1
+p_in2 => p_out.IN1
+g_out <= g_out.DB_MAX_OUTPUT_PORT_TYPE
+p_out <= p_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|kogge_stone|kogge_stone_node:\inst6:15:inst6a
+g_in1 => g_out.IN0
+g_in2 => g_out.IN1
+p_in1 => p_out.IN0
+p_in2 => g_out.IN1
+p_in2 => p_out.IN1
+g_out <= g_out.DB_MAX_OUTPUT_PORT_TYPE
+p_out <= p_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|kogge_stone|kogge_stone_node:\inst7:8:inst7a
+g_in1 => g_out.IN0
+g_in2 => g_out.IN1
+p_in1 => p_out.IN0
+p_in2 => g_out.IN1
+p_in2 => p_out.IN1
+g_out <= g_out.DB_MAX_OUTPUT_PORT_TYPE
+p_out <= p_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|kogge_stone|kogge_stone_node:\inst7:9:inst7a
+g_in1 => g_out.IN0
+g_in2 => g_out.IN1
+p_in1 => p_out.IN0
+p_in2 => g_out.IN1
+p_in2 => p_out.IN1
+g_out <= g_out.DB_MAX_OUTPUT_PORT_TYPE
+p_out <= p_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|kogge_stone|kogge_stone_node:\inst7:10:inst7a
+g_in1 => g_out.IN0
+g_in2 => g_out.IN1
+p_in1 => p_out.IN0
+p_in2 => g_out.IN1
+p_in2 => p_out.IN1
+g_out <= g_out.DB_MAX_OUTPUT_PORT_TYPE
+p_out <= p_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|kogge_stone|kogge_stone_node:\inst7:11:inst7a
+g_in1 => g_out.IN0
+g_in2 => g_out.IN1
+p_in1 => p_out.IN0
+p_in2 => g_out.IN1
+p_in2 => p_out.IN1
+g_out <= g_out.DB_MAX_OUTPUT_PORT_TYPE
+p_out <= p_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|kogge_stone|kogge_stone_node:\inst7:12:inst7a
+g_in1 => g_out.IN0
+g_in2 => g_out.IN1
+p_in1 => p_out.IN0
+p_in2 => g_out.IN1
+p_in2 => p_out.IN1
+g_out <= g_out.DB_MAX_OUTPUT_PORT_TYPE
+p_out <= p_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|kogge_stone|kogge_stone_node:\inst7:13:inst7a
+g_in1 => g_out.IN0
+g_in2 => g_out.IN1
+p_in1 => p_out.IN0
+p_in2 => g_out.IN1
+p_in2 => p_out.IN1
+g_out <= g_out.DB_MAX_OUTPUT_PORT_TYPE
+p_out <= p_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|kogge_stone|kogge_stone_node:\inst7:14:inst7a
+g_in1 => g_out.IN0
+g_in2 => g_out.IN1
+p_in1 => p_out.IN0
+p_in2 => g_out.IN1
+p_in2 => p_out.IN1
+g_out <= g_out.DB_MAX_OUTPUT_PORT_TYPE
+p_out <= p_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|kogge_stone|kogge_stone_node:\inst7:15:inst7a
+g_in1 => g_out.IN0
+g_in2 => g_out.IN1
+p_in1 => p_out.IN0
+p_in2 => g_out.IN1
+p_in2 => p_out.IN1
+g_out <= g_out.DB_MAX_OUTPUT_PORT_TYPE
+p_out <= p_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|kogge_stone|postprocessing:inst8
+G[0] => C_buff.IN1
+G[1] => C_buff.IN1
+G[2] => C_buff.IN1
+G[3] => C_buff.IN1
+G[4] => C_buff.IN1
+G[5] => C_buff.IN1
+G[6] => C_buff.IN1
+G[7] => C_buff.IN1
+G[8] => C_buff.IN1
+G[9] => C_buff.IN1
+G[10] => C_buff.IN1
+G[11] => C_buff.IN1
+G[12] => C_buff.IN1
+G[13] => C_buff.IN1
+G[14] => C_buff.IN1
+G[15] => C_buff.IN1
+P[0] => S.IN0
+P[0] => C_buff.IN0
+P[1] => C_buff.IN1
+P[2] => C_buff.IN1
+P[3] => C_buff.IN1
+P[4] => C_buff.IN1
+P[5] => C_buff.IN1
+P[6] => C_buff.IN1
+P[7] => C_buff.IN1
+P[8] => C_buff.IN1
+P[9] => C_buff.IN1
+P[10] => C_buff.IN1
+P[11] => C_buff.IN1
+P[12] => C_buff.IN1
+P[13] => C_buff.IN1
+P[14] => C_buff.IN1
+P[15] => C_buff.IN1
+P_or[0] => ~NO_FANOUT~
+P_or[1] => S.IN1
+P_or[2] => S.IN1
+P_or[3] => S.IN1
+P_or[4] => S.IN1
+P_or[5] => S.IN1
+P_or[6] => S.IN1
+P_or[7] => S.IN1
+P_or[8] => S.IN1
+P_or[9] => S.IN1
+P_or[10] => S.IN1
+P_or[11] => S.IN1
+P_or[12] => S.IN1
+P_or[13] => S.IN1
+P_or[14] => S.IN1
+P_or[15] => S.IN1
+Cin => S.IN1
+Cin => C_buff.IN1
+C[1] <= C_buff.DB_MAX_OUTPUT_PORT_TYPE
+C[2] <= C_buff.DB_MAX_OUTPUT_PORT_TYPE
+C[3] <= C_buff.DB_MAX_OUTPUT_PORT_TYPE
+C[4] <= C_buff.DB_MAX_OUTPUT_PORT_TYPE
+C[5] <= C_buff.DB_MAX_OUTPUT_PORT_TYPE
+C[6] <= C_buff.DB_MAX_OUTPUT_PORT_TYPE
+C[7] <= C_buff.DB_MAX_OUTPUT_PORT_TYPE
+C[8] <= C_buff.DB_MAX_OUTPUT_PORT_TYPE
+C[9] <= C_buff.DB_MAX_OUTPUT_PORT_TYPE
+C[10] <= C_buff.DB_MAX_OUTPUT_PORT_TYPE
+C[11] <= C_buff.DB_MAX_OUTPUT_PORT_TYPE
+C[12] <= C_buff.DB_MAX_OUTPUT_PORT_TYPE
+C[13] <= C_buff.DB_MAX_OUTPUT_PORT_TYPE
+C[14] <= C_buff.DB_MAX_OUTPUT_PORT_TYPE
+C[15] <= C_buff.DB_MAX_OUTPUT_PORT_TYPE
+C[16] <= C_buff.DB_MAX_OUTPUT_PORT_TYPE
+S[0] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[1] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[2] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[3] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[4] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[5] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[6] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[7] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[8] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[9] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[10] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[11] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[12] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[13] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[14] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[15] <= S.DB_MAX_OUTPUT_PORT_TYPE
+
+
