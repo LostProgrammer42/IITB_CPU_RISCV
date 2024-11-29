@@ -1,0 +1,35 @@
+|Eight_Bit_Left_Shifter
+a[0] => b[8].DATAIN
+a[1] => b[9].DATAIN
+a[2] => b[10].DATAIN
+a[3] => b[11].DATAIN
+a[4] => b[12].DATAIN
+a[5] => b[13].DATAIN
+a[6] => b[14].DATAIN
+a[7] => b[15].DATAIN
+a[8] => ~NO_FANOUT~
+a[9] => ~NO_FANOUT~
+a[10] => ~NO_FANOUT~
+a[11] => ~NO_FANOUT~
+a[12] => ~NO_FANOUT~
+a[13] => ~NO_FANOUT~
+a[14] => ~NO_FANOUT~
+a[15] => ~NO_FANOUT~
+b[0] <= <GND>
+b[1] <= <GND>
+b[2] <= <GND>
+b[3] <= <GND>
+b[4] <= <GND>
+b[5] <= <GND>
+b[6] <= <GND>
+b[7] <= <GND>
+b[8] <= a[0].DB_MAX_OUTPUT_PORT_TYPE
+b[9] <= a[1].DB_MAX_OUTPUT_PORT_TYPE
+b[10] <= a[2].DB_MAX_OUTPUT_PORT_TYPE
+b[11] <= a[3].DB_MAX_OUTPUT_PORT_TYPE
+b[12] <= a[4].DB_MAX_OUTPUT_PORT_TYPE
+b[13] <= a[5].DB_MAX_OUTPUT_PORT_TYPE
+b[14] <= a[6].DB_MAX_OUTPUT_PORT_TYPE
+b[15] <= a[7].DB_MAX_OUTPUT_PORT_TYPE
+
+

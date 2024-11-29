@@ -1,0 +1,15 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity Eight_Bit_Left_Shifter is
+	port(a: in std_logic_vector(15 downto 0);
+		  b: out std_logic_vector(15 downto 0)
+		  );
+end Eight_Bit_Left_Shifter;
+
+architecture str of Eight_Bit_Left_Shifter is
+	begin
+		for1: for i in 0 to 15 generate
+			b(i) <= 0 when i < 8 else a(i-8);
+		end generate for1;
+end architecture;
