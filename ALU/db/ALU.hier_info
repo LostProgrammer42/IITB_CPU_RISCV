@@ -1,0 +1,1683 @@
+|ALU
+a[0] => kogge_stone_adder_subtractor:adder.A[0]
+a[0] => Array_Multiplier:multiplier.x[0]
+a[0] => OR_16:or16.a[0]
+a[0] => AND_16:and16.a[0]
+a[0] => IMP_16:imp16.a[0]
+a[1] => kogge_stone_adder_subtractor:adder.A[1]
+a[1] => Array_Multiplier:multiplier.x[1]
+a[1] => OR_16:or16.a[1]
+a[1] => AND_16:and16.a[1]
+a[1] => IMP_16:imp16.a[1]
+a[2] => kogge_stone_adder_subtractor:adder.A[2]
+a[2] => Array_Multiplier:multiplier.x[2]
+a[2] => OR_16:or16.a[2]
+a[2] => AND_16:and16.a[2]
+a[2] => IMP_16:imp16.a[2]
+a[3] => kogge_stone_adder_subtractor:adder.A[3]
+a[3] => Array_Multiplier:multiplier.x[3]
+a[3] => OR_16:or16.a[3]
+a[3] => AND_16:and16.a[3]
+a[3] => IMP_16:imp16.a[3]
+a[4] => kogge_stone_adder_subtractor:adder.A[4]
+a[4] => Array_Multiplier:multiplier.x[4]
+a[4] => OR_16:or16.a[4]
+a[4] => AND_16:and16.a[4]
+a[4] => IMP_16:imp16.a[4]
+a[5] => kogge_stone_adder_subtractor:adder.A[5]
+a[5] => Array_Multiplier:multiplier.x[5]
+a[5] => OR_16:or16.a[5]
+a[5] => AND_16:and16.a[5]
+a[5] => IMP_16:imp16.a[5]
+a[6] => kogge_stone_adder_subtractor:adder.A[6]
+a[6] => Array_Multiplier:multiplier.x[6]
+a[6] => OR_16:or16.a[6]
+a[6] => AND_16:and16.a[6]
+a[6] => IMP_16:imp16.a[6]
+a[7] => kogge_stone_adder_subtractor:adder.A[7]
+a[7] => Array_Multiplier:multiplier.x[7]
+a[7] => OR_16:or16.a[7]
+a[7] => AND_16:and16.a[7]
+a[7] => IMP_16:imp16.a[7]
+a[8] => kogge_stone_adder_subtractor:adder.A[8]
+a[8] => Array_Multiplier:multiplier.x[8]
+a[8] => OR_16:or16.a[8]
+a[8] => AND_16:and16.a[8]
+a[8] => IMP_16:imp16.a[8]
+a[9] => kogge_stone_adder_subtractor:adder.A[9]
+a[9] => Array_Multiplier:multiplier.x[9]
+a[9] => OR_16:or16.a[9]
+a[9] => AND_16:and16.a[9]
+a[9] => IMP_16:imp16.a[9]
+a[10] => kogge_stone_adder_subtractor:adder.A[10]
+a[10] => Array_Multiplier:multiplier.x[10]
+a[10] => OR_16:or16.a[10]
+a[10] => AND_16:and16.a[10]
+a[10] => IMP_16:imp16.a[10]
+a[11] => kogge_stone_adder_subtractor:adder.A[11]
+a[11] => Array_Multiplier:multiplier.x[11]
+a[11] => OR_16:or16.a[11]
+a[11] => AND_16:and16.a[11]
+a[11] => IMP_16:imp16.a[11]
+a[12] => kogge_stone_adder_subtractor:adder.A[12]
+a[12] => Array_Multiplier:multiplier.x[12]
+a[12] => OR_16:or16.a[12]
+a[12] => AND_16:and16.a[12]
+a[12] => IMP_16:imp16.a[12]
+a[13] => kogge_stone_adder_subtractor:adder.A[13]
+a[13] => Array_Multiplier:multiplier.x[13]
+a[13] => OR_16:or16.a[13]
+a[13] => AND_16:and16.a[13]
+a[13] => IMP_16:imp16.a[13]
+a[14] => kogge_stone_adder_subtractor:adder.A[14]
+a[14] => Array_Multiplier:multiplier.x[14]
+a[14] => OR_16:or16.a[14]
+a[14] => AND_16:and16.a[14]
+a[14] => IMP_16:imp16.a[14]
+a[15] => kogge_stone_adder_subtractor:adder.A[15]
+a[15] => Array_Multiplier:multiplier.x[15]
+a[15] => OR_16:or16.a[15]
+a[15] => AND_16:and16.a[15]
+a[15] => IMP_16:imp16.a[15]
+b[0] => kogge_stone_adder_subtractor:adder.B[0]
+b[0] => Array_Multiplier:multiplier.y[0]
+b[0] => OR_16:or16.b[0]
+b[0] => AND_16:and16.b[0]
+b[0] => IMP_16:imp16.b[0]
+b[1] => kogge_stone_adder_subtractor:adder.B[1]
+b[1] => Array_Multiplier:multiplier.y[1]
+b[1] => OR_16:or16.b[1]
+b[1] => AND_16:and16.b[1]
+b[1] => IMP_16:imp16.b[1]
+b[2] => kogge_stone_adder_subtractor:adder.B[2]
+b[2] => Array_Multiplier:multiplier.y[2]
+b[2] => OR_16:or16.b[2]
+b[2] => AND_16:and16.b[2]
+b[2] => IMP_16:imp16.b[2]
+b[3] => kogge_stone_adder_subtractor:adder.B[3]
+b[3] => Array_Multiplier:multiplier.y[3]
+b[3] => OR_16:or16.b[3]
+b[3] => AND_16:and16.b[3]
+b[3] => IMP_16:imp16.b[3]
+b[4] => kogge_stone_adder_subtractor:adder.B[4]
+b[4] => Array_Multiplier:multiplier.y[4]
+b[4] => OR_16:or16.b[4]
+b[4] => AND_16:and16.b[4]
+b[4] => IMP_16:imp16.b[4]
+b[5] => kogge_stone_adder_subtractor:adder.B[5]
+b[5] => Array_Multiplier:multiplier.y[5]
+b[5] => OR_16:or16.b[5]
+b[5] => AND_16:and16.b[5]
+b[5] => IMP_16:imp16.b[5]
+b[6] => kogge_stone_adder_subtractor:adder.B[6]
+b[6] => Array_Multiplier:multiplier.y[6]
+b[6] => OR_16:or16.b[6]
+b[6] => AND_16:and16.b[6]
+b[6] => IMP_16:imp16.b[6]
+b[7] => kogge_stone_adder_subtractor:adder.B[7]
+b[7] => Array_Multiplier:multiplier.y[7]
+b[7] => OR_16:or16.b[7]
+b[7] => AND_16:and16.b[7]
+b[7] => IMP_16:imp16.b[7]
+b[8] => kogge_stone_adder_subtractor:adder.B[8]
+b[8] => Array_Multiplier:multiplier.y[8]
+b[8] => OR_16:or16.b[8]
+b[8] => AND_16:and16.b[8]
+b[8] => IMP_16:imp16.b[8]
+b[9] => kogge_stone_adder_subtractor:adder.B[9]
+b[9] => Array_Multiplier:multiplier.y[9]
+b[9] => OR_16:or16.b[9]
+b[9] => AND_16:and16.b[9]
+b[9] => IMP_16:imp16.b[9]
+b[10] => kogge_stone_adder_subtractor:adder.B[10]
+b[10] => Array_Multiplier:multiplier.y[10]
+b[10] => OR_16:or16.b[10]
+b[10] => AND_16:and16.b[10]
+b[10] => IMP_16:imp16.b[10]
+b[11] => kogge_stone_adder_subtractor:adder.B[11]
+b[11] => Array_Multiplier:multiplier.y[11]
+b[11] => OR_16:or16.b[11]
+b[11] => AND_16:and16.b[11]
+b[11] => IMP_16:imp16.b[11]
+b[12] => kogge_stone_adder_subtractor:adder.B[12]
+b[12] => Array_Multiplier:multiplier.y[12]
+b[12] => OR_16:or16.b[12]
+b[12] => AND_16:and16.b[12]
+b[12] => IMP_16:imp16.b[12]
+b[13] => kogge_stone_adder_subtractor:adder.B[13]
+b[13] => Array_Multiplier:multiplier.y[13]
+b[13] => OR_16:or16.b[13]
+b[13] => AND_16:and16.b[13]
+b[13] => IMP_16:imp16.b[13]
+b[14] => kogge_stone_adder_subtractor:adder.B[14]
+b[14] => Array_Multiplier:multiplier.y[14]
+b[14] => OR_16:or16.b[14]
+b[14] => AND_16:and16.b[14]
+b[14] => IMP_16:imp16.b[14]
+b[15] => kogge_stone_adder_subtractor:adder.B[15]
+b[15] => Array_Multiplier:multiplier.y[15]
+b[15] => OR_16:or16.b[15]
+b[15] => AND_16:and16.b[15]
+b[15] => IMP_16:imp16.b[15]
+s0 => mux_8x1_16bit:mux.S[0]
+s0 => m.IN0
+s1 => m.IN1
+s1 => mux_8x1_16bit:mux.S[1]
+s2 => mux_8x1_16bit:mux.S[2]
+s2 => m.IN1
+c[0] << mux_8x1_16bit:mux.Y[0]
+c[1] << mux_8x1_16bit:mux.Y[1]
+c[2] << mux_8x1_16bit:mux.Y[2]
+c[3] << mux_8x1_16bit:mux.Y[3]
+c[4] << mux_8x1_16bit:mux.Y[4]
+c[5] << mux_8x1_16bit:mux.Y[5]
+c[6] << mux_8x1_16bit:mux.Y[6]
+c[7] << mux_8x1_16bit:mux.Y[7]
+c[8] << mux_8x1_16bit:mux.Y[8]
+c[9] << mux_8x1_16bit:mux.Y[9]
+c[10] << mux_8x1_16bit:mux.Y[10]
+c[11] << mux_8x1_16bit:mux.Y[11]
+c[12] << mux_8x1_16bit:mux.Y[12]
+c[13] << mux_8x1_16bit:mux.Y[13]
+c[14] << mux_8x1_16bit:mux.Y[14]
+c[15] << mux_8x1_16bit:mux.Y[15]
+Cout << kogge_stone_adder_subtractor:adder.Cout
+Z << Z.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|kogge_stone_adder_subtractor:adder
+A[0] => kogge_stone:kogge.A[0]
+A[1] => kogge_stone:kogge.A[1]
+A[2] => kogge_stone:kogge.A[2]
+A[3] => kogge_stone:kogge.A[3]
+A[4] => kogge_stone:kogge.A[4]
+A[5] => kogge_stone:kogge.A[5]
+A[6] => kogge_stone:kogge.A[6]
+A[7] => kogge_stone:kogge.A[7]
+A[8] => kogge_stone:kogge.A[8]
+A[9] => kogge_stone:kogge.A[9]
+A[10] => kogge_stone:kogge.A[10]
+A[11] => kogge_stone:kogge.A[11]
+A[12] => kogge_stone:kogge.A[12]
+A[13] => kogge_stone:kogge.A[13]
+A[14] => kogge_stone:kogge.A[14]
+A[15] => kogge_stone:kogge.A[15]
+B[0] => B_sig[0].IN0
+B[1] => B_sig[1].IN0
+B[2] => B_sig[2].IN0
+B[3] => B_sig[3].IN0
+B[4] => B_sig[4].IN0
+B[5] => B_sig[5].IN0
+B[6] => B_sig[6].IN0
+B[7] => B_sig[7].IN0
+B[8] => B_sig[8].IN0
+B[9] => B_sig[9].IN0
+B[10] => B_sig[10].IN0
+B[11] => B_sig[11].IN0
+B[12] => B_sig[12].IN0
+B[13] => B_sig[13].IN0
+B[14] => B_sig[14].IN0
+B[15] => B_sig[15].IN0
+M => B_sig[0].IN1
+M => B_sig[1].IN1
+M => B_sig[2].IN1
+M => B_sig[3].IN1
+M => B_sig[4].IN1
+M => B_sig[5].IN1
+M => B_sig[6].IN1
+M => B_sig[7].IN1
+M => B_sig[8].IN1
+M => B_sig[9].IN1
+M => B_sig[10].IN1
+M => B_sig[11].IN1
+M => B_sig[12].IN1
+M => B_sig[13].IN1
+M => B_sig[14].IN1
+M => B_sig[15].IN1
+M => kogge_stone:kogge.Cin
+S[0] <= kogge_stone:kogge.S[0]
+S[1] <= kogge_stone:kogge.S[1]
+S[2] <= kogge_stone:kogge.S[2]
+S[3] <= kogge_stone:kogge.S[3]
+S[4] <= kogge_stone:kogge.S[4]
+S[5] <= kogge_stone:kogge.S[5]
+S[6] <= kogge_stone:kogge.S[6]
+S[7] <= kogge_stone:kogge.S[7]
+S[8] <= kogge_stone:kogge.S[8]
+S[9] <= kogge_stone:kogge.S[9]
+S[10] <= kogge_stone:kogge.S[10]
+S[11] <= kogge_stone:kogge.S[11]
+S[12] <= kogge_stone:kogge.S[12]
+S[13] <= kogge_stone:kogge.S[13]
+S[14] <= kogge_stone:kogge.S[14]
+S[15] <= kogge_stone:kogge.S[15]
+Cout <= kogge_stone:kogge.Cout
+
+
+|ALU|kogge_stone_adder_subtractor:adder|kogge_stone:kogge
+A[0] => preprocessing:inst1.A[0]
+A[1] => preprocessing:inst1.A[1]
+A[2] => preprocessing:inst1.A[2]
+A[3] => preprocessing:inst1.A[3]
+A[4] => preprocessing:inst1.A[4]
+A[5] => preprocessing:inst1.A[5]
+A[6] => preprocessing:inst1.A[6]
+A[7] => preprocessing:inst1.A[7]
+A[8] => preprocessing:inst1.A[8]
+A[9] => preprocessing:inst1.A[9]
+A[10] => preprocessing:inst1.A[10]
+A[11] => preprocessing:inst1.A[11]
+A[12] => preprocessing:inst1.A[12]
+A[13] => preprocessing:inst1.A[13]
+A[14] => preprocessing:inst1.A[14]
+A[15] => preprocessing:inst1.A[15]
+B[0] => preprocessing:inst1.B[0]
+B[1] => preprocessing:inst1.B[1]
+B[2] => preprocessing:inst1.B[2]
+B[3] => preprocessing:inst1.B[3]
+B[4] => preprocessing:inst1.B[4]
+B[5] => preprocessing:inst1.B[5]
+B[6] => preprocessing:inst1.B[6]
+B[7] => preprocessing:inst1.B[7]
+B[8] => preprocessing:inst1.B[8]
+B[9] => preprocessing:inst1.B[9]
+B[10] => preprocessing:inst1.B[10]
+B[11] => preprocessing:inst1.B[11]
+B[12] => preprocessing:inst1.B[12]
+B[13] => preprocessing:inst1.B[13]
+B[14] => preprocessing:inst1.B[14]
+B[15] => preprocessing:inst1.B[15]
+S[0] <= postprocessing:inst8.S[0]
+S[1] <= postprocessing:inst8.S[1]
+S[2] <= postprocessing:inst8.S[2]
+S[3] <= postprocessing:inst8.S[3]
+S[4] <= postprocessing:inst8.S[4]
+S[5] <= postprocessing:inst8.S[5]
+S[6] <= postprocessing:inst8.S[6]
+S[7] <= postprocessing:inst8.S[7]
+S[8] <= postprocessing:inst8.S[8]
+S[9] <= postprocessing:inst8.S[9]
+S[10] <= postprocessing:inst8.S[10]
+S[11] <= postprocessing:inst8.S[11]
+S[12] <= postprocessing:inst8.S[12]
+S[13] <= postprocessing:inst8.S[13]
+S[14] <= postprocessing:inst8.S[14]
+S[15] <= postprocessing:inst8.S[15]
+Cout <= postprocessing:inst8.C[16]
+Cin => postprocessing:inst8.Cin
+
+
+|ALU|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|preprocessing:inst1
+A[0] => G.IN0
+A[0] => P.IN0
+A[1] => G.IN0
+A[1] => P.IN0
+A[2] => G.IN0
+A[2] => P.IN0
+A[3] => G.IN0
+A[3] => P.IN0
+A[4] => G.IN0
+A[4] => P.IN0
+A[5] => G.IN0
+A[5] => P.IN0
+A[6] => G.IN0
+A[6] => P.IN0
+A[7] => G.IN0
+A[7] => P.IN0
+A[8] => G.IN0
+A[8] => P.IN0
+A[9] => G.IN0
+A[9] => P.IN0
+A[10] => G.IN0
+A[10] => P.IN0
+A[11] => G.IN0
+A[11] => P.IN0
+A[12] => G.IN0
+A[12] => P.IN0
+A[13] => G.IN0
+A[13] => P.IN0
+A[14] => G.IN0
+A[14] => P.IN0
+A[15] => G.IN0
+A[15] => P.IN0
+B[0] => G.IN1
+B[0] => P.IN1
+B[1] => G.IN1
+B[1] => P.IN1
+B[2] => G.IN1
+B[2] => P.IN1
+B[3] => G.IN1
+B[3] => P.IN1
+B[4] => G.IN1
+B[4] => P.IN1
+B[5] => G.IN1
+B[5] => P.IN1
+B[6] => G.IN1
+B[6] => P.IN1
+B[7] => G.IN1
+B[7] => P.IN1
+B[8] => G.IN1
+B[8] => P.IN1
+B[9] => G.IN1
+B[9] => P.IN1
+B[10] => G.IN1
+B[10] => P.IN1
+B[11] => G.IN1
+B[11] => P.IN1
+B[12] => G.IN1
+B[12] => P.IN1
+B[13] => G.IN1
+B[13] => P.IN1
+B[14] => G.IN1
+B[14] => P.IN1
+B[15] => G.IN1
+B[15] => P.IN1
+G[0] <= G.DB_MAX_OUTPUT_PORT_TYPE
+G[1] <= G.DB_MAX_OUTPUT_PORT_TYPE
+G[2] <= G.DB_MAX_OUTPUT_PORT_TYPE
+G[3] <= G.DB_MAX_OUTPUT_PORT_TYPE
+G[4] <= G.DB_MAX_OUTPUT_PORT_TYPE
+G[5] <= G.DB_MAX_OUTPUT_PORT_TYPE
+G[6] <= G.DB_MAX_OUTPUT_PORT_TYPE
+G[7] <= G.DB_MAX_OUTPUT_PORT_TYPE
+G[8] <= G.DB_MAX_OUTPUT_PORT_TYPE
+G[9] <= G.DB_MAX_OUTPUT_PORT_TYPE
+G[10] <= G.DB_MAX_OUTPUT_PORT_TYPE
+G[11] <= G.DB_MAX_OUTPUT_PORT_TYPE
+G[12] <= G.DB_MAX_OUTPUT_PORT_TYPE
+G[13] <= G.DB_MAX_OUTPUT_PORT_TYPE
+G[14] <= G.DB_MAX_OUTPUT_PORT_TYPE
+G[15] <= G.DB_MAX_OUTPUT_PORT_TYPE
+P[0] <= P.DB_MAX_OUTPUT_PORT_TYPE
+P[1] <= P.DB_MAX_OUTPUT_PORT_TYPE
+P[2] <= P.DB_MAX_OUTPUT_PORT_TYPE
+P[3] <= P.DB_MAX_OUTPUT_PORT_TYPE
+P[4] <= P.DB_MAX_OUTPUT_PORT_TYPE
+P[5] <= P.DB_MAX_OUTPUT_PORT_TYPE
+P[6] <= P.DB_MAX_OUTPUT_PORT_TYPE
+P[7] <= P.DB_MAX_OUTPUT_PORT_TYPE
+P[8] <= P.DB_MAX_OUTPUT_PORT_TYPE
+P[9] <= P.DB_MAX_OUTPUT_PORT_TYPE
+P[10] <= P.DB_MAX_OUTPUT_PORT_TYPE
+P[11] <= P.DB_MAX_OUTPUT_PORT_TYPE
+P[12] <= P.DB_MAX_OUTPUT_PORT_TYPE
+P[13] <= P.DB_MAX_OUTPUT_PORT_TYPE
+P[14] <= P.DB_MAX_OUTPUT_PORT_TYPE
+P[15] <= P.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|kogge_stone_node:\inst4:1:inst4a
+g_in1 => g_out.IN0
+g_in2 => g_out.IN1
+p_in1 => p_out.IN0
+p_in2 => g_out.IN1
+p_in2 => p_out.IN1
+g_out <= g_out.DB_MAX_OUTPUT_PORT_TYPE
+p_out <= p_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|kogge_stone_node:\inst4:2:inst4a
+g_in1 => g_out.IN0
+g_in2 => g_out.IN1
+p_in1 => p_out.IN0
+p_in2 => g_out.IN1
+p_in2 => p_out.IN1
+g_out <= g_out.DB_MAX_OUTPUT_PORT_TYPE
+p_out <= p_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|kogge_stone_node:\inst4:3:inst4a
+g_in1 => g_out.IN0
+g_in2 => g_out.IN1
+p_in1 => p_out.IN0
+p_in2 => g_out.IN1
+p_in2 => p_out.IN1
+g_out <= g_out.DB_MAX_OUTPUT_PORT_TYPE
+p_out <= p_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|kogge_stone_node:\inst4:4:inst4a
+g_in1 => g_out.IN0
+g_in2 => g_out.IN1
+p_in1 => p_out.IN0
+p_in2 => g_out.IN1
+p_in2 => p_out.IN1
+g_out <= g_out.DB_MAX_OUTPUT_PORT_TYPE
+p_out <= p_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|kogge_stone_node:\inst4:5:inst4a
+g_in1 => g_out.IN0
+g_in2 => g_out.IN1
+p_in1 => p_out.IN0
+p_in2 => g_out.IN1
+p_in2 => p_out.IN1
+g_out <= g_out.DB_MAX_OUTPUT_PORT_TYPE
+p_out <= p_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|kogge_stone_node:\inst4:6:inst4a
+g_in1 => g_out.IN0
+g_in2 => g_out.IN1
+p_in1 => p_out.IN0
+p_in2 => g_out.IN1
+p_in2 => p_out.IN1
+g_out <= g_out.DB_MAX_OUTPUT_PORT_TYPE
+p_out <= p_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|kogge_stone_node:\inst4:7:inst4a
+g_in1 => g_out.IN0
+g_in2 => g_out.IN1
+p_in1 => p_out.IN0
+p_in2 => g_out.IN1
+p_in2 => p_out.IN1
+g_out <= g_out.DB_MAX_OUTPUT_PORT_TYPE
+p_out <= p_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|kogge_stone_node:\inst4:8:inst4a
+g_in1 => g_out.IN0
+g_in2 => g_out.IN1
+p_in1 => p_out.IN0
+p_in2 => g_out.IN1
+p_in2 => p_out.IN1
+g_out <= g_out.DB_MAX_OUTPUT_PORT_TYPE
+p_out <= p_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|kogge_stone_node:\inst4:9:inst4a
+g_in1 => g_out.IN0
+g_in2 => g_out.IN1
+p_in1 => p_out.IN0
+p_in2 => g_out.IN1
+p_in2 => p_out.IN1
+g_out <= g_out.DB_MAX_OUTPUT_PORT_TYPE
+p_out <= p_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|kogge_stone_node:\inst4:10:inst4a
+g_in1 => g_out.IN0
+g_in2 => g_out.IN1
+p_in1 => p_out.IN0
+p_in2 => g_out.IN1
+p_in2 => p_out.IN1
+g_out <= g_out.DB_MAX_OUTPUT_PORT_TYPE
+p_out <= p_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|kogge_stone_node:\inst4:11:inst4a
+g_in1 => g_out.IN0
+g_in2 => g_out.IN1
+p_in1 => p_out.IN0
+p_in2 => g_out.IN1
+p_in2 => p_out.IN1
+g_out <= g_out.DB_MAX_OUTPUT_PORT_TYPE
+p_out <= p_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|kogge_stone_node:\inst4:12:inst4a
+g_in1 => g_out.IN0
+g_in2 => g_out.IN1
+p_in1 => p_out.IN0
+p_in2 => g_out.IN1
+p_in2 => p_out.IN1
+g_out <= g_out.DB_MAX_OUTPUT_PORT_TYPE
+p_out <= p_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|kogge_stone_node:\inst4:13:inst4a
+g_in1 => g_out.IN0
+g_in2 => g_out.IN1
+p_in1 => p_out.IN0
+p_in2 => g_out.IN1
+p_in2 => p_out.IN1
+g_out <= g_out.DB_MAX_OUTPUT_PORT_TYPE
+p_out <= p_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|kogge_stone_node:\inst4:14:inst4a
+g_in1 => g_out.IN0
+g_in2 => g_out.IN1
+p_in1 => p_out.IN0
+p_in2 => g_out.IN1
+p_in2 => p_out.IN1
+g_out <= g_out.DB_MAX_OUTPUT_PORT_TYPE
+p_out <= p_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|kogge_stone_node:\inst4:15:inst4a
+g_in1 => g_out.IN0
+g_in2 => g_out.IN1
+p_in1 => p_out.IN0
+p_in2 => g_out.IN1
+p_in2 => p_out.IN1
+g_out <= g_out.DB_MAX_OUTPUT_PORT_TYPE
+p_out <= p_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|kogge_stone_node:\inst5:2:inst5a
+g_in1 => g_out.IN0
+g_in2 => g_out.IN1
+p_in1 => p_out.IN0
+p_in2 => g_out.IN1
+p_in2 => p_out.IN1
+g_out <= g_out.DB_MAX_OUTPUT_PORT_TYPE
+p_out <= p_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|kogge_stone_node:\inst5:3:inst5a
+g_in1 => g_out.IN0
+g_in2 => g_out.IN1
+p_in1 => p_out.IN0
+p_in2 => g_out.IN1
+p_in2 => p_out.IN1
+g_out <= g_out.DB_MAX_OUTPUT_PORT_TYPE
+p_out <= p_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|kogge_stone_node:\inst5:4:inst5a
+g_in1 => g_out.IN0
+g_in2 => g_out.IN1
+p_in1 => p_out.IN0
+p_in2 => g_out.IN1
+p_in2 => p_out.IN1
+g_out <= g_out.DB_MAX_OUTPUT_PORT_TYPE
+p_out <= p_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|kogge_stone_node:\inst5:5:inst5a
+g_in1 => g_out.IN0
+g_in2 => g_out.IN1
+p_in1 => p_out.IN0
+p_in2 => g_out.IN1
+p_in2 => p_out.IN1
+g_out <= g_out.DB_MAX_OUTPUT_PORT_TYPE
+p_out <= p_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|kogge_stone_node:\inst5:6:inst5a
+g_in1 => g_out.IN0
+g_in2 => g_out.IN1
+p_in1 => p_out.IN0
+p_in2 => g_out.IN1
+p_in2 => p_out.IN1
+g_out <= g_out.DB_MAX_OUTPUT_PORT_TYPE
+p_out <= p_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|kogge_stone_node:\inst5:7:inst5a
+g_in1 => g_out.IN0
+g_in2 => g_out.IN1
+p_in1 => p_out.IN0
+p_in2 => g_out.IN1
+p_in2 => p_out.IN1
+g_out <= g_out.DB_MAX_OUTPUT_PORT_TYPE
+p_out <= p_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|kogge_stone_node:\inst5:8:inst5a
+g_in1 => g_out.IN0
+g_in2 => g_out.IN1
+p_in1 => p_out.IN0
+p_in2 => g_out.IN1
+p_in2 => p_out.IN1
+g_out <= g_out.DB_MAX_OUTPUT_PORT_TYPE
+p_out <= p_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|kogge_stone_node:\inst5:9:inst5a
+g_in1 => g_out.IN0
+g_in2 => g_out.IN1
+p_in1 => p_out.IN0
+p_in2 => g_out.IN1
+p_in2 => p_out.IN1
+g_out <= g_out.DB_MAX_OUTPUT_PORT_TYPE
+p_out <= p_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|kogge_stone_node:\inst5:10:inst5a
+g_in1 => g_out.IN0
+g_in2 => g_out.IN1
+p_in1 => p_out.IN0
+p_in2 => g_out.IN1
+p_in2 => p_out.IN1
+g_out <= g_out.DB_MAX_OUTPUT_PORT_TYPE
+p_out <= p_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|kogge_stone_node:\inst5:11:inst5a
+g_in1 => g_out.IN0
+g_in2 => g_out.IN1
+p_in1 => p_out.IN0
+p_in2 => g_out.IN1
+p_in2 => p_out.IN1
+g_out <= g_out.DB_MAX_OUTPUT_PORT_TYPE
+p_out <= p_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|kogge_stone_node:\inst5:12:inst5a
+g_in1 => g_out.IN0
+g_in2 => g_out.IN1
+p_in1 => p_out.IN0
+p_in2 => g_out.IN1
+p_in2 => p_out.IN1
+g_out <= g_out.DB_MAX_OUTPUT_PORT_TYPE
+p_out <= p_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|kogge_stone_node:\inst5:13:inst5a
+g_in1 => g_out.IN0
+g_in2 => g_out.IN1
+p_in1 => p_out.IN0
+p_in2 => g_out.IN1
+p_in2 => p_out.IN1
+g_out <= g_out.DB_MAX_OUTPUT_PORT_TYPE
+p_out <= p_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|kogge_stone_node:\inst5:14:inst5a
+g_in1 => g_out.IN0
+g_in2 => g_out.IN1
+p_in1 => p_out.IN0
+p_in2 => g_out.IN1
+p_in2 => p_out.IN1
+g_out <= g_out.DB_MAX_OUTPUT_PORT_TYPE
+p_out <= p_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|kogge_stone_node:\inst5:15:inst5a
+g_in1 => g_out.IN0
+g_in2 => g_out.IN1
+p_in1 => p_out.IN0
+p_in2 => g_out.IN1
+p_in2 => p_out.IN1
+g_out <= g_out.DB_MAX_OUTPUT_PORT_TYPE
+p_out <= p_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|kogge_stone_node:\inst6:4:inst6a
+g_in1 => g_out.IN0
+g_in2 => g_out.IN1
+p_in1 => p_out.IN0
+p_in2 => g_out.IN1
+p_in2 => p_out.IN1
+g_out <= g_out.DB_MAX_OUTPUT_PORT_TYPE
+p_out <= p_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|kogge_stone_node:\inst6:5:inst6a
+g_in1 => g_out.IN0
+g_in2 => g_out.IN1
+p_in1 => p_out.IN0
+p_in2 => g_out.IN1
+p_in2 => p_out.IN1
+g_out <= g_out.DB_MAX_OUTPUT_PORT_TYPE
+p_out <= p_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|kogge_stone_node:\inst6:6:inst6a
+g_in1 => g_out.IN0
+g_in2 => g_out.IN1
+p_in1 => p_out.IN0
+p_in2 => g_out.IN1
+p_in2 => p_out.IN1
+g_out <= g_out.DB_MAX_OUTPUT_PORT_TYPE
+p_out <= p_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|kogge_stone_node:\inst6:7:inst6a
+g_in1 => g_out.IN0
+g_in2 => g_out.IN1
+p_in1 => p_out.IN0
+p_in2 => g_out.IN1
+p_in2 => p_out.IN1
+g_out <= g_out.DB_MAX_OUTPUT_PORT_TYPE
+p_out <= p_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|kogge_stone_node:\inst6:8:inst6a
+g_in1 => g_out.IN0
+g_in2 => g_out.IN1
+p_in1 => p_out.IN0
+p_in2 => g_out.IN1
+p_in2 => p_out.IN1
+g_out <= g_out.DB_MAX_OUTPUT_PORT_TYPE
+p_out <= p_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|kogge_stone_node:\inst6:9:inst6a
+g_in1 => g_out.IN0
+g_in2 => g_out.IN1
+p_in1 => p_out.IN0
+p_in2 => g_out.IN1
+p_in2 => p_out.IN1
+g_out <= g_out.DB_MAX_OUTPUT_PORT_TYPE
+p_out <= p_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|kogge_stone_node:\inst6:10:inst6a
+g_in1 => g_out.IN0
+g_in2 => g_out.IN1
+p_in1 => p_out.IN0
+p_in2 => g_out.IN1
+p_in2 => p_out.IN1
+g_out <= g_out.DB_MAX_OUTPUT_PORT_TYPE
+p_out <= p_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|kogge_stone_node:\inst6:11:inst6a
+g_in1 => g_out.IN0
+g_in2 => g_out.IN1
+p_in1 => p_out.IN0
+p_in2 => g_out.IN1
+p_in2 => p_out.IN1
+g_out <= g_out.DB_MAX_OUTPUT_PORT_TYPE
+p_out <= p_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|kogge_stone_node:\inst6:12:inst6a
+g_in1 => g_out.IN0
+g_in2 => g_out.IN1
+p_in1 => p_out.IN0
+p_in2 => g_out.IN1
+p_in2 => p_out.IN1
+g_out <= g_out.DB_MAX_OUTPUT_PORT_TYPE
+p_out <= p_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|kogge_stone_node:\inst6:13:inst6a
+g_in1 => g_out.IN0
+g_in2 => g_out.IN1
+p_in1 => p_out.IN0
+p_in2 => g_out.IN1
+p_in2 => p_out.IN1
+g_out <= g_out.DB_MAX_OUTPUT_PORT_TYPE
+p_out <= p_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|kogge_stone_node:\inst6:14:inst6a
+g_in1 => g_out.IN0
+g_in2 => g_out.IN1
+p_in1 => p_out.IN0
+p_in2 => g_out.IN1
+p_in2 => p_out.IN1
+g_out <= g_out.DB_MAX_OUTPUT_PORT_TYPE
+p_out <= p_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|kogge_stone_node:\inst6:15:inst6a
+g_in1 => g_out.IN0
+g_in2 => g_out.IN1
+p_in1 => p_out.IN0
+p_in2 => g_out.IN1
+p_in2 => p_out.IN1
+g_out <= g_out.DB_MAX_OUTPUT_PORT_TYPE
+p_out <= p_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|kogge_stone_node:\inst7:8:inst7a
+g_in1 => g_out.IN0
+g_in2 => g_out.IN1
+p_in1 => p_out.IN0
+p_in2 => g_out.IN1
+p_in2 => p_out.IN1
+g_out <= g_out.DB_MAX_OUTPUT_PORT_TYPE
+p_out <= p_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|kogge_stone_node:\inst7:9:inst7a
+g_in1 => g_out.IN0
+g_in2 => g_out.IN1
+p_in1 => p_out.IN0
+p_in2 => g_out.IN1
+p_in2 => p_out.IN1
+g_out <= g_out.DB_MAX_OUTPUT_PORT_TYPE
+p_out <= p_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|kogge_stone_node:\inst7:10:inst7a
+g_in1 => g_out.IN0
+g_in2 => g_out.IN1
+p_in1 => p_out.IN0
+p_in2 => g_out.IN1
+p_in2 => p_out.IN1
+g_out <= g_out.DB_MAX_OUTPUT_PORT_TYPE
+p_out <= p_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|kogge_stone_node:\inst7:11:inst7a
+g_in1 => g_out.IN0
+g_in2 => g_out.IN1
+p_in1 => p_out.IN0
+p_in2 => g_out.IN1
+p_in2 => p_out.IN1
+g_out <= g_out.DB_MAX_OUTPUT_PORT_TYPE
+p_out <= p_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|kogge_stone_node:\inst7:12:inst7a
+g_in1 => g_out.IN0
+g_in2 => g_out.IN1
+p_in1 => p_out.IN0
+p_in2 => g_out.IN1
+p_in2 => p_out.IN1
+g_out <= g_out.DB_MAX_OUTPUT_PORT_TYPE
+p_out <= p_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|kogge_stone_node:\inst7:13:inst7a
+g_in1 => g_out.IN0
+g_in2 => g_out.IN1
+p_in1 => p_out.IN0
+p_in2 => g_out.IN1
+p_in2 => p_out.IN1
+g_out <= g_out.DB_MAX_OUTPUT_PORT_TYPE
+p_out <= p_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|kogge_stone_node:\inst7:14:inst7a
+g_in1 => g_out.IN0
+g_in2 => g_out.IN1
+p_in1 => p_out.IN0
+p_in2 => g_out.IN1
+p_in2 => p_out.IN1
+g_out <= g_out.DB_MAX_OUTPUT_PORT_TYPE
+p_out <= p_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|kogge_stone_node:\inst7:15:inst7a
+g_in1 => g_out.IN0
+g_in2 => g_out.IN1
+p_in1 => p_out.IN0
+p_in2 => g_out.IN1
+p_in2 => p_out.IN1
+g_out <= g_out.DB_MAX_OUTPUT_PORT_TYPE
+p_out <= p_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|postprocessing:inst8
+G[0] => C_buff.IN1
+G[1] => C_buff.IN1
+G[2] => C_buff.IN1
+G[3] => C_buff.IN1
+G[4] => C_buff.IN1
+G[5] => C_buff.IN1
+G[6] => C_buff.IN1
+G[7] => C_buff.IN1
+G[8] => C_buff.IN1
+G[9] => C_buff.IN1
+G[10] => C_buff.IN1
+G[11] => C_buff.IN1
+G[12] => C_buff.IN1
+G[13] => C_buff.IN1
+G[14] => C_buff.IN1
+G[15] => C_buff.IN1
+P[0] => S.IN0
+P[0] => C_buff.IN0
+P[1] => C_buff.IN1
+P[2] => C_buff.IN1
+P[3] => C_buff.IN1
+P[4] => C_buff.IN1
+P[5] => C_buff.IN1
+P[6] => C_buff.IN1
+P[7] => C_buff.IN1
+P[8] => C_buff.IN1
+P[9] => C_buff.IN1
+P[10] => C_buff.IN1
+P[11] => C_buff.IN1
+P[12] => C_buff.IN1
+P[13] => C_buff.IN1
+P[14] => C_buff.IN1
+P[15] => C_buff.IN1
+P_or[0] => ~NO_FANOUT~
+P_or[1] => S.IN1
+P_or[2] => S.IN1
+P_or[3] => S.IN1
+P_or[4] => S.IN1
+P_or[5] => S.IN1
+P_or[6] => S.IN1
+P_or[7] => S.IN1
+P_or[8] => S.IN1
+P_or[9] => S.IN1
+P_or[10] => S.IN1
+P_or[11] => S.IN1
+P_or[12] => S.IN1
+P_or[13] => S.IN1
+P_or[14] => S.IN1
+P_or[15] => S.IN1
+Cin => S.IN1
+Cin => C_buff.IN1
+C[1] <= C_buff.DB_MAX_OUTPUT_PORT_TYPE
+C[2] <= C_buff.DB_MAX_OUTPUT_PORT_TYPE
+C[3] <= C_buff.DB_MAX_OUTPUT_PORT_TYPE
+C[4] <= C_buff.DB_MAX_OUTPUT_PORT_TYPE
+C[5] <= C_buff.DB_MAX_OUTPUT_PORT_TYPE
+C[6] <= C_buff.DB_MAX_OUTPUT_PORT_TYPE
+C[7] <= C_buff.DB_MAX_OUTPUT_PORT_TYPE
+C[8] <= C_buff.DB_MAX_OUTPUT_PORT_TYPE
+C[9] <= C_buff.DB_MAX_OUTPUT_PORT_TYPE
+C[10] <= C_buff.DB_MAX_OUTPUT_PORT_TYPE
+C[11] <= C_buff.DB_MAX_OUTPUT_PORT_TYPE
+C[12] <= C_buff.DB_MAX_OUTPUT_PORT_TYPE
+C[13] <= C_buff.DB_MAX_OUTPUT_PORT_TYPE
+C[14] <= C_buff.DB_MAX_OUTPUT_PORT_TYPE
+C[15] <= C_buff.DB_MAX_OUTPUT_PORT_TYPE
+C[16] <= C_buff.DB_MAX_OUTPUT_PORT_TYPE
+S[0] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[1] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[2] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[3] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[4] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[5] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[6] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[7] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[8] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[9] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[10] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[11] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[12] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[13] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[14] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[15] <= S.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|Array_Multiplier:multiplier
+x[0] => p.IN0
+x[0] => ppk1_1.IN0
+x[0] => ppk1_2.IN0
+x[0] => ppk1_3.IN0
+x[1] => Array_Multiplier_Node:Node1_1.xi
+x[1] => Array_Multiplier_Node:Node1_2.xi
+x[1] => Array_Multiplier_Node:Node1_3.xi
+x[1] => Array_Multiplier_Node:Node1_4.xi
+x[2] => Array_Multiplier_Node:Node2_1.xi
+x[2] => Array_Multiplier_Node:Node2_2.xi
+x[2] => Array_Multiplier_Node:Node2_3.xi
+x[2] => Array_Multiplier_Node:Node2_4.xi
+x[3] => Array_Multiplier_Node:Node3_1.xi
+x[3] => Array_Multiplier_Node:Node3_2.xi
+x[3] => Array_Multiplier_Node:Node3_3.xi
+x[3] => Array_Multiplier_Node:Node3_4.xi
+x[4] => ~NO_FANOUT~
+x[5] => ~NO_FANOUT~
+x[6] => ~NO_FANOUT~
+x[7] => ~NO_FANOUT~
+x[8] => ~NO_FANOUT~
+x[9] => ~NO_FANOUT~
+x[10] => ~NO_FANOUT~
+x[11] => ~NO_FANOUT~
+x[12] => ~NO_FANOUT~
+x[13] => ~NO_FANOUT~
+x[14] => ~NO_FANOUT~
+x[15] => ~NO_FANOUT~
+y[0] => p.IN1
+y[0] => Array_Multiplier_Node:Node1_1.yj
+y[0] => Array_Multiplier_Node:Node2_1.yj
+y[0] => Array_Multiplier_Node:Node3_1.yj
+y[1] => ppk1_1.IN1
+y[1] => Array_Multiplier_Node:Node1_2.yj
+y[1] => Array_Multiplier_Node:Node2_2.yj
+y[1] => Array_Multiplier_Node:Node3_2.yj
+y[2] => ppk1_2.IN1
+y[2] => Array_Multiplier_Node:Node1_3.yj
+y[2] => Array_Multiplier_Node:Node2_3.yj
+y[2] => Array_Multiplier_Node:Node3_3.yj
+y[3] => ppk1_3.IN1
+y[3] => Array_Multiplier_Node:Node1_4.yj
+y[3] => Array_Multiplier_Node:Node2_4.yj
+y[3] => Array_Multiplier_Node:Node3_4.yj
+y[4] => ~NO_FANOUT~
+y[5] => ~NO_FANOUT~
+y[6] => ~NO_FANOUT~
+y[7] => ~NO_FANOUT~
+y[8] => ~NO_FANOUT~
+y[9] => ~NO_FANOUT~
+y[10] => ~NO_FANOUT~
+y[11] => ~NO_FANOUT~
+y[12] => ~NO_FANOUT~
+y[13] => ~NO_FANOUT~
+y[14] => ~NO_FANOUT~
+y[15] => ~NO_FANOUT~
+p[0] <= p.DB_MAX_OUTPUT_PORT_TYPE
+p[1] <= Array_Multiplier_Node:Node1_1.Ppk_1
+p[2] <= Array_Multiplier_Node:Node2_1.Ppk_1
+p[3] <= Array_Multiplier_Node:Node3_1.Ppk_1
+p[4] <= Full_Adder:FA4_1.s
+p[5] <= Full_Adder:FA4_2.s
+p[6] <= Full_Adder:FA4_3.s
+p[7] <= Full_Adder:FA4_4.s
+
+
+|ALU|Array_Multiplier:multiplier|Array_Multiplier_Node:Node1_1
+Ppk => Full_Adder:instFA.a
+yj => s1.IN0
+xi => s1.IN1
+ci => Full_Adder:instFA.c
+Ppk_1 <= Full_Adder:instFA.s
+co <= Full_Adder:instFA.cout
+
+
+|ALU|Array_Multiplier:multiplier|Array_Multiplier_Node:Node1_1|Full_Adder:instFA
+a => s.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+c => s.IN1
+c => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|Array_Multiplier:multiplier|Array_Multiplier_Node:Node1_2
+Ppk => Full_Adder:instFA.a
+yj => s1.IN0
+xi => s1.IN1
+ci => Full_Adder:instFA.c
+Ppk_1 <= Full_Adder:instFA.s
+co <= Full_Adder:instFA.cout
+
+
+|ALU|Array_Multiplier:multiplier|Array_Multiplier_Node:Node1_2|Full_Adder:instFA
+a => s.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+c => s.IN1
+c => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|Array_Multiplier:multiplier|Array_Multiplier_Node:Node1_3
+Ppk => Full_Adder:instFA.a
+yj => s1.IN0
+xi => s1.IN1
+ci => Full_Adder:instFA.c
+Ppk_1 <= Full_Adder:instFA.s
+co <= Full_Adder:instFA.cout
+
+
+|ALU|Array_Multiplier:multiplier|Array_Multiplier_Node:Node1_3|Full_Adder:instFA
+a => s.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+c => s.IN1
+c => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|Array_Multiplier:multiplier|Array_Multiplier_Node:Node1_4
+Ppk => Full_Adder:instFA.a
+yj => s1.IN0
+xi => s1.IN1
+ci => Full_Adder:instFA.c
+Ppk_1 <= Full_Adder:instFA.s
+co <= Full_Adder:instFA.cout
+
+
+|ALU|Array_Multiplier:multiplier|Array_Multiplier_Node:Node1_4|Full_Adder:instFA
+a => s.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+c => s.IN1
+c => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|Array_Multiplier:multiplier|Array_Multiplier_Node:Node2_1
+Ppk => Full_Adder:instFA.a
+yj => s1.IN0
+xi => s1.IN1
+ci => Full_Adder:instFA.c
+Ppk_1 <= Full_Adder:instFA.s
+co <= Full_Adder:instFA.cout
+
+
+|ALU|Array_Multiplier:multiplier|Array_Multiplier_Node:Node2_1|Full_Adder:instFA
+a => s.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+c => s.IN1
+c => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|Array_Multiplier:multiplier|Array_Multiplier_Node:Node2_2
+Ppk => Full_Adder:instFA.a
+yj => s1.IN0
+xi => s1.IN1
+ci => Full_Adder:instFA.c
+Ppk_1 <= Full_Adder:instFA.s
+co <= Full_Adder:instFA.cout
+
+
+|ALU|Array_Multiplier:multiplier|Array_Multiplier_Node:Node2_2|Full_Adder:instFA
+a => s.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+c => s.IN1
+c => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|Array_Multiplier:multiplier|Array_Multiplier_Node:Node2_3
+Ppk => Full_Adder:instFA.a
+yj => s1.IN0
+xi => s1.IN1
+ci => Full_Adder:instFA.c
+Ppk_1 <= Full_Adder:instFA.s
+co <= Full_Adder:instFA.cout
+
+
+|ALU|Array_Multiplier:multiplier|Array_Multiplier_Node:Node2_3|Full_Adder:instFA
+a => s.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+c => s.IN1
+c => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|Array_Multiplier:multiplier|Array_Multiplier_Node:Node2_4
+Ppk => Full_Adder:instFA.a
+yj => s1.IN0
+xi => s1.IN1
+ci => Full_Adder:instFA.c
+Ppk_1 <= Full_Adder:instFA.s
+co <= Full_Adder:instFA.cout
+
+
+|ALU|Array_Multiplier:multiplier|Array_Multiplier_Node:Node2_4|Full_Adder:instFA
+a => s.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+c => s.IN1
+c => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|Array_Multiplier:multiplier|Array_Multiplier_Node:Node3_1
+Ppk => Full_Adder:instFA.a
+yj => s1.IN0
+xi => s1.IN1
+ci => Full_Adder:instFA.c
+Ppk_1 <= Full_Adder:instFA.s
+co <= Full_Adder:instFA.cout
+
+
+|ALU|Array_Multiplier:multiplier|Array_Multiplier_Node:Node3_1|Full_Adder:instFA
+a => s.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+c => s.IN1
+c => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|Array_Multiplier:multiplier|Array_Multiplier_Node:Node3_2
+Ppk => Full_Adder:instFA.a
+yj => s1.IN0
+xi => s1.IN1
+ci => Full_Adder:instFA.c
+Ppk_1 <= Full_Adder:instFA.s
+co <= Full_Adder:instFA.cout
+
+
+|ALU|Array_Multiplier:multiplier|Array_Multiplier_Node:Node3_2|Full_Adder:instFA
+a => s.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+c => s.IN1
+c => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|Array_Multiplier:multiplier|Array_Multiplier_Node:Node3_3
+Ppk => Full_Adder:instFA.a
+yj => s1.IN0
+xi => s1.IN1
+ci => Full_Adder:instFA.c
+Ppk_1 <= Full_Adder:instFA.s
+co <= Full_Adder:instFA.cout
+
+
+|ALU|Array_Multiplier:multiplier|Array_Multiplier_Node:Node3_3|Full_Adder:instFA
+a => s.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+c => s.IN1
+c => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|Array_Multiplier:multiplier|Array_Multiplier_Node:Node3_4
+Ppk => Full_Adder:instFA.a
+yj => s1.IN0
+xi => s1.IN1
+ci => Full_Adder:instFA.c
+Ppk_1 <= Full_Adder:instFA.s
+co <= Full_Adder:instFA.cout
+
+
+|ALU|Array_Multiplier:multiplier|Array_Multiplier_Node:Node3_4|Full_Adder:instFA
+a => s.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+c => s.IN1
+c => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|Array_Multiplier:multiplier|Full_Adder:FA4_1
+a => s.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+c => s.IN1
+c => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|Array_Multiplier:multiplier|Full_Adder:FA4_2
+a => s.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+c => s.IN1
+c => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|Array_Multiplier:multiplier|Full_Adder:FA4_3
+a => s.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+c => s.IN1
+c => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|Array_Multiplier:multiplier|Full_Adder:FA4_4
+a => s.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+c => s.IN1
+c => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|OR_16:or16
+a[0] => c.IN0
+a[1] => c.IN0
+a[2] => c.IN0
+a[3] => c.IN0
+a[4] => c.IN0
+a[5] => c.IN0
+a[6] => c.IN0
+a[7] => c.IN0
+a[8] => c.IN0
+a[9] => c.IN0
+a[10] => c.IN0
+a[11] => c.IN0
+a[12] => c.IN0
+a[13] => c.IN0
+a[14] => c.IN0
+a[15] => c.IN0
+b[0] => c.IN1
+b[1] => c.IN1
+b[2] => c.IN1
+b[3] => c.IN1
+b[4] => c.IN1
+b[5] => c.IN1
+b[6] => c.IN1
+b[7] => c.IN1
+b[8] => c.IN1
+b[9] => c.IN1
+b[10] => c.IN1
+b[11] => c.IN1
+b[12] => c.IN1
+b[13] => c.IN1
+b[14] => c.IN1
+b[15] => c.IN1
+c[0] <= c.DB_MAX_OUTPUT_PORT_TYPE
+c[1] <= c.DB_MAX_OUTPUT_PORT_TYPE
+c[2] <= c.DB_MAX_OUTPUT_PORT_TYPE
+c[3] <= c.DB_MAX_OUTPUT_PORT_TYPE
+c[4] <= c.DB_MAX_OUTPUT_PORT_TYPE
+c[5] <= c.DB_MAX_OUTPUT_PORT_TYPE
+c[6] <= c.DB_MAX_OUTPUT_PORT_TYPE
+c[7] <= c.DB_MAX_OUTPUT_PORT_TYPE
+c[8] <= c.DB_MAX_OUTPUT_PORT_TYPE
+c[9] <= c.DB_MAX_OUTPUT_PORT_TYPE
+c[10] <= c.DB_MAX_OUTPUT_PORT_TYPE
+c[11] <= c.DB_MAX_OUTPUT_PORT_TYPE
+c[12] <= c.DB_MAX_OUTPUT_PORT_TYPE
+c[13] <= c.DB_MAX_OUTPUT_PORT_TYPE
+c[14] <= c.DB_MAX_OUTPUT_PORT_TYPE
+c[15] <= c.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|AND_16:and16
+a[0] => c.IN0
+a[1] => c.IN0
+a[2] => c.IN0
+a[3] => c.IN0
+a[4] => c.IN0
+a[5] => c.IN0
+a[6] => c.IN0
+a[7] => c.IN0
+a[8] => c.IN0
+a[9] => c.IN0
+a[10] => c.IN0
+a[11] => c.IN0
+a[12] => c.IN0
+a[13] => c.IN0
+a[14] => c.IN0
+a[15] => c.IN0
+b[0] => c.IN1
+b[1] => c.IN1
+b[2] => c.IN1
+b[3] => c.IN1
+b[4] => c.IN1
+b[5] => c.IN1
+b[6] => c.IN1
+b[7] => c.IN1
+b[8] => c.IN1
+b[9] => c.IN1
+b[10] => c.IN1
+b[11] => c.IN1
+b[12] => c.IN1
+b[13] => c.IN1
+b[14] => c.IN1
+b[15] => c.IN1
+c[0] <= c.DB_MAX_OUTPUT_PORT_TYPE
+c[1] <= c.DB_MAX_OUTPUT_PORT_TYPE
+c[2] <= c.DB_MAX_OUTPUT_PORT_TYPE
+c[3] <= c.DB_MAX_OUTPUT_PORT_TYPE
+c[4] <= c.DB_MAX_OUTPUT_PORT_TYPE
+c[5] <= c.DB_MAX_OUTPUT_PORT_TYPE
+c[6] <= c.DB_MAX_OUTPUT_PORT_TYPE
+c[7] <= c.DB_MAX_OUTPUT_PORT_TYPE
+c[8] <= c.DB_MAX_OUTPUT_PORT_TYPE
+c[9] <= c.DB_MAX_OUTPUT_PORT_TYPE
+c[10] <= c.DB_MAX_OUTPUT_PORT_TYPE
+c[11] <= c.DB_MAX_OUTPUT_PORT_TYPE
+c[12] <= c.DB_MAX_OUTPUT_PORT_TYPE
+c[13] <= c.DB_MAX_OUTPUT_PORT_TYPE
+c[14] <= c.DB_MAX_OUTPUT_PORT_TYPE
+c[15] <= c.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|IMP_16:imp16
+a[0] => c.IN0
+a[1] => c.IN0
+a[2] => c.IN0
+a[3] => c.IN0
+a[4] => c.IN0
+a[5] => c.IN0
+a[6] => c.IN0
+a[7] => c.IN0
+a[8] => c.IN0
+a[9] => c.IN0
+a[10] => c.IN0
+a[11] => c.IN0
+a[12] => c.IN0
+a[13] => c.IN0
+a[14] => c.IN0
+a[15] => c.IN0
+b[0] => c.IN1
+b[1] => c.IN1
+b[2] => c.IN1
+b[3] => c.IN1
+b[4] => c.IN1
+b[5] => c.IN1
+b[6] => c.IN1
+b[7] => c.IN1
+b[8] => c.IN1
+b[9] => c.IN1
+b[10] => c.IN1
+b[11] => c.IN1
+b[12] => c.IN1
+b[13] => c.IN1
+b[14] => c.IN1
+b[15] => c.IN1
+c[0] <= c.DB_MAX_OUTPUT_PORT_TYPE
+c[1] <= c.DB_MAX_OUTPUT_PORT_TYPE
+c[2] <= c.DB_MAX_OUTPUT_PORT_TYPE
+c[3] <= c.DB_MAX_OUTPUT_PORT_TYPE
+c[4] <= c.DB_MAX_OUTPUT_PORT_TYPE
+c[5] <= c.DB_MAX_OUTPUT_PORT_TYPE
+c[6] <= c.DB_MAX_OUTPUT_PORT_TYPE
+c[7] <= c.DB_MAX_OUTPUT_PORT_TYPE
+c[8] <= c.DB_MAX_OUTPUT_PORT_TYPE
+c[9] <= c.DB_MAX_OUTPUT_PORT_TYPE
+c[10] <= c.DB_MAX_OUTPUT_PORT_TYPE
+c[11] <= c.DB_MAX_OUTPUT_PORT_TYPE
+c[12] <= c.DB_MAX_OUTPUT_PORT_TYPE
+c[13] <= c.DB_MAX_OUTPUT_PORT_TYPE
+c[14] <= c.DB_MAX_OUTPUT_PORT_TYPE
+c[15] <= c.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|mux_8x1_16bit:mux
+I7[0] => Mux15.IN0
+I7[1] => Mux14.IN0
+I7[2] => Mux13.IN0
+I7[3] => Mux12.IN0
+I7[4] => Mux11.IN0
+I7[5] => Mux10.IN0
+I7[6] => Mux9.IN0
+I7[7] => Mux8.IN0
+I7[8] => Mux7.IN0
+I7[9] => Mux6.IN0
+I7[10] => Mux5.IN0
+I7[11] => Mux4.IN0
+I7[12] => Mux3.IN0
+I7[13] => Mux2.IN0
+I7[14] => Mux1.IN0
+I7[15] => Mux0.IN0
+I6[0] => Mux15.IN1
+I6[1] => Mux14.IN1
+I6[2] => Mux13.IN1
+I6[3] => Mux12.IN1
+I6[4] => Mux11.IN1
+I6[5] => Mux10.IN1
+I6[6] => Mux9.IN1
+I6[7] => Mux8.IN1
+I6[8] => Mux7.IN1
+I6[9] => Mux6.IN1
+I6[10] => Mux5.IN1
+I6[11] => Mux4.IN1
+I6[12] => Mux3.IN1
+I6[13] => Mux2.IN1
+I6[14] => Mux1.IN1
+I6[15] => Mux0.IN1
+I5[0] => Mux15.IN2
+I5[1] => Mux14.IN2
+I5[2] => Mux13.IN2
+I5[3] => Mux12.IN2
+I5[4] => Mux11.IN2
+I5[5] => Mux10.IN2
+I5[6] => Mux9.IN2
+I5[7] => Mux8.IN2
+I5[8] => Mux7.IN2
+I5[9] => Mux6.IN2
+I5[10] => Mux5.IN2
+I5[11] => Mux4.IN2
+I5[12] => Mux3.IN2
+I5[13] => Mux2.IN2
+I5[14] => Mux1.IN2
+I5[15] => Mux0.IN2
+I4[0] => Mux15.IN3
+I4[1] => Mux14.IN3
+I4[2] => Mux13.IN3
+I4[3] => Mux12.IN3
+I4[4] => Mux11.IN3
+I4[5] => Mux10.IN3
+I4[6] => Mux9.IN3
+I4[7] => Mux8.IN3
+I4[8] => Mux7.IN3
+I4[9] => Mux6.IN3
+I4[10] => Mux5.IN3
+I4[11] => Mux4.IN3
+I4[12] => Mux3.IN3
+I4[13] => Mux2.IN3
+I4[14] => Mux1.IN3
+I4[15] => Mux0.IN3
+I3[0] => Mux15.IN4
+I3[1] => Mux14.IN4
+I3[2] => Mux13.IN4
+I3[3] => Mux12.IN4
+I3[4] => Mux11.IN4
+I3[5] => Mux10.IN4
+I3[6] => Mux9.IN4
+I3[7] => Mux8.IN4
+I3[8] => Mux7.IN4
+I3[9] => Mux6.IN4
+I3[10] => Mux5.IN4
+I3[11] => Mux4.IN4
+I3[12] => Mux3.IN4
+I3[13] => Mux2.IN4
+I3[14] => Mux1.IN4
+I3[15] => Mux0.IN4
+I2[0] => Mux15.IN5
+I2[1] => Mux14.IN5
+I2[2] => Mux13.IN5
+I2[3] => Mux12.IN5
+I2[4] => Mux11.IN5
+I2[5] => Mux10.IN5
+I2[6] => Mux9.IN5
+I2[7] => Mux8.IN5
+I2[8] => Mux7.IN5
+I2[9] => Mux6.IN5
+I2[10] => Mux5.IN5
+I2[11] => Mux4.IN5
+I2[12] => Mux3.IN5
+I2[13] => Mux2.IN5
+I2[14] => Mux1.IN5
+I2[15] => Mux0.IN5
+I1[0] => Mux15.IN6
+I1[1] => Mux14.IN6
+I1[2] => Mux13.IN6
+I1[3] => Mux12.IN6
+I1[4] => Mux11.IN6
+I1[5] => Mux10.IN6
+I1[6] => Mux9.IN6
+I1[7] => Mux8.IN6
+I1[8] => Mux7.IN6
+I1[9] => Mux6.IN6
+I1[10] => Mux5.IN6
+I1[11] => Mux4.IN6
+I1[12] => Mux3.IN6
+I1[13] => Mux2.IN6
+I1[14] => Mux1.IN6
+I1[15] => Mux0.IN6
+I0[0] => Mux15.IN7
+I0[1] => Mux14.IN7
+I0[2] => Mux13.IN7
+I0[3] => Mux12.IN7
+I0[4] => Mux11.IN7
+I0[5] => Mux10.IN7
+I0[6] => Mux9.IN7
+I0[7] => Mux8.IN7
+I0[8] => Mux7.IN7
+I0[9] => Mux6.IN7
+I0[10] => Mux5.IN7
+I0[11] => Mux4.IN7
+I0[12] => Mux3.IN7
+I0[13] => Mux2.IN7
+I0[14] => Mux1.IN7
+I0[15] => Mux0.IN7
+S[0] => Mux0.IN10
+S[0] => Mux1.IN10
+S[0] => Mux2.IN10
+S[0] => Mux3.IN10
+S[0] => Mux4.IN10
+S[0] => Mux5.IN10
+S[0] => Mux6.IN10
+S[0] => Mux7.IN10
+S[0] => Mux8.IN10
+S[0] => Mux9.IN10
+S[0] => Mux10.IN10
+S[0] => Mux11.IN10
+S[0] => Mux12.IN10
+S[0] => Mux13.IN10
+S[0] => Mux14.IN10
+S[0] => Mux15.IN10
+S[1] => Mux0.IN9
+S[1] => Mux1.IN9
+S[1] => Mux2.IN9
+S[1] => Mux3.IN9
+S[1] => Mux4.IN9
+S[1] => Mux5.IN9
+S[1] => Mux6.IN9
+S[1] => Mux7.IN9
+S[1] => Mux8.IN9
+S[1] => Mux9.IN9
+S[1] => Mux10.IN9
+S[1] => Mux11.IN9
+S[1] => Mux12.IN9
+S[1] => Mux13.IN9
+S[1] => Mux14.IN9
+S[1] => Mux15.IN9
+S[2] => Mux0.IN8
+S[2] => Mux1.IN8
+S[2] => Mux2.IN8
+S[2] => Mux3.IN8
+S[2] => Mux4.IN8
+S[2] => Mux5.IN8
+S[2] => Mux6.IN8
+S[2] => Mux7.IN8
+S[2] => Mux8.IN8
+S[2] => Mux9.IN8
+S[2] => Mux10.IN8
+S[2] => Mux11.IN8
+S[2] => Mux12.IN8
+S[2] => Mux13.IN8
+S[2] => Mux14.IN8
+S[2] => Mux15.IN8
+Y[0] <= Mux15.DB_MAX_OUTPUT_PORT_TYPE
+Y[1] <= Mux14.DB_MAX_OUTPUT_PORT_TYPE
+Y[2] <= Mux13.DB_MAX_OUTPUT_PORT_TYPE
+Y[3] <= Mux12.DB_MAX_OUTPUT_PORT_TYPE
+Y[4] <= Mux11.DB_MAX_OUTPUT_PORT_TYPE
+Y[5] <= Mux10.DB_MAX_OUTPUT_PORT_TYPE
+Y[6] <= Mux9.DB_MAX_OUTPUT_PORT_TYPE
+Y[7] <= Mux8.DB_MAX_OUTPUT_PORT_TYPE
+Y[8] <= Mux7.DB_MAX_OUTPUT_PORT_TYPE
+Y[9] <= Mux6.DB_MAX_OUTPUT_PORT_TYPE
+Y[10] <= Mux5.DB_MAX_OUTPUT_PORT_TYPE
+Y[11] <= Mux4.DB_MAX_OUTPUT_PORT_TYPE
+Y[12] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+Y[13] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+Y[14] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+Y[15] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+

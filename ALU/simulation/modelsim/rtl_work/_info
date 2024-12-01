@@ -1,0 +1,570 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/Semester_3/Digital Systems/Project_Part_B/ALU/simulation/modelsim
+Ealu
+Z1 w1733040487
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8E:/Semester_3/Digital Systems/Project_Part_B/ALU/ALU.vhd
+Z5 FE:/Semester_3/Digital Systems/Project_Part_B/ALU/ALU.vhd
+l0
+L4
+VHIE?Kc@YQOidhQ@ZiUDC`1
+!s100 Ycb8MbiY4B0nGfMa>m>Yn1
+Z6 OV;C;10.5b;63
+31
+Z7 !s110 1733040780
+!i10b 1
+Z8 !s108 1733040780.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|E:/Semester_3/Digital Systems/Project_Part_B/ALU/ALU.vhd|
+Z10 !s107 E:/Semester_3/Digital Systems/Project_Part_B/ALU/ALU.vhd|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Astr
+R2
+R3
+DEx4 work 3 alu 0 22 HIE?Kc@YQOidhQ@ZiUDC`1
+l54
+L11
+VHzDC5OjYWZISP]AR7CmFJ3
+!s100 LDDI[]zFZ>z<dcL1^G2d51
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Ealu_testbench
+Z13 w1733040759
+Z14 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R2
+R3
+R0
+Z15 8E:/Semester_3/Digital Systems/Project_Part_B/ALU/ALU_testbench.vhd
+Z16 FE:/Semester_3/Digital Systems/Project_Part_B/ALU/ALU_testbench.vhd
+l0
+L5
+V9VI`jbURgHfH1dAc6o[Lg1
+!s100 k5RF>;XW<2?zo<hf=Ae1K3
+R6
+31
+R7
+!i10b 1
+R8
+Z17 !s90 -reportprogress|300|-93|-work|work|E:/Semester_3/Digital Systems/Project_Part_B/ALU/ALU_testbench.vhd|
+Z18 !s107 E:/Semester_3/Digital Systems/Project_Part_B/ALU/ALU_testbench.vhd|
+!i113 1
+R11
+R12
+Astr
+R14
+R2
+R3
+DEx4 work 13 alu_testbench 0 22 9VI`jbURgHfH1dAc6o[Lg1
+l21
+L8
+VB4KYXEc`WzQNF<:[Y[k450
+!s100 Fo;Fk`GNUCb64AmZSZPST3
+R6
+31
+R7
+!i10b 1
+R8
+R17
+R18
+!i113 1
+R11
+R12
+Eand_16
+Z19 w1732877222
+R2
+R3
+R0
+Z20 8E:/Semester_3/Digital Systems/Project_Part_B/ALU/And_16.vhd
+Z21 FE:/Semester_3/Digital Systems/Project_Part_B/ALU/And_16.vhd
+l0
+L4
+VbH:U:Mg70AfjM9zgFBiYJ0
+!s100 gKcC3^=L[L]@AgREgKh4b0
+R6
+31
+R7
+!i10b 1
+R8
+Z22 !s90 -reportprogress|300|-93|-work|work|E:/Semester_3/Digital Systems/Project_Part_B/ALU/And_16.vhd|
+Z23 !s107 E:/Semester_3/Digital Systems/Project_Part_B/ALU/And_16.vhd|
+!i113 1
+R11
+R12
+Astr
+R2
+R3
+DEx4 work 6 and_16 0 22 bH:U:Mg70AfjM9zgFBiYJ0
+l11
+L10
+VEUfefd5OH[klC:2:IJf:h0
+!s100 6z;EbVai__56D_g`;KXoX3
+R6
+31
+R7
+!i10b 1
+R8
+R22
+R23
+!i113 1
+R11
+R12
+Earray_multiplier
+Z24 w1732808632
+R2
+R3
+R0
+Z25 8E:/Semester_3/Digital Systems/Project_Part_B/ALU/Array_Multiplier.vhd
+Z26 FE:/Semester_3/Digital Systems/Project_Part_B/ALU/Array_Multiplier.vhd
+l0
+L4
+V[60[c<KMj73ohOW>f3ei=0
+!s100 <KO<C^V3cVM2I;i_kZ`b<2
+R6
+31
+R7
+!i10b 1
+Z27 !s108 1733040779.000000
+Z28 !s90 -reportprogress|300|-93|-work|work|E:/Semester_3/Digital Systems/Project_Part_B/ALU/Array_Multiplier.vhd|
+Z29 !s107 E:/Semester_3/Digital Systems/Project_Part_B/ALU/Array_Multiplier.vhd|
+!i113 1
+R11
+R12
+Astruct2
+R2
+R3
+DEx4 work 16 array_multiplier 0 22 [60[c<KMj73ohOW>f3ei=0
+l26
+L10
+V^6T:@mCe1bgm6O=JJnlJ52
+!s100 MB^Fl`^jnUF2C9gmGbhC83
+R6
+31
+R7
+!i10b 1
+R27
+R28
+R29
+!i113 1
+R11
+R12
+Earray_multiplier_node
+Z30 w1732808462
+R2
+R3
+R0
+Z31 8E:/Semester_3/Digital Systems/Project_Part_B/ALU/Array_Multiplier_Node.vhd
+Z32 FE:/Semester_3/Digital Systems/Project_Part_B/ALU/Array_Multiplier_Node.vhd
+l0
+L4
+Vfl8Z7[AaTzkLz=0^M_AQA2
+!s100 B`o?8iM_P:aCV:VS`mmol1
+R6
+31
+Z33 !s110 1733040779
+!i10b 1
+R27
+Z34 !s90 -reportprogress|300|-93|-work|work|E:/Semester_3/Digital Systems/Project_Part_B/ALU/Array_Multiplier_Node.vhd|
+Z35 !s107 E:/Semester_3/Digital Systems/Project_Part_B/ALU/Array_Multiplier_Node.vhd|
+!i113 1
+R11
+R12
+Astruct1
+R2
+R3
+DEx4 work 21 array_multiplier_node 0 22 fl8Z7[AaTzkLz=0^M_AQA2
+l16
+L10
+V@UmYIEWRcS98;<cAEZgf60
+!s100 GgE0_DBhHP0SFeW2;bB6[1
+R6
+31
+R33
+!i10b 1
+R27
+R34
+R35
+!i113 1
+R11
+R12
+Efull_adder
+Z36 w1732806349
+R2
+R3
+R0
+Z37 8E:/Semester_3/Digital Systems/Project_Part_B/ALU/Full_Adder.vhd
+Z38 FE:/Semester_3/Digital Systems/Project_Part_B/ALU/Full_Adder.vhd
+l0
+L4
+VWCY^HbCc61k4VfJAG61e03
+!s100 0GAJL]3YV45:Ro?KO:Dfl0
+R6
+31
+R33
+!i10b 1
+R27
+Z39 !s90 -reportprogress|300|-93|-work|work|E:/Semester_3/Digital Systems/Project_Part_B/ALU/Full_Adder.vhd|
+Z40 !s107 E:/Semester_3/Digital Systems/Project_Part_B/ALU/Full_Adder.vhd|
+!i113 1
+R11
+R12
+Astruct
+R2
+R3
+DEx4 work 10 full_adder 0 22 WCY^HbCc61k4VfJAG61e03
+l10
+L9
+VIQZi@^Z3oiDgIHK[J<SNV1
+!s100 d44l8mICUfRoAmWY;kM[@3
+R6
+31
+R33
+!i10b 1
+R27
+R39
+R40
+!i113 1
+R11
+R12
+Eimp_16
+Z41 w1732877325
+R2
+R3
+R0
+Z42 8E:/Semester_3/Digital Systems/Project_Part_B/ALU/Imp_16.vhd
+Z43 FE:/Semester_3/Digital Systems/Project_Part_B/ALU/Imp_16.vhd
+l0
+L4
+VT4Ybg8_e^MVaO5aI:Y8e[2
+!s100 2WL:BQAe1GFZMXnb=Said3
+R6
+31
+R33
+!i10b 1
+R27
+Z44 !s90 -reportprogress|300|-93|-work|work|E:/Semester_3/Digital Systems/Project_Part_B/ALU/Imp_16.vhd|
+Z45 !s107 E:/Semester_3/Digital Systems/Project_Part_B/ALU/Imp_16.vhd|
+!i113 1
+R11
+R12
+Astr
+R2
+R3
+DEx4 work 6 imp_16 0 22 T4Ybg8_e^MVaO5aI:Y8e[2
+l11
+L10
+VYC;LWbi3W:^O3<CXQ3QN60
+!s100 VjF[`Gf:dzeN;8?8=E8lM0
+R6
+31
+R33
+!i10b 1
+R27
+R44
+R45
+!i113 1
+R11
+R12
+Ekogge_stone
+Z46 w1733032349
+R14
+R2
+R3
+R0
+Z47 8E:/Semester_3/Digital Systems/Project_Part_B/ALU/kogge_stone.vhd
+Z48 FE:/Semester_3/Digital Systems/Project_Part_B/ALU/kogge_stone.vhd
+l0
+L5
+Vc4TJQUloFk]=HOXF;FaJO3
+!s100 i5]G^T_7gK>kh7M?1l3NZ0
+R6
+31
+R33
+!i10b 1
+R27
+Z49 !s90 -reportprogress|300|-93|-work|work|E:/Semester_3/Digital Systems/Project_Part_B/ALU/kogge_stone.vhd|
+Z50 !s107 E:/Semester_3/Digital Systems/Project_Part_B/ALU/kogge_stone.vhd|
+!i113 1
+R11
+R12
+Abehav
+R14
+R2
+R3
+DEx4 work 11 kogge_stone 0 22 c4TJQUloFk]=HOXF;FaJO3
+l39
+L15
+VFM@i=md<;MG]nL33B5IEG1
+!s100 >JKHi9==Sj94?bFNa@5n81
+R6
+31
+R33
+!i10b 1
+R27
+R49
+R50
+!i113 1
+R11
+R12
+Ekogge_stone_adder_subtractor
+Z51 w1733033677
+R14
+R2
+R3
+R0
+Z52 8E:/Semester_3/Digital Systems/Project_Part_B/ALU/Kogge_stone_adder_subtractor.vhd
+Z53 FE:/Semester_3/Digital Systems/Project_Part_B/ALU/Kogge_stone_adder_subtractor.vhd
+l0
+L5
+VfE_bVjG]6ackWfcohB`Oz0
+!s100 f[O9D6i[L6DVGO3Ddn_f;0
+R6
+31
+R33
+!i10b 1
+R27
+Z54 !s90 -reportprogress|300|-93|-work|work|E:/Semester_3/Digital Systems/Project_Part_B/ALU/Kogge_stone_adder_subtractor.vhd|
+Z55 !s107 E:/Semester_3/Digital Systems/Project_Part_B/ALU/Kogge_stone_adder_subtractor.vhd|
+!i113 1
+R11
+R12
+Astr
+R14
+R2
+R3
+DEx4 work 28 kogge_stone_adder_subtractor 0 22 fE_bVjG]6ackWfcohB`Oz0
+l25
+L14
+V2@h1eR@<OeZ9Be?lHOZN82
+!s100 kkMb>F]cH3XOB@Q6?IzK81
+R6
+31
+R33
+!i10b 1
+R27
+R54
+R55
+!i113 1
+R11
+R12
+Ekogge_stone_node
+Z56 w1732988661
+R14
+R2
+R3
+R0
+Z57 8E:/Semester_3/Digital Systems/Project_Part_B/ALU/kogge_stone_node.vhd
+Z58 FE:/Semester_3/Digital Systems/Project_Part_B/ALU/kogge_stone_node.vhd
+l0
+L5
+VIC7I4`cm8Wz@zzgeFnQZO1
+!s100 NPPNW;S:PNHVkUB8TZnZ[3
+R6
+31
+R33
+!i10b 1
+R27
+Z59 !s90 -reportprogress|300|-93|-work|work|E:/Semester_3/Digital Systems/Project_Part_B/ALU/kogge_stone_node.vhd|
+Z60 !s107 E:/Semester_3/Digital Systems/Project_Part_B/ALU/kogge_stone_node.vhd|
+!i113 1
+R11
+R12
+Astruct
+R14
+R2
+R3
+DEx4 work 16 kogge_stone_node 0 22 IC7I4`cm8Wz@zzgeFnQZO1
+l13
+L12
+VF<Q@67UI3Mj<bcY7C[:gC1
+!s100 LI6Nk9;CCTC5]K@30RGo]3
+R6
+31
+R33
+!i10b 1
+R27
+R59
+R60
+!i113 1
+R11
+R12
+Emux_8x1_16bit
+Z61 w1732987187
+R14
+R2
+R3
+R0
+Z62 8E:/Semester_3/Digital Systems/Project_Part_B/ALU/8_X_1_Mux_16_Bit.vhd
+Z63 FE:/Semester_3/Digital Systems/Project_Part_B/ALU/8_X_1_Mux_16_Bit.vhd
+l0
+L5
+VNihPJD8ABD86NNh[3>mX71
+!s100 bZ`B3?<47^FUK2;]XL8S_0
+R6
+31
+R33
+!i10b 1
+R27
+Z64 !s90 -reportprogress|300|-93|-work|work|E:/Semester_3/Digital Systems/Project_Part_B/ALU/8_X_1_Mux_16_Bit.vhd|
+Z65 !s107 E:/Semester_3/Digital Systems/Project_Part_B/ALU/8_X_1_Mux_16_Bit.vhd|
+!i113 1
+R11
+R12
+Abeh
+R14
+R2
+R3
+DEx4 work 13 mux_8x1_16bit 0 22 NihPJD8ABD86NNh[3>mX71
+l12
+L11
+Vi=;M4j;jU_5Sa_FjU<ATd3
+!s100 Ugj><?66U78k:7La@ZVKo2
+R6
+31
+R33
+!i10b 1
+R27
+R64
+R65
+!i113 1
+R11
+R12
+Eor_16
+Z66 w1732877285
+R2
+R3
+R0
+Z67 8E:/Semester_3/Digital Systems/Project_Part_B/ALU/Or_16.vhd
+Z68 FE:/Semester_3/Digital Systems/Project_Part_B/ALU/Or_16.vhd
+l0
+L4
+V;;_^AjiN?[4l0fGbQEzkN1
+!s100 ^XVMUOH=Qiig4oaRL3nUl2
+R6
+31
+R33
+!i10b 1
+R27
+Z69 !s90 -reportprogress|300|-93|-work|work|E:/Semester_3/Digital Systems/Project_Part_B/ALU/Or_16.vhd|
+Z70 !s107 E:/Semester_3/Digital Systems/Project_Part_B/ALU/Or_16.vhd|
+!i113 1
+R11
+R12
+Astr
+R2
+R3
+DEx4 work 5 or_16 0 22 ;;_^AjiN?[4l0fGbQEzkN1
+l11
+L10
+Vo71M5XkM0g=n?E7YFl0OW3
+!s100 [RGPWS9`Q?4GB77niAX8z3
+R6
+31
+R33
+!i10b 1
+R27
+R69
+R70
+!i113 1
+R11
+R12
+Epostprocessing
+R56
+R14
+R2
+R3
+R0
+Z71 8E:/Semester_3/Digital Systems/Project_Part_B/ALU/postprocessing.vhd
+Z72 FE:/Semester_3/Digital Systems/Project_Part_B/ALU/postprocessing.vhd
+l0
+L5
+VUm2?blATME0z4Xik56g]k2
+!s100 Kk?WdGeGeaND;g[l0Dl6K0
+R6
+31
+R33
+!i10b 1
+R27
+Z73 !s90 -reportprogress|300|-93|-work|work|E:/Semester_3/Digital Systems/Project_Part_B/ALU/postprocessing.vhd|
+Z74 !s107 E:/Semester_3/Digital Systems/Project_Part_B/ALU/postprocessing.vhd|
+!i113 1
+R11
+R12
+Abehav
+R14
+R2
+R3
+DEx4 work 14 postprocessing 0 22 Um2?blATME0z4Xik56g]k2
+l16
+L14
+VKHCNF9=HC4gQb7:=jF5?n1
+!s100 k`UBQ0CF`nV;V]32]6K^=2
+R6
+31
+R33
+!i10b 1
+R27
+R73
+R74
+!i113 1
+R11
+R12
+Epreprocessing
+R56
+R14
+R2
+R3
+R0
+Z75 8E:/Semester_3/Digital Systems/Project_Part_B/ALU/preprocessing.vhd
+Z76 FE:/Semester_3/Digital Systems/Project_Part_B/ALU/preprocessing.vhd
+l0
+L5
+VP>fl;:oaSLgjlA]aVN_kW1
+!s100 ]?>WkYVUL]SdhCUW@gj_33
+R6
+31
+R33
+!i10b 1
+R27
+Z77 !s90 -reportprogress|300|-93|-work|work|E:/Semester_3/Digital Systems/Project_Part_B/ALU/preprocessing.vhd|
+Z78 !s107 E:/Semester_3/Digital Systems/Project_Part_B/ALU/preprocessing.vhd|
+!i113 1
+R11
+R12
+Abehav
+R14
+R2
+R3
+DEx4 work 13 preprocessing 0 22 P>fl;:oaSLgjlA]aVN_kW1
+l13
+L12
+VeMU1gEMIm99a1<bkVjof:3
+!s100 ]`PN2<@Ve5X2ROZ0f]FI53
+R6
+31
+R33
+!i10b 1
+R27
+R77
+R78
+!i113 1
+R11
+R12

@@ -7,7 +7,7 @@ entity SE_8_To_16 is
 		  );
 end SE_8_To_16;
 
-architecture str of SE_6_To_16 is
+architecture str of SE_8_To_16 is
 	begin
 		for1: for i in 0 to 15 generate
 			b(i) <= a(i) when i < 8 else a(7);
