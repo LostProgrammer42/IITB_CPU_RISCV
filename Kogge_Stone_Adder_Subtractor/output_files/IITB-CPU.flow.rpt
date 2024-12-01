@@ -1,5 +1,5 @@
 Flow report for IITB-CPU
-Fri Nov 29 18:40:30 2024
+Sun Dec 01 12:01:05 2024
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -40,18 +40,18 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Fri Nov 29 18:40:30 2024       ;
+; Flow Status                        ; Successful - Sun Dec 01 12:01:05 2024       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; IITB-CPU                                    ;
-; Top-level Entity Name              ; kogge_stone                                 ;
+; Top-level Entity Name              ; kogge_stone_adder_subtractor                ;
 ; Family                             ; MAX 10                                      ;
 ; Device                             ; 10M08DAF484C8G                              ;
 ; Timing Models                      ; Final                                       ;
-; Total logic elements               ; 162                                         ;
-;     Total combinational functions  ; 162                                         ;
+; Total logic elements               ; 135                                         ;
+;     Total combinational functions  ; 135                                         ;
 ;     Dedicated logic registers      ; 0                                           ;
 ; Total registers                    ; 0                                           ;
-; Total pins                         ; 243                                         ;
+; Total pins                         ; 50                                          ;
 ; Total virtual pins                 ; 0                                           ;
 ; Total memory bits                  ; 0                                           ;
 ; Embedded Multiplier 9-bit elements ; 0                                           ;
@@ -66,37 +66,37 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 11/29/2024 18:39:23 ;
+; Start date & time ; 12/01/2024 12:00:52 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; IITB-CPU            ;
 +-------------------+---------------------+
 
 
-+------------------------------------------------------------------------------------------------------------------------------+
-; Flow Non-Default Global Settings                                                                                             ;
-+--------------------------------------+----------------------------------------+---------------+-------------+----------------+
-; Assignment Name                      ; Value                                  ; Default Value ; Entity Name ; Section Id     ;
-+--------------------------------------+----------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID                ; 96881445204945.173288576223808         ; --            ; --          ; --             ;
-; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; testbench      ;
-; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; testbench                              ; --            ; --          ; eda_simulation ;
-; EDA_OUTPUT_DATA_FORMAT               ; Vhdl                                   ; --            ; --          ; eda_simulation ;
-; EDA_SIMULATION_TOOL                  ; ModelSim-Altera (VHDL)                 ; <None>        ; --          ; --             ;
-; EDA_TEST_BENCH_ENABLE_STATUS         ; TEST_BENCH_MODE                        ; --            ; --          ; eda_simulation ;
-; EDA_TEST_BENCH_FILE                  ; testbench.vhd                          ; --            ; --          ; testbench      ;
-; EDA_TEST_BENCH_MODULE_NAME           ; testbench                              ; --            ; --          ; testbench      ;
-; EDA_TEST_BENCH_NAME                  ; testbench                              ; --            ; --          ; eda_simulation ;
-; EDA_TIME_SCALE                       ; 1 ps                                   ; --            ; --          ; eda_simulation ;
-; MAX_CORE_JUNCTION_TEMP               ; 85                                     ; --            ; --          ; --             ;
-; MIN_CORE_JUNCTION_TEMP               ; 0                                      ; --            ; --          ; --             ;
-; PARTITION_COLOR                      ; -- (Not supported for targeted family) ; --            ; kogge_stone ; Top            ;
-; PARTITION_FITTER_PRESERVATION_LEVEL  ; -- (Not supported for targeted family) ; --            ; kogge_stone ; Top            ;
-; PARTITION_NETLIST_TYPE               ; -- (Not supported for targeted family) ; --            ; kogge_stone ; Top            ;
-; POWER_BOARD_THERMAL_MODEL            ; None (CONSERVATIVE)                    ; --            ; --          ; --             ;
-; POWER_PRESET_COOLING_SOLUTION        ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW  ; --            ; --          ; --             ;
-; PROJECT_OUTPUT_DIRECTORY             ; output_files                           ; --            ; --          ; --             ;
-; TOP_LEVEL_ENTITY                     ; kogge_stone                            ; IITB-CPU      ; --          ; --             ;
-+--------------------------------------+----------------------------------------+---------------+-------------+----------------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                                                          ;
++--------------------------------------+--------------------------------------------+---------------+------------------------------+----------------------------------------+
+; Assignment Name                      ; Value                                      ; Default Value ; Entity Name                  ; Section Id                             ;
++--------------------------------------+--------------------------------------------+---------------+------------------------------+----------------------------------------+
+; COMPILER_SIGNATURE_ID                ; 1095260230269.173303465211112              ; --            ; --                           ; --                                     ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                         ; --            ; --                           ; Kogge_stone_adder_subtractor_testbench ;
+; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; Kogge_stone_adder_subtractor_testbench     ; --            ; --                           ; eda_simulation                         ;
+; EDA_OUTPUT_DATA_FORMAT               ; Vhdl                                       ; --            ; --                           ; eda_simulation                         ;
+; EDA_SIMULATION_TOOL                  ; ModelSim-Altera (VHDL)                     ; <None>        ; --                           ; --                                     ;
+; EDA_TEST_BENCH_ENABLE_STATUS         ; TEST_BENCH_MODE                            ; --            ; --                           ; eda_simulation                         ;
+; EDA_TEST_BENCH_FILE                  ; Kogge_stone_adder_subtractor_testbench.vhd ; --            ; --                           ; Kogge_stone_adder_subtractor_testbench ;
+; EDA_TEST_BENCH_MODULE_NAME           ; Kogge_stone_adder_subtractor_testbench     ; --            ; --                           ; Kogge_stone_adder_subtractor_testbench ;
+; EDA_TEST_BENCH_NAME                  ; Kogge_stone_adder_subtractor_testbench     ; --            ; --                           ; eda_simulation                         ;
+; EDA_TIME_SCALE                       ; 1 ps                                       ; --            ; --                           ; eda_simulation                         ;
+; MAX_CORE_JUNCTION_TEMP               ; 85                                         ; --            ; --                           ; --                                     ;
+; MIN_CORE_JUNCTION_TEMP               ; 0                                          ; --            ; --                           ; --                                     ;
+; PARTITION_COLOR                      ; -- (Not supported for targeted family)     ; --            ; Kogge_stone_adder_subtractor ; Top                                    ;
+; PARTITION_FITTER_PRESERVATION_LEVEL  ; -- (Not supported for targeted family)     ; --            ; Kogge_stone_adder_subtractor ; Top                                    ;
+; PARTITION_NETLIST_TYPE               ; -- (Not supported for targeted family)     ; --            ; Kogge_stone_adder_subtractor ; Top                                    ;
+; POWER_BOARD_THERMAL_MODEL            ; None (CONSERVATIVE)                        ; --            ; --                           ; --                                     ;
+; POWER_PRESET_COOLING_SOLUTION        ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW      ; --            ; --                           ; --                                     ;
+; PROJECT_OUTPUT_DIRECTORY             ; output_files                               ; --            ; --                           ; --                                     ;
+; TOP_LEVEL_ENTITY                     ; Kogge_stone_adder_subtractor               ; IITB-CPU      ; --                           ; --                                     ;
++--------------------------------------+--------------------------------------------+---------------+------------------------------+----------------------------------------+
 
 
 +--------------------------------------------------------------------------------------------------------------------------+
@@ -104,8 +104,8 @@ refer to the applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:01:09     ; 1.0                     ; 4790 MB             ; 00:01:18                           ;
-; Total                ; 00:01:09     ; --                      ; --                  ; 00:01:18                           ;
+; Analysis & Synthesis ; 00:00:13     ; 1.0                     ; 4794 MB             ; 00:00:09                           ;
+; Total                ; 00:00:13     ; --                      ; --                  ; 00:00:09                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -114,7 +114,7 @@ refer to the applicable agreement for further details.
 +----------------------+------------------+------------+------------+----------------+
 ; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
 +----------------------+------------------+------------+------------+----------------+
-; Analysis & Synthesis ; DESKTOP-AKK0J5D  ; Windows 10 ; 10.0       ; x86_64         ;
+; Analysis & Synthesis ; LAPTOP-Q5786T56  ; Windows 10 ; 10.0       ; x86_64         ;
 +----------------------+------------------+------------+------------+----------------+
 
 

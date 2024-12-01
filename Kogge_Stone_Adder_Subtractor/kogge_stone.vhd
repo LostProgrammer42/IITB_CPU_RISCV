@@ -6,11 +6,10 @@ entity kogge_stone is
 	port(
 		A : in std_logic_vector(15 downto 0);
 		B : in std_logic_vector(15 downto 0);
-		C: out std_logic_vector(16 downto 0);
-		M: in std_logic :='0';
-		Cin: in std_logic := '0';
-		k1, k2, k3, k4, temp1_Go, temp1_Po, temp2_Go, temp2_Po, temp3_Go, temp3_Po, temp4_Go, temp4_Po: out std_logic_vector(15 downto 0)
-	);
+		S: out std_logic_vector(15 downto 0);
+		Cout: out std_logic;
+		Cin: in std_logic := '0'
+		);
 end entity;
 
 architecture behav of kogge_stone is
@@ -36,12 +35,11 @@ architecture behav of kogge_stone is
 	end component;
 	signal Pre_Processed_G, Pre_Processed_P, temp1_G, temp1_P, temp2_G, temp2_P, temp3_G, temp3_P, temp4_G, temp4_P, temp5_G, temp5_P, Carry_Calculated_G, Carry_Calculated_P, Post_Processed_S : std_logic_vector(15 downto 0);
 	signal Post_Processed_C : std_logic_vector(16 downto 1);
+	signal C: std_logic_vector(16 downto 0);
 begin
 	inst1: preprocessing port map(A=>A, B=>B, G=>Pre_Processed_G, P=>Pre_Processed_P);
 	inst2: temp1_G <= Pre_Processed_G;
 	inst3: temp1_P <= Pre_Processed_P;
-	insta: k1 <= Pre_Processed_G;
-	instb: k2 <= Pre_Processed_P;
 	inst4: for i in 1 to 15 generate
 				inst4a: kogge_stone_node port map(g_in1=>temp1_G(i-1), g_in2=>temp1_G(i), p_in1=>temp1_P(i-1), p_in2=>temp1_P(i), g_out=>temp2_G(i), p_out=>temp2_P(i));
 			 end generate;
@@ -62,17 +60,7 @@ begin
 			 end generate;
 	inst7a: Carry_Calculated_G(7 downto 0) <= temp4_G(7 downto 0);
 	inst7b: Carry_Calculated_P(7 downto 0) <= temp4_P(7 downto 0);
-	instc: k3 <= Carry_Calculated_G;
-	instd: k4 <= Carry_Calculated_P;
 	inst8: postprocessing port map(G=>Carry_Calculated_G, P=>Carry_Calculated_P, P_or=>Pre_Processed_P, Cin=>Cin, C=>Post_Processed_C, S=>Post_Processed_S);
-	inst11: temp1_Go<=temp1_G;
-	inst12: temp1_Po<=temp1_P;
-	inst21: temp2_Go<=temp2_G;
-	inst22: temp2_Po<=temp2_P;
-	inst31: temp3_Go<=temp3_G;
-	inst32: temp3_Po<=temp3_P;
-	inst41: temp4_Go<=temp4_G;
-	inst42: temp4_Po<=temp4_P;
-	inst9: C(16) <= Post_Processed_C(16);
-	inst10: C(15 downto 0) <= Post_Processed_S;
+	inst9: Cout <= Post_Processed_C(16);
+	inst10: S <= Post_Processed_S;
 end architecture;
