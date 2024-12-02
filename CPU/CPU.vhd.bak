@@ -1,0 +1,74 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity CPU is
+	port(clk,reset: in std_logic
+		  Mem_add_read,Mem_add_write,Mem_data_write: out std_logic_vector(15 downto 0);
+		  Mem_data_read: out std_logic_vector(15 downto 0);
+		  Mem_r,Mem_w: out std_logic);
+end entity;
+
+architecture str of CPU is
+	component ALU is
+		port(a,b: in std_logic_vector(15 downto 0);
+			  s0,s1,s2: in std_logic;
+			  c: out std_logic_vector(15 downto 0);
+			  Cout,Z: out std_logic);
+	end component;
+	
+	component Eight_Bit_Left_Shifter is
+		port(a: in std_logic_vector(15 downto 0);
+			  b: out std_logic_vector(15 downto 0)
+			  );
+	end component;
+	
+	component pipo_register is
+		port (din : in std_logic_vector(15 downto 0);
+				en, rst, clk : in std_logic;
+				dout : out std_logic_vector(15 downto 0));
+	end component;
+	
+	component SE_9_To_16 is
+		port(a: in std_logic_vector(8 downto 0);
+			  b: out std_logic_vector(15 downto 0)
+			  );
+	end component;
+	
+	component SE_6_To_16 is
+		port(a: in std_logic_vector(8 downto 0);
+			  b: out std_logic_vector(15 downto 0)
+			  );
+	end component;
+	
+	signal T1_en, T2_en, PC_en, IR_en: std_logic;
+	signal T1_data_write, T1_data_read, T2_data_write, T2_data_read, PC_data_write, PC_data_read, IR_data_write, IR_data_read: std_logic_vector(15 downto 0); 
+	
+	signal ALU_A, ALU_B,ALU_C: std_logic_vector(15 downto 0);
+	signal ALU_Control: std_logic_vector(2 downto 0);
+	
+	signal Z,Cout: std_logic;
+	type state is (s0,s1,s2,s3,s5,s6,s7,s8,s9,s10,s11,s12,s15,s16,s17,s19,s20,s22,s23,s24);
+	signal y_present,y_next: state := s0;
+	begin
+		T1: pipo_register port map(din=>T1_data_write,en=>T1_en,rst=>'0',clk=>clk,dout=>T1_data_read);
+		T2: pipo_register port map(din=>T2_data_write,en=>T2_en,rst=>'0',clk=>clk,dout=>T2_data_read);
+		PC: pipo_register port map(din=>PC_data_write,en=>PC_en,rst=>'0',clk=>clk,dout=>PC_data_read);
+		IR: pipo_register port map(din=>IR_data_write,en=>IR_en,rst=>'0',clk=>clk,dout=>IR_data_read);
+		
+		Arith_Unit: ALU port map(a=>ALU_A,b=>ALU_B,s0=>ALU_Control(0),s1=>ALU_Control(1),s2=>ALU_Control(2),c=>ALU_C,Cout=>Cout,Z=>Z);
+		
+		clock_proc:process(clk,reset, y_next)
+		begin
+			if rising_edge(clk) then
+				if(reset='1') then
+					curr_state <= s0; 
+				else
+					curr_state <= next_state;
+				end if;
+			end if;
+		end process;
+	
+		
+		
+	
+		

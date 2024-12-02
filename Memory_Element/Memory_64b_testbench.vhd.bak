@@ -1,0 +1,69 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.NUMERIC_STD.ALL;
+
+entity Memory_64b_tb is
+end entity;
+
+architecture bhv of Memory_64b_tb is
+	component memory_64b is
+		port (a1, a2 : in std_logic_vector(15 downto 0); 
+				d2 : in std_logic_vector(15 downto 0);
+				rst, clk, en : in std_logic;
+				d1 : out std_logic_vector(15 downto 0));
+	end component;
+	
+	signal a1, a2, a3 : std_logic_vector(15 downto 0) := (others => '0');
+	signal d3 : std_logic_vector(15 downto 0) := (others => '0');
+	signal rst, clk, en : std_logic := '0';
+	signal d1, d2 : std_logic_vector(15 downto 0);
+	constant clk_period : time := 10 ns;
+	
+	begin
+		mem: memory_64b port map(a1 => a1,a2 => a2, d2 => d2,rst => rst,clk => clk, en => en, d1 => d1);
+		clk_process: process
+			begin
+				clk <= not clk after clk_period / 2;
+				wait for clk_period / 2;
+			end process clk_process;
+			
+		stim_proc: process
+			begin
+			  -- Reset the register file
+			  rst <= '1';
+			  wait for 2 * clk_period;
+			  rst <= '0';
+
+			  -- Write to register 3
+			  en <= '1';
+			  a2 <= "0000000000000011"; -- Address of register 3
+			  d2 <= x"A5A5"; -- Data to write
+			  wait for clk_period;
+
+			  -- Disable write enable
+			  en <= '0';
+			  wait for clk_period;
+
+			  -- Read from registers 3 and 2
+			  a1 <= "0000000000000011"; -- Address of register 3
+			  wait for clk_period;
+
+			  -- Write to register 2
+			  en <= '1';
+			  a2 <= "0000000000001011"; -- Address of register 2
+			  d2 <= x"5A5A"; -- Data to write
+			  wait for clk_period;
+
+			  -- Disable write enable
+			  en <= '0';
+			  wait for clk_period;
+
+			  -- Read back values from registers 3 and 2
+			  a1 <= "0000000000001011"; -- Address of register 3
+			  wait for clk_period;
+
+			  -- End simulation
+			  wait;
+		end process;
+	 
+end architecture bhv;
