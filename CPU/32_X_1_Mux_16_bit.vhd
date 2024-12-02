@@ -3,7 +3,7 @@ use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 
 entity mux_32x1_16bit is
-	port (I31, I30, I29, I28, I27, I26, I25, I24, I23, I22, I21, I20, I19, I18, I17, I16, I15, I14, I13, I12, I11, I10, I9, I8, I7, I6, I5, I4, I3, I2, I1, I0 : in std_logic_vector(15 downto 0); 
+	port (I31, I30, I29, I28, I27, I26, I25, I24, I23, I22, I21, I20, I19, I18, I17, I16, I15, I14, I13, I12, I11, I10, I9, I8, I7, I6, I5, I4, I3, I2, I1, I0 : in std_logic_vector(15 downto 0) := "0000000000000000"; 
 		S : in std_logic_vector(4 downto 0); 
 		Y : out std_logic_vector(15 downto 0));
 end entity;

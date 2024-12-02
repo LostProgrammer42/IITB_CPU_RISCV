@@ -11,31 +11,42 @@
 # Copying C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
 # Modifying modelsim.ini
 # 
+# vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/SE_9_To_16.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:34:35 on Dec 03,2024
+# vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/SE_9_To_16.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity SE_9_To_16
+# -- Compiling architecture str of SE_9_To_16
+# End time: 01:34:35 on Dec 03,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
 # vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/SE_6_To_16.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:33:38 on Dec 02,2024
+# Start time: 01:34:35 on Dec 03,2024
 # vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/SE_6_To_16.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity SE_6_To_16
 # -- Compiling architecture str of SE_6_To_16
-# End time: 00:33:38 on Dec 02,2024, Elapsed time: 0:00:00
+# End time: 01:34:35 on Dec 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/Register_File.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:33:38 on Dec 02,2024
+# Start time: 01:34:35 on Dec 03,2024
 # vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/Register_File.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity register_file
 # -- Compiling architecture str of register_file
-# End time: 00:33:38 on Dec 02,2024, Elapsed time: 0:00:00
+# End time: 01:34:35 on Dec 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/preprocessing.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:33:38 on Dec 02,2024
+# Start time: 01:34:35 on Dec 03,2024
 # vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/preprocessing.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -43,11 +54,11 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity preprocessing
 # -- Compiling architecture behav of preprocessing
-# End time: 00:33:38 on Dec 02,2024, Elapsed time: 0:00:00
+# End time: 01:34:35 on Dec 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/postprocessing.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:33:38 on Dec 02,2024
+# Start time: 01:34:36 on Dec 03,2024
 # vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/postprocessing.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -55,44 +66,33 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity postprocessing
 # -- Compiling architecture behav of postprocessing
-# End time: 00:33:38 on Dec 02,2024, Elapsed time: 0:00:00
+# End time: 01:34:36 on Dec 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/PIPO_Register.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:33:38 on Dec 02,2024
+# Start time: 01:34:36 on Dec 03,2024
 # vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/PIPO_Register.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity pipo_register
 # -- Compiling architecture ha of pipo_register
-# End time: 00:33:38 on Dec 02,2024, Elapsed time: 0:00:00
+# End time: 01:34:36 on Dec 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/Or_16.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:33:38 on Dec 02,2024
+# Start time: 01:34:36 on Dec 03,2024
 # vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/Or_16.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity OR_16
 # -- Compiling architecture str of OR_16
-# End time: 00:33:38 on Dec 02,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/memory_64b.vhd}
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:33:38 on Dec 02,2024
-# vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/memory_64b.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity Memory_64b
-# -- Compiling architecture str of Memory_64b
-# End time: 00:33:38 on Dec 02,2024, Elapsed time: 0:00:00
+# End time: 01:34:36 on Dec 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/kogge_stone_node.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:33:38 on Dec 02,2024
+# Start time: 01:34:36 on Dec 03,2024
 # vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/kogge_stone_node.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -100,11 +100,11 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity kogge_stone_node
 # -- Compiling architecture struct of kogge_stone_node
-# End time: 00:33:38 on Dec 02,2024, Elapsed time: 0:00:00
+# End time: 01:34:36 on Dec 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/Kogge_stone_adder_subtractor.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:33:38 on Dec 02,2024
+# Start time: 01:34:36 on Dec 03,2024
 # vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/Kogge_stone_adder_subtractor.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -112,11 +112,11 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity kogge_stone_adder_subtractor
 # -- Compiling architecture str of kogge_stone_adder_subtractor
-# End time: 00:33:38 on Dec 02,2024, Elapsed time: 0:00:00
+# End time: 01:34:36 on Dec 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/kogge_stone.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:33:38 on Dec 02,2024
+# Start time: 01:34:36 on Dec 03,2024
 # vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/kogge_stone.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -124,88 +124,99 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity kogge_stone
 # -- Compiling architecture behav of kogge_stone
-# End time: 00:33:38 on Dec 02,2024, Elapsed time: 0:00:00
+# End time: 01:34:36 on Dec 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/Imp_16.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:33:38 on Dec 02,2024
+# Start time: 01:34:36 on Dec 03,2024
 # vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/Imp_16.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity IMP_16
 # -- Compiling architecture str of IMP_16
-# End time: 00:33:38 on Dec 02,2024, Elapsed time: 0:00:00
+# End time: 01:34:36 on Dec 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/Full_Adder.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:33:38 on Dec 02,2024
+# Start time: 01:34:36 on Dec 03,2024
 # vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/Full_Adder.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity Full_Adder
 # -- Compiling architecture struct of Full_Adder
-# End time: 00:33:39 on Dec 02,2024, Elapsed time: 0:00:01
+# End time: 01:34:36 on Dec 03,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/Eight_Bit_Left_Shifter.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:34:36 on Dec 03,2024
+# vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/Eight_Bit_Left_Shifter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Eight_Bit_Left_Shifter
+# -- Compiling architecture str of Eight_Bit_Left_Shifter
+# End time: 01:34:36 on Dec 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/D_Flip_Flop.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:33:39 on Dec 02,2024
+# Start time: 01:34:36 on Dec 03,2024
 # vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/D_Flip_Flop.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity d_ff
 # -- Compiling architecture beh of d_ff
-# End time: 00:33:39 on Dec 02,2024, Elapsed time: 0:00:00
+# End time: 01:34:36 on Dec 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/Array_Multiplier_Node.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:33:39 on Dec 02,2024
+# Start time: 01:34:36 on Dec 03,2024
 # vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/Array_Multiplier_Node.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity Array_Multiplier_Node
 # -- Compiling architecture struct1 of Array_Multiplier_Node
-# End time: 00:33:39 on Dec 02,2024, Elapsed time: 0:00:00
+# End time: 01:34:36 on Dec 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/Array_Multiplier.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:33:39 on Dec 02,2024
+# Start time: 01:34:36 on Dec 03,2024
 # vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/Array_Multiplier.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity Array_Multiplier
 # -- Compiling architecture Struct2 of Array_Multiplier
-# End time: 00:33:39 on Dec 02,2024, Elapsed time: 0:00:00
+# End time: 01:34:36 on Dec 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/And_16.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:33:39 on Dec 02,2024
+# Start time: 01:34:36 on Dec 03,2024
 # vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/And_16.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity AND_16
 # -- Compiling architecture str of AND_16
-# End time: 00:33:39 on Dec 02,2024, Elapsed time: 0:00:00
+# End time: 01:34:36 on Dec 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/ALU.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:33:39 on Dec 02,2024
+# Start time: 01:34:36 on Dec 03,2024
 # vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/ALU.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity ALU
 # -- Compiling architecture str of ALU
-# End time: 00:33:39 on Dec 02,2024, Elapsed time: 0:00:00
+# End time: 01:34:36 on Dec 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/32_X_1_Mux_16_bit.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:33:39 on Dec 02,2024
+# Start time: 01:34:36 on Dec 03,2024
 # vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/32_X_1_Mux_16_bit.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -213,23 +224,11 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity mux_32x1_16bit
 # -- Compiling architecture beh of mux_32x1_16bit
-# End time: 00:33:39 on Dec 02,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/32_X_1_Demux_16_bit.vhd}
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:33:39 on Dec 02,2024
-# vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/32_X_1_Demux_16_bit.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity demux_32x1_16bit
-# -- Compiling architecture beh of demux_32x1_16bit
-# End time: 00:33:39 on Dec 02,2024, Elapsed time: 0:00:00
+# End time: 01:34:36 on Dec 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/8_X_1_Mux_16_Bit.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:33:39 on Dec 02,2024
+# Start time: 01:34:36 on Dec 03,2024
 # vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/8_X_1_Mux_16_Bit.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -237,11 +236,11 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity mux_8x1_16bit
 # -- Compiling architecture beh of mux_8x1_16bit
-# End time: 00:33:39 on Dec 02,2024, Elapsed time: 0:00:00
+# End time: 01:34:36 on Dec 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/8_X_1_Demux_16_Bit.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:33:39 on Dec 02,2024
+# Start time: 01:34:36 on Dec 03,2024
 # vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/8_X_1_Demux_16_Bit.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -249,33 +248,22 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity demux_8x1_16bit
 # -- Compiling architecture beh of demux_8x1_16bit
-# End time: 00:33:39 on Dec 02,2024, Elapsed time: 0:00:00
+# End time: 01:34:36 on Dec 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/2_X_1_Mux.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:33:39 on Dec 02,2024
+# Start time: 01:34:36 on Dec 03,2024
 # vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/2_X_1_Mux.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity mux_2x1
 # -- Compiling architecture beh of mux_2x1
-# End time: 00:33:39 on Dec 02,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/PIPO_Register_Memory.vhd}
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:33:39 on Dec 02,2024
-# vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/PIPO_Register_Memory.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity pipo_register_memory
-# -- Compiling architecture ha of pipo_register_memory
-# End time: 00:33:39 on Dec 02,2024, Elapsed time: 0:00:00
+# End time: 01:34:36 on Dec 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/CPU.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:33:39 on Dec 02,2024
+# Start time: 01:34:36 on Dec 03,2024
 # vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/CPU.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -283,35 +271,118 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity CPU
 # -- Compiling architecture str of CPU
-# End time: 00:33:39 on Dec 02,2024, Elapsed time: 0:00:00
+# End time: 01:34:36 on Dec 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/top_level.vhd}
+# vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/Steering_Logic.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:33:39 on Dec 02,2024
-# vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/top_level.vhd 
+# Start time: 01:34:36 on Dec 03,2024
+# vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/Steering_Logic.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
-# -- Compiling entity top_level
-# -- Compiling architecture behav of top_level
-# End time: 00:33:39 on Dec 02,2024, Elapsed time: 0:00:00
+# -- Compiling entity Steering_logic
+# -- Compiling architecture str of Steering_Logic
+# End time: 01:34:36 on Dec 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/2_X_1_Mux_16_Bit.vhd}
+# vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/2_X_1_Mux_3_Bit.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:33:40 on Dec 02,2024
-# vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/2_X_1_Mux_16_Bit.vhd 
+# Start time: 01:34:36 on Dec 03,2024
+# vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/2_X_1_Mux_3_Bit.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
-# -- Compiling entity mux_2x1_16bit
-# -- Compiling architecture beh of mux_2x1_16bit
-# End time: 00:33:40 on Dec 02,2024, Elapsed time: 0:00:00
+# -- Compiling entity mux_2x1_3bit
+# -- Compiling architecture beh of mux_2x1_3bit
+# End time: 01:34:36 on Dec 03,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/4_X_1_Mux_3_Bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:34:36 on Dec 03,2024
+# vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/4_X_1_Mux_3_Bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux_4x1_3bit
+# -- Compiling architecture beh of mux_4x1_3bit
+# End time: 01:34:36 on Dec 03,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/32_X_1_Mux_3_bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:34:36 on Dec 03,2024
+# vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/32_X_1_Mux_3_bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mux_32x1_3bit
+# -- Compiling architecture beh of mux_32x1_3bit
+# End time: 01:34:37 on Dec 03,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/32_X_1_Mux_1_bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:34:37 on Dec 03,2024
+# vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/32_X_1_Mux_1_bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mux_32x1_1bit
+# -- Compiling architecture beh of mux_32x1_1bit
+# End time: 01:34:37 on Dec 03,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/32_X_1_Mux_6_bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:34:37 on Dec 03,2024
+# vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/32_X_1_Mux_6_bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mux_32x1_6bit
+# -- Compiling architecture beh of mux_32x1_6bit
+# End time: 01:34:37 on Dec 03,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/32_X_1_Mux_9_bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:34:37 on Dec 03,2024
+# vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/32_X_1_Mux_9_bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mux_32x1_9bit
+# -- Compiling architecture beh of mux_32x1_9bit
+# End time: 01:34:37 on Dec 03,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/Controller.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:34:37 on Dec 03,2024
+# vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/Controller.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Controller
+# -- Compiling architecture str of Controller
+# End time: 01:34:37 on Dec 03,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/4_X_1_Mux_16_bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:34:37 on Dec 03,2024
+# vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/4_X_1_Mux_16_bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mux_4x1_16bit
+# -- Compiling architecture beh of mux_4x1_16bit
+# End time: 01:34:37 on Dec 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/CPU_testbench.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:33:40 on Dec 02,2024
+# Start time: 01:34:37 on Dec 03,2024
 # vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/CPU_testbench.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -319,25 +390,25 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity CPU_testbench
 # -- Compiling architecture behav of CPU_testbench
-# ** Warning: E:/Semester_3/Digital Systems/Project_Part_B/CPU/CPU_testbench.vhd(20): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# End time: 00:33:40 on Dec 02,2024, Elapsed time: 0:00:00
+# ** Warning: E:/Semester_3/Digital Systems/Project_Part_B/CPU/CPU_testbench.vhd(17): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# End time: 01:34:37 on Dec 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 1
 # 
 # vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs="+acc"  CPU_testbench
 # vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs=""+acc"" CPU_testbench 
-# Start time: 00:33:40 on Dec 02,2024
+# Start time: 01:34:37 on Dec 03,2024
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
 # Loading ieee.numeric_std(body)
 # Loading work.cpu_testbench(behav)
-# Loading work.top_level(behav)
-# Loading work.mux_2x1_16bit(beh)
-# Loading work.mux_2x1(beh)
 # Loading work.cpu(str)
 # Loading work.pipo_register(ha)
 # Loading work.d_ff(beh)
+# Loading work.mux_2x1(beh)
 # Loading work.se_6_to_16(str)
+# Loading work.se_9_to_16(str)
+# Loading work.eight_bit_left_shifter(str)
 # Loading work.register_file(str)
 # Loading work.mux_8x1_16bit(beh)
 # Loading work.demux_8x1_16bit(beh)
@@ -353,11 +424,17 @@
 # Loading work.or_16(str)
 # Loading work.and_16(str)
 # Loading work.imp_16(str)
-# Loading work.memory_64b(str)
-# Loading work.pipo_register_memory(ha)
+# Loading work.controller(str)
+# Loading work.steering_logic(str)
+# Loading work.mux_2x1_3bit(beh)
+# Loading work.mux_4x1_3bit(beh)
+# Loading work.mux_4x1_16bit(beh)
 # Loading work.mux_32x1_16bit(beh)
-# Loading work.demux_32x1_16bit(beh)
-# ** Warning: Design size of 22731 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Loading work.mux_32x1_1bit(beh)
+# Loading work.mux_32x1_6bit(beh)
+# Loading work.mux_32x1_9bit(beh)
+# Loading work.mux_32x1_3bit(beh)
+# ** Warning: Design size of 12887 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
 # Expect performance to be adversely affected.
 # 
 # add wave *
@@ -365,610 +442,130 @@
 # .main_pane.structure.interior.cs.body.struct
 # view signals
 # .main_pane.objects.interior.cs.body.tree
-# run -all
-# ** Note: in init IR=0
-#    Time: 25 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 35 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s0 IR=0
-#    Time: 35 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
+# run 1500 ns
+# ** Note: IR = 0
+#    Time: 20 ns  Iteration: 0  Instance: /cpu_testbench/cpuinst/Controller_Unit
 # ** Note: kahi nahi jaara
-#    Time: 35 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 45 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s0 IR=0
-#    Time: 45 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s1 
-#    Time: 55 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s2 
-#    Time: 65 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s3 
-#    Time: 75 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 85 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s0 IR=0
-#    Time: 85 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s1 
-#    Time: 95 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s2 
-#    Time: 105 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s3 
-#    Time: 115 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 125 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s0 IR=0
-#    Time: 125 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s1 
-#    Time: 135 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s2 
-#    Time: 145 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s3 
-#    Time: 155 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 165 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s0 IR=0
-#    Time: 165 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s1 
-#    Time: 175 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s2 
-#    Time: 185 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s3 
-#    Time: 195 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 205 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s0 IR=0
-#    Time: 205 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s1 
-#    Time: 215 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s2 
-#    Time: 225 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s3 
-#    Time: 235 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 245 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s0 IR=0
-#    Time: 245 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s1 
-#    Time: 255 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s2 
-#    Time: 265 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s3 
-#    Time: 275 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 285 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s0 IR=0
-#    Time: 285 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s1 
-#    Time: 295 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s2 
-#    Time: 305 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s3 
-#    Time: 315 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 325 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s0 IR=0
-#    Time: 325 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s1 
-#    Time: 335 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s2 
-#    Time: 345 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s3 
-#    Time: 355 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 365 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s0 IR=0
-#    Time: 365 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s1 
-#    Time: 375 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s2 
-#    Time: 385 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s3 
-#    Time: 395 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 405 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s0 IR=0
-#    Time: 405 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s1 
-#    Time: 415 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s2 
-#    Time: 425 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s3 
-#    Time: 435 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 445 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s0 IR=0
-#    Time: 445 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s1 
-#    Time: 455 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s2 
-#    Time: 465 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s3 
-#    Time: 475 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 485 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s0 IR=0
-#    Time: 485 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s1 
-#    Time: 495 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s2 
-#    Time: 505 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s3 
-#    Time: 515 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 525 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s0 IR=0
-#    Time: 525 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s1 
-#    Time: 535 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s2 
-#    Time: 545 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s3 
-#    Time: 555 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 565 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s0 IR=0
-#    Time: 565 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s1 
-#    Time: 575 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s2 
-#    Time: 585 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s3 
-#    Time: 595 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 605 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s0 IR=0
-#    Time: 605 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s1 
-#    Time: 615 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s2 
-#    Time: 625 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s3 
-#    Time: 635 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 645 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s0 IR=0
-#    Time: 645 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s1 
-#    Time: 655 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s2 
-#    Time: 665 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s3 
-#    Time: 675 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 685 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s0 IR=0
-#    Time: 685 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s1 
-#    Time: 695 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s2 
-#    Time: 705 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s3 
-#    Time: 715 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 725 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s0 IR=0
-#    Time: 725 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s1 
-#    Time: 735 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s2 
-#    Time: 745 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s3 
-#    Time: 755 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 765 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s0 IR=0
-#    Time: 765 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s1 
-#    Time: 775 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s2 
-#    Time: 785 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s3 
-#    Time: 795 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 805 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s0 IR=0
-#    Time: 805 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s1 
-#    Time: 815 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s2 
-#    Time: 825 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s3 
-#    Time: 835 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 845 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s0 IR=0
-#    Time: 845 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s1 
-#    Time: 855 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s2 
-#    Time: 865 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s3 
-#    Time: 875 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 885 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s0 IR=0
-#    Time: 885 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s1 
-#    Time: 895 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s2 
-#    Time: 905 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s3 
-#    Time: 915 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 925 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s0 IR=0
-#    Time: 925 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s1 
-#    Time: 935 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s2 
-#    Time: 945 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s3 
-#    Time: 955 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 965 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s0 IR=0
-#    Time: 965 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s1 
-#    Time: 975 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s2 
-#    Time: 985 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s3 
-#    Time: 995 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 1005 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s0 IR=0
-#    Time: 1005 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s1 
-#    Time: 1015 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s2 
-#    Time: 1025 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s3 
-#    Time: 1035 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 1045 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s0 IR=0
-#    Time: 1045 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s1 
-#    Time: 1055 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s2 
-#    Time: 1065 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s3 
-#    Time: 1075 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 1085 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s0 IR=0
-#    Time: 1085 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s1 
-#    Time: 1095 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s2 
-#    Time: 1105 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s3 
-#    Time: 1115 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 1125 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s0 IR=0
-#    Time: 1125 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s1 
-#    Time: 1135 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s2 
-#    Time: 1145 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s3 
-#    Time: 1155 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 1165 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s0 IR=0
-#    Time: 1165 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s1 
-#    Time: 1175 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s2 
-#    Time: 1185 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s3 
-#    Time: 1195 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 1205 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s0 IR=0
-#    Time: 1205 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s1 
-#    Time: 1215 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s2 
-#    Time: 1225 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s3 
-#    Time: 1235 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 1245 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s0 IR=0
-#    Time: 1245 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s1 
-#    Time: 1255 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s2 
-#    Time: 1265 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s3 
-#    Time: 1275 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 1285 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s0 IR=0
-#    Time: 1285 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s1 
-#    Time: 1295 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s2 
-#    Time: 1305 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s3 
-#    Time: 1315 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 1325 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s0 IR=0
-#    Time: 1325 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s1 
-#    Time: 1335 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s2 
-#    Time: 1345 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s3 
-#    Time: 1355 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 1365 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s0 IR=0
-#    Time: 1365 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s1 
-#    Time: 1375 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s2 
-#    Time: 1385 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s3 
-#    Time: 1395 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 1405 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s0 IR=0
-#    Time: 1405 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s1 
-#    Time: 1415 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s2 
-#    Time: 1425 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s3 
-#    Time: 1435 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 1445 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s0 IR=0
-#    Time: 1445 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s1 
-#    Time: 1455 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s2 
-#    Time: 1465 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s3 
-#    Time: 1475 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 1485 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s0 IR=0
-#    Time: 1485 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s1 
-#    Time: 1495 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s2 
-#    Time: 1505 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s3 
-#    Time: 1515 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 1525 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s0 IR=0
-#    Time: 1525 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s1 
-#    Time: 1535 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s2 
-#    Time: 1545 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s3 
-#    Time: 1555 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 1565 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s0 IR=0
-#    Time: 1565 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s1 
-#    Time: 1575 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s2 
-#    Time: 1585 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s3 
-#    Time: 1595 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 1605 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s0 IR=0
-#    Time: 1605 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s1 
-#    Time: 1615 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s2 
-#    Time: 1625 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s3 
-#    Time: 1635 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 1645 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s0 IR=0
-#    Time: 1645 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s1 
-#    Time: 1655 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s2 
-#    Time: 1665 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s3 
-#    Time: 1675 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 1685 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s0 IR=0
-#    Time: 1685 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s1 
-#    Time: 1695 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s2 
-#    Time: 1705 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s3 
-#    Time: 1715 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 1725 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s0 IR=0
-#    Time: 1725 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s1 
-#    Time: 1735 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s2 
-#    Time: 1745 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s3 
-#    Time: 1755 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 1765 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s0 IR=0
-#    Time: 1765 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s1 
-#    Time: 1775 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s2 
-#    Time: 1785 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s3 
-#    Time: 1795 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 1805 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s0 IR=0
-#    Time: 1805 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s1 
-#    Time: 1815 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s2 
-#    Time: 1825 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s3 
-#    Time: 1835 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 1845 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s0 IR=0
-#    Time: 1845 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s1 
-#    Time: 1855 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s2 
-#    Time: 1865 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s3 
-#    Time: 1875 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 1885 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s0 IR=0
-#    Time: 1885 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s1 
-#    Time: 1895 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s2 
-#    Time: 1905 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s3 
-#    Time: 1915 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 1925 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s0 IR=0
-#    Time: 1925 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s1 
-#    Time: 1935 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s2 
-#    Time: 1945 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s3 
-#    Time: 1955 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 1965 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s0 IR=0
-#    Time: 1965 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s1 
-#    Time: 1975 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s2 
-#    Time: 1985 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s3 
-#    Time: 1995 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 2005 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s0 IR=0
-#    Time: 2005 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s1 
-#    Time: 2015 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s2 
-#    Time: 2025 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s3 
-#    Time: 2035 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 2045 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s0 IR=0
-#    Time: 2045 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s1 
-#    Time: 2055 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s2 
-#    Time: 2065 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s3 
-#    Time: 2075 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 2085 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s0 IR=0
-#    Time: 2085 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s1 
-#    Time: 2095 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s2 
-#    Time: 2105 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s3 
-#    Time: 2115 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 2125 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s0 IR=0
-#    Time: 2125 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s1 
-#    Time: 2135 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s2 
-#    Time: 2145 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s3 
-#    Time: 2155 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 2165 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s0 IR=0
-#    Time: 2165 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s1 
-#    Time: 2175 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s2 
-#    Time: 2185 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s3 
-#    Time: 2195 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 2205 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s0 IR=0
-#    Time: 2205 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s1 
-#    Time: 2215 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s2 
-#    Time: 2225 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s3 
-#    Time: 2235 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 2245 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s0 IR=0
-#    Time: 2245 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s1 
-#    Time: 2255 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s2 
-#    Time: 2265 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s3 
-#    Time: 2275 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 2285 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s0 IR=0
-#    Time: 2285 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s1 
-#    Time: 2295 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s2 
-#    Time: 2305 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s3 
-#    Time: 2315 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 2325 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s0 IR=0
-#    Time: 2325 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s1 
-#    Time: 2335 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s2 
-#    Time: 2345 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s3 
-#    Time: 2355 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 2365 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s0 IR=0
-#    Time: 2365 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s1 
-#    Time: 2375 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s2 
-#    Time: 2385 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s3 
-#    Time: 2395 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 2405 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s0 IR=0
-#    Time: 2405 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# ** Note: in s1 
-#    Time: 2415 ns  Iteration: 0  Instance: /cpu_testbench/inst/CPU_inst
-# End time: 00:58:29 on Dec 02,2024, Elapsed time: 0:24:49
-# Errors: 0, Warnings: 62
+#    Time: 20 ns  Iteration: 0  Instance: /cpu_testbench/cpuinst/Controller_Unit
+# ** Note: IR = 41028
+#    Time: 30 ns  Iteration: 0  Instance: /cpu_testbench/cpuinst/Controller_Unit
+# ** Note: going to s10
+#    Time: 30 ns  Iteration: 0  Instance: /cpu_testbench/cpuinst/Controller_Unit
+# ** Note: IR = 41605
+#    Time: 80 ns  Iteration: 0  Instance: /cpu_testbench/cpuinst/Controller_Unit
+# ** Note: going to s10
+#    Time: 80 ns  Iteration: 0  Instance: /cpu_testbench/cpuinst/Controller_Unit
+# ** Note: IR = 80
+#    Time: 130 ns  Iteration: 0  Instance: /cpu_testbench/cpuinst/Controller_Unit
+# ** Note: going to s10
+#    Time: 130 ns  Iteration: 0  Instance: /cpu_testbench/cpuinst/Controller_Unit
+# ** Note: IR = 46278
+#    Time: 180 ns  Iteration: 0  Instance: /cpu_testbench/cpuinst/Controller_Unit
+# ** Note: going to s10
+#    Time: 180 ns  Iteration: 0  Instance: /cpu_testbench/cpuinst/Controller_Unit
+# ** Note: IR = 16
+#    Time: 230 ns  Iteration: 0  Instance: /cpu_testbench/cpuinst/Controller_Unit
+# ** Note: going to s10
+#    Time: 230 ns  Iteration: 0  Instance: /cpu_testbench/cpuinst/Controller_Unit
+# ** Note: IR = 1
+#    Time: 280 ns  Iteration: 0  Instance: /cpu_testbench/cpuinst/Controller_Unit
+# ** Note: going to s10
+#    Time: 280 ns  Iteration: 0  Instance: /cpu_testbench/cpuinst/Controller_Unit
+# ** Note: IR = 24656
+#    Time: 330 ns  Iteration: 0  Instance: /cpu_testbench/cpuinst/Controller_Unit
+# ** Note: going to s10
+#    Time: 330 ns  Iteration: 0  Instance: /cpu_testbench/cpuinst/Controller_Unit
+# ** Note: IR = 32775
+#    Time: 380 ns  Iteration: 0  Instance: /cpu_testbench/cpuinst/Controller_Unit
+# ** Note: going to s10
+#    Time: 380 ns  Iteration: 0  Instance: /cpu_testbench/cpuinst/Controller_Unit
+# ** Note: IR = 36868
+#    Time: 430 ns  Iteration: 0  Instance: /cpu_testbench/cpuinst/Controller_Unit
+# ** Note: going to s10
+#    Time: 430 ns  Iteration: 0  Instance: /cpu_testbench/cpuinst/Controller_Unit
+# ** Note: IR = 41358
+#    Time: 480 ns  Iteration: 0  Instance: /cpu_testbench/cpuinst/Controller_Unit
+# ** Note: going to s10
+#    Time: 480 ns  Iteration: 0  Instance: /cpu_testbench/cpuinst/Controller_Unit
+# ** Note: IR = 0
+#    Time: 530 ns  Iteration: 0  Instance: /cpu_testbench/cpuinst/Controller_Unit
+# ** Note: going to s10
+#    Time: 530 ns  Iteration: 0  Instance: /cpu_testbench/cpuinst/Controller_Unit
+# ** Note: IR = 0
+#    Time: 580 ns  Iteration: 0  Instance: /cpu_testbench/cpuinst/Controller_Unit
+# ** Note: going to s10
+#    Time: 580 ns  Iteration: 0  Instance: /cpu_testbench/cpuinst/Controller_Unit
+# ** Note: IR = 0
+#    Time: 630 ns  Iteration: 0  Instance: /cpu_testbench/cpuinst/Controller_Unit
+# ** Note: going to s10
+#    Time: 630 ns  Iteration: 0  Instance: /cpu_testbench/cpuinst/Controller_Unit
+# ** Note: IR = 0
+#    Time: 680 ns  Iteration: 0  Instance: /cpu_testbench/cpuinst/Controller_Unit
+# ** Note: going to s10
+#    Time: 680 ns  Iteration: 0  Instance: /cpu_testbench/cpuinst/Controller_Unit
+# ** Note: IR = 0
+#    Time: 730 ns  Iteration: 0  Instance: /cpu_testbench/cpuinst/Controller_Unit
+# ** Note: going to s10
+#    Time: 730 ns  Iteration: 0  Instance: /cpu_testbench/cpuinst/Controller_Unit
+# ** Note: IR = 51586
+#    Time: 780 ns  Iteration: 0  Instance: /cpu_testbench/cpuinst/Controller_Unit
+# ** Note: going to s10
+#    Time: 780 ns  Iteration: 0  Instance: /cpu_testbench/cpuinst/Controller_Unit
+# ** Note: IR = 0
+#    Time: 830 ns  Iteration: 0  Instance: /cpu_testbench/cpuinst/Controller_Unit
+# ** Note: going to s10
+#    Time: 830 ns  Iteration: 0  Instance: /cpu_testbench/cpuinst/Controller_Unit
+# ** Note: IR = 0
+#    Time: 880 ns  Iteration: 0  Instance: /cpu_testbench/cpuinst/Controller_Unit
+# ** Note: going to s10
+#    Time: 880 ns  Iteration: 0  Instance: /cpu_testbench/cpuinst/Controller_Unit
+# ** Note: IR = 61504
+#    Time: 930 ns  Iteration: 0  Instance: /cpu_testbench/cpuinst/Controller_Unit
+# ** Note: going to s10
+#    Time: 930 ns  Iteration: 0  Instance: /cpu_testbench/cpuinst/Controller_Unit
+# ** Note: IR = 0
+#    Time: 980 ns  Iteration: 0  Instance: /cpu_testbench/cpuinst/Controller_Unit
+# ** Note: going to s10
+#    Time: 980 ns  Iteration: 0  Instance: /cpu_testbench/cpuinst/Controller_Unit
+# ** Note: IR = 0
+#    Time: 1030 ns  Iteration: 0  Instance: /cpu_testbench/cpuinst/Controller_Unit
+# ** Note: going to s10
+#    Time: 1030 ns  Iteration: 0  Instance: /cpu_testbench/cpuinst/Controller_Unit
+# ** Note: IR = 0
+#    Time: 1080 ns  Iteration: 0  Instance: /cpu_testbench/cpuinst/Controller_Unit
+# ** Note: going to s10
+#    Time: 1080 ns  Iteration: 0  Instance: /cpu_testbench/cpuinst/Controller_Unit
+# ** Note: IR = 0
+#    Time: 1130 ns  Iteration: 0  Instance: /cpu_testbench/cpuinst/Controller_Unit
+# ** Note: going to s10
+#    Time: 1130 ns  Iteration: 0  Instance: /cpu_testbench/cpuinst/Controller_Unit
+# ** Note: IR = 0
+#    Time: 1180 ns  Iteration: 0  Instance: /cpu_testbench/cpuinst/Controller_Unit
+# ** Note: going to s10
+#    Time: 1180 ns  Iteration: 0  Instance: /cpu_testbench/cpuinst/Controller_Unit
+# ** Note: IR = 0
+#    Time: 1230 ns  Iteration: 0  Instance: /cpu_testbench/cpuinst/Controller_Unit
+# ** Note: going to s10
+#    Time: 1230 ns  Iteration: 0  Instance: /cpu_testbench/cpuinst/Controller_Unit
+# ** Note: IR = 0
+#    Time: 1280 ns  Iteration: 0  Instance: /cpu_testbench/cpuinst/Controller_Unit
+# ** Note: going to s10
+#    Time: 1280 ns  Iteration: 0  Instance: /cpu_testbench/cpuinst/Controller_Unit
+# ** Note: IR = 0
+#    Time: 1330 ns  Iteration: 0  Instance: /cpu_testbench/cpuinst/Controller_Unit
+# ** Note: going to s10
+#    Time: 1330 ns  Iteration: 0  Instance: /cpu_testbench/cpuinst/Controller_Unit
+# ** Note: IR = 53251
+#    Time: 1380 ns  Iteration: 0  Instance: /cpu_testbench/cpuinst/Controller_Unit
+# ** Note: going to s10
+#    Time: 1380 ns  Iteration: 0  Instance: /cpu_testbench/cpuinst/Controller_Unit
+# ** Note: IR = 0
+#    Time: 1430 ns  Iteration: 0  Instance: /cpu_testbench/cpuinst/Controller_Unit
+# ** Note: going to s10
+#    Time: 1430 ns  Iteration: 0  Instance: /cpu_testbench/cpuinst/Controller_Unit
+# ** Note: IR = 0
+#    Time: 1480 ns  Iteration: 0  Instance: /cpu_testbench/cpuinst/Controller_Unit
+# ** Note: going to s10
+#    Time: 1480 ns  Iteration: 0  Instance: /cpu_testbench/cpuinst/Controller_Unit
+# End time: 01:35:59 on Dec 03,2024, Elapsed time: 0:01:22
+# Errors: 0, Warnings: 1

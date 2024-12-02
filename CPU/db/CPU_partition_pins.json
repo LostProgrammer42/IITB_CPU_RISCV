@@ -4,331 +4,415 @@
 			"name" : "Top",
 			"pins" : [
 				{
-					"name" : "add_write[0]",
+					"name" : "Mem_add_read[0]",
 					"strict" : false
 				},
 				{
-					"name" : "add_write[1]",
+					"name" : "Mem_add_read[1]",
 					"strict" : false
 				},
 				{
-					"name" : "add_write[2]",
+					"name" : "Mem_add_read[2]",
 					"strict" : false
 				},
 				{
-					"name" : "add_write[3]",
+					"name" : "Mem_add_read[3]",
 					"strict" : false
 				},
 				{
-					"name" : "add_write[4]",
+					"name" : "Mem_add_read[4]",
 					"strict" : false
 				},
 				{
-					"name" : "add_write[5]",
+					"name" : "Mem_add_read[5]",
 					"strict" : false
 				},
 				{
-					"name" : "add_write[6]",
+					"name" : "Mem_add_read[6]",
 					"strict" : false
 				},
 				{
-					"name" : "add_write[7]",
+					"name" : "Mem_add_read[7]",
 					"strict" : false
 				},
 				{
-					"name" : "add_write[8]",
+					"name" : "Mem_add_read[8]",
 					"strict" : false
 				},
 				{
-					"name" : "add_write[9]",
+					"name" : "Mem_add_read[9]",
 					"strict" : false
 				},
 				{
-					"name" : "add_write[10]",
+					"name" : "Mem_add_read[10]",
 					"strict" : false
 				},
 				{
-					"name" : "add_write[11]",
+					"name" : "Mem_add_read[11]",
 					"strict" : false
 				},
 				{
-					"name" : "add_write[12]",
+					"name" : "Mem_add_read[12]",
 					"strict" : false
 				},
 				{
-					"name" : "add_write[13]",
+					"name" : "Mem_add_read[13]",
 					"strict" : false
 				},
 				{
-					"name" : "add_write[14]",
+					"name" : "Mem_add_read[14]",
 					"strict" : false
 				},
 				{
-					"name" : "add_write[15]",
+					"name" : "Mem_add_read[15]",
 					"strict" : false
 				},
 				{
-					"name" : "add_read[0]",
+					"name" : "Mem_add_write[0]",
 					"strict" : false
 				},
 				{
-					"name" : "add_read[1]",
+					"name" : "Mem_add_write[1]",
 					"strict" : false
 				},
 				{
-					"name" : "add_read[2]",
+					"name" : "Mem_add_write[2]",
 					"strict" : false
 				},
 				{
-					"name" : "add_read[3]",
+					"name" : "Mem_add_write[3]",
 					"strict" : false
 				},
 				{
-					"name" : "add_read[4]",
+					"name" : "Mem_add_write[4]",
 					"strict" : false
 				},
 				{
-					"name" : "add_read[5]",
+					"name" : "Mem_add_write[5]",
 					"strict" : false
 				},
 				{
-					"name" : "add_read[6]",
+					"name" : "Mem_add_write[6]",
 					"strict" : false
 				},
 				{
-					"name" : "add_read[7]",
+					"name" : "Mem_add_write[7]",
 					"strict" : false
 				},
 				{
-					"name" : "add_read[8]",
+					"name" : "Mem_add_write[8]",
 					"strict" : false
 				},
 				{
-					"name" : "add_read[9]",
+					"name" : "Mem_add_write[9]",
 					"strict" : false
 				},
 				{
-					"name" : "add_read[10]",
+					"name" : "Mem_add_write[10]",
 					"strict" : false
 				},
 				{
-					"name" : "add_read[11]",
+					"name" : "Mem_add_write[11]",
 					"strict" : false
 				},
 				{
-					"name" : "add_read[12]",
+					"name" : "Mem_add_write[12]",
 					"strict" : false
 				},
 				{
-					"name" : "add_read[13]",
+					"name" : "Mem_add_write[13]",
 					"strict" : false
 				},
 				{
-					"name" : "add_read[14]",
+					"name" : "Mem_add_write[14]",
 					"strict" : false
 				},
 				{
-					"name" : "add_read[15]",
+					"name" : "Mem_add_write[15]",
 					"strict" : false
 				},
 				{
-					"name" : "data_write[0]",
+					"name" : "Mem_data_write[0]",
 					"strict" : false
 				},
 				{
-					"name" : "data_write[1]",
+					"name" : "Mem_data_write[1]",
 					"strict" : false
 				},
 				{
-					"name" : "data_write[2]",
+					"name" : "Mem_data_write[2]",
 					"strict" : false
 				},
 				{
-					"name" : "data_write[3]",
+					"name" : "Mem_data_write[3]",
 					"strict" : false
 				},
 				{
-					"name" : "data_write[4]",
+					"name" : "Mem_data_write[4]",
 					"strict" : false
 				},
 				{
-					"name" : "data_write[5]",
+					"name" : "Mem_data_write[5]",
 					"strict" : false
 				},
 				{
-					"name" : "data_write[6]",
+					"name" : "Mem_data_write[6]",
 					"strict" : false
 				},
 				{
-					"name" : "data_write[7]",
+					"name" : "Mem_data_write[7]",
 					"strict" : false
 				},
 				{
-					"name" : "data_write[8]",
+					"name" : "Mem_data_write[8]",
 					"strict" : false
 				},
 				{
-					"name" : "data_write[9]",
+					"name" : "Mem_data_write[9]",
 					"strict" : false
 				},
 				{
-					"name" : "data_write[10]",
+					"name" : "Mem_data_write[10]",
 					"strict" : false
 				},
 				{
-					"name" : "data_write[11]",
+					"name" : "Mem_data_write[11]",
 					"strict" : false
 				},
 				{
-					"name" : "data_write[12]",
+					"name" : "Mem_data_write[12]",
 					"strict" : false
 				},
 				{
-					"name" : "data_write[13]",
+					"name" : "Mem_data_write[13]",
 					"strict" : false
 				},
 				{
-					"name" : "data_write[14]",
+					"name" : "Mem_data_write[14]",
 					"strict" : false
 				},
 				{
-					"name" : "data_write[15]",
+					"name" : "Mem_data_write[15]",
 					"strict" : false
 				},
 				{
-					"name" : "data_read[0]",
+					"name" : "PCout[0]",
 					"strict" : false
 				},
 				{
-					"name" : "data_read[1]",
+					"name" : "PCout[1]",
 					"strict" : false
 				},
 				{
-					"name" : "data_read[2]",
+					"name" : "PCout[2]",
 					"strict" : false
 				},
 				{
-					"name" : "data_read[3]",
+					"name" : "PCout[3]",
 					"strict" : false
 				},
 				{
-					"name" : "data_read[4]",
+					"name" : "PCout[4]",
 					"strict" : false
 				},
 				{
-					"name" : "data_read[5]",
+					"name" : "PCout[5]",
 					"strict" : false
 				},
 				{
-					"name" : "data_read[6]",
+					"name" : "PCout[6]",
 					"strict" : false
 				},
 				{
-					"name" : "data_read[7]",
+					"name" : "PCout[7]",
 					"strict" : false
 				},
 				{
-					"name" : "data_read[8]",
+					"name" : "PCout[8]",
 					"strict" : false
 				},
 				{
-					"name" : "data_read[9]",
+					"name" : "PCout[9]",
 					"strict" : false
 				},
 				{
-					"name" : "data_read[10]",
+					"name" : "PCout[10]",
 					"strict" : false
 				},
 				{
-					"name" : "data_read[11]",
+					"name" : "PCout[11]",
 					"strict" : false
 				},
 				{
-					"name" : "data_read[12]",
+					"name" : "PCout[12]",
 					"strict" : false
 				},
 				{
-					"name" : "data_read[13]",
+					"name" : "PCout[13]",
 					"strict" : false
 				},
 				{
-					"name" : "data_read[14]",
+					"name" : "PCout[14]",
 					"strict" : false
 				},
 				{
-					"name" : "data_read[15]",
+					"name" : "PCout[15]",
 					"strict" : false
 				},
 				{
-					"name" : "mem_r_out",
+					"name" : "IRout[0]",
 					"strict" : false
 				},
 				{
-					"name" : "dout0[0]",
+					"name" : "IRout[1]",
 					"strict" : false
 				},
 				{
-					"name" : "dout0[1]",
+					"name" : "IRout[2]",
 					"strict" : false
 				},
 				{
-					"name" : "dout0[2]",
+					"name" : "IRout[3]",
 					"strict" : false
 				},
 				{
-					"name" : "dout0[3]",
+					"name" : "IRout[4]",
 					"strict" : false
 				},
 				{
-					"name" : "dout0[4]",
+					"name" : "IRout[5]",
 					"strict" : false
 				},
 				{
-					"name" : "dout0[5]",
+					"name" : "IRout[6]",
 					"strict" : false
 				},
 				{
-					"name" : "dout0[6]",
+					"name" : "IRout[7]",
 					"strict" : false
 				},
 				{
-					"name" : "dout0[7]",
+					"name" : "IRout[8]",
 					"strict" : false
 				},
 				{
-					"name" : "dout0[8]",
+					"name" : "IRout[9]",
 					"strict" : false
 				},
 				{
-					"name" : "dout0[9]",
+					"name" : "IRout[10]",
 					"strict" : false
 				},
 				{
-					"name" : "dout0[10]",
+					"name" : "IRout[11]",
 					"strict" : false
 				},
 				{
-					"name" : "dout0[11]",
+					"name" : "IRout[12]",
 					"strict" : false
 				},
 				{
-					"name" : "dout0[12]",
+					"name" : "IRout[13]",
 					"strict" : false
 				},
 				{
-					"name" : "dout0[13]",
+					"name" : "IRout[14]",
 					"strict" : false
 				},
 				{
-					"name" : "dout0[14]",
+					"name" : "IRout[15]",
 					"strict" : false
 				},
 				{
-					"name" : "dout0[15]",
+					"name" : "IRoutcontroller[0]",
 					"strict" : false
 				},
 				{
-					"name" : "mem_read",
+					"name" : "IRoutcontroller[1]",
+					"strict" : false
+				},
+				{
+					"name" : "IRoutcontroller[2]",
+					"strict" : false
+				},
+				{
+					"name" : "IRoutcontroller[3]",
+					"strict" : false
+				},
+				{
+					"name" : "IRoutcontroller[4]",
+					"strict" : false
+				},
+				{
+					"name" : "IRoutcontroller[5]",
+					"strict" : false
+				},
+				{
+					"name" : "IRoutcontroller[6]",
+					"strict" : false
+				},
+				{
+					"name" : "IRoutcontroller[7]",
+					"strict" : false
+				},
+				{
+					"name" : "IRoutcontroller[8]",
+					"strict" : false
+				},
+				{
+					"name" : "IRoutcontroller[9]",
+					"strict" : false
+				},
+				{
+					"name" : "IRoutcontroller[10]",
+					"strict" : false
+				},
+				{
+					"name" : "IRoutcontroller[11]",
+					"strict" : false
+				},
+				{
+					"name" : "IRoutcontroller[12]",
+					"strict" : false
+				},
+				{
+					"name" : "IRoutcontroller[13]",
+					"strict" : false
+				},
+				{
+					"name" : "IRoutcontroller[14]",
+					"strict" : false
+				},
+				{
+					"name" : "IRoutcontroller[15]",
+					"strict" : false
+				},
+				{
+					"name" : "Mem_r",
+					"strict" : false
+				},
+				{
+					"name" : "Mem_w",
+					"strict" : false
+				},
+				{
+					"name" : "ostate[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ostate[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ostate[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ostate[3]",
+					"strict" : false
+				},
+				{
+					"name" : "ostate[4]",
 					"strict" : false
 				},
 				{
@@ -336,91 +420,71 @@
 					"strict" : false
 				},
 				{
-					"name" : "mem_w_init",
+					"name" : "reset",
 					"strict" : false
 				},
 				{
-					"name" : "mem_data_write_init[0]",
+					"name" : "Mem_data_read[0]",
 					"strict" : false
 				},
 				{
-					"name" : "mem_add_write_init[4]",
+					"name" : "Mem_data_read[1]",
 					"strict" : false
 				},
 				{
-					"name" : "mem_add_write_init[3]",
+					"name" : "Mem_data_read[2]",
 					"strict" : false
 				},
 				{
-					"name" : "mem_add_write_init[2]",
+					"name" : "Mem_data_read[3]",
 					"strict" : false
 				},
 				{
-					"name" : "mem_add_write_init[1]",
+					"name" : "Mem_data_read[4]",
 					"strict" : false
 				},
 				{
-					"name" : "mem_add_write_init[0]",
+					"name" : "Mem_data_read[5]",
 					"strict" : false
 				},
 				{
-					"name" : "mem_data_write_init[1]",
+					"name" : "Mem_data_read[6]",
 					"strict" : false
 				},
 				{
-					"name" : "mem_data_write_init[2]",
+					"name" : "Mem_data_read[7]",
 					"strict" : false
 				},
 				{
-					"name" : "mem_data_write_init[3]",
+					"name" : "Mem_data_read[8]",
 					"strict" : false
 				},
 				{
-					"name" : "mem_data_write_init[4]",
+					"name" : "Mem_data_read[9]",
 					"strict" : false
 				},
 				{
-					"name" : "mem_data_write_init[5]",
+					"name" : "Mem_data_read[10]",
 					"strict" : false
 				},
 				{
-					"name" : "mem_data_write_init[6]",
+					"name" : "Mem_data_read[11]",
 					"strict" : false
 				},
 				{
-					"name" : "mem_data_write_init[7]",
+					"name" : "Mem_data_read[12]",
 					"strict" : false
 				},
 				{
-					"name" : "mem_data_write_init[8]",
+					"name" : "Mem_data_read[13]",
 					"strict" : false
 				},
 				{
-					"name" : "mem_data_write_init[9]",
+					"name" : "Mem_data_read[14]",
 					"strict" : false
 				},
 				{
-					"name" : "mem_data_write_init[10]",
-					"strict" : false
-				},
-				{
-					"name" : "mem_data_write_init[11]",
-					"strict" : false
-				},
-				{
-					"name" : "mem_data_write_init[12]",
-					"strict" : false
-				},
-				{
-					"name" : "mem_data_write_init[13]",
-					"strict" : false
-				},
-				{
-					"name" : "mem_data_write_init[14]",
-					"strict" : false
-				},
-				{
-					"name" : "mem_data_write_init[15]",
+					"name" : "Mem_data_read[15]",
 					"strict" : false
 				}
 			]

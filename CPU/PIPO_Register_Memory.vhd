@@ -4,7 +4,7 @@ use ieee.std_logic_1164.all;
 entity pipo_register_memory is
 	port (din : in std_logic_vector(15 downto 0);
 			w ,r , rst, clk : in std_logic;
-			dout : out std_logic_vector(15 downto 0) := "0000000000000000");
+			dout : out std_logic_vector(15 downto 0) := "0101000100000010");
 end entity;
 
 architecture ha of pipo_register_memory is
@@ -17,7 +17,7 @@ architecture ha of pipo_register_memory is
 		port (I1, I0 : in std_logic; S : in std_logic; Y : out std_logic);
 	end component;
 	
-	signal d, q : std_logic_vector(15 downto 0) := "0000000000000000";
+	signal d, q : std_logic_vector(15 downto 0) := "0101000100000010";
 	
 begin
 

@@ -5,7 +5,8 @@ entity Memory_64b is
 	port (
 		a1, a2: in std_logic_vector(15 downto 0);
 		d2: in std_logic_vector(15 downto 0);
-		rst, clk, mem_r, mem_w : in std_logic;
+		rst, clk, mem_w : in std_logic :='0';
+		mem_r: in std_logic := '1';
 		d1: out std_logic_vector(15 downto 0);
 		dout0 : out std_logic_vector(15 downto 0);
 		mem_read : out std_logic

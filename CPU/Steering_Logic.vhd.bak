@@ -1,0 +1,28 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+--T1,T2,RF,IR,PC,ALU,SE,Mem
+entity Steering_logic is
+	port(State_in: in std_logic_vector(4 downto 0);
+		  T1_en,T2_en,IR_en,PC_en,RF_en,Mem_r,Mem_w: out std_logic;
+		  RF_A1,RF_A2,RF_A3: out std_logic_vector(2 downto 0);
+		  RF_D3: out std_logic_vector(15 downto 0);
+		  T1_Data_Read,T2_Data_Read: in std_logic_vector(15 downto 0);
+		  T1_Data_Write,T2_Data_Write: out std_logic_vector(15 downto 0);
+		  ALU_A,ALU_B: out std_logic_vector(15 downto 0);
+		  ALU_C: in std_logic_vector(15 downto 0);
+		  ALU_Cout,ALU_Z: in std_logic;
+		  IR_Data_Read: in std_logic_vector(15 downto 0);
+		  IR_Data_Write: out std_logic_vector(15 downto 0);
+		  PC_Data_Read: in std_logic_vector(15 downto 0);
+		  PC_Data_Write: out std_logic_vector(15 downto 0);
+		  Mem_Data_Read: in std_logic_vector(15 downto 0);
+		  Mem_Data_Write, Mem_Add_Read, Mem_Add_Write: out std_logic_vector(15 downto 0));
+end entity;
+
+architecture str of Steering_Logic is
+	component mux_2x1_16bit is
+		port (I1, I0 : in std_logic_vector(15 downto 0); 
+				S : in std_logic; 
+				Y : out std_logic_vector(15 downto 0));
+	end component;
