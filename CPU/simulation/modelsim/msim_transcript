@@ -13,40 +13,40 @@
 # 
 # vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/SE_9_To_16.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:06:53 on Dec 03,2024
+# Start time: 19:17:31 on Dec 03,2024
 # vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/SE_9_To_16.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity SE_9_To_16
 # -- Compiling architecture str of SE_9_To_16
-# End time: 19:06:53 on Dec 03,2024, Elapsed time: 0:00:00
+# End time: 19:17:31 on Dec 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/SE_6_To_16.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:06:53 on Dec 03,2024
+# Start time: 19:17:31 on Dec 03,2024
 # vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/SE_6_To_16.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity SE_6_To_16
 # -- Compiling architecture str of SE_6_To_16
-# End time: 19:06:53 on Dec 03,2024, Elapsed time: 0:00:00
+# End time: 19:17:31 on Dec 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/Register_File.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:06:53 on Dec 03,2024
+# Start time: 19:17:31 on Dec 03,2024
 # vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/Register_File.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity register_file
 # -- Compiling architecture str of register_file
-# End time: 19:06:53 on Dec 03,2024, Elapsed time: 0:00:00
+# End time: 19:17:31 on Dec 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/preprocessing.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:06:53 on Dec 03,2024
+# Start time: 19:17:31 on Dec 03,2024
 # vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/preprocessing.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -54,11 +54,11 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity preprocessing
 # -- Compiling architecture behav of preprocessing
-# End time: 19:06:53 on Dec 03,2024, Elapsed time: 0:00:00
+# End time: 19:17:32 on Dec 03,2024, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/postprocessing.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:06:53 on Dec 03,2024
+# Start time: 19:17:32 on Dec 03,2024
 # vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/postprocessing.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -66,33 +66,33 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity postprocessing
 # -- Compiling architecture behav of postprocessing
-# End time: 19:06:53 on Dec 03,2024, Elapsed time: 0:00:00
+# End time: 19:17:32 on Dec 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/PIPO_Register.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:06:53 on Dec 03,2024
+# Start time: 19:17:32 on Dec 03,2024
 # vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/PIPO_Register.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity pipo_register
 # -- Compiling architecture ha of pipo_register
-# End time: 19:06:53 on Dec 03,2024, Elapsed time: 0:00:00
+# End time: 19:17:32 on Dec 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/Or_16.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:06:53 on Dec 03,2024
+# Start time: 19:17:32 on Dec 03,2024
 # vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/Or_16.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity OR_16
 # -- Compiling architecture str of OR_16
-# End time: 19:06:53 on Dec 03,2024, Elapsed time: 0:00:00
+# End time: 19:17:32 on Dec 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/kogge_stone_node.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:06:53 on Dec 03,2024
+# Start time: 19:17:32 on Dec 03,2024
 # vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/kogge_stone_node.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -100,11 +100,11 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity kogge_stone_node
 # -- Compiling architecture struct of kogge_stone_node
-# End time: 19:06:53 on Dec 03,2024, Elapsed time: 0:00:00
+# End time: 19:17:32 on Dec 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/Kogge_stone_adder_subtractor.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:06:53 on Dec 03,2024
+# Start time: 19:17:32 on Dec 03,2024
 # vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/Kogge_stone_adder_subtractor.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -112,11 +112,11 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity kogge_stone_adder_subtractor
 # -- Compiling architecture str of kogge_stone_adder_subtractor
-# End time: 19:06:53 on Dec 03,2024, Elapsed time: 0:00:00
+# End time: 19:17:32 on Dec 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/kogge_stone.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:06:53 on Dec 03,2024
+# Start time: 19:17:32 on Dec 03,2024
 # vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/kogge_stone.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -124,99 +124,99 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity kogge_stone
 # -- Compiling architecture behav of kogge_stone
-# End time: 19:06:53 on Dec 03,2024, Elapsed time: 0:00:00
+# End time: 19:17:32 on Dec 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/Imp_16.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:06:53 on Dec 03,2024
+# Start time: 19:17:32 on Dec 03,2024
 # vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/Imp_16.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity IMP_16
 # -- Compiling architecture str of IMP_16
-# End time: 19:06:53 on Dec 03,2024, Elapsed time: 0:00:00
+# End time: 19:17:32 on Dec 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/Full_Adder.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:06:53 on Dec 03,2024
+# Start time: 19:17:32 on Dec 03,2024
 # vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/Full_Adder.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity Full_Adder
 # -- Compiling architecture struct of Full_Adder
-# End time: 19:06:53 on Dec 03,2024, Elapsed time: 0:00:00
+# End time: 19:17:32 on Dec 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/Eight_Bit_Left_Shifter.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:06:53 on Dec 03,2024
+# Start time: 19:17:32 on Dec 03,2024
 # vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/Eight_Bit_Left_Shifter.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity Eight_Bit_Left_Shifter
 # -- Compiling architecture str of Eight_Bit_Left_Shifter
-# End time: 19:06:53 on Dec 03,2024, Elapsed time: 0:00:00
+# End time: 19:17:32 on Dec 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/D_Flip_Flop.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:06:53 on Dec 03,2024
+# Start time: 19:17:32 on Dec 03,2024
 # vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/D_Flip_Flop.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity d_ff
 # -- Compiling architecture beh of d_ff
-# End time: 19:06:53 on Dec 03,2024, Elapsed time: 0:00:00
+# End time: 19:17:32 on Dec 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/Array_Multiplier_Node.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:06:53 on Dec 03,2024
+# Start time: 19:17:32 on Dec 03,2024
 # vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/Array_Multiplier_Node.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity Array_Multiplier_Node
 # -- Compiling architecture struct1 of Array_Multiplier_Node
-# End time: 19:06:53 on Dec 03,2024, Elapsed time: 0:00:00
+# End time: 19:17:32 on Dec 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/Array_Multiplier.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:06:53 on Dec 03,2024
+# Start time: 19:17:32 on Dec 03,2024
 # vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/Array_Multiplier.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity Array_Multiplier
 # -- Compiling architecture Struct2 of Array_Multiplier
-# End time: 19:06:54 on Dec 03,2024, Elapsed time: 0:00:01
+# End time: 19:17:32 on Dec 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/And_16.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:06:54 on Dec 03,2024
+# Start time: 19:17:32 on Dec 03,2024
 # vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/And_16.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity AND_16
 # -- Compiling architecture str of AND_16
-# End time: 19:06:54 on Dec 03,2024, Elapsed time: 0:00:00
+# End time: 19:17:32 on Dec 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/ALU.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:06:54 on Dec 03,2024
+# Start time: 19:17:32 on Dec 03,2024
 # vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/ALU.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity ALU
 # -- Compiling architecture str of ALU
-# End time: 19:06:54 on Dec 03,2024, Elapsed time: 0:00:00
+# End time: 19:17:32 on Dec 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/32_X_1_Mux_16_bit.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:06:54 on Dec 03,2024
+# Start time: 19:17:32 on Dec 03,2024
 # vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/32_X_1_Mux_16_bit.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -224,11 +224,11 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity mux_32x1_16bit
 # -- Compiling architecture beh of mux_32x1_16bit
-# End time: 19:06:54 on Dec 03,2024, Elapsed time: 0:00:00
+# End time: 19:17:32 on Dec 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/8_X_1_Mux_16_Bit.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:06:54 on Dec 03,2024
+# Start time: 19:17:32 on Dec 03,2024
 # vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/8_X_1_Mux_16_Bit.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -236,11 +236,11 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity mux_8x1_16bit
 # -- Compiling architecture beh of mux_8x1_16bit
-# End time: 19:06:54 on Dec 03,2024, Elapsed time: 0:00:00
+# End time: 19:17:32 on Dec 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/8_X_1_Demux_16_Bit.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:06:54 on Dec 03,2024
+# Start time: 19:17:32 on Dec 03,2024
 # vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/8_X_1_Demux_16_Bit.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -248,22 +248,22 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity demux_8x1_16bit
 # -- Compiling architecture beh of demux_8x1_16bit
-# End time: 19:06:54 on Dec 03,2024, Elapsed time: 0:00:00
+# End time: 19:17:32 on Dec 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/2_X_1_Mux.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:06:54 on Dec 03,2024
+# Start time: 19:17:32 on Dec 03,2024
 # vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/2_X_1_Mux.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity mux_2x1
 # -- Compiling architecture beh of mux_2x1
-# End time: 19:06:54 on Dec 03,2024, Elapsed time: 0:00:00
+# End time: 19:17:32 on Dec 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/CPU.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:06:54 on Dec 03,2024
+# Start time: 19:17:32 on Dec 03,2024
 # vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/CPU.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -271,11 +271,11 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity CPU
 # -- Compiling architecture str of CPU
-# End time: 19:06:54 on Dec 03,2024, Elapsed time: 0:00:00
+# End time: 19:17:32 on Dec 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/Steering_Logic.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:06:54 on Dec 03,2024
+# Start time: 19:17:32 on Dec 03,2024
 # vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/Steering_Logic.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -283,11 +283,11 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity Steering_logic
 # -- Compiling architecture str of Steering_Logic
-# End time: 19:06:54 on Dec 03,2024, Elapsed time: 0:00:00
+# End time: 19:17:33 on Dec 03,2024, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/32_X_1_Mux_3_bit.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:06:54 on Dec 03,2024
+# Start time: 19:17:33 on Dec 03,2024
 # vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/32_X_1_Mux_3_bit.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -295,11 +295,11 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity mux_32x1_3bit
 # -- Compiling architecture beh of mux_32x1_3bit
-# End time: 19:06:54 on Dec 03,2024, Elapsed time: 0:00:00
+# End time: 19:17:33 on Dec 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/32_X_1_Mux_1_bit.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:06:54 on Dec 03,2024
+# Start time: 19:17:33 on Dec 03,2024
 # vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/32_X_1_Mux_1_bit.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -307,11 +307,11 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity mux_32x1_1bit
 # -- Compiling architecture beh of mux_32x1_1bit
-# End time: 19:06:54 on Dec 03,2024, Elapsed time: 0:00:00
+# End time: 19:17:33 on Dec 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/32_X_1_Mux_6_bit.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:06:54 on Dec 03,2024
+# Start time: 19:17:33 on Dec 03,2024
 # vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/32_X_1_Mux_6_bit.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -319,11 +319,11 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity mux_32x1_6bit
 # -- Compiling architecture beh of mux_32x1_6bit
-# End time: 19:06:54 on Dec 03,2024, Elapsed time: 0:00:00
+# End time: 19:17:33 on Dec 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/32_X_1_Mux_9_bit.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:06:54 on Dec 03,2024
+# Start time: 19:17:33 on Dec 03,2024
 # vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/32_X_1_Mux_9_bit.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -331,11 +331,11 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity mux_32x1_9bit
 # -- Compiling architecture beh of mux_32x1_9bit
-# End time: 19:06:54 on Dec 03,2024, Elapsed time: 0:00:00
+# End time: 19:17:33 on Dec 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/Controller.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:06:54 on Dec 03,2024
+# Start time: 19:17:33 on Dec 03,2024
 # vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/Controller.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -343,45 +343,45 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity Controller
 # -- Compiling architecture str of Controller
-# End time: 19:06:54 on Dec 03,2024, Elapsed time: 0:00:00
+# End time: 19:17:33 on Dec 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/8_X_1_Demux_1_Bit.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:06:54 on Dec 03,2024
+# Start time: 19:17:33 on Dec 03,2024
 # vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/8_X_1_Demux_1_Bit.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity demux_8x1_1bit
 # -- Compiling architecture beh of demux_8x1_1bit
-# End time: 19:06:54 on Dec 03,2024, Elapsed time: 0:00:00
+# End time: 19:17:33 on Dec 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/D_Flip_Flop_Falling.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:06:54 on Dec 03,2024
+# Start time: 19:17:33 on Dec 03,2024
 # vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/D_Flip_Flop_Falling.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity d_ff_falling
 # -- Compiling architecture beh of d_ff_falling
-# End time: 19:06:54 on Dec 03,2024, Elapsed time: 0:00:00
+# End time: 19:17:33 on Dec 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/PIPO_Register_falling.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:06:54 on Dec 03,2024
+# Start time: 19:17:33 on Dec 03,2024
 # vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/PIPO_Register_falling.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity pipo_register_falling
 # -- Compiling architecture ha of pipo_register_falling
-# End time: 19:06:54 on Dec 03,2024, Elapsed time: 0:00:00
+# End time: 19:17:33 on Dec 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/CPU_testbench.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 19:06:54 on Dec 03,2024
+# Start time: 19:17:33 on Dec 03,2024
 # vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/CPU_testbench.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -390,12 +390,12 @@
 # -- Compiling entity CPU_testbench
 # -- Compiling architecture behav of CPU_testbench
 # ** Warning: E:/Semester_3/Digital Systems/Project_Part_B/CPU/CPU_testbench.vhd(22): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# End time: 19:06:54 on Dec 03,2024, Elapsed time: 0:00:00
+# End time: 19:17:33 on Dec 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 1
 # 
 # vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs="+acc"  CPU_testbench
 # vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs=""+acc"" CPU_testbench 
-# Start time: 19:06:54 on Dec 03,2024
+# Start time: 19:17:33 on Dec 03,2024
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
@@ -444,135 +444,135 @@
 # run 10000 ns
 # ** Note: going to s10
 #    Time: 25 ns  Iteration: 0  Instance: /cpu_testbench/cpuinst/Controller_Unit
-# ** Note: writing value: 0 to memory address: 15
-#    Time: 250 ns  Iteration: 0  Instance: /cpu_testbench
+# ** Note: writing value: 1 to memory address: 15
+#    Time: 350 ns  Iteration: 0  Instance: /cpu_testbench
 # ** Note: ALU_Z: 0
 #    Time: 395 ns  Iteration: 0  Instance: /cpu_testbench/cpuinst/Controller_Unit
 # ** Note: writing value: 1 to memory address: 15
-#    Time: 550 ns  Iteration: 0  Instance: /cpu_testbench
+#    Time: 650 ns  Iteration: 0  Instance: /cpu_testbench
 # ** Note: ALU_Z: 0
 #    Time: 695 ns  Iteration: 0  Instance: /cpu_testbench/cpuinst/Controller_Unit
-# ** Note: writing value: 1 to memory address: 15
-#    Time: 850 ns  Iteration: 0  Instance: /cpu_testbench
+# ** Note: writing value: 2 to memory address: 15
+#    Time: 950 ns  Iteration: 0  Instance: /cpu_testbench
 # ** Note: ALU_Z: 0
 #    Time: 995 ns  Iteration: 0  Instance: /cpu_testbench/cpuinst/Controller_Unit
-# ** Note: writing value: 2 to memory address: 15
-#    Time: 1150 ns  Iteration: 0  Instance: /cpu_testbench
+# ** Note: writing value: 3 to memory address: 15
+#    Time: 1250 ns  Iteration: 0  Instance: /cpu_testbench
 # ** Note: ALU_Z: 0
 #    Time: 1295 ns  Iteration: 0  Instance: /cpu_testbench/cpuinst/Controller_Unit
-# ** Note: writing value: 3 to memory address: 15
-#    Time: 1450 ns  Iteration: 0  Instance: /cpu_testbench
+# ** Note: writing value: 5 to memory address: 15
+#    Time: 1550 ns  Iteration: 0  Instance: /cpu_testbench
 # ** Note: ALU_Z: 0
 #    Time: 1595 ns  Iteration: 0  Instance: /cpu_testbench/cpuinst/Controller_Unit
-# ** Note: writing value: 5 to memory address: 15
-#    Time: 1750 ns  Iteration: 0  Instance: /cpu_testbench
+# ** Note: writing value: 8 to memory address: 15
+#    Time: 1850 ns  Iteration: 0  Instance: /cpu_testbench
 # ** Note: ALU_Z: 0
 #    Time: 1895 ns  Iteration: 0  Instance: /cpu_testbench/cpuinst/Controller_Unit
-# ** Note: writing value: 8 to memory address: 15
-#    Time: 2050 ns  Iteration: 0  Instance: /cpu_testbench
+# ** Note: writing value: 13 to memory address: 15
+#    Time: 2150 ns  Iteration: 0  Instance: /cpu_testbench
 # ** Note: ALU_Z: 0
 #    Time: 2195 ns  Iteration: 0  Instance: /cpu_testbench/cpuinst/Controller_Unit
-# ** Note: writing value: 13 to memory address: 15
-#    Time: 2350 ns  Iteration: 0  Instance: /cpu_testbench
+# ** Note: writing value: 21 to memory address: 15
+#    Time: 2450 ns  Iteration: 0  Instance: /cpu_testbench
 # ** Note: ALU_Z: 0
 #    Time: 2495 ns  Iteration: 0  Instance: /cpu_testbench/cpuinst/Controller_Unit
-# ** Note: writing value: 21 to memory address: 15
-#    Time: 2650 ns  Iteration: 0  Instance: /cpu_testbench
+# ** Note: writing value: 34 to memory address: 15
+#    Time: 2750 ns  Iteration: 0  Instance: /cpu_testbench
 # ** Note: ALU_Z: 0
 #    Time: 2795 ns  Iteration: 0  Instance: /cpu_testbench/cpuinst/Controller_Unit
-# ** Note: writing value: 34 to memory address: 15
-#    Time: 2950 ns  Iteration: 0  Instance: /cpu_testbench
+# ** Note: writing value: 55 to memory address: 15
+#    Time: 3050 ns  Iteration: 0  Instance: /cpu_testbench
 # ** Note: ALU_Z: 0
 #    Time: 3095 ns  Iteration: 0  Instance: /cpu_testbench/cpuinst/Controller_Unit
-# ** Note: writing value: 55 to memory address: 15
-#    Time: 3250 ns  Iteration: 0  Instance: /cpu_testbench
+# ** Note: writing value: 89 to memory address: 15
+#    Time: 3350 ns  Iteration: 0  Instance: /cpu_testbench
 # ** Note: ALU_Z: 0
 #    Time: 3395 ns  Iteration: 0  Instance: /cpu_testbench/cpuinst/Controller_Unit
-# ** Note: writing value: 89 to memory address: 15
-#    Time: 3550 ns  Iteration: 0  Instance: /cpu_testbench
+# ** Note: writing value: 144 to memory address: 15
+#    Time: 3650 ns  Iteration: 0  Instance: /cpu_testbench
 # ** Note: ALU_Z: 0
 #    Time: 3695 ns  Iteration: 0  Instance: /cpu_testbench/cpuinst/Controller_Unit
-# ** Note: writing value: 144 to memory address: 15
-#    Time: 3850 ns  Iteration: 0  Instance: /cpu_testbench
+# ** Note: writing value: 233 to memory address: 15
+#    Time: 3950 ns  Iteration: 0  Instance: /cpu_testbench
 # ** Note: ALU_Z: 0
 #    Time: 3995 ns  Iteration: 0  Instance: /cpu_testbench/cpuinst/Controller_Unit
-# ** Note: writing value: 233 to memory address: 15
-#    Time: 4150 ns  Iteration: 0  Instance: /cpu_testbench
+# ** Note: writing value: 377 to memory address: 15
+#    Time: 4250 ns  Iteration: 0  Instance: /cpu_testbench
 # ** Note: ALU_Z: 0
 #    Time: 4295 ns  Iteration: 0  Instance: /cpu_testbench/cpuinst/Controller_Unit
-# ** Note: writing value: 377 to memory address: 15
-#    Time: 4450 ns  Iteration: 0  Instance: /cpu_testbench
+# ** Note: writing value: 610 to memory address: 15
+#    Time: 4550 ns  Iteration: 0  Instance: /cpu_testbench
 # ** Note: ALU_Z: 0
 #    Time: 4595 ns  Iteration: 0  Instance: /cpu_testbench/cpuinst/Controller_Unit
-# ** Note: writing value: 610 to memory address: 15
-#    Time: 4750 ns  Iteration: 0  Instance: /cpu_testbench
+# ** Note: writing value: 987 to memory address: 15
+#    Time: 4850 ns  Iteration: 0  Instance: /cpu_testbench
 # ** Note: ALU_Z: 0
 #    Time: 4895 ns  Iteration: 0  Instance: /cpu_testbench/cpuinst/Controller_Unit
-# ** Note: writing value: 987 to memory address: 15
-#    Time: 5050 ns  Iteration: 0  Instance: /cpu_testbench
+# ** Note: writing value: 1597 to memory address: 15
+#    Time: 5150 ns  Iteration: 0  Instance: /cpu_testbench
 # ** Note: ALU_Z: 0
 #    Time: 5195 ns  Iteration: 0  Instance: /cpu_testbench/cpuinst/Controller_Unit
-# ** Note: writing value: 1597 to memory address: 15
-#    Time: 5350 ns  Iteration: 0  Instance: /cpu_testbench
+# ** Note: writing value: 2584 to memory address: 15
+#    Time: 5450 ns  Iteration: 0  Instance: /cpu_testbench
 # ** Note: ALU_Z: 0
 #    Time: 5495 ns  Iteration: 0  Instance: /cpu_testbench/cpuinst/Controller_Unit
-# ** Note: writing value: 2584 to memory address: 15
-#    Time: 5650 ns  Iteration: 0  Instance: /cpu_testbench
+# ** Note: writing value: 4181 to memory address: 15
+#    Time: 5750 ns  Iteration: 0  Instance: /cpu_testbench
 # ** Note: ALU_Z: 0
 #    Time: 5795 ns  Iteration: 0  Instance: /cpu_testbench/cpuinst/Controller_Unit
-# ** Note: writing value: 4181 to memory address: 15
-#    Time: 5950 ns  Iteration: 0  Instance: /cpu_testbench
+# ** Note: writing value: 6765 to memory address: 15
+#    Time: 6050 ns  Iteration: 0  Instance: /cpu_testbench
 # ** Note: ALU_Z: 0
 #    Time: 6095 ns  Iteration: 0  Instance: /cpu_testbench/cpuinst/Controller_Unit
-# ** Note: writing value: 6765 to memory address: 15
-#    Time: 6250 ns  Iteration: 0  Instance: /cpu_testbench
+# ** Note: writing value: 10946 to memory address: 15
+#    Time: 6350 ns  Iteration: 0  Instance: /cpu_testbench
 # ** Note: ALU_Z: 0
 #    Time: 6395 ns  Iteration: 0  Instance: /cpu_testbench/cpuinst/Controller_Unit
-# ** Note: writing value: 10946 to memory address: 15
-#    Time: 6550 ns  Iteration: 0  Instance: /cpu_testbench
+# ** Note: writing value: 17711 to memory address: 15
+#    Time: 6650 ns  Iteration: 0  Instance: /cpu_testbench
 # ** Note: ALU_Z: 0
 #    Time: 6695 ns  Iteration: 0  Instance: /cpu_testbench/cpuinst/Controller_Unit
-# ** Note: writing value: 17711 to memory address: 15
-#    Time: 6850 ns  Iteration: 0  Instance: /cpu_testbench
+# ** Note: writing value: 28657 to memory address: 15
+#    Time: 6950 ns  Iteration: 0  Instance: /cpu_testbench
 # ** Note: ALU_Z: 0
 #    Time: 6995 ns  Iteration: 0  Instance: /cpu_testbench/cpuinst/Controller_Unit
-# ** Note: writing value: 28657 to memory address: 15
-#    Time: 7150 ns  Iteration: 0  Instance: /cpu_testbench
+# ** Note: writing value: 46368 to memory address: 15
+#    Time: 7250 ns  Iteration: 0  Instance: /cpu_testbench
 # ** Note: ALU_Z: 1
 #    Time: 7295 ns  Iteration: 0  Instance: /cpu_testbench/cpuinst/Controller_Unit
-# ** Note: writing value: 0 to memory address: 15
-#    Time: 7500 ns  Iteration: 0  Instance: /cpu_testbench
+# ** Note: writing value: 1 to memory address: 15
+#    Time: 7600 ns  Iteration: 0  Instance: /cpu_testbench
 # ** Note: ALU_Z: 0
 #    Time: 7645 ns  Iteration: 0  Instance: /cpu_testbench/cpuinst/Controller_Unit
 # ** Note: writing value: 1 to memory address: 15
-#    Time: 7800 ns  Iteration: 0  Instance: /cpu_testbench
+#    Time: 7900 ns  Iteration: 0  Instance: /cpu_testbench
 # ** Note: ALU_Z: 0
 #    Time: 7945 ns  Iteration: 0  Instance: /cpu_testbench/cpuinst/Controller_Unit
-# ** Note: writing value: 1 to memory address: 15
-#    Time: 8100 ns  Iteration: 0  Instance: /cpu_testbench
+# ** Note: writing value: 2 to memory address: 15
+#    Time: 8200 ns  Iteration: 0  Instance: /cpu_testbench
 # ** Note: ALU_Z: 0
 #    Time: 8245 ns  Iteration: 0  Instance: /cpu_testbench/cpuinst/Controller_Unit
-# ** Note: writing value: 2 to memory address: 15
-#    Time: 8400 ns  Iteration: 0  Instance: /cpu_testbench
+# ** Note: writing value: 3 to memory address: 15
+#    Time: 8500 ns  Iteration: 0  Instance: /cpu_testbench
 # ** Note: ALU_Z: 0
 #    Time: 8545 ns  Iteration: 0  Instance: /cpu_testbench/cpuinst/Controller_Unit
-# ** Note: writing value: 3 to memory address: 15
-#    Time: 8700 ns  Iteration: 0  Instance: /cpu_testbench
+# ** Note: writing value: 5 to memory address: 15
+#    Time: 8800 ns  Iteration: 0  Instance: /cpu_testbench
 # ** Note: ALU_Z: 0
 #    Time: 8845 ns  Iteration: 0  Instance: /cpu_testbench/cpuinst/Controller_Unit
-# ** Note: writing value: 5 to memory address: 15
-#    Time: 9 us  Iteration: 0  Instance: /cpu_testbench
+# ** Note: writing value: 8 to memory address: 15
+#    Time: 9100 ns  Iteration: 0  Instance: /cpu_testbench
 # ** Note: ALU_Z: 0
 #    Time: 9145 ns  Iteration: 0  Instance: /cpu_testbench/cpuinst/Controller_Unit
-# ** Note: writing value: 8 to memory address: 15
-#    Time: 9300 ns  Iteration: 0  Instance: /cpu_testbench
+# ** Note: writing value: 13 to memory address: 15
+#    Time: 9400 ns  Iteration: 0  Instance: /cpu_testbench
 # ** Note: ALU_Z: 0
 #    Time: 9445 ns  Iteration: 0  Instance: /cpu_testbench/cpuinst/Controller_Unit
-# ** Note: writing value: 13 to memory address: 15
-#    Time: 9600 ns  Iteration: 0  Instance: /cpu_testbench
+# ** Note: writing value: 21 to memory address: 15
+#    Time: 9700 ns  Iteration: 0  Instance: /cpu_testbench
 # ** Note: ALU_Z: 0
 #    Time: 9745 ns  Iteration: 0  Instance: /cpu_testbench/cpuinst/Controller_Unit
-# ** Note: writing value: 21 to memory address: 15
-#    Time: 9900 ns  Iteration: 0  Instance: /cpu_testbench
-# End time: 19:14:18 on Dec 03,2024, Elapsed time: 0:07:24
+# ** Note: writing value: 34 to memory address: 15
+#    Time: 10 us  Iteration: 0  Instance: /cpu_testbench
+# End time: 19:17:52 on Dec 03,2024, Elapsed time: 0:00:19
 # Errors: 0, Warnings: 1
