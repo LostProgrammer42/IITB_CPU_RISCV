@@ -86,6 +86,23 @@ type state is (init,s0,s1,s2,s3,s5,s6,s7,s8,s9,s10,s11,s12,s15,s16,s17,s19,s20,s
 					when s5 =>
 						ostate <= "00101";
 						y_next <= s6;
+					when s7 =>
+						ostate <= "00111";
+						case IR_data_read(15 downto 12) is
+							when "1110" => y_next <= s22;
+							when "1000" => y_next <= s8;
+							when "1001" => y_next <= s9;
+							when others => null;
+						end case;
+					when s8 =>
+						ostate <= "01000";
+						y_next <= s0;
+					when s9 =>
+						ostate <= "01001";
+						y_next <= s0;
+					when s22 =>
+						ostate <= "10110";
+						y_next <= s0;
 					when others => null;
 				end case;
 			end if;

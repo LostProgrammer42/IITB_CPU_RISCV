@@ -32,8 +32,10 @@ architecture behav of CPU_testbench is
 	signal Memory: regarray:=(
 		0 =>  "1010001000000100",--Instr1: LW from Mem Address=4 to RF address = 0; Instr1 at Mem Address = 0
 		1 =>  "1010010001000101",--Instr2: LW from Mem Address=5 to RF address = 1; Instr2 at Mem Address = 1
-		2 =>  "0000000001010000",--Instr3: Add Reg0 and Reg1 and store in Reg2; Instr3 at Mem Address = 2
+--		2 =>  "0000000001010000",--Instr3: Add Reg0 and Reg1 and store in Reg2; Instr3 at Mem Address = 2
+		2 =>  "0001000010111111",--Instr3: Add -1 and REg0 and store in Reg2; Instr3 at Mem Address = 2
 		3 =>  "1011010011000110",--Instr4: SW from RF address=2 to Mem address = 6; Instr4 at Mem Address = 3
+--		3 =>  "1110000111111101", --Instr4: J from Current PC=3 to PC=0
 		4 =>  "0000000000010000", -- Number1
 		5 =>  "0000000000000001", -- Number2
 		6 =>  "0110000001010000",

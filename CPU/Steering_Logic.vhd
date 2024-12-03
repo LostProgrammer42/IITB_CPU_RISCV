@@ -99,7 +99,7 @@ architecture str of Steering_Logic is
 		Mem_w_path: mux_32x1_1bit port map(I16=>'1', S=>state_in, Y=>Mem_w);
 		Mem_r_path: mux_32x1_1bit port map(I30=>'1',I31=>'1',I0=>'1', I12=>'1', S=>state_in, Y=>Mem_r);
 		RF_en_path: mux_32x1_1bit port map(I3=>'1', I6=>'1', I8=>'1', I9=>'1', I13=>'1', I21=>'1', I23=>'1', S=>state_in, Y=>RF_en);
-		T1_en_path: mux_32x1_1bit port map(I0=>'1', I1=>'1',I2=>'1', I3=>'1', I4=>'1', I9=>'1', I10=>'1', I11=>'1', I12=>'1', I18=>'1', S=>state_in, Y=>T1_en);
+		T1_en_path: mux_32x1_1bit port map(I0=>'1', I1=>'1',I2=>'1', I3=>'1', I4=>'1', I5=>'1', I9=>'1', I10=>'1', I11=>'1', I12=>'1', I18=>'1', S=>state_in, Y=>T1_en);
 		T2_en_path: mux_32x1_1bit port map(I0=>'1', I1=>'1', I15=>'1', S=>state_in, Y=>T2_en);
 		PC_en_path: mux_32x1_1bit port map(I0=>'1', I17=>'1', I20=>'1', I22=>'1', I24=>'1', S=>state_in, Y=>PC_en);
 end architecture;
