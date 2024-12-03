@@ -11,7 +11,7 @@ end entity;
 architecture str of Controller is
 type state is (init,s0,s1,s2,s3,s5,s6,s7,s8,s9,s10,s11,s12,s15,s16,s17,s19,s20,s22,s23,s24);
 	signal y_present,y_next: state := init;
-
+	signal counter : integer := 0;
 	begin	
 		change_proc: process(y_next, reset) begin
 			if reset = '1' then
@@ -34,17 +34,23 @@ type state is (init,s0,s1,s2,s3,s5,s6,s7,s8,s9,s10,s11,s12,s15,s16,s17,s19,s20,s
 						ostate<= "11111";
 						y_next <= s0;
 					when s0 =>
-						ostate <= "00000";
-						report "IR = " & integer'image(to_integer(unsigned(IR_data_read)));
-						case Mem_data_read(15 downto 12) is
-							when "0000"|"0001"|"0010"|"0011"|"0100"|"0101"|"0110"|"1011" => y_next <= s1;
-							when "1000"|"1001"|"1110" => y_next <= s7;
-							when "1010" => 
-								report "going to s10" ;
-								y_next <= s10;
-							when "1100"|"1101"|"1111" => y_next <= s17;
-							when others => report "kahi nahi jaara";
-						end case;
+						if counter = 1 then
+							counter <= 0;
+							ostate <= "00000";
+							case Mem_data_read(15 downto 12) is
+								when "0000"|"0001"|"0010"|"0011"|"0100"|"0101"|"0110"|"1011" => y_next <= s1;
+								when "1000"|"1001"|"1110" => y_next <= s7;
+								when "1010" => 
+									report "going to s10" ;
+									y_next <= s10;
+								when "1100"|"1101"|"1111" => y_next <= s17;
+								when others => report "kahi nahi jaara";
+							end case;
+						else
+							counter <= 1;
+							ostate <= "11110";
+						end if;
+
 					when s1 =>
 						ostate <= "00001";
 						case IR_data_read(15 downto 12) is

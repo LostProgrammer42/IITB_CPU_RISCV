@@ -11,14 +11,20 @@ architecture behav of CPU_testbench is
 			  Mem_add_read,Mem_add_write,Mem_data_write,PCout, IRout, IRoutcontroller: out std_logic_vector(15 downto 0);
 			  Mem_data_read: in std_logic_vector(15 downto 0);
 			  Mem_r,Mem_w: out std_logic;
-			  ostate: out std_logic_vector(4 downto 0));
+			  ostate: out std_logic_vector(4 downto 0);
+			  RF_A1o,RF_A2o,RF_A3o: out std_logic_vector(2 downto 0);
+			  RF_D1o,RF_D2o,RF_D3o,T1o,T1w: out std_logic_vector(15 downto 0);
+			  T1e: out std_logic);
 	end component;
 	signal clk: std_logic := '0';
 	signal tprd: time := 10ns;
 	signal Mem_add_write, Mem_data_write,PC, IR, IRoutcontroller: std_logic_vector(15 downto 0);
-	signal Mem_r, Mem_w : std_logic := '0';
-	signal Mem_add_read, Mem_data_read: std_logic_vector(15 downto 0);
+	signal Mem_r, Mem_w, T1_en: std_logic := '0';
+	signal Mem_add_read, Mem_data_read, T1_data_read, T1_data_write: std_logic_vector(15 downto 0);
 	signal cstate : std_logic_vector(4 downto 0);
+	
+	signal RF_A1,RF_A2,RF_A3: std_logic_vector(2 downto 0);
+	signal RF_D1,RF_D2,RF_D3: std_logic_vector(15 downto 0);
 	
 	type regarray is array(31 downto 0) of std_logic_vector(15 downto 0);
 	signal Memory: regarray:=(
@@ -39,7 +45,7 @@ architecture behav of CPU_testbench is
 		30 => "1011000001000101",
 		others => x"0000");
 	begin
-		cpuinst: CPU port map(ostate=>cstate, IRout=>IR,clk=>clk,reset=>'0',Mem_add_read=>Mem_add_read,Mem_add_write=>Mem_add_write,Mem_data_write=>Mem_data_write,PCout=>PC,Mem_data_read=>Mem_data_read,Mem_r=>Mem_r,Mem_w=>Mem_w, IRoutcontroller=>IRoutcontroller);
+		cpuinst: CPU port map(ostate=>cstate, IRout=>IR,clk=>clk,reset=>'0',Mem_add_read=>Mem_add_read,Mem_add_write=>Mem_add_write,Mem_data_write=>Mem_data_write,PCout=>PC,Mem_data_read=>Mem_data_read,Mem_r=>Mem_r,Mem_w=>Mem_w, IRoutcontroller=>IRoutcontroller,RF_A1o=>RF_A1,RF_A2o=>RF_A2,RF_A3o=>RF_A3,RF_D1o=>RF_D1,RF_D2o=>RF_D2,RF_D3o=>RF_D3,T1o=>T1_Data_read, T1w=>T1_data_write, T1e=>T1_en);
 		clk_process: process
 		begin
 			clk <= not clk after tprd / 2;

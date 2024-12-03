@@ -1,5 +1,5 @@
 Analysis & Synthesis report for CPU
-Tue Dec 03 01:36:20 2024
+Tue Dec 03 10:32:13 2024
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -38,20 +38,21 @@ Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
  30. Port Connectivity Checks: "Steering_logic:SL|mux_32x1_16bit:PC_data_write_path"
  31. Port Connectivity Checks: "Steering_logic:SL|mux_32x1_16bit:T2_data_write_path"
  32. Port Connectivity Checks: "Steering_logic:SL|mux_32x1_16bit:T1_data_write_path"
- 33. Port Connectivity Checks: "Steering_logic:SL|mux_4x1_3bit:RF_A3_path"
- 34. Port Connectivity Checks: "ALU:Arith_Unit|mux_8x1_16bit:mux"
- 35. Port Connectivity Checks: "ALU:Arith_Unit|Array_Multiplier:multiplier|Full_Adder:FA4_4"
- 36. Port Connectivity Checks: "ALU:Arith_Unit|Array_Multiplier:multiplier|Full_Adder:FA4_1"
- 37. Port Connectivity Checks: "ALU:Arith_Unit|Array_Multiplier:multiplier|Array_Multiplier_Node:Node3_4"
- 38. Port Connectivity Checks: "ALU:Arith_Unit|Array_Multiplier:multiplier|Array_Multiplier_Node:Node2_4"
- 39. Port Connectivity Checks: "ALU:Arith_Unit|Array_Multiplier:multiplier|Array_Multiplier_Node:Node1_4"
- 40. Port Connectivity Checks: "ALU:Arith_Unit|Array_Multiplier:multiplier|Array_Multiplier_Node:Node1_3"
- 41. Port Connectivity Checks: "ALU:Arith_Unit|Array_Multiplier:multiplier|Array_Multiplier_Node:Node1_2"
- 42. Port Connectivity Checks: "ALU:Arith_Unit|Array_Multiplier:multiplier|Array_Multiplier_Node:Node1_1"
- 43. Port Connectivity Checks: "ALU:Arith_Unit|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|postprocessing:inst8"
- 44. Post-Synthesis Netlist Statistics for Top Partition
- 45. Elapsed Time Per Partition
- 46. Analysis & Synthesis Messages
+ 33. Port Connectivity Checks: "Steering_logic:SL|mux_32x1_16bit:RF_D3_path"
+ 34. Port Connectivity Checks: "Steering_logic:SL|mux_4x1_3bit:RF_A3_path"
+ 35. Port Connectivity Checks: "ALU:Arith_Unit|mux_8x1_16bit:mux"
+ 36. Port Connectivity Checks: "ALU:Arith_Unit|Array_Multiplier:multiplier|Full_Adder:FA4_4"
+ 37. Port Connectivity Checks: "ALU:Arith_Unit|Array_Multiplier:multiplier|Full_Adder:FA4_1"
+ 38. Port Connectivity Checks: "ALU:Arith_Unit|Array_Multiplier:multiplier|Array_Multiplier_Node:Node3_4"
+ 39. Port Connectivity Checks: "ALU:Arith_Unit|Array_Multiplier:multiplier|Array_Multiplier_Node:Node2_4"
+ 40. Port Connectivity Checks: "ALU:Arith_Unit|Array_Multiplier:multiplier|Array_Multiplier_Node:Node1_4"
+ 41. Port Connectivity Checks: "ALU:Arith_Unit|Array_Multiplier:multiplier|Array_Multiplier_Node:Node1_3"
+ 42. Port Connectivity Checks: "ALU:Arith_Unit|Array_Multiplier:multiplier|Array_Multiplier_Node:Node1_2"
+ 43. Port Connectivity Checks: "ALU:Arith_Unit|Array_Multiplier:multiplier|Array_Multiplier_Node:Node1_1"
+ 44. Port Connectivity Checks: "ALU:Arith_Unit|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|postprocessing:inst8"
+ 45. Post-Synthesis Netlist Statistics for Top Partition
+ 46. Elapsed Time Per Partition
+ 47. Analysis & Synthesis Messages
 
 
 
@@ -77,16 +78,16 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Tue Dec 03 01:36:20 2024       ;
+; Analysis & Synthesis Status        ; Successful - Tue Dec 03 10:32:13 2024       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; CPU                                         ;
 ; Top-level Entity Name              ; CPU                                         ;
 ; Family                             ; MAX 10                                      ;
-; Total logic elements               ; 925                                         ;
-;     Total combinational functions  ; 908                                         ;
-;     Dedicated logic registers      ; 211                                         ;
-; Total registers                    ; 211                                         ;
-; Total pins                         ; 121                                         ;
+; Total logic elements               ; 1,012                                       ;
+;     Total combinational functions  ; 1,011                                       ;
+;     Dedicated logic registers      ; 212                                         ;
+; Total registers                    ; 212                                         ;
+; Total pins                         ; 211                                         ;
 ; Total virtual pins                 ; 0                                           ;
 ; Total memory bits                  ; 0                                           ;
 ; Embedded Multiplier 9-bit elements ; 0                                           ;
@@ -200,7 +201,9 @@ refer to the applicable agreement for further details.
 ;     Processor 4            ;   0.0%      ;
 ;     Processor 5            ;   0.0%      ;
 ;     Processor 6            ;   0.0%      ;
-;     Processors 7-10        ;   0.0%      ;
+;     Processor 7            ;   0.0%      ;
+;     Processor 8            ;   0.0%      ;
+;     Processors 9-10        ;   0.0%      ;
 +----------------------------+-------------+
 
 
@@ -240,7 +243,6 @@ refer to the applicable agreement for further details.
 ; 32_X_1_Mux_6_bit.vhd             ; yes             ; User VHDL File  ; E:/Semester_3/Digital Systems/Project_Part_B/CPU/32_X_1_Mux_6_bit.vhd             ;         ;
 ; 32_X_1_Mux_9_bit.vhd             ; yes             ; User VHDL File  ; E:/Semester_3/Digital Systems/Project_Part_B/CPU/32_X_1_Mux_9_bit.vhd             ;         ;
 ; Controller.vhd                   ; yes             ; User VHDL File  ; E:/Semester_3/Digital Systems/Project_Part_B/CPU/Controller.vhd                   ;         ;
-; 4_X_1_Mux_16_bit.vhd             ; yes             ; User VHDL File  ; E:/Semester_3/Digital Systems/Project_Part_B/CPU/4_X_1_Mux_16_bit.vhd             ;         ;
 +----------------------------------+-----------------+-----------------+-----------------------------------------------------------------------------------+---------+
 
 
@@ -249,30 +251,30 @@ refer to the applicable agreement for further details.
 +---------------------------------------------+-------------+
 ; Resource                                    ; Usage       ;
 +---------------------------------------------+-------------+
-; Estimated Total logic elements              ; 925         ;
+; Estimated Total logic elements              ; 1,012       ;
 ;                                             ;             ;
-; Total combinational functions               ; 908         ;
+; Total combinational functions               ; 1011        ;
 ; Logic element usage by number of LUT inputs ;             ;
-;     -- 4 input functions                    ; 651         ;
-;     -- 3 input functions                    ; 135         ;
-;     -- <=2 input functions                  ; 122         ;
+;     -- 4 input functions                    ; 724         ;
+;     -- 3 input functions                    ; 175         ;
+;     -- <=2 input functions                  ; 112         ;
 ;                                             ;             ;
 ; Logic elements by mode                      ;             ;
-;     -- normal mode                          ; 908         ;
+;     -- normal mode                          ; 1011        ;
 ;     -- arithmetic mode                      ; 0           ;
 ;                                             ;             ;
-; Total registers                             ; 211         ;
-;     -- Dedicated logic registers            ; 211         ;
+; Total registers                             ; 212         ;
+;     -- Dedicated logic registers            ; 212         ;
 ;     -- I/O registers                        ; 0           ;
 ;                                             ;             ;
-; I/O pins                                    ; 121         ;
+; I/O pins                                    ; 211         ;
 ;                                             ;             ;
 ; Embedded Multiplier 9-bit elements          ; 0           ;
 ;                                             ;             ;
 ; Maximum fan-out node                        ; reset~input ;
-; Maximum fan-out                             ; 225         ;
-; Total fan-out                               ; 4447        ;
-; Average fan-out                             ; 3.27        ;
+; Maximum fan-out                             ; 229         ;
+; Total fan-out                               ; 4973        ;
+; Average fan-out                             ; 3.02        ;
 +---------------------------------------------+-------------+
 
 
@@ -281,8 +283,8 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+------------------------------------------------------------------------------------------------------------+------------------------------+--------------+
 ; Compilation Hierarchy Node                      ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; UFM Blocks ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; ADC blocks ; Full Hierarchy Name                                                                                        ; Entity Name                  ; Library Name ;
 +-------------------------------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+------------------------------------------------------------------------------------------------------------+------------------------------+--------------+
-; |CPU                                            ; 908 (0)             ; 211 (0)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 121  ; 0            ; 0          ; |CPU                                                                                                       ; CPU                          ; work         ;
-;    |ALU:Arith_Unit|                             ; 224 (1)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|ALU:Arith_Unit                                                                                        ; ALU                          ; work         ;
+; |CPU                                            ; 1011 (0)            ; 212 (0)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 211  ; 0            ; 0          ; |CPU                                                                                                       ; CPU                          ; work         ;
+;    |ALU:Arith_Unit|                             ; 222 (2)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|ALU:Arith_Unit                                                                                        ; ALU                          ; work         ;
 ;       |Array_Multiplier:multiplier|             ; 25 (0)              ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|ALU:Arith_Unit|Array_Multiplier:multiplier                                                            ; Array_Multiplier             ; work         ;
 ;          |Array_Multiplier_Node:Node1_1|        ; 2 (0)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|ALU:Arith_Unit|Array_Multiplier:multiplier|Array_Multiplier_Node:Node1_1                              ; Array_Multiplier_Node        ; work         ;
 ;             |Full_Adder:instFA|                 ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|ALU:Arith_Unit|Array_Multiplier:multiplier|Array_Multiplier_Node:Node1_1|Full_Adder:instFA            ; Full_Adder                   ; work         ;
@@ -307,9 +309,9 @@ refer to the applicable agreement for further details.
 ;          |Full_Adder:FA4_1|                     ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|ALU:Arith_Unit|Array_Multiplier:multiplier|Full_Adder:FA4_1                                           ; Full_Adder                   ; work         ;
 ;          |Full_Adder:FA4_2|                     ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|ALU:Arith_Unit|Array_Multiplier:multiplier|Full_Adder:FA4_2                                           ; Full_Adder                   ; work         ;
 ;          |Full_Adder:FA4_3|                     ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|ALU:Arith_Unit|Array_Multiplier:multiplier|Full_Adder:FA4_3                                           ; Full_Adder                   ; work         ;
-;       |IMP_16:imp16|                            ; 13 (13)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|ALU:Arith_Unit|IMP_16:imp16                                                                           ; IMP_16                       ; work         ;
-;       |kogge_stone_adder_subtractor:adder|      ; 132 (15)            ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|ALU:Arith_Unit|kogge_stone_adder_subtractor:adder                                                     ; kogge_stone_adder_subtractor ; work         ;
-;          |kogge_stone:kogge|                    ; 117 (0)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|ALU:Arith_Unit|kogge_stone_adder_subtractor:adder|kogge_stone:kogge                                   ; kogge_stone                  ; work         ;
+;       |IMP_16:imp16|                            ; 14 (14)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|ALU:Arith_Unit|IMP_16:imp16                                                                           ; IMP_16                       ; work         ;
+;       |kogge_stone_adder_subtractor:adder|      ; 126 (15)            ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|ALU:Arith_Unit|kogge_stone_adder_subtractor:adder                                                     ; kogge_stone_adder_subtractor ; work         ;
+;          |kogge_stone:kogge|                    ; 111 (0)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|ALU:Arith_Unit|kogge_stone_adder_subtractor:adder|kogge_stone:kogge                                   ; kogge_stone                  ; work         ;
 ;             |kogge_stone_node:\inst4:10:inst4a| ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|ALU:Arith_Unit|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|kogge_stone_node:\inst4:10:inst4a ; kogge_stone_node             ; work         ;
 ;             |kogge_stone_node:\inst4:11:inst4a| ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|ALU:Arith_Unit|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|kogge_stone_node:\inst4:11:inst4a ; kogge_stone_node             ; work         ;
 ;             |kogge_stone_node:\inst4:12:inst4a| ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|ALU:Arith_Unit|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|kogge_stone_node:\inst4:12:inst4a ; kogge_stone_node             ; work         ;
@@ -324,43 +326,38 @@ refer to the applicable agreement for further details.
 ;             |kogge_stone_node:\inst4:7:inst4a|  ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|ALU:Arith_Unit|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|kogge_stone_node:\inst4:7:inst4a  ; kogge_stone_node             ; work         ;
 ;             |kogge_stone_node:\inst4:8:inst4a|  ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|ALU:Arith_Unit|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|kogge_stone_node:\inst4:8:inst4a  ; kogge_stone_node             ; work         ;
 ;             |kogge_stone_node:\inst4:9:inst4a|  ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|ALU:Arith_Unit|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|kogge_stone_node:\inst4:9:inst4a  ; kogge_stone_node             ; work         ;
-;             |kogge_stone_node:\inst5:10:inst5a| ; 3 (3)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|ALU:Arith_Unit|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|kogge_stone_node:\inst5:10:inst5a ; kogge_stone_node             ; work         ;
-;             |kogge_stone_node:\inst5:14:inst5a| ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|ALU:Arith_Unit|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|kogge_stone_node:\inst5:14:inst5a ; kogge_stone_node             ; work         ;
+;             |kogge_stone_node:\inst5:10:inst5a| ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|ALU:Arith_Unit|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|kogge_stone_node:\inst5:10:inst5a ; kogge_stone_node             ; work         ;
 ;             |kogge_stone_node:\inst5:2:inst5a|  ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|ALU:Arith_Unit|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|kogge_stone_node:\inst5:2:inst5a  ; kogge_stone_node             ; work         ;
-;             |kogge_stone_node:\inst5:4:inst5a|  ; 3 (3)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|ALU:Arith_Unit|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|kogge_stone_node:\inst5:4:inst5a  ; kogge_stone_node             ; work         ;
-;             |kogge_stone_node:\inst5:6:inst5a|  ; 3 (3)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|ALU:Arith_Unit|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|kogge_stone_node:\inst5:6:inst5a  ; kogge_stone_node             ; work         ;
-;             |kogge_stone_node:\inst5:7:inst5a|  ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|ALU:Arith_Unit|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|kogge_stone_node:\inst5:7:inst5a  ; kogge_stone_node             ; work         ;
-;             |kogge_stone_node:\inst5:8:inst5a|  ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|ALU:Arith_Unit|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|kogge_stone_node:\inst5:8:inst5a  ; kogge_stone_node             ; work         ;
-;             |kogge_stone_node:\inst5:9:inst5a|  ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|ALU:Arith_Unit|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|kogge_stone_node:\inst5:9:inst5a  ; kogge_stone_node             ; work         ;
-;             |kogge_stone_node:\inst6:13:inst6a| ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|ALU:Arith_Unit|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|kogge_stone_node:\inst6:13:inst6a ; kogge_stone_node             ; work         ;
-;             |kogge_stone_node:\inst6:14:inst6a| ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|ALU:Arith_Unit|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|kogge_stone_node:\inst6:14:inst6a ; kogge_stone_node             ; work         ;
+;             |kogge_stone_node:\inst5:4:inst5a|  ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|ALU:Arith_Unit|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|kogge_stone_node:\inst5:4:inst5a  ; kogge_stone_node             ; work         ;
+;             |kogge_stone_node:\inst5:6:inst5a|  ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|ALU:Arith_Unit|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|kogge_stone_node:\inst5:6:inst5a  ; kogge_stone_node             ; work         ;
+;             |kogge_stone_node:\inst5:9:inst5a|  ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|ALU:Arith_Unit|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|kogge_stone_node:\inst5:9:inst5a  ; kogge_stone_node             ; work         ;
 ;             |kogge_stone_node:\inst6:4:inst6a|  ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|ALU:Arith_Unit|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|kogge_stone_node:\inst6:4:inst6a  ; kogge_stone_node             ; work         ;
-;             |kogge_stone_node:\inst6:6:inst6a|  ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|ALU:Arith_Unit|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|kogge_stone_node:\inst6:6:inst6a  ; kogge_stone_node             ; work         ;
+;             |kogge_stone_node:\inst6:6:inst6a|  ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|ALU:Arith_Unit|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|kogge_stone_node:\inst6:6:inst6a  ; kogge_stone_node             ; work         ;
 ;             |kogge_stone_node:\inst6:7:inst6a|  ; 3 (3)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|ALU:Arith_Unit|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|kogge_stone_node:\inst6:7:inst6a  ; kogge_stone_node             ; work         ;
-;             |kogge_stone_node:\inst7:13:inst7a| ; 3 (3)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|ALU:Arith_Unit|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|kogge_stone_node:\inst7:13:inst7a ; kogge_stone_node             ; work         ;
-;             |postprocessing:inst8|              ; 67 (67)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|ALU:Arith_Unit|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|postprocessing:inst8              ; postprocessing               ; work         ;
-;             |preprocessing:inst1|               ; 6 (6)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|ALU:Arith_Unit|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|preprocessing:inst1               ; preprocessing                ; work         ;
-;       |mux_8x1_16bit:mux|                       ; 53 (53)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|ALU:Arith_Unit|mux_8x1_16bit:mux                                                                      ; mux_8x1_16bit                ; work         ;
-;    |Controller:Controller_Unit|                 ; 38 (38)             ; 19 (19)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|Controller:Controller_Unit                                                                            ; Controller                   ; work         ;
-;    |Steering_logic:SL|                          ; 391 (3)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|Steering_logic:SL                                                                                     ; Steering_logic               ; work         ;
+;             |kogge_stone_node:\inst7:13:inst7a| ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|ALU:Arith_Unit|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|kogge_stone_node:\inst7:13:inst7a ; kogge_stone_node             ; work         ;
+;             |postprocessing:inst8|              ; 69 (69)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|ALU:Arith_Unit|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|postprocessing:inst8              ; postprocessing               ; work         ;
+;             |preprocessing:inst1|               ; 9 (9)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|ALU:Arith_Unit|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|preprocessing:inst1               ; preprocessing                ; work         ;
+;       |mux_8x1_16bit:mux|                       ; 55 (55)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|ALU:Arith_Unit|mux_8x1_16bit:mux                                                                      ; mux_8x1_16bit                ; work         ;
+;    |Controller:Controller_Unit|                 ; 44 (44)             ; 20 (20)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|Controller:Controller_Unit                                                                            ; Controller                   ; work         ;
+;    |Steering_logic:SL|                          ; 437 (4)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|Steering_logic:SL                                                                                     ; Steering_logic               ; work         ;
 ;       |mux_2x1_3bit:RF_A1_path|                 ; 3 (3)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|Steering_logic:SL|mux_2x1_3bit:RF_A1_path                                                             ; mux_2x1_3bit                 ; work         ;
-;       |mux_32x1_16bit:ALU_A_path|               ; 82 (82)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|Steering_logic:SL|mux_32x1_16bit:ALU_A_path                                                           ; mux_32x1_16bit               ; work         ;
-;       |mux_32x1_16bit:ALU_B_path|               ; 60 (60)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|Steering_logic:SL|mux_32x1_16bit:ALU_B_path                                                           ; mux_32x1_16bit               ; work         ;
-;       |mux_32x1_16bit:IR_data_write_path|       ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|Steering_logic:SL|mux_32x1_16bit:IR_data_write_path                                                   ; mux_32x1_16bit               ; work         ;
-;       |mux_32x1_16bit:Mem_add_read_path|        ; 18 (18)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|Steering_logic:SL|mux_32x1_16bit:Mem_add_read_path                                                    ; mux_32x1_16bit               ; work         ;
+;       |mux_32x1_16bit:ALU_A_path|               ; 67 (67)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|Steering_logic:SL|mux_32x1_16bit:ALU_A_path                                                           ; mux_32x1_16bit               ; work         ;
+;       |mux_32x1_16bit:ALU_B_path|               ; 68 (68)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|Steering_logic:SL|mux_32x1_16bit:ALU_B_path                                                           ; mux_32x1_16bit               ; work         ;
+;       |mux_32x1_16bit:IR_data_write_path|       ; 16 (16)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|Steering_logic:SL|mux_32x1_16bit:IR_data_write_path                                                   ; mux_32x1_16bit               ; work         ;
+;       |mux_32x1_16bit:Mem_add_read_path|        ; 33 (33)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|Steering_logic:SL|mux_32x1_16bit:Mem_add_read_path                                                    ; mux_32x1_16bit               ; work         ;
 ;       |mux_32x1_16bit:Mem_add_write_path|       ; 18 (18)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|Steering_logic:SL|mux_32x1_16bit:Mem_add_write_path                                                   ; mux_32x1_16bit               ; work         ;
 ;       |mux_32x1_16bit:Mem_data_write_path|      ; 16 (16)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|Steering_logic:SL|mux_32x1_16bit:Mem_data_write_path                                                  ; mux_32x1_16bit               ; work         ;
-;       |mux_32x1_16bit:T1_data_write_path|       ; 63 (63)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|Steering_logic:SL|mux_32x1_16bit:T1_data_write_path                                                   ; mux_32x1_16bit               ; work         ;
-;       |mux_32x1_16bit:T2_data_write_path|       ; 64 (64)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|Steering_logic:SL|mux_32x1_16bit:T2_data_write_path                                                   ; mux_32x1_16bit               ; work         ;
+;       |mux_32x1_16bit:RF_D3_path|               ; 89 (89)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|Steering_logic:SL|mux_32x1_16bit:RF_D3_path                                                           ; mux_32x1_16bit               ; work         ;
+;       |mux_32x1_16bit:T1_data_write_path|       ; 83 (83)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|Steering_logic:SL|mux_32x1_16bit:T1_data_write_path                                                   ; mux_32x1_16bit               ; work         ;
+;       |mux_32x1_1bit:IR_en_path|                ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|Steering_logic:SL|mux_32x1_1bit:IR_en_path                                                            ; mux_32x1_1bit                ; work         ;
 ;       |mux_32x1_1bit:Mem_r_path|                ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|Steering_logic:SL|mux_32x1_1bit:Mem_r_path                                                            ; mux_32x1_1bit                ; work         ;
 ;       |mux_32x1_1bit:PC_en_path|                ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|Steering_logic:SL|mux_32x1_1bit:PC_en_path                                                            ; mux_32x1_1bit                ; work         ;
-;       |mux_32x1_1bit:RF_en_path|                ; 3 (3)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|Steering_logic:SL|mux_32x1_1bit:RF_en_path                                                            ; mux_32x1_1bit                ; work         ;
-;       |mux_32x1_1bit:T1_en_path|                ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|Steering_logic:SL|mux_32x1_1bit:T1_en_path                                                            ; mux_32x1_1bit                ; work         ;
+;       |mux_32x1_1bit:RF_en_path|                ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|Steering_logic:SL|mux_32x1_1bit:RF_en_path                                                            ; mux_32x1_1bit                ; work         ;
+;       |mux_32x1_1bit:T1_en_path|                ; 3 (3)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|Steering_logic:SL|mux_32x1_1bit:T1_en_path                                                            ; mux_32x1_1bit                ; work         ;
 ;       |mux_32x1_1bit:T2_en_path|                ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|Steering_logic:SL|mux_32x1_1bit:T2_en_path                                                            ; mux_32x1_1bit                ; work         ;
-;       |mux_32x1_3bit:ALU_control_path|          ; 6 (6)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|Steering_logic:SL|mux_32x1_3bit:ALU_control_path                                                      ; mux_32x1_3bit                ; work         ;
-;       |mux_32x1_6bit:to_SE6_path|               ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|Steering_logic:SL|mux_32x1_6bit:to_SE6_path                                                           ; mux_32x1_6bit                ; work         ;
-;       |mux_32x1_9bit:to_SE9_path|               ; 12 (12)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|Steering_logic:SL|mux_32x1_9bit:to_SE9_path                                                           ; mux_32x1_9bit                ; work         ;
-;       |mux_4x1_16bit:RF_D3_path|                ; 25 (25)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|Steering_logic:SL|mux_4x1_16bit:RF_D3_path                                                            ; mux_4x1_16bit                ; work         ;
+;       |mux_32x1_3bit:ALU_control_path|          ; 7 (7)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|Steering_logic:SL|mux_32x1_3bit:ALU_control_path                                                      ; mux_32x1_3bit                ; work         ;
+;       |mux_32x1_6bit:to_SE6_path|               ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|Steering_logic:SL|mux_32x1_6bit:to_SE6_path                                                           ; mux_32x1_6bit                ; work         ;
+;       |mux_32x1_9bit:to_SE9_path|               ; 14 (14)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|Steering_logic:SL|mux_32x1_9bit:to_SE9_path                                                           ; mux_32x1_9bit                ; work         ;
 ;       |mux_4x1_3bit:RF_A3_path|                 ; 6 (6)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|Steering_logic:SL|mux_4x1_3bit:RF_A3_path                                                             ; mux_4x1_3bit                 ; work         ;
 ;    |pipo_register:IR|                           ; 0 (0)               ; 16 (0)                    ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|pipo_register:IR                                                                                      ; pipo_register                ; work         ;
 ;       |d_ff:\gen_dff:0:dffi|                    ; 0 (0)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|pipo_register:IR|d_ff:\gen_dff:0:dffi                                                                 ; d_ff                         ; work         ;
@@ -391,48 +388,49 @@ refer to the applicable agreement for further details.
 ;       |d_ff:\gen_dff:2:dffi|                    ; 1 (1)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|pipo_register:PC|d_ff:\gen_dff:2:dffi                                                                 ; d_ff                         ; work         ;
 ;       |d_ff:\gen_dff:3:dffi|                    ; 1 (1)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|pipo_register:PC|d_ff:\gen_dff:3:dffi                                                                 ; d_ff                         ; work         ;
 ;       |d_ff:\gen_dff:4:dffi|                    ; 1 (1)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|pipo_register:PC|d_ff:\gen_dff:4:dffi                                                                 ; d_ff                         ; work         ;
-;       |d_ff:\gen_dff:5:dffi|                    ; 3 (3)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|pipo_register:PC|d_ff:\gen_dff:5:dffi                                                                 ; d_ff                         ; work         ;
+;       |d_ff:\gen_dff:5:dffi|                    ; 1 (1)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|pipo_register:PC|d_ff:\gen_dff:5:dffi                                                                 ; d_ff                         ; work         ;
 ;       |d_ff:\gen_dff:6:dffi|                    ; 1 (1)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|pipo_register:PC|d_ff:\gen_dff:6:dffi                                                                 ; d_ff                         ; work         ;
 ;       |d_ff:\gen_dff:7:dffi|                    ; 1 (1)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|pipo_register:PC|d_ff:\gen_dff:7:dffi                                                                 ; d_ff                         ; work         ;
 ;       |d_ff:\gen_dff:8:dffi|                    ; 1 (1)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|pipo_register:PC|d_ff:\gen_dff:8:dffi                                                                 ; d_ff                         ; work         ;
-;       |d_ff:\gen_dff:9:dffi|                    ; 1 (1)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|pipo_register:PC|d_ff:\gen_dff:9:dffi                                                                 ; d_ff                         ; work         ;
-;    |pipo_register:T1|                           ; 19 (0)              ; 16 (0)                    ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|pipo_register:T1                                                                                      ; pipo_register                ; work         ;
-;       |d_ff:\gen_dff:0:dffi|                    ; 1 (1)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|pipo_register:T1|d_ff:\gen_dff:0:dffi                                                                 ; d_ff                         ; work         ;
-;       |d_ff:\gen_dff:10:dffi|                   ; 1 (1)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|pipo_register:T1|d_ff:\gen_dff:10:dffi                                                                ; d_ff                         ; work         ;
-;       |d_ff:\gen_dff:11:dffi|                   ; 1 (1)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|pipo_register:T1|d_ff:\gen_dff:11:dffi                                                                ; d_ff                         ; work         ;
-;       |d_ff:\gen_dff:12:dffi|                   ; 4 (4)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|pipo_register:T1|d_ff:\gen_dff:12:dffi                                                                ; d_ff                         ; work         ;
-;       |d_ff:\gen_dff:13:dffi|                   ; 1 (1)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|pipo_register:T1|d_ff:\gen_dff:13:dffi                                                                ; d_ff                         ; work         ;
-;       |d_ff:\gen_dff:14:dffi|                   ; 1 (1)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|pipo_register:T1|d_ff:\gen_dff:14:dffi                                                                ; d_ff                         ; work         ;
-;       |d_ff:\gen_dff:15:dffi|                   ; 1 (1)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|pipo_register:T1|d_ff:\gen_dff:15:dffi                                                                ; d_ff                         ; work         ;
-;       |d_ff:\gen_dff:1:dffi|                    ; 1 (1)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|pipo_register:T1|d_ff:\gen_dff:1:dffi                                                                 ; d_ff                         ; work         ;
-;       |d_ff:\gen_dff:2:dffi|                    ; 1 (1)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|pipo_register:T1|d_ff:\gen_dff:2:dffi                                                                 ; d_ff                         ; work         ;
-;       |d_ff:\gen_dff:3:dffi|                    ; 1 (1)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|pipo_register:T1|d_ff:\gen_dff:3:dffi                                                                 ; d_ff                         ; work         ;
-;       |d_ff:\gen_dff:4:dffi|                    ; 1 (1)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|pipo_register:T1|d_ff:\gen_dff:4:dffi                                                                 ; d_ff                         ; work         ;
-;       |d_ff:\gen_dff:5:dffi|                    ; 1 (1)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|pipo_register:T1|d_ff:\gen_dff:5:dffi                                                                 ; d_ff                         ; work         ;
-;       |d_ff:\gen_dff:6:dffi|                    ; 1 (1)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|pipo_register:T1|d_ff:\gen_dff:6:dffi                                                                 ; d_ff                         ; work         ;
-;       |d_ff:\gen_dff:7:dffi|                    ; 1 (1)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|pipo_register:T1|d_ff:\gen_dff:7:dffi                                                                 ; d_ff                         ; work         ;
-;       |d_ff:\gen_dff:8:dffi|                    ; 1 (1)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|pipo_register:T1|d_ff:\gen_dff:8:dffi                                                                 ; d_ff                         ; work         ;
-;       |d_ff:\gen_dff:9:dffi|                    ; 1 (1)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|pipo_register:T1|d_ff:\gen_dff:9:dffi                                                                 ; d_ff                         ; work         ;
+;       |d_ff:\gen_dff:9:dffi|                    ; 3 (3)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|pipo_register:PC|d_ff:\gen_dff:9:dffi                                                                 ; d_ff                         ; work         ;
+;    |pipo_register:T1|                           ; 0 (0)               ; 16 (0)                    ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|pipo_register:T1                                                                                      ; pipo_register                ; work         ;
+;       |d_ff:\gen_dff:0:dffi|                    ; 0 (0)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|pipo_register:T1|d_ff:\gen_dff:0:dffi                                                                 ; d_ff                         ; work         ;
+;       |d_ff:\gen_dff:10:dffi|                   ; 0 (0)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|pipo_register:T1|d_ff:\gen_dff:10:dffi                                                                ; d_ff                         ; work         ;
+;       |d_ff:\gen_dff:11:dffi|                   ; 0 (0)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|pipo_register:T1|d_ff:\gen_dff:11:dffi                                                                ; d_ff                         ; work         ;
+;       |d_ff:\gen_dff:12:dffi|                   ; 0 (0)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|pipo_register:T1|d_ff:\gen_dff:12:dffi                                                                ; d_ff                         ; work         ;
+;       |d_ff:\gen_dff:13:dffi|                   ; 0 (0)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|pipo_register:T1|d_ff:\gen_dff:13:dffi                                                                ; d_ff                         ; work         ;
+;       |d_ff:\gen_dff:14:dffi|                   ; 0 (0)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|pipo_register:T1|d_ff:\gen_dff:14:dffi                                                                ; d_ff                         ; work         ;
+;       |d_ff:\gen_dff:15:dffi|                   ; 0 (0)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|pipo_register:T1|d_ff:\gen_dff:15:dffi                                                                ; d_ff                         ; work         ;
+;       |d_ff:\gen_dff:1:dffi|                    ; 0 (0)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|pipo_register:T1|d_ff:\gen_dff:1:dffi                                                                 ; d_ff                         ; work         ;
+;       |d_ff:\gen_dff:2:dffi|                    ; 0 (0)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|pipo_register:T1|d_ff:\gen_dff:2:dffi                                                                 ; d_ff                         ; work         ;
+;       |d_ff:\gen_dff:3:dffi|                    ; 0 (0)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|pipo_register:T1|d_ff:\gen_dff:3:dffi                                                                 ; d_ff                         ; work         ;
+;       |d_ff:\gen_dff:4:dffi|                    ; 0 (0)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|pipo_register:T1|d_ff:\gen_dff:4:dffi                                                                 ; d_ff                         ; work         ;
+;       |d_ff:\gen_dff:5:dffi|                    ; 0 (0)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|pipo_register:T1|d_ff:\gen_dff:5:dffi                                                                 ; d_ff                         ; work         ;
+;       |d_ff:\gen_dff:6:dffi|                    ; 0 (0)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|pipo_register:T1|d_ff:\gen_dff:6:dffi                                                                 ; d_ff                         ; work         ;
+;       |d_ff:\gen_dff:7:dffi|                    ; 0 (0)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|pipo_register:T1|d_ff:\gen_dff:7:dffi                                                                 ; d_ff                         ; work         ;
+;       |d_ff:\gen_dff:8:dffi|                    ; 0 (0)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|pipo_register:T1|d_ff:\gen_dff:8:dffi                                                                 ; d_ff                         ; work         ;
+;       |d_ff:\gen_dff:9:dffi|                    ; 0 (0)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|pipo_register:T1|d_ff:\gen_dff:9:dffi                                                                 ; d_ff                         ; work         ;
 ;    |pipo_register:T2|                           ; 18 (0)              ; 16 (0)                    ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|pipo_register:T2                                                                                      ; pipo_register                ; work         ;
 ;       |d_ff:\gen_dff:0:dffi|                    ; 1 (1)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|pipo_register:T2|d_ff:\gen_dff:0:dffi                                                                 ; d_ff                         ; work         ;
 ;       |d_ff:\gen_dff:10:dffi|                   ; 1 (1)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|pipo_register:T2|d_ff:\gen_dff:10:dffi                                                                ; d_ff                         ; work         ;
 ;       |d_ff:\gen_dff:11:dffi|                   ; 1 (1)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|pipo_register:T2|d_ff:\gen_dff:11:dffi                                                                ; d_ff                         ; work         ;
 ;       |d_ff:\gen_dff:12:dffi|                   ; 1 (1)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|pipo_register:T2|d_ff:\gen_dff:12:dffi                                                                ; d_ff                         ; work         ;
 ;       |d_ff:\gen_dff:13:dffi|                   ; 1 (1)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|pipo_register:T2|d_ff:\gen_dff:13:dffi                                                                ; d_ff                         ; work         ;
-;       |d_ff:\gen_dff:14:dffi|                   ; 1 (1)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|pipo_register:T2|d_ff:\gen_dff:14:dffi                                                                ; d_ff                         ; work         ;
+;       |d_ff:\gen_dff:14:dffi|                   ; 3 (3)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|pipo_register:T2|d_ff:\gen_dff:14:dffi                                                                ; d_ff                         ; work         ;
 ;       |d_ff:\gen_dff:15:dffi|                   ; 1 (1)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|pipo_register:T2|d_ff:\gen_dff:15:dffi                                                                ; d_ff                         ; work         ;
 ;       |d_ff:\gen_dff:1:dffi|                    ; 1 (1)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|pipo_register:T2|d_ff:\gen_dff:1:dffi                                                                 ; d_ff                         ; work         ;
 ;       |d_ff:\gen_dff:2:dffi|                    ; 1 (1)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|pipo_register:T2|d_ff:\gen_dff:2:dffi                                                                 ; d_ff                         ; work         ;
 ;       |d_ff:\gen_dff:3:dffi|                    ; 1 (1)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|pipo_register:T2|d_ff:\gen_dff:3:dffi                                                                 ; d_ff                         ; work         ;
 ;       |d_ff:\gen_dff:4:dffi|                    ; 1 (1)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|pipo_register:T2|d_ff:\gen_dff:4:dffi                                                                 ; d_ff                         ; work         ;
-;       |d_ff:\gen_dff:5:dffi|                    ; 3 (3)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|pipo_register:T2|d_ff:\gen_dff:5:dffi                                                                 ; d_ff                         ; work         ;
+;       |d_ff:\gen_dff:5:dffi|                    ; 1 (1)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|pipo_register:T2|d_ff:\gen_dff:5:dffi                                                                 ; d_ff                         ; work         ;
 ;       |d_ff:\gen_dff:6:dffi|                    ; 1 (1)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|pipo_register:T2|d_ff:\gen_dff:6:dffi                                                                 ; d_ff                         ; work         ;
 ;       |d_ff:\gen_dff:7:dffi|                    ; 1 (1)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|pipo_register:T2|d_ff:\gen_dff:7:dffi                                                                 ; d_ff                         ; work         ;
 ;       |d_ff:\gen_dff:8:dffi|                    ; 1 (1)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|pipo_register:T2|d_ff:\gen_dff:8:dffi                                                                 ; d_ff                         ; work         ;
 ;       |d_ff:\gen_dff:9:dffi|                    ; 1 (1)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|pipo_register:T2|d_ff:\gen_dff:9:dffi                                                                 ; d_ff                         ; work         ;
-;    |register_file:RF|                           ; 200 (0)             ; 128 (0)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|register_file:RF                                                                                      ; register_file                ; work         ;
-;       |demux_8x1_16bit:demux3|                  ; 136 (136)           ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|register_file:RF|demux_8x1_16bit:demux3                                                               ; demux_8x1_16bit              ; work         ;
-;       |mux_8x1_16bit:mux1|                      ; 64 (64)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|register_file:RF|mux_8x1_16bit:mux1                                                                   ; mux_8x1_16bit                ; work         ;
+;    |register_file:RF|                           ; 272 (0)             ; 128 (0)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|register_file:RF                                                                                      ; register_file                ; work         ;
+;       |demux_8x1_16bit:demux3|                  ; 128 (128)           ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|register_file:RF|demux_8x1_16bit:demux3                                                               ; demux_8x1_16bit              ; work         ;
+;       |mux_8x1_16bit:mux1|                      ; 80 (80)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|register_file:RF|mux_8x1_16bit:mux1                                                                   ; mux_8x1_16bit                ; work         ;
+;       |mux_8x1_16bit:mux2|                      ; 64 (64)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|register_file:RF|mux_8x1_16bit:mux2                                                                   ; mux_8x1_16bit                ; work         ;
 ;       |pipo_register:\gen_reg:0:regi|           ; 0 (0)               ; 16 (0)                    ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|register_file:RF|pipo_register:\gen_reg:0:regi                                                        ; pipo_register                ; work         ;
 ;          |d_ff:\gen_dff:0:dffi|                 ; 0 (0)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|register_file:RF|pipo_register:\gen_reg:0:regi|d_ff:\gen_dff:0:dffi                                   ; d_ff                         ; work         ;
 ;          |d_ff:\gen_dff:10:dffi|                ; 0 (0)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|register_file:RF|pipo_register:\gen_reg:0:regi|d_ff:\gen_dff:10:dffi                                  ; d_ff                         ; work         ;
@@ -603,20 +601,21 @@ Encoding Type:  One-Hot
 +-------------+------------+------------+------------+------------+------------+------------+------------+------------+------------+------------+------------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+-------------+
 
 
-+-------------------------------------------------------------------------------------------+
-; Registers Removed During Synthesis                                                        ;
-+---------------------------------------+---------------------------------------------------+
-; Register name                         ; Reason for Removal                                ;
-+---------------------------------------+---------------------------------------------------+
-; Controller:Controller_Unit|y_next.s20 ; Merged with Controller:Controller_Unit|y_next.s19 ;
-; Controller:Controller_Unit|y_next.s22 ; Merged with Controller:Controller_Unit|y_next.s19 ;
-; Controller:Controller_Unit|y_next.s23 ; Merged with Controller:Controller_Unit|y_next.s19 ;
-; Controller:Controller_Unit|y_next.s24 ; Merged with Controller:Controller_Unit|y_next.s19 ;
-; Controller:Controller_Unit|y_next.s8  ; Merged with Controller:Controller_Unit|y_next.s19 ;
-; Controller:Controller_Unit|y_next.s9  ; Merged with Controller:Controller_Unit|y_next.s19 ;
-; Controller:Controller_Unit|y_next.s19 ; Stuck at GND due to stuck port data_in            ;
-; Total Number of Removed Registers = 7 ;                                                   ;
-+---------------------------------------+---------------------------------------------------+
++-----------------------------------------------------------------------------------------------+
+; Registers Removed During Synthesis                                                            ;
++-------------------------------------------+---------------------------------------------------+
+; Register name                             ; Reason for Removal                                ;
++-------------------------------------------+---------------------------------------------------+
+; Controller:Controller_Unit|counter[1..31] ; Stuck at GND due to stuck port data_in            ;
+; Controller:Controller_Unit|y_next.s20     ; Merged with Controller:Controller_Unit|y_next.s19 ;
+; Controller:Controller_Unit|y_next.s22     ; Merged with Controller:Controller_Unit|y_next.s19 ;
+; Controller:Controller_Unit|y_next.s23     ; Merged with Controller:Controller_Unit|y_next.s19 ;
+; Controller:Controller_Unit|y_next.s24     ; Merged with Controller:Controller_Unit|y_next.s19 ;
+; Controller:Controller_Unit|y_next.s8      ; Merged with Controller:Controller_Unit|y_next.s19 ;
+; Controller:Controller_Unit|y_next.s9      ; Merged with Controller:Controller_Unit|y_next.s19 ;
+; Controller:Controller_Unit|y_next.s19     ; Stuck at GND due to stuck port data_in            ;
+; Total Number of Removed Registers = 38    ;                                                   ;
++-------------------------------------------+---------------------------------------------------+
 
 
 +------------------------------------------------------+
@@ -624,9 +623,9 @@ Encoding Type:  One-Hot
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 211   ;
-; Number of registers using Synchronous Clear  ; 48    ;
-; Number of registers using Synchronous Load   ; 48    ;
+; Total registers                              ; 212   ;
+; Number of registers using Synchronous Clear  ; 32    ;
+; Number of registers using Synchronous Load   ; 32    ;
 ; Number of registers using Asynchronous Clear ; 211   ;
 ; Number of registers using Asynchronous Load  ; 0     ;
 ; Number of registers using Clock Enable       ; 194   ;
@@ -639,40 +638,42 @@ Encoding Type:  One-Hot
 +----------------------------------------+---------+
 ; Inverted Register                      ; Fan out ;
 +----------------------------------------+---------+
-; Controller:Controller_Unit|ostate[2]   ; 93      ;
-; Controller:Controller_Unit|ostate[3]   ; 141     ;
-; Controller:Controller_Unit|ostate[4]   ; 84      ;
-; Controller:Controller_Unit|ostate[0]   ; 56      ;
-; Controller:Controller_Unit|ostate[1]   ; 53      ;
+; Controller:Controller_Unit|ostate[0]   ; 84      ;
+; Controller:Controller_Unit|ostate[4]   ; 116     ;
+; Controller:Controller_Unit|ostate[1]   ; 101     ;
+; Controller:Controller_Unit|ostate[2]   ; 167     ;
+; Controller:Controller_Unit|ostate[3]   ; 135     ;
 ; Total number of inverted registers = 5 ;         ;
 +----------------------------------------+---------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                                             ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+--------------------------------------------------------------+
-; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                                   ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+--------------------------------------------------------------+
-; 8:1                ; 16 bits   ; 80 LEs        ; 32 LEs               ; 48 LEs                 ; Yes        ; |CPU|pipo_register:PC|d_ff:\gen_dff:5:dffi|q                 ;
-; 8:1                ; 16 bits   ; 80 LEs        ; 32 LEs               ; 48 LEs                 ; Yes        ; |CPU|pipo_register:T1|d_ff:\gen_dff:12:dffi|q                ;
-; 18:1               ; 16 bits   ; 192 LEs       ; 96 LEs               ; 96 LEs                 ; Yes        ; |CPU|pipo_register:T2|d_ff:\gen_dff:5:dffi|q                 ;
-; 4:1                ; 3 bits    ; 6 LEs         ; 6 LEs                ; 0 LEs                  ; No         ; |CPU|Steering_logic:SL|mux_4x1_3bit:RF_A3_path|Mux2          ;
-; 4:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; No         ; |CPU|Steering_logic:SL|mux_4x1_16bit:RF_D3_path|Mux14        ;
-; 8:1                ; 8 bits    ; 40 LEs        ; 24 LEs               ; 16 LEs                 ; No         ; |CPU|ALU:Arith_Unit|mux_8x1_16bit:mux|Mux1                   ;
-; 8:1                ; 7 bits    ; 35 LEs        ; 21 LEs               ; 14 LEs                 ; No         ; |CPU|ALU:Arith_Unit|mux_8x1_16bit:mux|Mux9                   ;
-; 8:1                ; 16 bits   ; 80 LEs        ; 80 LEs               ; 0 LEs                  ; No         ; |CPU|register_file:RF|mux_8x1_16bit:mux1|Mux14               ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; No         ; |CPU|Steering_logic:SL|mux_4x1_16bit:RF_D3_path|Mux7         ;
-; 6:1                ; 16 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; No         ; |CPU|Steering_logic:SL|mux_32x1_16bit:Mem_add_read_path|Mux1 ;
-; 9:1                ; 6 bits    ; 36 LEs        ; 12 LEs               ; 24 LEs                 ; No         ; |CPU|Steering_logic:SL|mux_32x1_9bit:to_SE9_path|Mux8        ;
-; 6:1                ; 8 bits    ; 32 LEs        ; 16 LEs               ; 16 LEs                 ; No         ; |CPU|Steering_logic:SL|mux_32x1_16bit:ALU_B_path|Mux3        ;
-; 32:1               ; 3 bits    ; 63 LEs        ; 3 LEs                ; 60 LEs                 ; No         ; |CPU|Steering_logic:SL|mux_32x1_9bit:to_SE9_path|Mux1        ;
-; 32:1               ; 2 bits    ; 42 LEs        ; 12 LEs               ; 30 LEs                 ; No         ; |CPU|Steering_logic:SL|mux_32x1_3bit:ALU_control_path|Mux1   ;
-; 9:1                ; 3 bits    ; 18 LEs        ; 9 LEs                ; 9 LEs                  ; No         ; |CPU|Steering_logic:SL|mux_32x1_16bit:ALU_B_path|Mux8        ;
-; 37:1               ; 5 bits    ; 120 LEs       ; 40 LEs               ; 80 LEs                 ; No         ; |CPU|Steering_logic:SL|mux_32x1_16bit:ALU_B_path|Mux13       ;
-; 20:1               ; 11 bits   ; 143 LEs       ; 44 LEs               ; 99 LEs                 ; No         ; |CPU|Controller:Controller_Unit|Selector22                   ;
-; 10:1               ; 16 bits   ; 96 LEs        ; 64 LEs               ; 32 LEs                 ; No         ; |CPU|Steering_logic:SL|mux_32x1_16bit:ALU_A_path|Mux6        ;
-; 34:1               ; 4 bits    ; 88 LEs        ; 24 LEs               ; 64 LEs                 ; No         ; |CPU|Controller:Controller_Unit|Selector7                    ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+--------------------------------------------------------------+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                                              ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------------------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                                    ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------------------------------------+
+; 32:1               ; 16 bits   ; 336 LEs       ; 16 LEs               ; 320 LEs                ; Yes        ; |CPU|pipo_register:IR|d_ff:\gen_dff:4:dffi|q                  ;
+; 11:1               ; 16 bits   ; 112 LEs       ; 32 LEs               ; 80 LEs                 ; Yes        ; |CPU|pipo_register:T2|d_ff:\gen_dff:14:dffi|q                 ;
+; 8:1                ; 16 bits   ; 80 LEs        ; 32 LEs               ; 48 LEs                 ; Yes        ; |CPU|pipo_register:PC|d_ff:\gen_dff:9:dffi|q                  ;
+; 4:1                ; 3 bits    ; 6 LEs         ; 6 LEs                ; 0 LEs                  ; No         ; |CPU|Steering_logic:SL|mux_4x1_3bit:RF_A3_path|Mux1           ;
+; 8:1                ; 16 bits   ; 80 LEs        ; 80 LEs               ; 0 LEs                  ; No         ; |CPU|register_file:RF|mux_8x1_16bit:mux2|Mux14                ;
+; 8:1                ; 16 bits   ; 80 LEs        ; 80 LEs               ; 0 LEs                  ; No         ; |CPU|register_file:RF|mux_8x1_16bit:mux1|Mux5                 ;
+; 8:1                ; 8 bits    ; 40 LEs        ; 24 LEs               ; 16 LEs                 ; No         ; |CPU|ALU:Arith_Unit|mux_8x1_16bit:mux|Mux4                    ;
+; 8:1                ; 7 bits    ; 35 LEs        ; 21 LEs               ; 14 LEs                 ; No         ; |CPU|ALU:Arith_Unit|mux_8x1_16bit:mux|Mux12                   ;
+; 9:1                ; 6 bits    ; 36 LEs        ; 12 LEs               ; 24 LEs                 ; No         ; |CPU|Steering_logic:SL|mux_32x1_9bit:to_SE9_path|Mux3         ;
+; 6:1                ; 8 bits    ; 32 LEs        ; 16 LEs               ; 16 LEs                 ; No         ; |CPU|Steering_logic:SL|mux_32x1_16bit:ALU_B_path|Mux5         ;
+; 6:1                ; 16 bits   ; 64 LEs        ; 48 LEs               ; 16 LEs                 ; No         ; |CPU|Steering_logic:SL|mux_32x1_16bit:ALU_A_path|Mux13        ;
+; 7:1                ; 8 bits    ; 32 LEs        ; 24 LEs               ; 8 LEs                  ; No         ; |CPU|Steering_logic:SL|mux_32x1_16bit:RF_D3_path|Mux2         ;
+; 32:1               ; 3 bits    ; 63 LEs        ; 3 LEs                ; 60 LEs                 ; No         ; |CPU|Steering_logic:SL|mux_32x1_9bit:to_SE9_path|Mux0         ;
+; 32:1               ; 2 bits    ; 42 LEs        ; 12 LEs               ; 30 LEs                 ; No         ; |CPU|Steering_logic:SL|mux_32x1_3bit:ALU_control_path|Mux1    ;
+; 8:1                ; 16 bits   ; 80 LEs        ; 64 LEs               ; 16 LEs                 ; No         ; |CPU|Steering_logic:SL|mux_32x1_16bit:Mem_add_read_path|Mux3  ;
+; 9:1                ; 8 bits    ; 48 LEs        ; 32 LEs               ; 16 LEs                 ; No         ; |CPU|Steering_logic:SL|mux_32x1_16bit:RF_D3_path|Mux12        ;
+; 8:1                ; 16 bits   ; 80 LEs        ; 48 LEs               ; 32 LEs                 ; No         ; |CPU|Steering_logic:SL|mux_32x1_16bit:T1_data_write_path|Mux8 ;
+; 9:1                ; 3 bits    ; 18 LEs        ; 12 LEs               ; 6 LEs                  ; No         ; |CPU|Steering_logic:SL|mux_32x1_16bit:ALU_B_path|Mux8         ;
+; 21:1               ; 11 bits   ; 154 LEs       ; 44 LEs               ; 110 LEs                ; No         ; |CPU|Controller:Controller_Unit|Selector23                    ;
+; 24:1               ; 4 bits    ; 64 LEs        ; 20 LEs               ; 44 LEs                 ; No         ; |CPU|Steering_logic:SL|mux_32x1_16bit:ALU_B_path|Mux14        ;
+; 35:1               ; 4 bits    ; 92 LEs        ; 24 LEs               ; 68 LEs                 ; No         ; |CPU|Controller:Controller_Unit|Selector20                    ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------------------------------------+
 
 
 +------------------------------------------------------------------------+
@@ -840,8 +841,8 @@ Encoding Type:  One-Hot
 +------+-------+----------+----------------------------------------------+
 ; Port ; Type  ; Severity ; Details                                      ;
 +------+-------+----------+----------------------------------------------+
-; i31  ; Input ; Info     ; Stuck at GND                                 ;
-; i30  ; Input ; Info     ; Stuck at GND                                 ;
+; i31  ; Input ; Info     ; Stuck at VCC                                 ;
+; i30  ; Input ; Info     ; Stuck at VCC                                 ;
 ; i29  ; Input ; Info     ; Stuck at GND                                 ;
 ; i28  ; Input ; Info     ; Stuck at GND                                 ;
 ; i27  ; Input ; Info     ; Stuck at GND                                 ;
@@ -999,7 +1000,6 @@ Encoding Type:  One-Hot
 ; Port ; Type  ; Severity ; Details                                              ;
 +------+-------+----------+------------------------------------------------------+
 ; i31  ; Input ; Info     ; Stuck at GND                                         ;
-; i30  ; Input ; Info     ; Stuck at GND                                         ;
 ; i29  ; Input ; Info     ; Stuck at GND                                         ;
 ; i28  ; Input ; Info     ; Stuck at GND                                         ;
 ; i27  ; Input ; Info     ; Stuck at GND                                         ;
@@ -1260,8 +1260,6 @@ Encoding Type:  One-Hot
 +------+-------+----------+-------------------------------------------------------+
 ; Port ; Type  ; Severity ; Details                                               ;
 +------+-------+----------+-------------------------------------------------------+
-; i31  ; Input ; Info     ; Stuck at GND                                          ;
-; i30  ; Input ; Info     ; Stuck at GND                                          ;
 ; i29  ; Input ; Info     ; Stuck at GND                                          ;
 ; i28  ; Input ; Info     ; Stuck at GND                                          ;
 ; i27  ; Input ; Info     ; Stuck at GND                                          ;
@@ -1299,8 +1297,8 @@ Encoding Type:  One-Hot
 +------+-------+----------+----------------------------------------------+
 ; Port ; Type  ; Severity ; Details                                      ;
 +------+-------+----------+----------------------------------------------+
-; i31  ; Input ; Info     ; Stuck at GND                                 ;
-; i30  ; Input ; Info     ; Stuck at GND                                 ;
+; i31  ; Input ; Info     ; Stuck at VCC                                 ;
+; i30  ; Input ; Info     ; Stuck at VCC                                 ;
 ; i29  ; Input ; Info     ; Stuck at GND                                 ;
 ; i28  ; Input ; Info     ; Stuck at GND                                 ;
 ; i27  ; Input ; Info     ; Stuck at GND                                 ;
@@ -1440,6 +1438,41 @@ Encoding Type:  One-Hot
 +------+-------+----------+-------------------------------------------------------+
 
 
++-------------------------------------------------------------------------+
+; Port Connectivity Checks: "Steering_logic:SL|mux_32x1_16bit:RF_D3_path" ;
++------+-------+----------+-----------------------------------------------+
+; Port ; Type  ; Severity ; Details                                       ;
++------+-------+----------+-----------------------------------------------+
+; i31  ; Input ; Info     ; Stuck at GND                                  ;
+; i30  ; Input ; Info     ; Stuck at GND                                  ;
+; i29  ; Input ; Info     ; Stuck at GND                                  ;
+; i28  ; Input ; Info     ; Stuck at GND                                  ;
+; i27  ; Input ; Info     ; Stuck at GND                                  ;
+; i26  ; Input ; Info     ; Stuck at GND                                  ;
+; i25  ; Input ; Info     ; Stuck at GND                                  ;
+; i24  ; Input ; Info     ; Stuck at GND                                  ;
+; i22  ; Input ; Info     ; Stuck at GND                                  ;
+; i20  ; Input ; Info     ; Stuck at GND                                  ;
+; i19  ; Input ; Info     ; Stuck at GND                                  ;
+; i18  ; Input ; Info     ; Stuck at GND                                  ;
+; i17  ; Input ; Info     ; Stuck at GND                                  ;
+; i16  ; Input ; Info     ; Stuck at GND                                  ;
+; i15  ; Input ; Info     ; Stuck at GND                                  ;
+; i14  ; Input ; Info     ; Stuck at GND                                  ;
+; i13  ; Input ; Info     ; Stuck at GND                                  ;
+; i12  ; Input ; Info     ; Stuck at GND                                  ;
+; i11  ; Input ; Info     ; Stuck at GND                                  ;
+; i10  ; Input ; Info     ; Stuck at GND                                  ;
+; i8   ; Input ; Info     ; Stuck at GND                                  ;
+; i7   ; Input ; Info     ; Stuck at GND                                  ;
+; i5   ; Input ; Info     ; Stuck at GND                                  ;
+; i4   ; Input ; Info     ; Stuck at GND                                  ;
+; i2   ; Input ; Info     ; Stuck at GND                                  ;
+; i1   ; Input ; Info     ; Stuck at GND                                  ;
+; i0   ; Input ; Info     ; Stuck at GND                                  ;
++------+-------+----------+-----------------------------------------------+
+
+
 +-----------------------------------------------------------------------+
 ; Port Connectivity Checks: "Steering_logic:SL|mux_4x1_3bit:RF_A3_path" ;
 +------+-------+----------+---------------------------------------------+
@@ -1547,20 +1580,21 @@ Encoding Type:  One-Hot
 +-----------------------+-----------------------------+
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
-; boundary_port         ; 121                         ;
-; cycloneiii_ff         ; 211                         ;
+; boundary_port         ; 211                         ;
+; cycloneiii_ff         ; 212                         ;
 ;     CLR               ; 17                          ;
-;     ENA CLR           ; 146                         ;
-;     ENA CLR SCLR SLD  ; 48                          ;
-; cycloneiii_lcell_comb ; 914                         ;
-;     normal            ; 914                         ;
-;         1 data inputs ; 6                           ;
-;         2 data inputs ; 122                         ;
-;         3 data inputs ; 135                         ;
-;         4 data inputs ; 651                         ;
+;     ENA CLR           ; 162                         ;
+;     ENA CLR SCLR SLD  ; 32                          ;
+;     plain             ; 1                           ;
+; cycloneiii_lcell_comb ; 1016                        ;
+;     normal            ; 1016                        ;
+;         1 data inputs ; 5                           ;
+;         2 data inputs ; 112                         ;
+;         3 data inputs ; 175                         ;
+;         4 data inputs ; 724                         ;
 ;                       ;                             ;
-; Max LUT depth         ; 21.00                       ;
-; Average LUT depth     ; 9.97                        ;
+; Max LUT depth         ; 24.00                       ;
+; Average LUT depth     ; 10.46                       ;
 +-----------------------+-----------------------------+
 
 
@@ -1569,7 +1603,7 @@ Encoding Type:  One-Hot
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:01     ;
+; Top            ; 00:00:02     ;
 +----------------+--------------+
 
 
@@ -1579,7 +1613,7 @@ Encoding Type:  One-Hot
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Tue Dec 03 01:36:11 2024
+    Info: Processing started: Tue Dec 03 10:32:00 2024
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off CPU -c CPU
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 10 of the 10 processors detected
@@ -1659,7 +1693,7 @@ Info (12021): Found 2 design units, including 1 entities, in source file pipo_re
     Info (12022): Found design unit 1: pipo_register_memory-ha File: E:/Semester_3/Digital Systems/Project_Part_B/CPU/PIPO_Register_Memory.vhd Line: 10
     Info (12023): Found entity 1: pipo_register_memory File: E:/Semester_3/Digital Systems/Project_Part_B/CPU/PIPO_Register_Memory.vhd Line: 4
 Info (12021): Found 2 design units, including 1 entities, in source file cpu.vhd
-    Info (12022): Found design unit 1: CPU-str File: E:/Semester_3/Digital Systems/Project_Part_B/CPU/CPU.vhd Line: 13
+    Info (12022): Found design unit 1: CPU-str File: E:/Semester_3/Digital Systems/Project_Part_B/CPU/CPU.vhd Line: 16
     Info (12023): Found entity 1: CPU File: E:/Semester_3/Digital Systems/Project_Part_B/CPU/CPU.vhd Line: 5
 Info (12021): Found 2 design units, including 1 entities, in source file cpu_testbench.vhd
     Info (12022): Found design unit 1: CPU_testbench-behav File: E:/Semester_3/Digital Systems/Project_Part_B/CPU/CPU_testbench.vhd Line: 8
@@ -1695,16 +1729,16 @@ Info (12021): Found 2 design units, including 1 entities, in source file 4_x_1_m
     Info (12022): Found design unit 1: mux_4x1_16bit-beh File: E:/Semester_3/Digital Systems/Project_Part_B/CPU/4_X_1_Mux_16_bit.vhd Line: 11
     Info (12023): Found entity 1: mux_4x1_16bit File: E:/Semester_3/Digital Systems/Project_Part_B/CPU/4_X_1_Mux_16_bit.vhd Line: 5
 Info (12127): Elaborating entity "CPU" for the top level hierarchy
-Info (12128): Elaborating entity "pipo_register" for hierarchy "pipo_register:T1" File: E:/Semester_3/Digital Systems/Project_Part_B/CPU/CPU.vhd Line: 104
+Info (12128): Elaborating entity "pipo_register" for hierarchy "pipo_register:T1" File: E:/Semester_3/Digital Systems/Project_Part_B/CPU/CPU.vhd Line: 116
 Info (12128): Elaborating entity "d_ff" for hierarchy "pipo_register:T1|d_ff:\gen_dff:15:dffi" File: E:/Semester_3/Digital Systems/Project_Part_B/CPU/PIPO_Register.vhd Line: 25
 Info (12128): Elaborating entity "mux_2x1" for hierarchy "pipo_register:T1|mux_2x1:\gen_mux:15:muxi" File: E:/Semester_3/Digital Systems/Project_Part_B/CPU/PIPO_Register.vhd Line: 29
-Info (12128): Elaborating entity "SE_6_To_16" for hierarchy "SE_6_To_16:SE6to16" File: E:/Semester_3/Digital Systems/Project_Part_B/CPU/CPU.vhd Line: 110
-Info (12128): Elaborating entity "SE_9_To_16" for hierarchy "SE_9_To_16:SE9to16" File: E:/Semester_3/Digital Systems/Project_Part_B/CPU/CPU.vhd Line: 111
-Info (12128): Elaborating entity "Eight_Bit_Left_Shifter" for hierarchy "Eight_Bit_Left_Shifter:s8" File: E:/Semester_3/Digital Systems/Project_Part_B/CPU/CPU.vhd Line: 113
-Info (12128): Elaborating entity "register_file" for hierarchy "register_file:RF" File: E:/Semester_3/Digital Systems/Project_Part_B/CPU/CPU.vhd Line: 115
+Info (12128): Elaborating entity "SE_6_To_16" for hierarchy "SE_6_To_16:SE6to16" File: E:/Semester_3/Digital Systems/Project_Part_B/CPU/CPU.vhd Line: 122
+Info (12128): Elaborating entity "SE_9_To_16" for hierarchy "SE_9_To_16:SE9to16" File: E:/Semester_3/Digital Systems/Project_Part_B/CPU/CPU.vhd Line: 123
+Info (12128): Elaborating entity "Eight_Bit_Left_Shifter" for hierarchy "Eight_Bit_Left_Shifter:s8" File: E:/Semester_3/Digital Systems/Project_Part_B/CPU/CPU.vhd Line: 125
+Info (12128): Elaborating entity "register_file" for hierarchy "register_file:RF" File: E:/Semester_3/Digital Systems/Project_Part_B/CPU/CPU.vhd Line: 127
 Info (12128): Elaborating entity "mux_8x1_16bit" for hierarchy "register_file:RF|mux_8x1_16bit:mux1" File: E:/Semester_3/Digital Systems/Project_Part_B/CPU/Register_File.vhd Line: 40
 Info (12128): Elaborating entity "demux_8x1_16bit" for hierarchy "register_file:RF|demux_8x1_16bit:demux3" File: E:/Semester_3/Digital Systems/Project_Part_B/CPU/Register_File.vhd Line: 42
-Info (12128): Elaborating entity "ALU" for hierarchy "ALU:Arith_Unit" File: E:/Semester_3/Digital Systems/Project_Part_B/CPU/CPU.vhd Line: 117
+Info (12128): Elaborating entity "ALU" for hierarchy "ALU:Arith_Unit" File: E:/Semester_3/Digital Systems/Project_Part_B/CPU/CPU.vhd Line: 129
 Info (12128): Elaborating entity "kogge_stone_adder_subtractor" for hierarchy "ALU:Arith_Unit|kogge_stone_adder_subtractor:adder" File: E:/Semester_3/Digital Systems/Project_Part_B/CPU/ALU.vhd Line: 56
 Info (12128): Elaborating entity "kogge_stone" for hierarchy "ALU:Arith_Unit|kogge_stone_adder_subtractor:adder|kogge_stone:kogge" File: E:/Semester_3/Digital Systems/Project_Part_B/CPU/Kogge_stone_adder_subtractor.vhd Line: 30
 Info (12128): Elaborating entity "preprocessing" for hierarchy "ALU:Arith_Unit|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|preprocessing:inst1" File: E:/Semester_3/Digital Systems/Project_Part_B/CPU/kogge_stone.vhd Line: 40
@@ -1716,29 +1750,28 @@ Info (12128): Elaborating entity "Full_Adder" for hierarchy "ALU:Arith_Unit|Arra
 Info (12128): Elaborating entity "OR_16" for hierarchy "ALU:Arith_Unit|OR_16:or16" File: E:/Semester_3/Digital Systems/Project_Part_B/CPU/ALU.vhd Line: 61
 Info (12128): Elaborating entity "AND_16" for hierarchy "ALU:Arith_Unit|AND_16:and16" File: E:/Semester_3/Digital Systems/Project_Part_B/CPU/ALU.vhd Line: 62
 Info (12128): Elaborating entity "IMP_16" for hierarchy "ALU:Arith_Unit|IMP_16:imp16" File: E:/Semester_3/Digital Systems/Project_Part_B/CPU/ALU.vhd Line: 63
-Info (12128): Elaborating entity "Controller" for hierarchy "Controller:Controller_Unit" File: E:/Semester_3/Digital Systems/Project_Part_B/CPU/CPU.vhd Line: 119
-Info (12128): Elaborating entity "Steering_logic" for hierarchy "Steering_logic:SL" File: E:/Semester_3/Digital Systems/Project_Part_B/CPU/CPU.vhd Line: 121
+Info (12128): Elaborating entity "Controller" for hierarchy "Controller:Controller_Unit" File: E:/Semester_3/Digital Systems/Project_Part_B/CPU/CPU.vhd Line: 131
+Info (12128): Elaborating entity "Steering_logic" for hierarchy "Steering_logic:SL" File: E:/Semester_3/Digital Systems/Project_Part_B/CPU/CPU.vhd Line: 133
 Info (12128): Elaborating entity "mux_2x1_3bit" for hierarchy "Steering_logic:SL|mux_2x1_3bit:RF_A1_path" File: E:/Semester_3/Digital Systems/Project_Part_B/CPU/Steering_Logic.vhd Line: 82
 Info (12128): Elaborating entity "mux_4x1_3bit" for hierarchy "Steering_logic:SL|mux_4x1_3bit:RF_A3_path" File: E:/Semester_3/Digital Systems/Project_Part_B/CPU/Steering_Logic.vhd Line: 86
-Info (12128): Elaborating entity "mux_4x1_16bit" for hierarchy "Steering_logic:SL|mux_4x1_16bit:RF_D3_path" File: E:/Semester_3/Digital Systems/Project_Part_B/CPU/Steering_Logic.vhd Line: 89
-Info (12128): Elaborating entity "mux_32x1_16bit" for hierarchy "Steering_logic:SL|mux_32x1_16bit:T1_data_write_path" File: E:/Semester_3/Digital Systems/Project_Part_B/CPU/Steering_Logic.vhd Line: 90
-Info (12128): Elaborating entity "mux_32x1_1bit" for hierarchy "Steering_logic:SL|mux_32x1_1bit:IR_en_path" File: E:/Semester_3/Digital Systems/Project_Part_B/CPU/Steering_Logic.vhd Line: 93
-Info (12128): Elaborating entity "mux_32x1_6bit" for hierarchy "Steering_logic:SL|mux_32x1_6bit:to_SE6_path" File: E:/Semester_3/Digital Systems/Project_Part_B/CPU/Steering_Logic.vhd Line: 97
-Info (12128): Elaborating entity "mux_32x1_9bit" for hierarchy "Steering_logic:SL|mux_32x1_9bit:to_SE9_path" File: E:/Semester_3/Digital Systems/Project_Part_B/CPU/Steering_Logic.vhd Line: 98
-Info (12128): Elaborating entity "mux_32x1_3bit" for hierarchy "Steering_logic:SL|mux_32x1_3bit:ALU_control_path" File: E:/Semester_3/Digital Systems/Project_Part_B/CPU/Steering_Logic.vhd Line: 100
+Info (12128): Elaborating entity "mux_32x1_16bit" for hierarchy "Steering_logic:SL|mux_32x1_16bit:RF_D3_path" File: E:/Semester_3/Digital Systems/Project_Part_B/CPU/Steering_Logic.vhd Line: 87
+Info (12128): Elaborating entity "mux_32x1_1bit" for hierarchy "Steering_logic:SL|mux_32x1_1bit:IR_en_path" File: E:/Semester_3/Digital Systems/Project_Part_B/CPU/Steering_Logic.vhd Line: 91
+Info (12128): Elaborating entity "mux_32x1_6bit" for hierarchy "Steering_logic:SL|mux_32x1_6bit:to_SE6_path" File: E:/Semester_3/Digital Systems/Project_Part_B/CPU/Steering_Logic.vhd Line: 95
+Info (12128): Elaborating entity "mux_32x1_9bit" for hierarchy "Steering_logic:SL|mux_32x1_9bit:to_SE9_path" File: E:/Semester_3/Digital Systems/Project_Part_B/CPU/Steering_Logic.vhd Line: 96
+Info (12128): Elaborating entity "mux_32x1_3bit" for hierarchy "Steering_logic:SL|mux_32x1_3bit:ALU_control_path" File: E:/Semester_3/Digital Systems/Project_Part_B/CPU/Steering_Logic.vhd Line: 98
 Info (13000): Registers with preset signals will power-up high File: E:/Semester_3/Digital Systems/Project_Part_B/CPU/Controller.vhd Line: 28
 Info (13003): DEV_CLRn pin will set, and not reset, register with preset signal due to NOT Gate Push-Back
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 1062 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 1255 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 18 input pins
-    Info (21059): Implemented 103 output pins
-    Info (21061): Implemented 941 logic cells
+    Info (21059): Implemented 193 output pins
+    Info (21061): Implemented 1044 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4857 megabytes
-    Info: Processing ended: Tue Dec 03 01:36:20 2024
-    Info: Elapsed time: 00:00:09
-    Info: Total CPU time (on all processors): 00:00:05
+    Info: Peak virtual memory: 4853 megabytes
+    Info: Processing ended: Tue Dec 03 10:32:13 2024
+    Info: Elapsed time: 00:00:13
+    Info: Total CPU time (on all processors): 00:00:13
 
 

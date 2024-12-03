@@ -36,7 +36,6 @@ vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/32_X_1_Mux
 vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/32_X_1_Mux_6_bit.vhd}
 vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/32_X_1_Mux_9_bit.vhd}
 vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/Controller.vhd}
-vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/4_X_1_Mux_16_bit.vhd}
 
 vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/CPU_testbench.vhd}
 
