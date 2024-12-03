@@ -30,10 +30,12 @@ architecture behav of CPU_testbench is
 	
 	type regarray is array(31 downto 0) of std_logic_vector(15 downto 0);
 	signal Memory: regarray:=(
-		0 =>  "1010001000000100",--Instr1: LW from Mem Address=4 to RF address = 0; Instr1 at Mem Address = 0
-		1 =>  "1010010001000101",--Instr2: LW from Mem Address=5 to RF address = 1; Instr2 at Mem Address = 1
---		2 =>  "0000000001010000",--Instr3: Add Reg0 and Reg1 and store in Reg2; Instr3 at Mem Address = 2
-		2 =>  "0001000010111111",--Instr3: Add -1 and REg0 and store in Reg2; Instr3 at Mem Address = 2
+--		0 =>  "1010001000000100",--Instr1: LW from Mem Address=4 to RF address = 0; Instr1 at Mem Address = 0
+--		1 =>  "1010010001000101",--Instr2: LW from Mem Address=5 to RF address = 1; Instr2 at Mem Address = 1
+		0 => "1001000000010000", --Instr1: LLI value=16 from IR to RF address = 0; Instr1 at Mem Address = 0
+		1 => "1000001000000001", --Instr1: LHI value=1 (will be 8-shifted) from IR to RF address = 1; Instr2 at Mem Address = 1
+		2 =>  "0000000001010000",--Instr3: ADD Reg0 and Reg1 and store in Reg2; Instr3 at Mem Address = 2
+--		2 =>  "0001000010111111",--Instr3: ADI -1 and REg0 and store in Reg2; Instr3 at Mem Address = 2
 		3 =>  "1011010011000110",--Instr4: SW from RF address=2 to Mem address = 6; Instr4 at Mem Address = 3
 --		3 =>  "1110000111111101", --Instr4: J from Current PC=3 to PC=0
 		4 =>  "0000000000010000", -- Number1

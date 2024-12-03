@@ -81,7 +81,7 @@ architecture str of Steering_Logic is
 		RF_A1_path : mux_32x1_3bit port map(I1 => IR_data_read(11 downto 9), I10 => IR_data_read(8 downto 6), I24=>IR_data_read(8 downto 6), S=> state_in, Y=> RF_A1);
 		RF_A2_path : mux_32x1_3bit port map(I1=>IR_Data_Read(8 downto 6), I14=>IR_Data_Read(8 downto 6), I10=>IR_Data_Read(8 downto 6), S=>state_in, Y=>RF_A2);
 		RF_A3_path : mux_32x1_3bit port map(I3 => IR_data_read(5 downto 3), I6=>IR_data_read(8 downto 6), I8=>IR_data_read(11 downto 9), I23=>IR_data_read(11 downto 9), I9=>IR_data_read(11 downto 9), S=> State_in, Y=> RF_A3);
-		RF_D3_path : mux_32x1_16bit port map(I6=>T1_data_read, I3 => T1_data_read,I9=>from_SE9,I21=>PC_data_read,I23=>PC_Data_read, S=> state_in, Y=> RF_D3);
+		RF_D3_path : mux_32x1_16bit port map(I6=>T1_data_read, I3 => T1_data_read,I8=>from_8s,I9=>from_SE9,I21=>PC_data_read,I23=>PC_Data_read, S=> state_in, Y=> RF_D3);
 		T1_data_write_path : mux_32x1_16bit port map(I1=>RF_D1, I4=> RF_D1, I10=>RF_D1, I2=>ALU_C, I5=>ALU_C, I11=>ALU_C, I19=>ALU_C,I12=>Mem_data_read, S=> state_in, Y=> T1_data_write);
 		T2_data_write_path : mux_32x1_16bit port map(I1=>RF_D2, I15=> ALU_C, S=> state_in, Y=> T2_data_write);
 		PC_data_write_path : mux_32x1_16bit port map(I0=>ALU_C, I17=>ALU_C, I20=>ALU_C, I22=>ALU_C, I24=>RF_D1, S=> state_in, Y=>PC_data_write);

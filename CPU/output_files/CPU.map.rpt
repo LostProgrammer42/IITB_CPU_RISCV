@@ -1,5 +1,5 @@
 Analysis & Synthesis report for CPU
-Tue Dec 03 12:56:54 2024
+Tue Dec 03 13:13:02 2024
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -80,13 +80,13 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Tue Dec 03 12:56:54 2024       ;
+; Analysis & Synthesis Status        ; Successful - Tue Dec 03 13:13:02 2024       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; CPU                                         ;
 ; Top-level Entity Name              ; CPU                                         ;
 ; Family                             ; MAX 10                                      ;
-; Total logic elements               ; 1,130                                       ;
-;     Total combinational functions  ; 1,017                                       ;
+; Total logic elements               ; 1,155                                       ;
+;     Total combinational functions  ; 1,042                                       ;
 ;     Dedicated logic registers      ; 215                                         ;
 ; Total registers                    ; 215                                         ;
 ; Total pins                         ; 293                                         ;
@@ -204,7 +204,8 @@ refer to the applicable agreement for further details.
 ;     Processor 5            ;   0.0%      ;
 ;     Processor 6            ;   0.0%      ;
 ;     Processor 7            ;   0.0%      ;
-;     Processors 8-10        ;   0.0%      ;
+;     Processor 8            ;   0.0%      ;
+;     Processors 9-10        ;   0.0%      ;
 +----------------------------+-------------+
 
 
@@ -251,16 +252,16 @@ refer to the applicable agreement for further details.
 +---------------------------------------------+-------------+
 ; Resource                                    ; Usage       ;
 +---------------------------------------------+-------------+
-; Estimated Total logic elements              ; 1,130       ;
+; Estimated Total logic elements              ; 1,155       ;
 ;                                             ;             ;
-; Total combinational functions               ; 1017        ;
+; Total combinational functions               ; 1042        ;
 ; Logic element usage by number of LUT inputs ;             ;
-;     -- 4 input functions                    ; 746         ;
-;     -- 3 input functions                    ; 182         ;
-;     -- <=2 input functions                  ; 89          ;
+;     -- 4 input functions                    ; 769         ;
+;     -- 3 input functions                    ; 189         ;
+;     -- <=2 input functions                  ; 84          ;
 ;                                             ;             ;
 ; Logic elements by mode                      ;             ;
-;     -- normal mode                          ; 1017        ;
+;     -- normal mode                          ; 1042        ;
 ;     -- arithmetic mode                      ; 0           ;
 ;                                             ;             ;
 ; Total registers                             ; 215         ;
@@ -273,8 +274,8 @@ refer to the applicable agreement for further details.
 ;                                             ;             ;
 ; Maximum fan-out node                        ; reset~input ;
 ; Maximum fan-out                             ; 237         ;
-; Total fan-out                               ; 5159        ;
-; Average fan-out                             ; 2.84        ;
+; Total fan-out                               ; 5262        ;
+; Average fan-out                             ; 2.86        ;
 +---------------------------------------------+-------------+
 
 
@@ -283,8 +284,8 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+------------------------------------------------------------------------------------------------------------+------------------------------+--------------+
 ; Compilation Hierarchy Node                      ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; UFM Blocks ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; ADC blocks ; Full Hierarchy Name                                                                                        ; Entity Name                  ; Library Name ;
 +-------------------------------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+------------------------------------------------------------------------------------------------------------+------------------------------+--------------+
-; |CPU                                            ; 1017 (0)            ; 215 (0)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 293  ; 0            ; 0          ; |CPU                                                                                                       ; CPU                          ; work         ;
-;    |ALU:Arith_Unit|                             ; 221 (1)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|ALU:Arith_Unit                                                                                        ; ALU                          ; work         ;
+; |CPU                                            ; 1042 (0)            ; 215 (0)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 293  ; 0            ; 0          ; |CPU                                                                                                       ; CPU                          ; work         ;
+;    |ALU:Arith_Unit|                             ; 224 (1)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|ALU:Arith_Unit                                                                                        ; ALU                          ; work         ;
 ;       |Array_Multiplier:multiplier|             ; 26 (0)              ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|ALU:Arith_Unit|Array_Multiplier:multiplier                                                            ; Array_Multiplier             ; work         ;
 ;          |Array_Multiplier_Node:Node1_1|        ; 2 (0)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|ALU:Arith_Unit|Array_Multiplier:multiplier|Array_Multiplier_Node:Node1_1                              ; Array_Multiplier_Node        ; work         ;
 ;             |Full_Adder:instFA|                 ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|ALU:Arith_Unit|Array_Multiplier:multiplier|Array_Multiplier_Node:Node1_1|Full_Adder:instFA            ; Full_Adder                   ; work         ;
@@ -310,8 +311,8 @@ refer to the applicable agreement for further details.
 ;          |Full_Adder:FA4_2|                     ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|ALU:Arith_Unit|Array_Multiplier:multiplier|Full_Adder:FA4_2                                           ; Full_Adder                   ; work         ;
 ;          |Full_Adder:FA4_3|                     ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|ALU:Arith_Unit|Array_Multiplier:multiplier|Full_Adder:FA4_3                                           ; Full_Adder                   ; work         ;
 ;       |IMP_16:imp16|                            ; 15 (15)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|ALU:Arith_Unit|IMP_16:imp16                                                                           ; IMP_16                       ; work         ;
-;       |kogge_stone_adder_subtractor:adder|      ; 125 (16)            ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|ALU:Arith_Unit|kogge_stone_adder_subtractor:adder                                                     ; kogge_stone_adder_subtractor ; work         ;
-;          |kogge_stone:kogge|                    ; 109 (0)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|ALU:Arith_Unit|kogge_stone_adder_subtractor:adder|kogge_stone:kogge                                   ; kogge_stone                  ; work         ;
+;       |kogge_stone_adder_subtractor:adder|      ; 128 (17)            ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|ALU:Arith_Unit|kogge_stone_adder_subtractor:adder                                                     ; kogge_stone_adder_subtractor ; work         ;
+;          |kogge_stone:kogge|                    ; 111 (0)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|ALU:Arith_Unit|kogge_stone_adder_subtractor:adder|kogge_stone:kogge                                   ; kogge_stone                  ; work         ;
 ;             |kogge_stone_node:\inst4:10:inst4a| ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|ALU:Arith_Unit|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|kogge_stone_node:\inst4:10:inst4a ; kogge_stone_node             ; work         ;
 ;             |kogge_stone_node:\inst4:11:inst4a| ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|ALU:Arith_Unit|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|kogge_stone_node:\inst4:11:inst4a ; kogge_stone_node             ; work         ;
 ;             |kogge_stone_node:\inst4:12:inst4a| ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|ALU:Arith_Unit|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|kogge_stone_node:\inst4:12:inst4a ; kogge_stone_node             ; work         ;
@@ -328,42 +329,44 @@ refer to the applicable agreement for further details.
 ;             |kogge_stone_node:\inst5:10:inst5a| ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|ALU:Arith_Unit|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|kogge_stone_node:\inst5:10:inst5a ; kogge_stone_node             ; work         ;
 ;             |kogge_stone_node:\inst5:14:inst5a| ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|ALU:Arith_Unit|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|kogge_stone_node:\inst5:14:inst5a ; kogge_stone_node             ; work         ;
 ;             |kogge_stone_node:\inst5:2:inst5a|  ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|ALU:Arith_Unit|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|kogge_stone_node:\inst5:2:inst5a  ; kogge_stone_node             ; work         ;
+;             |kogge_stone_node:\inst5:3:inst5a|  ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|ALU:Arith_Unit|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|kogge_stone_node:\inst5:3:inst5a  ; kogge_stone_node             ; work         ;
 ;             |kogge_stone_node:\inst5:4:inst5a|  ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|ALU:Arith_Unit|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|kogge_stone_node:\inst5:4:inst5a  ; kogge_stone_node             ; work         ;
+;             |kogge_stone_node:\inst5:5:inst5a|  ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|ALU:Arith_Unit|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|kogge_stone_node:\inst5:5:inst5a  ; kogge_stone_node             ; work         ;
 ;             |kogge_stone_node:\inst5:6:inst5a|  ; 3 (3)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|ALU:Arith_Unit|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|kogge_stone_node:\inst5:6:inst5a  ; kogge_stone_node             ; work         ;
 ;             |kogge_stone_node:\inst5:7:inst5a|  ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|ALU:Arith_Unit|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|kogge_stone_node:\inst5:7:inst5a  ; kogge_stone_node             ; work         ;
-;             |kogge_stone_node:\inst5:8:inst5a|  ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|ALU:Arith_Unit|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|kogge_stone_node:\inst5:8:inst5a  ; kogge_stone_node             ; work         ;
+;             |kogge_stone_node:\inst5:8:inst5a|  ; 3 (3)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|ALU:Arith_Unit|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|kogge_stone_node:\inst5:8:inst5a  ; kogge_stone_node             ; work         ;
 ;             |kogge_stone_node:\inst5:9:inst5a|  ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|ALU:Arith_Unit|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|kogge_stone_node:\inst5:9:inst5a  ; kogge_stone_node             ; work         ;
 ;             |kogge_stone_node:\inst6:13:inst6a| ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|ALU:Arith_Unit|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|kogge_stone_node:\inst6:13:inst6a ; kogge_stone_node             ; work         ;
 ;             |kogge_stone_node:\inst6:14:inst6a| ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|ALU:Arith_Unit|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|kogge_stone_node:\inst6:14:inst6a ; kogge_stone_node             ; work         ;
 ;             |kogge_stone_node:\inst6:4:inst6a|  ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|ALU:Arith_Unit|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|kogge_stone_node:\inst6:4:inst6a  ; kogge_stone_node             ; work         ;
 ;             |kogge_stone_node:\inst6:6:inst6a|  ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|ALU:Arith_Unit|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|kogge_stone_node:\inst6:6:inst6a  ; kogge_stone_node             ; work         ;
-;             |kogge_stone_node:\inst6:7:inst6a|  ; 3 (3)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|ALU:Arith_Unit|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|kogge_stone_node:\inst6:7:inst6a  ; kogge_stone_node             ; work         ;
-;             |kogge_stone_node:\inst7:13:inst7a| ; 4 (4)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|ALU:Arith_Unit|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|kogge_stone_node:\inst7:13:inst7a ; kogge_stone_node             ; work         ;
-;             |postprocessing:inst8|              ; 58 (58)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|ALU:Arith_Unit|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|postprocessing:inst8              ; postprocessing               ; work         ;
-;             |preprocessing:inst1|               ; 10 (10)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|ALU:Arith_Unit|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|preprocessing:inst1               ; preprocessing                ; work         ;
+;             |kogge_stone_node:\inst6:7:inst6a|  ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|ALU:Arith_Unit|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|kogge_stone_node:\inst6:7:inst6a  ; kogge_stone_node             ; work         ;
+;             |kogge_stone_node:\inst7:13:inst7a| ; 3 (3)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|ALU:Arith_Unit|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|kogge_stone_node:\inst7:13:inst7a ; kogge_stone_node             ; work         ;
+;             |postprocessing:inst8|              ; 62 (62)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|ALU:Arith_Unit|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|postprocessing:inst8              ; postprocessing               ; work         ;
+;             |preprocessing:inst1|               ; 8 (8)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|ALU:Arith_Unit|kogge_stone_adder_subtractor:adder|kogge_stone:kogge|preprocessing:inst1               ; preprocessing                ; work         ;
 ;       |mux_8x1_16bit:mux|                       ; 54 (54)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|ALU:Arith_Unit|mux_8x1_16bit:mux                                                                      ; mux_8x1_16bit                ; work         ;
 ;    |Controller:Controller_Unit|                 ; 61 (61)             ; 23 (23)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|Controller:Controller_Unit                                                                            ; Controller                   ; work         ;
-;    |Steering_logic:SL|                          ; 549 (0)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|Steering_logic:SL                                                                                     ; Steering_logic               ; work         ;
-;       |mux_32x1_16bit:ALU_A_path|               ; 89 (89)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|Steering_logic:SL|mux_32x1_16bit:ALU_A_path                                                           ; mux_32x1_16bit               ; work         ;
-;       |mux_32x1_16bit:ALU_B_path|               ; 89 (89)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|Steering_logic:SL|mux_32x1_16bit:ALU_B_path                                                           ; mux_32x1_16bit               ; work         ;
+;    |Steering_logic:SL|                          ; 571 (0)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|Steering_logic:SL                                                                                     ; Steering_logic               ; work         ;
+;       |mux_32x1_16bit:ALU_A_path|               ; 88 (88)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|Steering_logic:SL|mux_32x1_16bit:ALU_A_path                                                           ; mux_32x1_16bit               ; work         ;
+;       |mux_32x1_16bit:ALU_B_path|               ; 96 (96)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|Steering_logic:SL|mux_32x1_16bit:ALU_B_path                                                           ; mux_32x1_16bit               ; work         ;
 ;       |mux_32x1_16bit:IR_data_write_path|       ; 17 (17)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|Steering_logic:SL|mux_32x1_16bit:IR_data_write_path                                                   ; mux_32x1_16bit               ; work         ;
-;       |mux_32x1_16bit:Mem_add_read_path|        ; 53 (53)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|Steering_logic:SL|mux_32x1_16bit:Mem_add_read_path                                                    ; mux_32x1_16bit               ; work         ;
+;       |mux_32x1_16bit:Mem_add_read_path|        ; 54 (54)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|Steering_logic:SL|mux_32x1_16bit:Mem_add_read_path                                                    ; mux_32x1_16bit               ; work         ;
 ;       |mux_32x1_16bit:Mem_add_write_path|       ; 19 (19)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|Steering_logic:SL|mux_32x1_16bit:Mem_add_write_path                                                   ; mux_32x1_16bit               ; work         ;
 ;       |mux_32x1_16bit:Mem_data_write_path|      ; 16 (16)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|Steering_logic:SL|mux_32x1_16bit:Mem_data_write_path                                                  ; mux_32x1_16bit               ; work         ;
-;       |mux_32x1_16bit:RF_D3_path|               ; 61 (61)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|Steering_logic:SL|mux_32x1_16bit:RF_D3_path                                                           ; mux_32x1_16bit               ; work         ;
-;       |mux_32x1_16bit:T1_data_write_path|       ; 130 (130)           ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|Steering_logic:SL|mux_32x1_16bit:T1_data_write_path                                                   ; mux_32x1_16bit               ; work         ;
+;       |mux_32x1_16bit:RF_D3_path|               ; 71 (71)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|Steering_logic:SL|mux_32x1_16bit:RF_D3_path                                                           ; mux_32x1_16bit               ; work         ;
+;       |mux_32x1_16bit:T1_data_write_path|       ; 131 (131)           ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|Steering_logic:SL|mux_32x1_16bit:T1_data_write_path                                                   ; mux_32x1_16bit               ; work         ;
 ;       |mux_32x1_16bit:T2_data_write_path|       ; 17 (17)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|Steering_logic:SL|mux_32x1_16bit:T2_data_write_path                                                   ; mux_32x1_16bit               ; work         ;
 ;       |mux_32x1_1bit:IR_en_path|                ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|Steering_logic:SL|mux_32x1_1bit:IR_en_path                                                            ; mux_32x1_1bit                ; work         ;
 ;       |mux_32x1_1bit:Mem_r_path|                ; 3 (3)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|Steering_logic:SL|mux_32x1_1bit:Mem_r_path                                                            ; mux_32x1_1bit                ; work         ;
 ;       |mux_32x1_1bit:PC_en_path|                ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|Steering_logic:SL|mux_32x1_1bit:PC_en_path                                                            ; mux_32x1_1bit                ; work         ;
-;       |mux_32x1_1bit:RF_en_path|                ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|Steering_logic:SL|mux_32x1_1bit:RF_en_path                                                            ; mux_32x1_1bit                ; work         ;
+;       |mux_32x1_1bit:RF_en_path|                ; 3 (3)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|Steering_logic:SL|mux_32x1_1bit:RF_en_path                                                            ; mux_32x1_1bit                ; work         ;
 ;       |mux_32x1_1bit:T1_en_path|                ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|Steering_logic:SL|mux_32x1_1bit:T1_en_path                                                            ; mux_32x1_1bit                ; work         ;
 ;       |mux_32x1_1bit:T2_en_path|                ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|Steering_logic:SL|mux_32x1_1bit:T2_en_path                                                            ; mux_32x1_1bit                ; work         ;
-;       |mux_32x1_3bit:ALU_control_path|          ; 5 (5)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|Steering_logic:SL|mux_32x1_3bit:ALU_control_path                                                      ; mux_32x1_3bit                ; work         ;
-;       |mux_32x1_3bit:RF_A1_path|                ; 15 (15)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|Steering_logic:SL|mux_32x1_3bit:RF_A1_path                                                            ; mux_32x1_3bit                ; work         ;
-;       |mux_32x1_3bit:RF_A2_path|                ; 4 (4)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|Steering_logic:SL|mux_32x1_3bit:RF_A2_path                                                            ; mux_32x1_3bit                ; work         ;
+;       |mux_32x1_3bit:ALU_control_path|          ; 6 (6)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|Steering_logic:SL|mux_32x1_3bit:ALU_control_path                                                      ; mux_32x1_3bit                ; work         ;
+;       |mux_32x1_3bit:RF_A1_path|                ; 14 (14)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|Steering_logic:SL|mux_32x1_3bit:RF_A1_path                                                            ; mux_32x1_3bit                ; work         ;
+;       |mux_32x1_3bit:RF_A2_path|                ; 6 (6)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|Steering_logic:SL|mux_32x1_3bit:RF_A2_path                                                            ; mux_32x1_3bit                ; work         ;
 ;       |mux_32x1_3bit:RF_A3_path|                ; 12 (12)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|Steering_logic:SL|mux_32x1_3bit:RF_A3_path                                                            ; mux_32x1_3bit                ; work         ;
-;       |mux_32x1_6bit:to_SE6_path|               ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|Steering_logic:SL|mux_32x1_6bit:to_SE6_path                                                           ; mux_32x1_6bit                ; work         ;
+;       |mux_32x1_6bit:to_SE6_path|               ; 3 (3)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|Steering_logic:SL|mux_32x1_6bit:to_SE6_path                                                           ; mux_32x1_6bit                ; work         ;
 ;       |mux_32x1_9bit:to_SE9_path|               ; 7 (7)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|Steering_logic:SL|mux_32x1_9bit:to_SE9_path                                                           ; mux_32x1_9bit                ; work         ;
 ;    |pipo_register:IR|                           ; 0 (0)               ; 16 (0)                    ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|pipo_register:IR                                                                                      ; pipo_register                ; work         ;
 ;       |d_ff:\gen_dff:0:dffi|                    ; 0 (0)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |CPU|pipo_register:IR|d_ff:\gen_dff:0:dffi                                                                 ; d_ff                         ; work         ;
@@ -641,11 +644,11 @@ Encoding Type:  One-Hot
 +----------------------------------------+---------+
 ; Inverted Register                      ; Fan out ;
 +----------------------------------------+---------+
-; Controller:Controller_Unit|ostate[2]   ; 109     ;
-; Controller:Controller_Unit|ostate[0]   ; 180     ;
-; Controller:Controller_Unit|ostate[1]   ; 160     ;
-; Controller:Controller_Unit|ostate[4]   ; 189     ;
-; Controller:Controller_Unit|ostate[3]   ; 146     ;
+; Controller:Controller_Unit|ostate[2]   ; 105     ;
+; Controller:Controller_Unit|ostate[0]   ; 188     ;
+; Controller:Controller_Unit|ostate[1]   ; 175     ;
+; Controller:Controller_Unit|ostate[4]   ; 206     ;
+; Controller:Controller_Unit|ostate[3]   ; 140     ;
 ; Total number of inverted registers = 5 ;         ;
 +----------------------------------------+---------+
 
@@ -657,32 +660,32 @@ Encoding Type:  One-Hot
 +--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------------------------------------------+
 ; 7:1                ; 16 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |CPU|pipo_register:IR|d_ff:\gen_dff:15:dffi|q                  ;
 ; 8:1                ; 16 bits   ; 80 LEs        ; 32 LEs               ; 48 LEs                 ; Yes        ; |CPU|pipo_register:PC|d_ff:\gen_dff:14:dffi|q                  ;
-; 3:1                ; 16 bits   ; 32 LEs        ; 16 LEs               ; 16 LEs                 ; No         ; |CPU|Steering_logic:SL|mux_32x1_16bit:T1_data_write_path|Mux10 ;
+; 3:1                ; 16 bits   ; 32 LEs        ; 16 LEs               ; 16 LEs                 ; No         ; |CPU|Steering_logic:SL|mux_32x1_16bit:T1_data_write_path|Mux12 ;
+; 3:1                ; 3 bits    ; 6 LEs         ; 3 LEs                ; 3 LEs                  ; No         ; |CPU|Steering_logic:SL|mux_32x1_3bit:RF_A1_path|Mux0           ;
 ; 3:1                ; 3 bits    ; 6 LEs         ; 3 LEs                ; 3 LEs                  ; No         ; |CPU|Steering_logic:SL|mux_32x1_3bit:RF_A1_path|Mux2           ;
-; 3:1                ; 3 bits    ; 6 LEs         ; 3 LEs                ; 3 LEs                  ; No         ; |CPU|Steering_logic:SL|mux_32x1_3bit:RF_A1_path|Mux1           ;
 ; 3:1                ; 15 bits   ; 30 LEs        ; 15 LEs               ; 15 LEs                 ; No         ; |CPU|Steering_logic:SL|mux_32x1_16bit:Mem_add_read_path|Mux10  ;
 ; 8:1                ; 8 bits    ; 40 LEs        ; 24 LEs               ; 16 LEs                 ; No         ; |CPU|ALU:Arith_Unit|mux_8x1_16bit:mux|Mux3                     ;
-; 8:1                ; 7 bits    ; 35 LEs        ; 21 LEs               ; 14 LEs                 ; No         ; |CPU|ALU:Arith_Unit|mux_8x1_16bit:mux|Mux8                     ;
-; 8:1                ; 16 bits   ; 80 LEs        ; 80 LEs               ; 0 LEs                  ; No         ; |CPU|register_file:RF|mux_8x1_16bit:mux1|Mux11                 ;
-; 8:1                ; 16 bits   ; 80 LEs        ; 80 LEs               ; 0 LEs                  ; No         ; |CPU|register_file:RF|mux_8x1_16bit:mux2|Mux6                  ;
-; 6:1                ; 6 bits    ; 24 LEs        ; 12 LEs               ; 12 LEs                 ; No         ; |CPU|Steering_logic:SL|mux_32x1_9bit:to_SE9_path|Mux5          ;
+; 8:1                ; 7 bits    ; 35 LEs        ; 21 LEs               ; 14 LEs                 ; No         ; |CPU|ALU:Arith_Unit|mux_8x1_16bit:mux|Mux12                    ;
+; 8:1                ; 16 bits   ; 80 LEs        ; 80 LEs               ; 0 LEs                  ; No         ; |CPU|register_file:RF|mux_8x1_16bit:mux1|Mux9                  ;
+; 8:1                ; 16 bits   ; 80 LEs        ; 80 LEs               ; 0 LEs                  ; No         ; |CPU|register_file:RF|mux_8x1_16bit:mux2|Mux4                  ;
+; 6:1                ; 6 bits    ; 24 LEs        ; 12 LEs               ; 12 LEs                 ; No         ; |CPU|Steering_logic:SL|mux_32x1_9bit:to_SE9_path|Mux4          ;
 ; 5:1                ; 3 bits    ; 9 LEs         ; 6 LEs                ; 3 LEs                  ; No         ; |CPU|Steering_logic:SL|mux_32x1_3bit:RF_A2_path|Mux2           ;
-; 6:1                ; 8 bits    ; 32 LEs        ; 24 LEs               ; 8 LEs                  ; No         ; |CPU|Steering_logic:SL|mux_32x1_16bit:RF_D3_path|Mux2          ;
-; 9:1                ; 3 bits    ; 18 LEs        ; 6 LEs                ; 12 LEs                 ; No         ; |CPU|Steering_logic:SL|mux_32x1_9bit:to_SE9_path|Mux7          ;
+; 9:1                ; 3 bits    ; 18 LEs        ; 6 LEs                ; 12 LEs                 ; No         ; |CPU|Steering_logic:SL|mux_32x1_9bit:to_SE9_path|Mux8          ;
 ; 7:1                ; 3 bits    ; 12 LEs        ; 9 LEs                ; 3 LEs                  ; No         ; |CPU|Steering_logic:SL|mux_32x1_3bit:RF_A3_path|Mux0           ;
 ; 7:1                ; 3 bits    ; 12 LEs        ; 12 LEs               ; 0 LEs                  ; No         ; |CPU|Steering_logic:SL|mux_32x1_3bit:RF_A1_path|Mux2           ;
-; 32:1               ; 2 bits    ; 42 LEs        ; 12 LEs               ; 30 LEs                 ; No         ; |CPU|Steering_logic:SL|mux_32x1_3bit:ALU_control_path|Mux2     ;
-; 11:1               ; 16 bits   ; 112 LEs       ; 32 LEs               ; 80 LEs                 ; No         ; |CPU|Steering_logic:SL|mux_32x1_16bit:T2_data_write_path|Mux6  ;
-; 8:1                ; 15 bits   ; 75 LEs        ; 60 LEs               ; 15 LEs                 ; No         ; |CPU|Steering_logic:SL|mux_32x1_16bit:Mem_add_read_path|Mux13  ;
-; 7:1                ; 8 bits    ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; No         ; |CPU|Steering_logic:SL|mux_32x1_16bit:ALU_B_path|Mux0          ;
-; 8:1                ; 16 bits   ; 80 LEs        ; 64 LEs               ; 16 LEs                 ; No         ; |CPU|Steering_logic:SL|mux_32x1_16bit:T1_data_write_path|Mux7  ;
-; 10:1               ; 15 bits   ; 90 LEs        ; 60 LEs               ; 30 LEs                 ; No         ; |CPU|Steering_logic:SL|mux_32x1_16bit:ALU_A_path|Mux1          ;
-; 9:1                ; 7 bits    ; 42 LEs        ; 28 LEs               ; 14 LEs                 ; No         ; |CPU|Steering_logic:SL|mux_32x1_16bit:RF_D3_path|Mux10         ;
-; 10:1               ; 3 bits    ; 18 LEs        ; 15 LEs               ; 3 LEs                  ; No         ; |CPU|Steering_logic:SL|mux_32x1_16bit:ALU_B_path|Mux10         ;
-; 14:1               ; 5 bits    ; 45 LEs        ; 5 LEs                ; 40 LEs                 ; No         ; |CPU|Controller:Controller_Unit|Selector5                      ;
+; 32:1               ; 2 bits    ; 42 LEs        ; 12 LEs               ; 30 LEs                 ; No         ; |CPU|Steering_logic:SL|mux_32x1_3bit:ALU_control_path|Mux1     ;
+; 11:1               ; 16 bits   ; 112 LEs       ; 32 LEs               ; 80 LEs                 ; No         ; |CPU|Steering_logic:SL|mux_32x1_16bit:T2_data_write_path|Mux12 ;
+; 8:1                ; 15 bits   ; 75 LEs        ; 60 LEs               ; 15 LEs                 ; No         ; |CPU|Steering_logic:SL|mux_32x1_16bit:Mem_add_read_path|Mux11  ;
+; 7:1                ; 8 bits    ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; No         ; |CPU|Steering_logic:SL|mux_32x1_16bit:ALU_B_path|Mux6          ;
+; 8:1                ; 16 bits   ; 80 LEs        ; 64 LEs               ; 16 LEs                 ; No         ; |CPU|Steering_logic:SL|mux_32x1_16bit:T1_data_write_path|Mux13 ;
+; 10:1               ; 15 bits   ; 90 LEs        ; 60 LEs               ; 30 LEs                 ; No         ; |CPU|Steering_logic:SL|mux_32x1_16bit:ALU_A_path|Mux3          ;
+; 9:1                ; 7 bits    ; 42 LEs        ; 28 LEs               ; 14 LEs                 ; No         ; |CPU|Steering_logic:SL|mux_32x1_16bit:RF_D3_path|Mux14         ;
+; 10:1               ; 3 bits    ; 18 LEs        ; 15 LEs               ; 3 LEs                  ; No         ; |CPU|Steering_logic:SL|mux_32x1_16bit:ALU_B_path|Mux9          ;
+; 10:1               ; 8 bits    ; 48 LEs        ; 40 LEs               ; 8 LEs                  ; No         ; |CPU|Steering_logic:SL|mux_32x1_16bit:RF_D3_path|Mux4          ;
+; 14:1               ; 5 bits    ; 45 LEs        ; 5 LEs                ; 40 LEs                 ; No         ; |CPU|Controller:Controller_Unit|Selector21                     ;
 ; 20:1               ; 2 bits    ; 26 LEs        ; 14 LEs               ; 12 LEs                 ; No         ; |CPU|Steering_logic:SL|mux_32x1_16bit:ALU_B_path|Mux11         ;
-; 22:1               ; 2 bits    ; 28 LEs        ; 12 LEs               ; 16 LEs                 ; No         ; |CPU|Steering_logic:SL|mux_32x1_16bit:ALU_B_path|Mux13         ;
-; 28:1               ; 4 bits    ; 72 LEs        ; 28 LEs               ; 44 LEs                 ; No         ; |CPU|Controller:Controller_Unit|Selector7                      ;
+; 22:1               ; 2 bits    ; 28 LEs        ; 12 LEs               ; 16 LEs                 ; No         ; |CPU|Steering_logic:SL|mux_32x1_16bit:ALU_B_path|Mux14         ;
+; 28:1               ; 4 bits    ; 72 LEs        ; 28 LEs               ; 44 LEs                 ; No         ; |CPU|Controller:Controller_Unit|Selector20                     ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------------------------------------------+
 
 
@@ -1470,7 +1473,6 @@ Encoding Type:  One-Hot
 ; i12  ; Input ; Info     ; Stuck at GND                                  ;
 ; i11  ; Input ; Info     ; Stuck at GND                                  ;
 ; i10  ; Input ; Info     ; Stuck at GND                                  ;
-; i8   ; Input ; Info     ; Stuck at GND                                  ;
 ; i7   ; Input ; Info     ; Stuck at GND                                  ;
 ; i5   ; Input ; Info     ; Stuck at GND                                  ;
 ; i4   ; Input ; Info     ; Stuck at GND                                  ;
@@ -1693,15 +1695,15 @@ Encoding Type:  One-Hot
 ;     ENA CLR           ; 176                         ;
 ;     ENA CLR SCLR SLD  ; 16                          ;
 ;     plain             ; 1                           ;
-; cycloneiii_lcell_comb ; 1022                        ;
-;     normal            ; 1022                        ;
+; cycloneiii_lcell_comb ; 1047                        ;
+;     normal            ; 1047                        ;
 ;         1 data inputs ; 5                           ;
-;         2 data inputs ; 89                          ;
-;         3 data inputs ; 182                         ;
-;         4 data inputs ; 746                         ;
+;         2 data inputs ; 84                          ;
+;         3 data inputs ; 189                         ;
+;         4 data inputs ; 769                         ;
 ;                       ;                             ;
-; Max LUT depth         ; 23.00                       ;
-; Average LUT depth     ; 11.40                       ;
+; Max LUT depth         ; 26.00                       ;
+; Average LUT depth     ; 12.20                       ;
 +-----------------------+-----------------------------+
 
 
@@ -1720,7 +1722,7 @@ Encoding Type:  One-Hot
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Tue Dec 03 12:56:44 2024
+    Info: Processing started: Tue Dec 03 13:12:53 2024
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off CPU -c CPU
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 10 of the 10 processors detected
@@ -1873,14 +1875,14 @@ Info (13003): DEV_CLRn pin will set, and not reset, register with preset signal 
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 1471 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 1496 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 18 input pins
     Info (21059): Implemented 275 output pins
-    Info (21061): Implemented 1178 logic cells
+    Info (21061): Implemented 1203 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4861 megabytes
-    Info: Processing ended: Tue Dec 03 12:56:54 2024
-    Info: Elapsed time: 00:00:10
-    Info: Total CPU time (on all processors): 00:00:05
+    Info: Peak virtual memory: 4853 megabytes
+    Info: Processing ended: Tue Dec 03 13:13:02 2024
+    Info: Elapsed time: 00:00:09
+    Info: Total CPU time (on all processors): 00:00:07
 
 
