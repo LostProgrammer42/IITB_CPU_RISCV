@@ -78,20 +78,17 @@ architecture str of Steering_Logic is
 	signal RF_A1_sel : std_logic;
 	signal RF_A3_sel, RF_D3_sel: std_logic_vector(1 downto 0);
 	begin
-		RF_A1_sel <= state_in(0) xor state_in(1) xor state_in(2) xor state_in(3) xor state_in(4);
-		RF_A1_path : mux_2x1_3bit port map(I1 => IR_data_read(11 downto 9), I0 => IR_data_read(8 downto 6), S=> RF_A1_sel, Y=> RF_A1);
-		RF_A2_path : RF_A2 <= IR_data_read(8 downto 6);
-		RF_A3_sel(0) <= (not state_in(4)) and (not state_in(3));
-		RF_A3_sel(1) <= state_in(1) xor state_in(2);
-		RF_A3_path : mux_4x1_3bit port map(I3 => IR_data_read(5 downto 3), I2 => "000", I1 => IR_data_read(8 downto 6), I0 => IR_data_read(11 downto 9), S=> RF_A3_sel, Y=> RF_A3);
+		RF_A1_path : mux_32x1_3bit port map(I1 => IR_data_read(11 downto 9), I10 => IR_data_read(8 downto 6), I24=>IR_data_read(8 downto 6), S=> state_in, Y=> RF_A1);
+		RF_A2_path : mux_32x1_3bit port map(I1=>IR_Data_Read(8 downto 6), I14=>IR_Data_Read(8 downto 6), I10=>IR_Data_Read(8 downto 6), S=>state_in, Y=>RF_A2);
+		RF_A3_path : mux_32x1_3bit port map(I3 => IR_data_read(5 downto 3), I6=>IR_data_read(8 downto 6), I8=>IR_data_read(11 downto 9), I23=>IR_data_read(11 downto 9), I9=>IR_data_read(11 downto 9), S=> State_in, Y=> RF_A3);
 		RF_D3_path : mux_32x1_16bit port map(I6=>T1_data_read, I3 => T1_data_read,I9=>from_SE9,I21=>PC_data_read,I23=>PC_Data_read, S=> state_in, Y=> RF_D3);
-		T1_data_write_path : mux_32x1_16bit port map(I1=>RF_D1, I4=> RF_D1, I10=>RF_D1, I2=>ALU_C, I5=>ALU_C, I11=>ALU_C, I19=>ALU_C, S=> state_in, Y=> T1_data_write);
+		T1_data_write_path : mux_32x1_16bit port map(I1=>RF_D1, I4=> RF_D1, I10=>RF_D1, I2=>ALU_C, I5=>ALU_C, I11=>ALU_C, I19=>ALU_C,I12=>Mem_data_read, S=> state_in, Y=> T1_data_write);
 		T2_data_write_path : mux_32x1_16bit port map(I1=>RF_D2, I15=> ALU_C, S=> state_in, Y=> T2_data_write);
 		PC_data_write_path : mux_32x1_16bit port map(I0=>ALU_C, I17=>ALU_C, I20=>ALU_C, I22=>ALU_C, I24=>RF_D1, S=> state_in, Y=>PC_data_write);
 		IR_en_path : mux_32x1_1bit port map(I30=>'1',I31=>'1',I0=>'1', S=>state_in, Y=>IR_en);
 		IR_data_write_path : mux_32x1_16bit port map(I30=>Mem_data_read,I31=>Mem_data_read,I0=> Mem_data_read ,S=>state_in, Y=>IR_data_write);
-		ALU_A_path : mux_32x1_16bit port map(I0=>PC_data_read, I17=> PC_data_read, I20=> PC_data_read, I22=> PC_data_read, I2=> T1_data_read, I5=> T1_data_read, I11=>T1_data_read, I19=>T1_data_read, S=>state_in, Y=>ALU_A);
-		ALU_B_path : mux_32x1_16bit port map(I0=>"0000000000000001", I17=> "0000000000000001", I2=>T2_data_read, I19=> T2_data_read, I5=>from_SE6, I11=>from_SE6, I20=>from_SE6, I22=>from_SE9, S=>state_in, Y=>ALU_B);
+		ALU_A_path : mux_32x1_16bit port map(I0=>PC_data_read, I17=> PC_data_read, I20=> PC_data_read, I22=> PC_data_read, I2=> T1_data_read, I5=> T1_data_read, I11=>T1_data_read, I19=>T1_data_read, I15=>T2_data_read, S=>state_in, Y=>ALU_A);
+		ALU_B_path : mux_32x1_16bit port map(I0=>"0000000000000001", I17=> "0000000000000001", I2=>T2_data_read, I19=> T2_data_read, I5=>from_SE6, I11=>from_SE6, I20=>from_SE6, I22=>from_SE9, I15=>from_SE6, S=>state_in, Y=>ALU_B);
 		to_SE6_path: mux_32x1_6bit port map(I5=>IR_data_read(5 downto 0), I11=>IR_data_read(5 downto 0), I15=>IR_data_read(5 downto 0), I20=>IR_data_read(5 downto 0), S=>state_in, Y=>to_SE6);
 		to_SE9_path: mux_32x1_9bit port map(I8=>IR_data_read(8 downto 0), I9=>IR_data_read(8 downto 0), I22=>IR_data_read(8 downto 0), S=>state_in, Y=>to_SE9);
 		to_8s_path: mux_32x1_16bit port map(I8=>from_SE9, S=>state_in, Y=>to_8s);
@@ -102,8 +99,8 @@ architecture str of Steering_Logic is
 		Mem_w_path: mux_32x1_1bit port map(I16=>'1', S=>state_in, Y=>Mem_w);
 		Mem_r_path: mux_32x1_1bit port map(I30=>'1',I31=>'1',I0=>'1', I12=>'1', S=>state_in, Y=>Mem_r);
 		RF_en_path: mux_32x1_1bit port map(I3=>'1', I6=>'1', I8=>'1', I9=>'1', I13=>'1', I21=>'1', I23=>'1', S=>state_in, Y=>RF_en);
-		T1_en_path: mux_32x1_1bit port map(I1=>'1', I2=>'1', I4=>'1', I5=>'1', I10=>'1', I11=>'1', I12=>'1', I19=>'1', S=>state_in, Y=>T1_en);
-		T2_en_path: mux_32x1_1bit port map(I1=>'1', I15=>'1', S=>state_in, Y=>T2_en);
+		T1_en_path: mux_32x1_1bit port map(I0=>'1', I1=>'1',I2=>'1', I3=>'1', I4=>'1', I9=>'1', I10=>'1', I11=>'1', I12=>'1', I18=>'1', S=>state_in, Y=>T1_en);
+		T2_en_path: mux_32x1_1bit port map(I0=>'1', I1=>'1', I15=>'1', S=>state_in, Y=>T2_en);
 		PC_en_path: mux_32x1_1bit port map(I0=>'1', I17=>'1', I20=>'1', I22=>'1', I24=>'1', S=>state_in, Y=>PC_en);
 end architecture;
 		

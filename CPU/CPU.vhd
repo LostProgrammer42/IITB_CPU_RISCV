@@ -9,8 +9,9 @@ entity CPU is
 		  Mem_r,Mem_w: out std_logic;
 		  ostate: out std_logic_vector(4 downto 0);
 		  RF_A1o,RF_A2o,RF_A3o: out std_logic_vector(2 downto 0);
-		  RF_D1o,RF_D2o,RF_D3o,T1o,T1w: out std_logic_vector(15 downto 0);
-		  T1e: out std_logic);
+		  RF_D1o,RF_D2o,RF_D3o,T1o,T1w, T2o, T2w: out std_logic_vector(15 downto 0);
+		  T1e, T2e, RFe: out std_logic;
+			reg0,reg1,reg2 : out std_logic_vector(15 downto 0));
 end entity;
 
 architecture str of CPU is
@@ -81,7 +82,8 @@ architecture str of CPU is
 		port (a1, a2, a3 : in std_logic_vector(2 downto 0); 
 				d3 : in std_logic_vector(15 downto 0);
 				rst, clk, en : in std_logic;
-				d1, d2 : out std_logic_vector(15 downto 0));
+				d1, d2 : out std_logic_vector(15 downto 0);
+			reg0,reg1,reg2 : out std_logic_vector(15 downto 0));
 	end component;
 	
 	signal T1_en, T2_en, PC_en, IR_en: std_logic := '0';
@@ -113,6 +115,10 @@ architecture str of CPU is
 		T1o <= T1_Data_read;
 		T1w <= T1_Data_write;
 		T1e <= T1_En;
+		T2o <= T2_data_read;
+		T2w <= T2_data_write;
+		T2e <= T2_en;
+		RFe <= RF_En;
 		T1: pipo_register port map(din=>T1_data_write,en=>T1_en,rst=>reset,clk=>clk,dout=>T1_data_read);
 		T2: pipo_register port map(din=>T2_data_write,en=>T2_en,rst=>reset,clk=>clk,dout=>T2_data_read);
 		PC: pipo_register port map(din=>PC_data_write,en=>PC_en,rst=>reset,clk=>clk,dout=>PC_data_read);
@@ -124,7 +130,7 @@ architecture str of CPU is
 		
 		s8: Eight_Bit_Left_Shifter port map(a=>to_8s, b=>from_8s);
 		
-		RF: Register_File port map(a1=> RF_A1, a2=> RF_A2, a3=> RF_A3, d1=> RF_D1, d2=> RF_D2, d3=> RF_D3, rst=>reset, en=>RF_en, clk=>clk);
+		RF: Register_File port map(a1=> RF_A1, a2=> RF_A2, a3=> RF_A3, d1=> RF_D1, d2=> RF_D2, d3=> RF_D3, rst=>reset, en=>RF_en, clk=>clk, reg0=>reg0, reg1=>reg1, reg2=>reg2);
 		
 		Arith_Unit: ALU port map(a=>ALU_A,b=>ALU_B,s0=>ALU_Control(0),s1=>ALU_Control(1),s2=>ALU_Control(2),c=>ALU_C,Cout=>ALU_Cout,Z=>ALU_Z);
 		
