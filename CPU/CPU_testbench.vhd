@@ -55,13 +55,16 @@ architecture behav of CPU_testbench is
 --		18 => "1111000001000000",
 --		27 => "1101000000000011",
 --		30 => "1011000001000101",
-		0=> "1001000000000000",
-		1=> "1001001000000001",
-		2=> "0000000001010000",
-		3=> "1011000011000111",
-		4=> "0001000001000000",
-		5=> "0001001010000000",
-		6=> "1110000111111100",
+		0=> "1010100101001101",
+		1=> "1001000000000000",
+		2=> "1001001000000001",
+		3=> "0000000001010000",
+		4=> "1011000011001111",
+		5=> "0001000001000000",
+		6=> "0001001010000000",
+		7=> "1100000100111010",
+		8=> "1110000111111011",
+		13 => "1011010100100000",
 		others => x"0000");
 	begin
 		cpuinst: CPU port map(ostate=>cstate, IRout=>IR,clk=>clk,reset=>'0',Mem_add_read=>Mem_add_read,Mem_add_write=>Mem_add_write,Mem_data_write=>Mem_data_write,PCout=>PC,Mem_data_read=>Mem_data_read,Mem_r=>Mem_r,Mem_w=>Mem_w, IRoutcontroller=>IRoutcontroller,RF_A1o=>RF_A1,RF_A2o=>RF_A2,RF_A3o=>RF_A3,RF_D1o=>RF_D1,RF_D2o=>RF_D2,RF_D3o=>RF_D3,T1o=>T1_Data_read, T1w=>T1_data_write, T1e=>T1_en, RFe=>RF_en, reg0=>reg0, reg1=>reg1, reg2=>reg2, T2e=>T2_en, T2w=>T2_data_write, T2o=>T2_data_read, ALU_Zo => ALU_Z);
