@@ -7,6 +7,7 @@ entity CPU is
 		  Mem_add_read,Mem_add_write,Mem_data_write,PCout, IRout, IRoutcontroller: out std_logic_vector(15 downto 0);
 		  Mem_data_read: in std_logic_vector(15 downto 0);
 		  Mem_r,Mem_w: out std_logic;
+		  ALU_Zo: out std_logic;
 		  ostate: out std_logic_vector(4 downto 0);
 		  RF_A1o,RF_A2o,RF_A3o: out std_logic_vector(2 downto 0);
 		  RF_D1o,RF_D2o,RF_D3o,T1o,T1w, T2o, T2w: out std_logic_vector(15 downto 0);
@@ -66,6 +67,12 @@ architecture str of CPU is
 				dout : out std_logic_vector(15 downto 0));
 	end component;
 	
+	component pipo_register_falling is
+		port (din : in std_logic_vector(15 downto 0);
+				en, rst, clk : in std_logic;
+				dout : out std_logic_vector(15 downto 0));
+	end component;
+	
 	component SE_9_To_16 is
 		port(a: in std_logic_vector(8 downto 0);
 			  b: out std_logic_vector(15 downto 0)
@@ -104,6 +111,8 @@ architecture str of CPU is
 	signal to_8s, from_8s: std_logic_vector(15 downto 0);
 	signal state_in : std_logic_vector(4 downto 0);
 	
+	signal CC_data_write, CC_data_read : std_logic_vector(15 downto 0);
+	
 	signal ALU_Z,ALU_Cout: std_logic;
 	begin
 		RF_A1o <= RF_A1;
@@ -119,10 +128,17 @@ architecture str of CPU is
 		T2w <= T2_data_write;
 		T2e <= T2_en;
 		RFe <= RF_En;
+		ALU_Zo <= ALU_Z;
+		CC_data_write(15 downto 2) <= "00000000000000";
+		CC_data_write(1) <= ALU_Cout;
+		CC_data_write(0) <= ALU_Z;
 		T1: pipo_register port map(din=>T1_data_write,en=>T1_en,rst=>reset,clk=>clk,dout=>T1_data_read);
 		T2: pipo_register port map(din=>T2_data_write,en=>T2_en,rst=>reset,clk=>clk,dout=>T2_data_read);
 		PC: pipo_register port map(din=>PC_data_write,en=>PC_en,rst=>reset,clk=>clk,dout=>PC_data_read);
 		IR: pipo_register port map(din=>IR_data_write,en=>IR_en,rst=>reset,clk=>clk,dout=>IR_data_read);
+		
+		CC_reg: pipo_register_falling port map(din=>CC_data_write, en=>'1', rst=>reset, clk=>clk, dout=>CC_data_read);
+		
 		PCout <= PC_data_read;
 		
 		SE6to16 : SE_6_To_16 port map(a=>to_SE6, b=>from_SE6);

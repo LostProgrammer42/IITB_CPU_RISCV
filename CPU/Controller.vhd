@@ -9,7 +9,7 @@ entity Controller is
 end entity;
 
 architecture str of Controller is
-type state is (init,s0,s1,s2,s3,s5,s6,s7,s8,s9,s10,s11,s12,s15,s16,s17,s19,s20,s22,s23,s24);
+type state is (init,s0,s1,s2,s3,s5,s6,s7,s8,s9,s10,s11,s12,s15,s16,s17,s19,s20,s22,s23,s24,s29);
 	signal y_present,y_next: state := init;
 	signal counter : integer := 0;
 	begin	
@@ -43,7 +43,8 @@ type state is (init,s0,s1,s2,s3,s5,s6,s7,s8,s9,s10,s11,s12,s15,s16,s17,s19,s20,s
 								when "1010" => 
 									report "going to s10" ;
 									y_next <= s10;
-								when "1100"|"1101"|"1111" => y_next <= s17;
+								when "1100" => y_next <= s1;
+								when "1101"|"1111" => y_next <= s17;
 								when others => report "kahi nahi jaara";
 							end case;
 						else
@@ -57,6 +58,7 @@ type state is (init,s0,s1,s2,s3,s5,s6,s7,s8,s9,s10,s11,s12,s15,s16,s17,s19,s20,s
 							when "0000"|"0010"|"0011"|"0100"|"0101"|"0110" => y_next <= s2;
 							when "0001" => y_next <= s5;
 							when "1011" => y_next <= s15;
+							when "1100" => y_next <= s29;
 							when others => null;
 						end case;
 					when s2 =>
@@ -103,6 +105,37 @@ type state is (init,s0,s1,s2,s3,s5,s6,s7,s8,s9,s10,s11,s12,s15,s16,s17,s19,s20,s
 					when s22 =>
 						ostate <= "10110";
 						y_next <= s0;
+					when s19 =>
+						ostate <= "10011";
+						report "ALU_Z: " & integer'image(to_integer(unsigned'('0' & ALU_Z)));
+						case ALU_Z is
+							when '1' => y_next <= s17;
+							when '0' => y_next <= s0;
+							when others => null;
+						end case;
+					when s17 =>
+						ostate <= "10001";
+						case IR_data_read(15 downto 12) is
+							when "1100" => y_next <= s20;
+							when "1101"|"1111" => y_next <= s23;
+							when others => null;
+						end case;
+					when s20 =>
+						ostate <= "10100";
+						y_next <= s0;
+					when s23 =>
+						ostate <= "10111";
+						case IR_data_read(15 downto 12) is
+							when "1111" => y_next <= s24;
+							when "1101" => y_next <= s22;
+							when others => null;
+						end case;
+					when s24 =>
+						ostate <= "11000";
+						y_next <= s0;
+					when s29 =>
+						ostate <= "11101";
+						y_next <= s19;
 					when others => null;
 				end case;
 			end if;

@@ -396,6 +396,10 @@
 					"strict" : false
 				},
 				{
+					"name" : "ALU_Zo",
+					"strict" : false
+				},
+				{
 					"name" : "ostate[0]",
 					"strict" : false
 				},

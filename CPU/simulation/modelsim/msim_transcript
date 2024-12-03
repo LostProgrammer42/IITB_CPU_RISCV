@@ -13,40 +13,40 @@
 # 
 # vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/SE_9_To_16.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:13:10 on Dec 03,2024
+# Start time: 15:01:08 on Dec 03,2024
 # vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/SE_9_To_16.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity SE_9_To_16
 # -- Compiling architecture str of SE_9_To_16
-# End time: 13:13:10 on Dec 03,2024, Elapsed time: 0:00:00
+# End time: 15:01:08 on Dec 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/SE_6_To_16.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:13:10 on Dec 03,2024
+# Start time: 15:01:08 on Dec 03,2024
 # vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/SE_6_To_16.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity SE_6_To_16
 # -- Compiling architecture str of SE_6_To_16
-# End time: 13:13:10 on Dec 03,2024, Elapsed time: 0:00:00
+# End time: 15:01:08 on Dec 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/Register_File.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:13:10 on Dec 03,2024
+# Start time: 15:01:08 on Dec 03,2024
 # vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/Register_File.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity register_file
 # -- Compiling architecture str of register_file
-# End time: 13:13:10 on Dec 03,2024, Elapsed time: 0:00:00
+# End time: 15:01:08 on Dec 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/preprocessing.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:13:10 on Dec 03,2024
+# Start time: 15:01:08 on Dec 03,2024
 # vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/preprocessing.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -54,11 +54,11 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity preprocessing
 # -- Compiling architecture behav of preprocessing
-# End time: 13:13:10 on Dec 03,2024, Elapsed time: 0:00:00
+# End time: 15:01:08 on Dec 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/postprocessing.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:13:10 on Dec 03,2024
+# Start time: 15:01:08 on Dec 03,2024
 # vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/postprocessing.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -66,33 +66,33 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity postprocessing
 # -- Compiling architecture behav of postprocessing
-# End time: 13:13:10 on Dec 03,2024, Elapsed time: 0:00:00
+# End time: 15:01:08 on Dec 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/PIPO_Register.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:13:10 on Dec 03,2024
+# Start time: 15:01:08 on Dec 03,2024
 # vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/PIPO_Register.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity pipo_register
 # -- Compiling architecture ha of pipo_register
-# End time: 13:13:10 on Dec 03,2024, Elapsed time: 0:00:00
+# End time: 15:01:08 on Dec 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/Or_16.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:13:10 on Dec 03,2024
+# Start time: 15:01:08 on Dec 03,2024
 # vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/Or_16.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity OR_16
 # -- Compiling architecture str of OR_16
-# End time: 13:13:10 on Dec 03,2024, Elapsed time: 0:00:00
+# End time: 15:01:08 on Dec 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/kogge_stone_node.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:13:10 on Dec 03,2024
+# Start time: 15:01:08 on Dec 03,2024
 # vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/kogge_stone_node.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -100,11 +100,11 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity kogge_stone_node
 # -- Compiling architecture struct of kogge_stone_node
-# End time: 13:13:11 on Dec 03,2024, Elapsed time: 0:00:01
+# End time: 15:01:08 on Dec 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/Kogge_stone_adder_subtractor.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:13:11 on Dec 03,2024
+# Start time: 15:01:08 on Dec 03,2024
 # vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/Kogge_stone_adder_subtractor.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -112,11 +112,11 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity kogge_stone_adder_subtractor
 # -- Compiling architecture str of kogge_stone_adder_subtractor
-# End time: 13:13:11 on Dec 03,2024, Elapsed time: 0:00:00
+# End time: 15:01:08 on Dec 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/kogge_stone.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:13:11 on Dec 03,2024
+# Start time: 15:01:08 on Dec 03,2024
 # vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/kogge_stone.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -124,99 +124,99 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity kogge_stone
 # -- Compiling architecture behav of kogge_stone
-# End time: 13:13:11 on Dec 03,2024, Elapsed time: 0:00:00
+# End time: 15:01:08 on Dec 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/Imp_16.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:13:11 on Dec 03,2024
+# Start time: 15:01:08 on Dec 03,2024
 # vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/Imp_16.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity IMP_16
 # -- Compiling architecture str of IMP_16
-# End time: 13:13:11 on Dec 03,2024, Elapsed time: 0:00:00
+# End time: 15:01:08 on Dec 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/Full_Adder.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:13:11 on Dec 03,2024
+# Start time: 15:01:08 on Dec 03,2024
 # vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/Full_Adder.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity Full_Adder
 # -- Compiling architecture struct of Full_Adder
-# End time: 13:13:11 on Dec 03,2024, Elapsed time: 0:00:00
+# End time: 15:01:08 on Dec 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/Eight_Bit_Left_Shifter.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:13:11 on Dec 03,2024
+# Start time: 15:01:08 on Dec 03,2024
 # vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/Eight_Bit_Left_Shifter.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity Eight_Bit_Left_Shifter
 # -- Compiling architecture str of Eight_Bit_Left_Shifter
-# End time: 13:13:11 on Dec 03,2024, Elapsed time: 0:00:00
+# End time: 15:01:08 on Dec 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/D_Flip_Flop.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:13:11 on Dec 03,2024
+# Start time: 15:01:08 on Dec 03,2024
 # vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/D_Flip_Flop.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity d_ff
 # -- Compiling architecture beh of d_ff
-# End time: 13:13:11 on Dec 03,2024, Elapsed time: 0:00:00
+# End time: 15:01:08 on Dec 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/Array_Multiplier_Node.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:13:11 on Dec 03,2024
+# Start time: 15:01:08 on Dec 03,2024
 # vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/Array_Multiplier_Node.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity Array_Multiplier_Node
 # -- Compiling architecture struct1 of Array_Multiplier_Node
-# End time: 13:13:11 on Dec 03,2024, Elapsed time: 0:00:00
+# End time: 15:01:08 on Dec 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/Array_Multiplier.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:13:11 on Dec 03,2024
+# Start time: 15:01:08 on Dec 03,2024
 # vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/Array_Multiplier.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity Array_Multiplier
 # -- Compiling architecture Struct2 of Array_Multiplier
-# End time: 13:13:11 on Dec 03,2024, Elapsed time: 0:00:00
+# End time: 15:01:08 on Dec 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/And_16.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:13:11 on Dec 03,2024
+# Start time: 15:01:08 on Dec 03,2024
 # vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/And_16.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity AND_16
 # -- Compiling architecture str of AND_16
-# End time: 13:13:11 on Dec 03,2024, Elapsed time: 0:00:00
+# End time: 15:01:08 on Dec 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/ALU.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:13:11 on Dec 03,2024
+# Start time: 15:01:08 on Dec 03,2024
 # vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/ALU.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity ALU
 # -- Compiling architecture str of ALU
-# End time: 13:13:11 on Dec 03,2024, Elapsed time: 0:00:00
+# End time: 15:01:08 on Dec 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/32_X_1_Mux_16_bit.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:13:11 on Dec 03,2024
+# Start time: 15:01:08 on Dec 03,2024
 # vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/32_X_1_Mux_16_bit.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -224,11 +224,11 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity mux_32x1_16bit
 # -- Compiling architecture beh of mux_32x1_16bit
-# End time: 13:13:11 on Dec 03,2024, Elapsed time: 0:00:00
+# End time: 15:01:08 on Dec 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/8_X_1_Mux_16_Bit.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:13:11 on Dec 03,2024
+# Start time: 15:01:08 on Dec 03,2024
 # vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/8_X_1_Mux_16_Bit.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -236,11 +236,11 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity mux_8x1_16bit
 # -- Compiling architecture beh of mux_8x1_16bit
-# End time: 13:13:11 on Dec 03,2024, Elapsed time: 0:00:00
+# End time: 15:01:08 on Dec 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/8_X_1_Demux_16_Bit.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:13:11 on Dec 03,2024
+# Start time: 15:01:08 on Dec 03,2024
 # vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/8_X_1_Demux_16_Bit.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -248,22 +248,22 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity demux_8x1_16bit
 # -- Compiling architecture beh of demux_8x1_16bit
-# End time: 13:13:11 on Dec 03,2024, Elapsed time: 0:00:00
+# End time: 15:01:08 on Dec 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/2_X_1_Mux.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:13:11 on Dec 03,2024
+# Start time: 15:01:09 on Dec 03,2024
 # vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/2_X_1_Mux.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity mux_2x1
 # -- Compiling architecture beh of mux_2x1
-# End time: 13:13:11 on Dec 03,2024, Elapsed time: 0:00:00
+# End time: 15:01:09 on Dec 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/CPU.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:13:11 on Dec 03,2024
+# Start time: 15:01:09 on Dec 03,2024
 # vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/CPU.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -271,11 +271,11 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity CPU
 # -- Compiling architecture str of CPU
-# End time: 13:13:11 on Dec 03,2024, Elapsed time: 0:00:00
+# End time: 15:01:09 on Dec 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/Steering_Logic.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:13:11 on Dec 03,2024
+# Start time: 15:01:09 on Dec 03,2024
 # vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/Steering_Logic.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -283,11 +283,11 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity Steering_logic
 # -- Compiling architecture str of Steering_Logic
-# End time: 13:13:11 on Dec 03,2024, Elapsed time: 0:00:00
+# End time: 15:01:09 on Dec 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/32_X_1_Mux_3_bit.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:13:11 on Dec 03,2024
+# Start time: 15:01:09 on Dec 03,2024
 # vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/32_X_1_Mux_3_bit.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -295,11 +295,11 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity mux_32x1_3bit
 # -- Compiling architecture beh of mux_32x1_3bit
-# End time: 13:13:11 on Dec 03,2024, Elapsed time: 0:00:00
+# End time: 15:01:09 on Dec 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/32_X_1_Mux_1_bit.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:13:11 on Dec 03,2024
+# Start time: 15:01:09 on Dec 03,2024
 # vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/32_X_1_Mux_1_bit.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -307,11 +307,11 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity mux_32x1_1bit
 # -- Compiling architecture beh of mux_32x1_1bit
-# End time: 13:13:11 on Dec 03,2024, Elapsed time: 0:00:00
+# End time: 15:01:09 on Dec 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/32_X_1_Mux_6_bit.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:13:11 on Dec 03,2024
+# Start time: 15:01:09 on Dec 03,2024
 # vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/32_X_1_Mux_6_bit.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -319,11 +319,11 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity mux_32x1_6bit
 # -- Compiling architecture beh of mux_32x1_6bit
-# End time: 13:13:11 on Dec 03,2024, Elapsed time: 0:00:00
+# End time: 15:01:09 on Dec 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/32_X_1_Mux_9_bit.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:13:11 on Dec 03,2024
+# Start time: 15:01:09 on Dec 03,2024
 # vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/32_X_1_Mux_9_bit.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -331,11 +331,11 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity mux_32x1_9bit
 # -- Compiling architecture beh of mux_32x1_9bit
-# End time: 13:13:11 on Dec 03,2024, Elapsed time: 0:00:00
+# End time: 15:01:09 on Dec 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/Controller.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:13:11 on Dec 03,2024
+# Start time: 15:01:09 on Dec 03,2024
 # vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/Controller.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -343,23 +343,45 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity Controller
 # -- Compiling architecture str of Controller
-# End time: 13:13:11 on Dec 03,2024, Elapsed time: 0:00:00
+# End time: 15:01:09 on Dec 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/8_X_1_Demux_1_Bit.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:13:11 on Dec 03,2024
+# Start time: 15:01:09 on Dec 03,2024
 # vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/8_X_1_Demux_1_Bit.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity demux_8x1_1bit
 # -- Compiling architecture beh of demux_8x1_1bit
-# End time: 13:13:12 on Dec 03,2024, Elapsed time: 0:00:01
+# End time: 15:01:09 on Dec 03,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/D_Flip_Flop_Falling.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:01:09 on Dec 03,2024
+# vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/D_Flip_Flop_Falling.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity d_ff_falling
+# -- Compiling architecture beh of d_ff_falling
+# End time: 15:01:09 on Dec 03,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/PIPO_Register_falling.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:01:09 on Dec 03,2024
+# vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/PIPO_Register_falling.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity pipo_register_falling
+# -- Compiling architecture ha of pipo_register_falling
+# End time: 15:01:09 on Dec 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vcom -93 -work work {E:/Semester_3/Digital Systems/Project_Part_B/CPU/CPU_testbench.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:13:12 on Dec 03,2024
+# Start time: 15:01:09 on Dec 03,2024
 # vcom -reportprogress 300 -93 -work work E:/Semester_3/Digital Systems/Project_Part_B/CPU/CPU_testbench.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -367,13 +389,13 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity CPU_testbench
 # -- Compiling architecture behav of CPU_testbench
-# ** Warning: E:/Semester_3/Digital Systems/Project_Part_B/CPU/CPU_testbench.vhd(21): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# End time: 13:13:12 on Dec 03,2024, Elapsed time: 0:00:00
+# ** Warning: E:/Semester_3/Digital Systems/Project_Part_B/CPU/CPU_testbench.vhd(22): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# End time: 15:01:09 on Dec 03,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 1
 # 
 # vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs="+acc"  CPU_testbench
 # vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs=""+acc"" CPU_testbench 
-# Start time: 13:13:12 on Dec 03,2024
+# Start time: 15:01:09 on Dec 03,2024
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
@@ -383,6 +405,8 @@
 # Loading work.pipo_register(ha)
 # Loading work.d_ff(beh)
 # Loading work.mux_2x1(beh)
+# Loading work.pipo_register_falling(ha)
+# Loading work.d_ff_falling(beh)
 # Loading work.se_6_to_16(str)
 # Loading work.se_9_to_16(str)
 # Loading work.eight_bit_left_shifter(str)
@@ -409,7 +433,7 @@
 # Loading work.mux_32x1_1bit(beh)
 # Loading work.mux_32x1_6bit(beh)
 # Loading work.mux_32x1_9bit(beh)
-# ** Warning: Design size of 14065 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# ** Warning: Design size of 14483 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
 # Expect performance to be adversely affected.
 # 
 # add wave *
@@ -418,16 +442,20 @@
 # view signals
 # .main_pane.objects.interior.cs.body.tree
 # run 1500 ns
-# ** Note: writing value: 272 to memory address: 6
+# ** Note: ALU_Z: 0
+#    Time: 135 ns  Iteration: 0  Instance: /cpu_testbench/cpuinst/Controller_Unit
+# ** Note: writing value: 0 to memory address: 6
 #    Time: 190 ns  Iteration: 0  Instance: /cpu_testbench
 # ** Note: going to s10
 #    Time: 435 ns  Iteration: 0  Instance: /cpu_testbench/cpuinst/Controller_Unit
-# ** Fatal: (vsim-3734) Index value 32 is out of range 31 downto 0.
-#    Time: 915 ns  Iteration: 3  Process: /cpu_testbench/Mem_process File: E:/Semester_3/Digital Systems/Project_Part_B/CPU/CPU_testbench.vhd
-# Fatal error in Process Mem_process at E:/Semester_3/Digital Systems/Project_Part_B/CPU/CPU_testbench.vhd line 67
+# ** Note: ALU_Z: 1
+#    Time: 775 ns  Iteration: 0  Instance: /cpu_testbench/cpuinst/Controller_Unit
+# ** Fatal: (vsim-3734) Index value 768 is out of range 31 downto 0.
+#    Time: 905 ns  Iteration: 3  Process: /cpu_testbench/Mem_process File: E:/Semester_3/Digital Systems/Project_Part_B/CPU/CPU_testbench.vhd
+# Fatal error in Process Mem_process at E:/Semester_3/Digital Systems/Project_Part_B/CPU/CPU_testbench.vhd line 71
 # 
 # HDL call sequence:
-# Stopped at E:/Semester_3/Digital Systems/Project_Part_B/CPU/CPU_testbench.vhd 67 Process Mem_process
+# Stopped at E:/Semester_3/Digital Systems/Project_Part_B/CPU/CPU_testbench.vhd 71 Process Mem_process
 # 
-# End time: 13:13:47 on Dec 03,2024, Elapsed time: 0:00:35
+# End time: 15:01:33 on Dec 03,2024, Elapsed time: 0:00:24
 # Errors: 2, Warnings: 1

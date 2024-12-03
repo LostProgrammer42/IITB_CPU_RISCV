@@ -87,12 +87,12 @@ architecture str of Steering_Logic is
 		PC_data_write_path : mux_32x1_16bit port map(I0=>ALU_C, I17=>ALU_C, I20=>ALU_C, I22=>ALU_C, I24=>RF_D1, S=> state_in, Y=>PC_data_write);
 		IR_en_path : mux_32x1_1bit port map(I30=>'1',I31=>'1',I0=>'1', S=>state_in, Y=>IR_en);
 		IR_data_write_path : mux_32x1_16bit port map(I30=>Mem_data_read,I31=>Mem_data_read,I0=> Mem_data_read ,S=>state_in, Y=>IR_data_write);
-		ALU_A_path : mux_32x1_16bit port map(I0=>PC_data_read, I17=> PC_data_read, I20=> PC_data_read, I22=> PC_data_read, I2=> T1_data_read, I5=> T1_data_read, I11=>T1_data_read, I19=>T1_data_read, I15=>T2_data_read, S=>state_in, Y=>ALU_A);
-		ALU_B_path : mux_32x1_16bit port map(I0=>"0000000000000001", I17=> "0000000000000001", I2=>T2_data_read, I19=> T2_data_read, I5=>from_SE6, I11=>from_SE6, I20=>from_SE6, I22=>from_SE9, I15=>from_SE6, S=>state_in, Y=>ALU_B);
+		ALU_A_path : mux_32x1_16bit port map(I0=>PC_data_read, I17=> PC_data_read, I20=> PC_data_read, I22=> PC_data_read, I2=> T1_data_read, I5=> T1_data_read, I11=>T1_data_read, I19=>T1_data_read, I15=>T2_data_read, I29=>T1_data_read, S=>state_in, Y=>ALU_A);
+		ALU_B_path : mux_32x1_16bit port map(I0=>"0000000000000001", I17=> "0000000000000001", I2=>T2_data_read, I19=> T2_data_read, I5=>from_SE6, I11=>from_SE6, I20=>from_SE6, I22=>from_SE9, I15=>from_SE6, I29=>T2_data_read, S=>state_in, Y=>ALU_B);
 		to_SE6_path: mux_32x1_6bit port map(I5=>IR_data_read(5 downto 0), I11=>IR_data_read(5 downto 0), I15=>IR_data_read(5 downto 0), I20=>IR_data_read(5 downto 0), S=>state_in, Y=>to_SE6);
 		to_SE9_path: mux_32x1_9bit port map(I8=>IR_data_read(8 downto 0), I9=>IR_data_read(8 downto 0), I22=>IR_data_read(8 downto 0), S=>state_in, Y=>to_SE9);
 		to_8s_path: mux_32x1_16bit port map(I8=>from_SE9, S=>state_in, Y=>to_8s);
-		ALU_control_path: mux_32x1_3bit port map(I0=>"000",I11=>"000",I15=>"000",I20=>"000",I22=>"000",I2=>IR_data_read(14 downto 12), I5=>"001", I17=>"010", I19=>"010", S=>state_in, Y=>ALU_control);
+		ALU_control_path: mux_32x1_3bit port map(I0=>"000",I11=>"000",I15=>"000",I20=>"000",I22=>"000",I2=>IR_data_read(14 downto 12), I5=>"001", I17=>"010", I19=>"010", I29=>"010", S=>state_in, Y=>ALU_control);
 		Mem_add_read_path: mux_32x1_16bit port map(I30=>PC_data_read,I0=>PC_data_read, I12=>T1_data_read, S=>state_in, Y=>Mem_add_read);
 		Mem_add_write_path: mux_32x1_16bit port map(I16=>T2_data_read, S=>state_in, Y=>Mem_add_write);
 		Mem_data_write_path: mux_32x1_16bit port map(I16=>T1_data_read, S=>state_in, Y=>Mem_data_write);

@@ -21,9 +21,9 @@ VHIE?Kc@YQOidhQ@ZiUDC`1
 !s100 Ycb8MbiY4B0nGfMa>m>Yn1
 Z6 OV;C;10.5b;63
 31
-Z7 !s110 1733211791
+Z7 !s110 1733218268
 !i10b 1
-Z8 !s108 1733211791.000000
+Z8 !s108 1733218268.000000
 Z9 !s90 -reportprogress|300|-93|-work|work|E:/Semester_3/Digital Systems/Project_Part_B/CPU/ALU.vhd|
 Z10 !s107 E:/Semester_3/Digital Systems/Project_Part_B/CPU/ALU.vhd|
 !i113 1
@@ -165,7 +165,7 @@ R27
 R11
 R12
 Econtroller
-Z28 w1733209709
+Z28 w1733217859
 Z29 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
 R2
 R3
@@ -178,11 +178,11 @@ VXSQeC7^CGJ^:_lHhHjX?A1
 !s100 aX5bCY<PCafWAd^F^n17S1
 R6
 31
-R7
+Z32 !s110 1733218269
 !i10b 1
-R8
-Z32 !s90 -reportprogress|300|-93|-work|work|E:/Semester_3/Digital Systems/Project_Part_B/CPU/Controller.vhd|
-Z33 !s107 E:/Semester_3/Digital Systems/Project_Part_B/CPU/Controller.vhd|
+Z33 !s108 1733218269.000000
+Z34 !s90 -reportprogress|300|-93|-work|work|E:/Semester_3/Digital Systems/Project_Part_B/CPU/Controller.vhd|
+Z35 !s107 E:/Semester_3/Digital Systems/Project_Part_B/CPU/Controller.vhd|
 !i113 1
 R11
 R12
@@ -193,37 +193,37 @@ R3
 DEx4 work 10 controller 0 22 XSQeC7^CGJ^:_lHhHjX?A1
 l15
 L11
-Vl6ED:6N93dl=9DWkfQNcI1
-!s100 _`WL<AF<Ojcc8oMljZ9RC0
+VeEjYj?GH5R]2mT25JZzC42
+!s100 FTjQ_>g:N`SYjP:jSGH]G2
 R6
 31
-R7
-!i10b 1
-R8
 R32
+!i10b 1
 R33
+R34
+R35
 !i113 1
 R11
 R12
 Ecpu
-Z34 w1733207646
+Z36 w1733217676
 R29
 R2
 R3
 R0
-Z35 8E:/Semester_3/Digital Systems/Project_Part_B/CPU/CPU.vhd
-Z36 FE:/Semester_3/Digital Systems/Project_Part_B/CPU/CPU.vhd
+Z37 8E:/Semester_3/Digital Systems/Project_Part_B/CPU/CPU.vhd
+Z38 FE:/Semester_3/Digital Systems/Project_Part_B/CPU/CPU.vhd
 l0
 L5
-VW4AKo=<WG9i8:U`nU@j7G2
-!s100 7^LldnGm`SMb35TH?0^on2
+V2MMcI`JE[ze3Z?RUJ`??F3
+!s100 c^LEW^UIbamBi>W>h>9Ge0
 R6
 31
-R7
+R32
 !i10b 1
-R8
-Z37 !s90 -reportprogress|300|-93|-work|work|E:/Semester_3/Digital Systems/Project_Part_B/CPU/CPU.vhd|
-Z38 !s107 E:/Semester_3/Digital Systems/Project_Part_B/CPU/CPU.vhd|
+R33
+Z39 !s90 -reportprogress|300|-93|-work|work|E:/Semester_3/Digital Systems/Project_Part_B/CPU/CPU.vhd|
+Z40 !s107 E:/Semester_3/Digital Systems/Project_Part_B/CPU/CPU.vhd|
 !i113 1
 R11
 R12
@@ -231,38 +231,38 @@ Astr
 R29
 R2
 R3
-DEx4 work 3 cpu 0 22 W4AKo=<WG9i8:U`nU@j7G2
-l108
-L17
-VUI>Dlkd>;S41ecE@foSL;1
-!s100 SN[ID`[U5^I=BP0MR=Y_h1
+DEx4 work 3 cpu 0 22 2MMcI`JE[ze3Z?RUJ`??F3
+l117
+L18
+VhIJ9>M_V;E1O:UMckQ3kO3
+!s100 `MA4<fM4PKlOib=d]VF`a0
 R6
 31
-R7
+R32
 !i10b 1
-R8
-R37
-R38
+R33
+R39
+R40
 !i113 1
 R11
 R12
 Ecpu_testbench
-Z39 w1733211506
+Z41 w1733218250
 R29
 R2
 R3
 R0
-Z40 8E:/Semester_3/Digital Systems/Project_Part_B/CPU/CPU_testbench.vhd
-Z41 FE:/Semester_3/Digital Systems/Project_Part_B/CPU/CPU_testbench.vhd
+Z42 8E:/Semester_3/Digital Systems/Project_Part_B/CPU/CPU_testbench.vhd
+Z43 FE:/Semester_3/Digital Systems/Project_Part_B/CPU/CPU_testbench.vhd
 l0
 L5
 VlZ4Zh0>7ace=>LA[z7b_e3
 !s100 dI[<=MI=i7j0EE2O5;OS@1
 R6
 31
-Z42 !s110 1733211792
+R32
 !i10b 1
-Z43 !s108 1733211792.000000
+R33
 Z44 !s90 -reportprogress|300|-93|-work|work|E:/Semester_3/Digital Systems/Project_Part_B/CPU/CPU_testbench.vhd|
 Z45 !s107 E:/Semester_3/Digital Systems/Project_Part_B/CPU/CPU_testbench.vhd|
 !i113 1
@@ -273,15 +273,15 @@ R29
 R2
 R3
 DEx4 work 13 cpu_testbench 0 22 lZ4Zh0>7ace=>LA[z7b_e3
-l53
+l57
 L8
-V3RQWZTV@8nNbgUl?oZa8j1
-!s100 ^:Cd19gb1:^i`icP0o]@20
+V895bY<GbX:PE5dzR3NM8X1
+!s100 lWoaC^1_zkc3[g2bJ[Z@32
 R6
 31
-R42
+R32
 !i10b 1
-R43
+R33
 R44
 R45
 !i113 1
@@ -326,14 +326,53 @@ R50
 !i113 1
 R11
 R12
+Ed_ff_falling
+Z51 w1733216896
+R2
+R3
+R0
+Z52 8E:/Semester_3/Digital Systems/Project_Part_B/CPU/D_Flip_Flop_Falling.vhd
+Z53 FE:/Semester_3/Digital Systems/Project_Part_B/CPU/D_Flip_Flop_Falling.vhd
+l0
+L4
+VGX81BDjUa8E4:9ZZ8CjWd1
+!s100 l<gWXlZQ06T>73@]>L^Fk3
+R6
+31
+R32
+!i10b 1
+R33
+Z54 !s90 -reportprogress|300|-93|-work|work|E:/Semester_3/Digital Systems/Project_Part_B/CPU/D_Flip_Flop_Falling.vhd|
+Z55 !s107 E:/Semester_3/Digital Systems/Project_Part_B/CPU/D_Flip_Flop_Falling.vhd|
+!i113 1
+R11
+R12
+Abeh
+R2
+R3
+DEx4 work 12 d_ff_falling 0 22 GX81BDjUa8E4:9ZZ8CjWd1
+l10
+L9
+Vjfz92cg:jl;hLOTMKlMbl1
+!s100 clTSle@RZnMESXTBgiYH:3
+R6
+31
+R32
+!i10b 1
+R33
+R54
+R55
+!i113 1
+R11
+R12
 Edemux_8x1_16bit
-Z51 w1733078339
+Z56 w1733078339
 R29
 R2
 R3
 R0
-Z52 8E:/Semester_3/Digital Systems/Project_Part_B/CPU/8_X_1_Demux_16_Bit.vhd
-Z53 FE:/Semester_3/Digital Systems/Project_Part_B/CPU/8_X_1_Demux_16_Bit.vhd
+Z57 8E:/Semester_3/Digital Systems/Project_Part_B/CPU/8_X_1_Demux_16_Bit.vhd
+Z58 FE:/Semester_3/Digital Systems/Project_Part_B/CPU/8_X_1_Demux_16_Bit.vhd
 l0
 L5
 VV82Z8iXLKch=:3Wh^X=P41
@@ -343,8 +382,8 @@ R6
 R7
 !i10b 1
 R8
-Z54 !s90 -reportprogress|300|-93|-work|work|E:/Semester_3/Digital Systems/Project_Part_B/CPU/8_X_1_Demux_16_Bit.vhd|
-Z55 !s107 E:/Semester_3/Digital Systems/Project_Part_B/CPU/8_X_1_Demux_16_Bit.vhd|
+Z59 !s90 -reportprogress|300|-93|-work|work|E:/Semester_3/Digital Systems/Project_Part_B/CPU/8_X_1_Demux_16_Bit.vhd|
+Z60 !s107 E:/Semester_3/Digital Systems/Project_Part_B/CPU/8_X_1_Demux_16_Bit.vhd|
 !i113 1
 R11
 R12
@@ -362,29 +401,29 @@ R6
 R7
 !i10b 1
 R8
-R54
-R55
+R59
+R60
 !i113 1
 R11
 R12
 Edemux_8x1_1bit
-Z56 w1733206091
+Z61 w1733206091
 R2
 R3
 R0
-Z57 8E:/Semester_3/Digital Systems/Project_Part_B/CPU/8_X_1_Demux_1_Bit.vhd
-Z58 FE:/Semester_3/Digital Systems/Project_Part_B/CPU/8_X_1_Demux_1_Bit.vhd
+Z62 8E:/Semester_3/Digital Systems/Project_Part_B/CPU/8_X_1_Demux_1_Bit.vhd
+Z63 FE:/Semester_3/Digital Systems/Project_Part_B/CPU/8_X_1_Demux_1_Bit.vhd
 l0
 L4
 VLACI_Ez;SQJ_g98NFCe5l3
 !s100 VcenM:><09H58C^>C`cg]2
 R6
 31
-R42
+R32
 !i10b 1
-R8
-Z59 !s90 -reportprogress|300|-93|-work|work|E:/Semester_3/Digital Systems/Project_Part_B/CPU/8_X_1_Demux_1_Bit.vhd|
-Z60 !s107 E:/Semester_3/Digital Systems/Project_Part_B/CPU/8_X_1_Demux_1_Bit.vhd|
+R33
+Z64 !s90 -reportprogress|300|-93|-work|work|E:/Semester_3/Digital Systems/Project_Part_B/CPU/8_X_1_Demux_1_Bit.vhd|
+Z65 !s107 E:/Semester_3/Digital Systems/Project_Part_B/CPU/8_X_1_Demux_1_Bit.vhd|
 !i113 1
 R11
 R12
@@ -398,21 +437,21 @@ VXT`>h[7ER^KIN<848geGi0
 !s100 LFMU:6IWhUSRnDalI:kaI3
 R6
 31
-R42
+R32
 !i10b 1
-R8
-R59
-R60
+R33
+R64
+R65
 !i113 1
 R11
 R12
 Eeight_bit_left_shifter
-Z61 w1732877956
+Z66 w1732877956
 R2
 R3
 R0
-Z62 8E:/Semester_3/Digital Systems/Project_Part_B/CPU/Eight_Bit_Left_Shifter.vhd
-Z63 FE:/Semester_3/Digital Systems/Project_Part_B/CPU/Eight_Bit_Left_Shifter.vhd
+Z67 8E:/Semester_3/Digital Systems/Project_Part_B/CPU/Eight_Bit_Left_Shifter.vhd
+Z68 FE:/Semester_3/Digital Systems/Project_Part_B/CPU/Eight_Bit_Left_Shifter.vhd
 l0
 L4
 Vn^[VGANTcPMP=2gQQ_XU[2
@@ -422,8 +461,8 @@ R6
 R7
 !i10b 1
 R8
-Z64 !s90 -reportprogress|300|-93|-work|work|E:/Semester_3/Digital Systems/Project_Part_B/CPU/Eight_Bit_Left_Shifter.vhd|
-Z65 !s107 E:/Semester_3/Digital Systems/Project_Part_B/CPU/Eight_Bit_Left_Shifter.vhd|
+Z69 !s90 -reportprogress|300|-93|-work|work|E:/Semester_3/Digital Systems/Project_Part_B/CPU/Eight_Bit_Left_Shifter.vhd|
+Z70 !s107 E:/Semester_3/Digital Systems/Project_Part_B/CPU/Eight_Bit_Left_Shifter.vhd|
 !i113 1
 R11
 R12
@@ -440,18 +479,18 @@ R6
 R7
 !i10b 1
 R8
-R64
-R65
+R69
+R70
 !i113 1
 R11
 R12
 Efull_adder
-Z66 w1732806349
+Z71 w1732806349
 R2
 R3
 R0
-Z67 8E:/Semester_3/Digital Systems/Project_Part_B/CPU/Full_Adder.vhd
-Z68 FE:/Semester_3/Digital Systems/Project_Part_B/CPU/Full_Adder.vhd
+Z72 8E:/Semester_3/Digital Systems/Project_Part_B/CPU/Full_Adder.vhd
+Z73 FE:/Semester_3/Digital Systems/Project_Part_B/CPU/Full_Adder.vhd
 l0
 L4
 VWCY^HbCc61k4VfJAG61e03
@@ -461,8 +500,8 @@ R6
 R7
 !i10b 1
 R8
-Z69 !s90 -reportprogress|300|-93|-work|work|E:/Semester_3/Digital Systems/Project_Part_B/CPU/Full_Adder.vhd|
-Z70 !s107 E:/Semester_3/Digital Systems/Project_Part_B/CPU/Full_Adder.vhd|
+Z74 !s90 -reportprogress|300|-93|-work|work|E:/Semester_3/Digital Systems/Project_Part_B/CPU/Full_Adder.vhd|
+Z75 !s107 E:/Semester_3/Digital Systems/Project_Part_B/CPU/Full_Adder.vhd|
 !i113 1
 R11
 R12
@@ -479,18 +518,18 @@ R6
 R7
 !i10b 1
 R8
-R69
-R70
+R74
+R75
 !i113 1
 R11
 R12
 Eimp_16
-Z71 w1732877325
+Z76 w1732877325
 R2
 R3
 R0
-Z72 8E:/Semester_3/Digital Systems/Project_Part_B/CPU/Imp_16.vhd
-Z73 FE:/Semester_3/Digital Systems/Project_Part_B/CPU/Imp_16.vhd
+Z77 8E:/Semester_3/Digital Systems/Project_Part_B/CPU/Imp_16.vhd
+Z78 FE:/Semester_3/Digital Systems/Project_Part_B/CPU/Imp_16.vhd
 l0
 L4
 VT4Ybg8_e^MVaO5aI:Y8e[2
@@ -500,8 +539,8 @@ R6
 R7
 !i10b 1
 R8
-Z74 !s90 -reportprogress|300|-93|-work|work|E:/Semester_3/Digital Systems/Project_Part_B/CPU/Imp_16.vhd|
-Z75 !s107 E:/Semester_3/Digital Systems/Project_Part_B/CPU/Imp_16.vhd|
+Z79 !s90 -reportprogress|300|-93|-work|work|E:/Semester_3/Digital Systems/Project_Part_B/CPU/Imp_16.vhd|
+Z80 !s107 E:/Semester_3/Digital Systems/Project_Part_B/CPU/Imp_16.vhd|
 !i113 1
 R11
 R12
@@ -518,19 +557,19 @@ R6
 R7
 !i10b 1
 R8
-R74
-R75
+R79
+R80
 !i113 1
 R11
 R12
 Ekogge_stone
-Z76 w1733032349
+Z81 w1733032349
 R29
 R2
 R3
 R0
-Z77 8E:/Semester_3/Digital Systems/Project_Part_B/CPU/kogge_stone.vhd
-Z78 FE:/Semester_3/Digital Systems/Project_Part_B/CPU/kogge_stone.vhd
+Z82 8E:/Semester_3/Digital Systems/Project_Part_B/CPU/kogge_stone.vhd
+Z83 FE:/Semester_3/Digital Systems/Project_Part_B/CPU/kogge_stone.vhd
 l0
 L5
 Vc4TJQUloFk]=HOXF;FaJO3
@@ -540,8 +579,8 @@ R6
 R7
 !i10b 1
 R8
-Z79 !s90 -reportprogress|300|-93|-work|work|E:/Semester_3/Digital Systems/Project_Part_B/CPU/kogge_stone.vhd|
-Z80 !s107 E:/Semester_3/Digital Systems/Project_Part_B/CPU/kogge_stone.vhd|
+Z84 !s90 -reportprogress|300|-93|-work|work|E:/Semester_3/Digital Systems/Project_Part_B/CPU/kogge_stone.vhd|
+Z85 !s107 E:/Semester_3/Digital Systems/Project_Part_B/CPU/kogge_stone.vhd|
 !i113 1
 R11
 R12
@@ -559,19 +598,19 @@ R6
 R7
 !i10b 1
 R8
-R79
-R80
+R84
+R85
 !i113 1
 R11
 R12
 Ekogge_stone_adder_subtractor
-Z81 w1733033677
+Z86 w1733033677
 R29
 R2
 R3
 R0
-Z82 8E:/Semester_3/Digital Systems/Project_Part_B/CPU/Kogge_stone_adder_subtractor.vhd
-Z83 FE:/Semester_3/Digital Systems/Project_Part_B/CPU/Kogge_stone_adder_subtractor.vhd
+Z87 8E:/Semester_3/Digital Systems/Project_Part_B/CPU/Kogge_stone_adder_subtractor.vhd
+Z88 FE:/Semester_3/Digital Systems/Project_Part_B/CPU/Kogge_stone_adder_subtractor.vhd
 l0
 L5
 VfE_bVjG]6ackWfcohB`Oz0
@@ -581,8 +620,8 @@ R6
 R7
 !i10b 1
 R8
-Z84 !s90 -reportprogress|300|-93|-work|work|E:/Semester_3/Digital Systems/Project_Part_B/CPU/Kogge_stone_adder_subtractor.vhd|
-Z85 !s107 E:/Semester_3/Digital Systems/Project_Part_B/CPU/Kogge_stone_adder_subtractor.vhd|
+Z89 !s90 -reportprogress|300|-93|-work|work|E:/Semester_3/Digital Systems/Project_Part_B/CPU/Kogge_stone_adder_subtractor.vhd|
+Z90 !s107 E:/Semester_3/Digital Systems/Project_Part_B/CPU/Kogge_stone_adder_subtractor.vhd|
 !i113 1
 R11
 R12
@@ -600,19 +639,19 @@ R6
 R7
 !i10b 1
 R8
-R84
-R85
+R89
+R90
 !i113 1
 R11
 R12
 Ekogge_stone_node
-Z86 w1732988661
+Z91 w1732988661
 R29
 R2
 R3
 R0
-Z87 8E:/Semester_3/Digital Systems/Project_Part_B/CPU/kogge_stone_node.vhd
-Z88 FE:/Semester_3/Digital Systems/Project_Part_B/CPU/kogge_stone_node.vhd
+Z92 8E:/Semester_3/Digital Systems/Project_Part_B/CPU/kogge_stone_node.vhd
+Z93 FE:/Semester_3/Digital Systems/Project_Part_B/CPU/kogge_stone_node.vhd
 l0
 L5
 VIC7I4`cm8Wz@zzgeFnQZO1
@@ -621,9 +660,9 @@ R6
 31
 R7
 !i10b 1
-Z89 !s108 1733211790.000000
-Z90 !s90 -reportprogress|300|-93|-work|work|E:/Semester_3/Digital Systems/Project_Part_B/CPU/kogge_stone_node.vhd|
-Z91 !s107 E:/Semester_3/Digital Systems/Project_Part_B/CPU/kogge_stone_node.vhd|
+R8
+Z94 !s90 -reportprogress|300|-93|-work|work|E:/Semester_3/Digital Systems/Project_Part_B/CPU/kogge_stone_node.vhd|
+Z95 !s107 E:/Semester_3/Digital Systems/Project_Part_B/CPU/kogge_stone_node.vhd|
 !i113 1
 R11
 R12
@@ -640,30 +679,30 @@ R6
 31
 R7
 !i10b 1
-R89
-R90
-R91
+R8
+R94
+R95
 !i113 1
 R11
 R12
 Emux_2x1
-Z92 w1732987250
+Z96 w1732987250
 R2
 R3
 R0
-Z93 8E:/Semester_3/Digital Systems/Project_Part_B/CPU/2_X_1_Mux.vhd
-Z94 FE:/Semester_3/Digital Systems/Project_Part_B/CPU/2_X_1_Mux.vhd
+Z97 8E:/Semester_3/Digital Systems/Project_Part_B/CPU/2_X_1_Mux.vhd
+Z98 FE:/Semester_3/Digital Systems/Project_Part_B/CPU/2_X_1_Mux.vhd
 l0
 L4
 V[E_eOiTbONORXPV_09lQS0
 !s100 MD27KKaQo`el2`5Cdh>C@3
 R6
 31
-R7
+R32
 !i10b 1
-R8
-Z95 !s90 -reportprogress|300|-93|-work|work|E:/Semester_3/Digital Systems/Project_Part_B/CPU/2_X_1_Mux.vhd|
-Z96 !s107 E:/Semester_3/Digital Systems/Project_Part_B/CPU/2_X_1_Mux.vhd|
+R33
+Z99 !s90 -reportprogress|300|-93|-work|work|E:/Semester_3/Digital Systems/Project_Part_B/CPU/2_X_1_Mux.vhd|
+Z100 !s107 E:/Semester_3/Digital Systems/Project_Part_B/CPU/2_X_1_Mux.vhd|
 !i113 1
 R11
 R12
@@ -677,22 +716,22 @@ V@dMHEGA0]oc]d2Wh@Zn^[1
 !s100 >hO[;k?W_Hh>eIRg<V4ZC2
 R6
 31
-R7
+R32
 !i10b 1
-R8
-R95
-R96
+R33
+R99
+R100
 !i113 1
 R11
 R12
 Emux_32x1_16bit
-Z97 w1733155250
+Z101 w1733155250
 R29
 R2
 R3
 R0
-Z98 8E:/Semester_3/Digital Systems/Project_Part_B/CPU/32_X_1_Mux_16_bit.vhd
-Z99 FE:/Semester_3/Digital Systems/Project_Part_B/CPU/32_X_1_Mux_16_bit.vhd
+Z102 8E:/Semester_3/Digital Systems/Project_Part_B/CPU/32_X_1_Mux_16_bit.vhd
+Z103 FE:/Semester_3/Digital Systems/Project_Part_B/CPU/32_X_1_Mux_16_bit.vhd
 l0
 L5
 Vh_5PMHWgh5]V8LdfT9Lca1
@@ -702,8 +741,8 @@ R6
 R7
 !i10b 1
 R8
-Z100 !s90 -reportprogress|300|-93|-work|work|E:/Semester_3/Digital Systems/Project_Part_B/CPU/32_X_1_Mux_16_bit.vhd|
-Z101 !s107 E:/Semester_3/Digital Systems/Project_Part_B/CPU/32_X_1_Mux_16_bit.vhd|
+Z104 !s90 -reportprogress|300|-93|-work|work|E:/Semester_3/Digital Systems/Project_Part_B/CPU/32_X_1_Mux_16_bit.vhd|
+Z105 !s107 E:/Semester_3/Digital Systems/Project_Part_B/CPU/32_X_1_Mux_16_bit.vhd|
 !i113 1
 R11
 R12
@@ -721,30 +760,30 @@ R6
 R7
 !i10b 1
 R8
-R100
-R101
+R104
+R105
 !i113 1
 R11
 R12
 Emux_32x1_1bit
-Z102 w1733161450
+Z106 w1733161450
 R29
 R2
 R3
 R0
-Z103 8E:/Semester_3/Digital Systems/Project_Part_B/CPU/32_X_1_Mux_1_bit.vhd
-Z104 FE:/Semester_3/Digital Systems/Project_Part_B/CPU/32_X_1_Mux_1_bit.vhd
+Z107 8E:/Semester_3/Digital Systems/Project_Part_B/CPU/32_X_1_Mux_1_bit.vhd
+Z108 FE:/Semester_3/Digital Systems/Project_Part_B/CPU/32_X_1_Mux_1_bit.vhd
 l0
 L5
 VQREhKdiVOVIN<jIlN5;LS3
 !s100 @Qo]g7kI>Qi348UjH>TYG3
 R6
 31
-R7
+R32
 !i10b 1
-R8
-Z105 !s90 -reportprogress|300|-93|-work|work|E:/Semester_3/Digital Systems/Project_Part_B/CPU/32_X_1_Mux_1_bit.vhd|
-Z106 !s107 E:/Semester_3/Digital Systems/Project_Part_B/CPU/32_X_1_Mux_1_bit.vhd|
+R33
+Z109 !s90 -reportprogress|300|-93|-work|work|E:/Semester_3/Digital Systems/Project_Part_B/CPU/32_X_1_Mux_1_bit.vhd|
+Z110 !s107 E:/Semester_3/Digital Systems/Project_Part_B/CPU/32_X_1_Mux_1_bit.vhd|
 !i113 1
 R11
 R12
@@ -759,33 +798,33 @@ VYXO3lB2Pej6>_3GeGEaln2
 !s100 NA2TQJ1U;n6F5A6CM9I]40
 R6
 31
-R7
+R32
 !i10b 1
-R8
-R105
-R106
+R33
+R109
+R110
 !i113 1
 R11
 R12
 Emux_32x1_3bit
-Z107 w1733160961
+Z111 w1733160961
 R29
 R2
 R3
 R0
-Z108 8E:/Semester_3/Digital Systems/Project_Part_B/CPU/32_X_1_Mux_3_bit.vhd
-Z109 FE:/Semester_3/Digital Systems/Project_Part_B/CPU/32_X_1_Mux_3_bit.vhd
+Z112 8E:/Semester_3/Digital Systems/Project_Part_B/CPU/32_X_1_Mux_3_bit.vhd
+Z113 FE:/Semester_3/Digital Systems/Project_Part_B/CPU/32_X_1_Mux_3_bit.vhd
 l0
 L5
 V5YGmM]in3LElbGaD]U^^N3
 !s100 I<WPo5;On]Snfc4H^@aRc1
 R6
 31
-R7
+R32
 !i10b 1
-R8
-Z110 !s90 -reportprogress|300|-93|-work|work|E:/Semester_3/Digital Systems/Project_Part_B/CPU/32_X_1_Mux_3_bit.vhd|
-Z111 !s107 E:/Semester_3/Digital Systems/Project_Part_B/CPU/32_X_1_Mux_3_bit.vhd|
+R33
+Z114 !s90 -reportprogress|300|-93|-work|work|E:/Semester_3/Digital Systems/Project_Part_B/CPU/32_X_1_Mux_3_bit.vhd|
+Z115 !s107 E:/Semester_3/Digital Systems/Project_Part_B/CPU/32_X_1_Mux_3_bit.vhd|
 !i113 1
 R11
 R12
@@ -800,33 +839,33 @@ VMzk9o6IkTKGRNld;iU4O[0
 !s100 LgD73PP_Zzk:P[RZBJSZO1
 R6
 31
-R7
+R32
 !i10b 1
-R8
-R110
-R111
+R33
+R114
+R115
 !i113 1
 R11
 R12
 Emux_32x1_6bit
-Z112 w1733161778
+Z116 w1733161778
 R29
 R2
 R3
 R0
-Z113 8E:/Semester_3/Digital Systems/Project_Part_B/CPU/32_X_1_Mux_6_bit.vhd
-Z114 FE:/Semester_3/Digital Systems/Project_Part_B/CPU/32_X_1_Mux_6_bit.vhd
+Z117 8E:/Semester_3/Digital Systems/Project_Part_B/CPU/32_X_1_Mux_6_bit.vhd
+Z118 FE:/Semester_3/Digital Systems/Project_Part_B/CPU/32_X_1_Mux_6_bit.vhd
 l0
 L5
 V[Hj?=bjgP<To2CMcb;6Y`2
 !s100 hzTdKfXbBFaO2z_GngMHn2
 R6
 31
-R7
+R32
 !i10b 1
-R8
-Z115 !s90 -reportprogress|300|-93|-work|work|E:/Semester_3/Digital Systems/Project_Part_B/CPU/32_X_1_Mux_6_bit.vhd|
-Z116 !s107 E:/Semester_3/Digital Systems/Project_Part_B/CPU/32_X_1_Mux_6_bit.vhd|
+R33
+Z119 !s90 -reportprogress|300|-93|-work|work|E:/Semester_3/Digital Systems/Project_Part_B/CPU/32_X_1_Mux_6_bit.vhd|
+Z120 !s107 E:/Semester_3/Digital Systems/Project_Part_B/CPU/32_X_1_Mux_6_bit.vhd|
 !i113 1
 R11
 R12
@@ -841,33 +880,33 @@ V@Cm@B[nR^jinT1JRESl>l1
 !s100 ohc17?e7P:L9eHh[VZmCE1
 R6
 31
-R7
+R32
 !i10b 1
-R8
-R115
-R116
+R33
+R119
+R120
 !i113 1
 R11
 R12
 Emux_32x1_9bit
-Z117 w1733161856
+Z121 w1733161856
 R29
 R2
 R3
 R0
-Z118 8E:/Semester_3/Digital Systems/Project_Part_B/CPU/32_X_1_Mux_9_bit.vhd
-Z119 FE:/Semester_3/Digital Systems/Project_Part_B/CPU/32_X_1_Mux_9_bit.vhd
+Z122 8E:/Semester_3/Digital Systems/Project_Part_B/CPU/32_X_1_Mux_9_bit.vhd
+Z123 FE:/Semester_3/Digital Systems/Project_Part_B/CPU/32_X_1_Mux_9_bit.vhd
 l0
 L5
 VdXNeGz8Rk3G]44Wm9`4Nb0
 !s100 ]]M=8O;9dEo3cLkO8hH]a0
 R6
 31
-R7
+R32
 !i10b 1
-R8
-Z120 !s90 -reportprogress|300|-93|-work|work|E:/Semester_3/Digital Systems/Project_Part_B/CPU/32_X_1_Mux_9_bit.vhd|
-Z121 !s107 E:/Semester_3/Digital Systems/Project_Part_B/CPU/32_X_1_Mux_9_bit.vhd|
+R33
+Z124 !s90 -reportprogress|300|-93|-work|work|E:/Semester_3/Digital Systems/Project_Part_B/CPU/32_X_1_Mux_9_bit.vhd|
+Z125 !s107 E:/Semester_3/Digital Systems/Project_Part_B/CPU/32_X_1_Mux_9_bit.vhd|
 !i113 1
 R11
 R12
@@ -882,22 +921,22 @@ VeDAQ7ABZ:^zf[`gXU6`::0
 !s100 zbo=kNCmQF4D`h]JM52hN1
 R6
 31
-R7
+R32
 !i10b 1
-R8
-R120
-R121
+R33
+R124
+R125
 !i113 1
 R11
 R12
 Emux_8x1_16bit
-Z122 w1732987187
+Z126 w1732987187
 R29
 R2
 R3
 R0
-Z123 8E:/Semester_3/Digital Systems/Project_Part_B/CPU/8_X_1_Mux_16_Bit.vhd
-Z124 FE:/Semester_3/Digital Systems/Project_Part_B/CPU/8_X_1_Mux_16_Bit.vhd
+Z127 8E:/Semester_3/Digital Systems/Project_Part_B/CPU/8_X_1_Mux_16_Bit.vhd
+Z128 FE:/Semester_3/Digital Systems/Project_Part_B/CPU/8_X_1_Mux_16_Bit.vhd
 l0
 L5
 VNihPJD8ABD86NNh[3>mX71
@@ -907,8 +946,8 @@ R6
 R7
 !i10b 1
 R8
-Z125 !s90 -reportprogress|300|-93|-work|work|E:/Semester_3/Digital Systems/Project_Part_B/CPU/8_X_1_Mux_16_Bit.vhd|
-Z126 !s107 E:/Semester_3/Digital Systems/Project_Part_B/CPU/8_X_1_Mux_16_Bit.vhd|
+Z129 !s90 -reportprogress|300|-93|-work|work|E:/Semester_3/Digital Systems/Project_Part_B/CPU/8_X_1_Mux_16_Bit.vhd|
+Z130 !s107 E:/Semester_3/Digital Systems/Project_Part_B/CPU/8_X_1_Mux_16_Bit.vhd|
 !i113 1
 R11
 R12
@@ -926,29 +965,29 @@ R6
 R7
 !i10b 1
 R8
-R125
-R126
+R129
+R130
 !i113 1
 R11
 R12
 Eor_16
-Z127 w1732877285
+Z131 w1732877285
 R2
 R3
 R0
-Z128 8E:/Semester_3/Digital Systems/Project_Part_B/CPU/Or_16.vhd
-Z129 FE:/Semester_3/Digital Systems/Project_Part_B/CPU/Or_16.vhd
+Z132 8E:/Semester_3/Digital Systems/Project_Part_B/CPU/Or_16.vhd
+Z133 FE:/Semester_3/Digital Systems/Project_Part_B/CPU/Or_16.vhd
 l0
 L4
 V;;_^AjiN?[4l0fGbQEzkN1
 !s100 ^XVMUOH=Qiig4oaRL3nUl2
 R6
 31
-Z130 !s110 1733211790
+R7
 !i10b 1
-R89
-Z131 !s90 -reportprogress|300|-93|-work|work|E:/Semester_3/Digital Systems/Project_Part_B/CPU/Or_16.vhd|
-Z132 !s107 E:/Semester_3/Digital Systems/Project_Part_B/CPU/Or_16.vhd|
+R8
+Z134 !s90 -reportprogress|300|-93|-work|work|E:/Semester_3/Digital Systems/Project_Part_B/CPU/Or_16.vhd|
+Z135 !s107 E:/Semester_3/Digital Systems/Project_Part_B/CPU/Or_16.vhd|
 !i113 1
 R11
 R12
@@ -962,32 +1001,32 @@ Vo71M5XkM0g=n?E7YFl0OW3
 !s100 [RGPWS9`Q?4GB77niAX8z3
 R6
 31
-R130
+R7
 !i10b 1
-R89
-R131
-R132
+R8
+R134
+R135
 !i113 1
 R11
 R12
 Epipo_register
-Z133 w1733058912
+Z136 w1733058912
 R2
 R3
 R0
-Z134 8E:/Semester_3/Digital Systems/Project_Part_B/CPU/PIPO_Register.vhd
-Z135 FE:/Semester_3/Digital Systems/Project_Part_B/CPU/PIPO_Register.vhd
+Z137 8E:/Semester_3/Digital Systems/Project_Part_B/CPU/PIPO_Register.vhd
+Z138 FE:/Semester_3/Digital Systems/Project_Part_B/CPU/PIPO_Register.vhd
 l0
 L4
 Vd;N^U5d6GgdIfYP7o=PWL2
 !s100 iPCD^=WNA60IAL]i=8SYd1
 R6
 31
-R130
+R7
 !i10b 1
-R89
-Z136 !s90 -reportprogress|300|-93|-work|work|E:/Semester_3/Digital Systems/Project_Part_B/CPU/PIPO_Register.vhd|
-Z137 !s107 E:/Semester_3/Digital Systems/Project_Part_B/CPU/PIPO_Register.vhd|
+R8
+Z139 !s90 -reportprogress|300|-93|-work|work|E:/Semester_3/Digital Systems/Project_Part_B/CPU/PIPO_Register.vhd|
+Z140 !s107 E:/Semester_3/Digital Systems/Project_Part_B/CPU/PIPO_Register.vhd|
 !i113 1
 R11
 R12
@@ -1001,33 +1040,72 @@ V3;3<OfX=OTQ614A9@CmT<1
 !s100 6?4?4E0_V7ZOm4FXJ1UV43
 R6
 31
-R130
+R7
 !i10b 1
-R89
-R136
-R137
+R8
+R139
+R140
+!i113 1
+R11
+R12
+Epipo_register_falling
+Z141 w1733217001
+R2
+R3
+R0
+Z142 8E:/Semester_3/Digital Systems/Project_Part_B/CPU/PIPO_Register_falling.vhd
+Z143 FE:/Semester_3/Digital Systems/Project_Part_B/CPU/PIPO_Register_falling.vhd
+l0
+L4
+VETO;`3RdAIQIedzPKdTbA3
+!s100 <SYcViTSii1GE8V=b?B^53
+R6
+31
+R32
+!i10b 1
+R33
+Z144 !s90 -reportprogress|300|-93|-work|work|E:/Semester_3/Digital Systems/Project_Part_B/CPU/PIPO_Register_falling.vhd|
+Z145 !s107 E:/Semester_3/Digital Systems/Project_Part_B/CPU/PIPO_Register_falling.vhd|
+!i113 1
+R11
+R12
+Aha
+R2
+R3
+DEx4 work 21 pipo_register_falling 0 22 ETO;`3RdAIQIedzPKdTbA3
+l22
+L10
+VLa^d^HNH9kQ5DJAZi=KS63
+!s100 31b6QTJ_e]KI`Gz=HF]6B2
+R6
+31
+R32
+!i10b 1
+R33
+R144
+R145
 !i113 1
 R11
 R12
 Epostprocessing
-R86
+R91
 R29
 R2
 R3
 R0
-Z138 8E:/Semester_3/Digital Systems/Project_Part_B/CPU/postprocessing.vhd
-Z139 FE:/Semester_3/Digital Systems/Project_Part_B/CPU/postprocessing.vhd
+Z146 8E:/Semester_3/Digital Systems/Project_Part_B/CPU/postprocessing.vhd
+Z147 FE:/Semester_3/Digital Systems/Project_Part_B/CPU/postprocessing.vhd
 l0
 L5
 VUm2?blATME0z4Xik56g]k2
 !s100 Kk?WdGeGeaND;g[l0Dl6K0
 R6
 31
-R130
+R7
 !i10b 1
-R89
-Z140 !s90 -reportprogress|300|-93|-work|work|E:/Semester_3/Digital Systems/Project_Part_B/CPU/postprocessing.vhd|
-Z141 !s107 E:/Semester_3/Digital Systems/Project_Part_B/CPU/postprocessing.vhd|
+R8
+Z148 !s90 -reportprogress|300|-93|-work|work|E:/Semester_3/Digital Systems/Project_Part_B/CPU/postprocessing.vhd|
+Z149 !s107 E:/Semester_3/Digital Systems/Project_Part_B/CPU/postprocessing.vhd|
 !i113 1
 R11
 R12
@@ -1042,33 +1120,33 @@ VKHCNF9=HC4gQb7:=jF5?n1
 !s100 k`UBQ0CF`nV;V]32]6K^=2
 R6
 31
-R130
+R7
 !i10b 1
-R89
-R140
-R141
+R8
+R148
+R149
 !i113 1
 R11
 R12
 Epreprocessing
-R86
+R91
 R29
 R2
 R3
 R0
-Z142 8E:/Semester_3/Digital Systems/Project_Part_B/CPU/preprocessing.vhd
-Z143 FE:/Semester_3/Digital Systems/Project_Part_B/CPU/preprocessing.vhd
+Z150 8E:/Semester_3/Digital Systems/Project_Part_B/CPU/preprocessing.vhd
+Z151 FE:/Semester_3/Digital Systems/Project_Part_B/CPU/preprocessing.vhd
 l0
 L5
 VP>fl;:oaSLgjlA]aVN_kW1
 !s100 ]?>WkYVUL]SdhCUW@gj_33
 R6
 31
-R130
+R7
 !i10b 1
-R89
-Z144 !s90 -reportprogress|300|-93|-work|work|E:/Semester_3/Digital Systems/Project_Part_B/CPU/preprocessing.vhd|
-Z145 !s107 E:/Semester_3/Digital Systems/Project_Part_B/CPU/preprocessing.vhd|
+R8
+Z152 !s90 -reportprogress|300|-93|-work|work|E:/Semester_3/Digital Systems/Project_Part_B/CPU/preprocessing.vhd|
+Z153 !s107 E:/Semester_3/Digital Systems/Project_Part_B/CPU/preprocessing.vhd|
 !i113 1
 R11
 R12
@@ -1083,32 +1161,32 @@ VeMU1gEMIm99a1<bkVjof:3
 !s100 ]`PN2<@Ve5X2ROZ0f]FI53
 R6
 31
-R130
+R7
 !i10b 1
-R89
-R144
-R145
+R8
+R152
+R153
 !i113 1
 R11
 R12
 Eregister_file
-Z146 w1733206117
+Z154 w1733206117
 R2
 R3
 R0
-Z147 8E:/Semester_3/Digital Systems/Project_Part_B/CPU/Register_File.vhd
-Z148 FE:/Semester_3/Digital Systems/Project_Part_B/CPU/Register_File.vhd
+Z155 8E:/Semester_3/Digital Systems/Project_Part_B/CPU/Register_File.vhd
+Z156 FE:/Semester_3/Digital Systems/Project_Part_B/CPU/Register_File.vhd
 l0
 L4
 VO2`bfP6U6ia`XHY2HjRKB0
 !s100 AnJm_>I9IOY6X[;<L]Mj`2
 R6
 31
-R130
+R7
 !i10b 1
-R89
-Z149 !s90 -reportprogress|300|-93|-work|work|E:/Semester_3/Digital Systems/Project_Part_B/CPU/Register_File.vhd|
-Z150 !s107 E:/Semester_3/Digital Systems/Project_Part_B/CPU/Register_File.vhd|
+R8
+Z157 !s90 -reportprogress|300|-93|-work|work|E:/Semester_3/Digital Systems/Project_Part_B/CPU/Register_File.vhd|
+Z158 !s107 E:/Semester_3/Digital Systems/Project_Part_B/CPU/Register_File.vhd|
 !i113 1
 R11
 R12
@@ -1122,32 +1200,32 @@ VPMHO[<[4P^Q>R:8PLgJ2:0
 !s100 @7dUCH41EHLb;nkeg8Z680
 R6
 31
-R130
+R7
 !i10b 1
-R89
-R149
-R150
+R8
+R157
+R158
 !i113 1
 R11
 R12
 Ese_6_to_16
-Z151 w1733068347
+Z159 w1733068347
 R2
 R3
 R0
-Z152 8E:/Semester_3/Digital Systems/Project_Part_B/CPU/SE_6_To_16.vhd
-Z153 FE:/Semester_3/Digital Systems/Project_Part_B/CPU/SE_6_To_16.vhd
+Z160 8E:/Semester_3/Digital Systems/Project_Part_B/CPU/SE_6_To_16.vhd
+Z161 FE:/Semester_3/Digital Systems/Project_Part_B/CPU/SE_6_To_16.vhd
 l0
 L4
 V23OZ]R19f98H9DK0?15Jk3
 !s100 >SgTkg_LzbVj4D_FAOYl91
 R6
 31
-R130
+R7
 !i10b 1
-R89
-Z154 !s90 -reportprogress|300|-93|-work|work|E:/Semester_3/Digital Systems/Project_Part_B/CPU/SE_6_To_16.vhd|
-Z155 !s107 E:/Semester_3/Digital Systems/Project_Part_B/CPU/SE_6_To_16.vhd|
+R8
+Z162 !s90 -reportprogress|300|-93|-work|work|E:/Semester_3/Digital Systems/Project_Part_B/CPU/SE_6_To_16.vhd|
+Z163 !s107 E:/Semester_3/Digital Systems/Project_Part_B/CPU/SE_6_To_16.vhd|
 !i113 1
 R11
 R12
@@ -1161,32 +1239,32 @@ V1ZO4Q==ZXz:ZHlF?<nbj[3
 !s100 BNg^<7C^fA7jY]G?@KJnn0
 R6
 31
-R130
+R7
 !i10b 1
-R89
-R154
-R155
+R8
+R162
+R163
 !i113 1
 R11
 R12
 Ese_9_to_16
-Z156 w1733068319
+Z164 w1733068319
 R2
 R3
 R0
-Z157 8E:/Semester_3/Digital Systems/Project_Part_B/CPU/SE_9_To_16.vhd
-Z158 FE:/Semester_3/Digital Systems/Project_Part_B/CPU/SE_9_To_16.vhd
+Z165 8E:/Semester_3/Digital Systems/Project_Part_B/CPU/SE_9_To_16.vhd
+Z166 FE:/Semester_3/Digital Systems/Project_Part_B/CPU/SE_9_To_16.vhd
 l0
 L4
 V833Q]i;0EQD4:z_aIkhOK3
 !s100 X_OYzdeb<MLEjoJcY]^QM2
 R6
 31
-R130
+R7
 !i10b 1
-R89
-Z159 !s90 -reportprogress|300|-93|-work|work|E:/Semester_3/Digital Systems/Project_Part_B/CPU/SE_9_To_16.vhd|
-Z160 !s107 E:/Semester_3/Digital Systems/Project_Part_B/CPU/SE_9_To_16.vhd|
+R8
+Z167 !s90 -reportprogress|300|-93|-work|work|E:/Semester_3/Digital Systems/Project_Part_B/CPU/SE_9_To_16.vhd|
+Z168 !s107 E:/Semester_3/Digital Systems/Project_Part_B/CPU/SE_9_To_16.vhd|
 !i113 1
 R11
 R12
@@ -1200,33 +1278,33 @@ V5KFHGK5H=;5VzVR`MW8@30
 !s100 Q=;T>EjFT7XCo60SGc7Nf0
 R6
 31
-R130
+R7
 !i10b 1
-R89
-R159
-R160
+R8
+R167
+R168
 !i113 1
 R11
 R12
 Esteering_logic
-Z161 w1733211743
+Z169 w1733218187
 R29
 R2
 R3
 R0
-Z162 8E:/Semester_3/Digital Systems/Project_Part_B/CPU/Steering_Logic.vhd
-Z163 FE:/Semester_3/Digital Systems/Project_Part_B/CPU/Steering_Logic.vhd
+Z170 8E:/Semester_3/Digital Systems/Project_Part_B/CPU/Steering_Logic.vhd
+Z171 FE:/Semester_3/Digital Systems/Project_Part_B/CPU/Steering_Logic.vhd
 l0
 L5
 VNbBB>hUmo?6=GI1W2>o>b0
 !s100 53zBz=AiKZh6Mih;f11UD2
 R6
 31
-R7
+R32
 !i10b 1
-R8
-Z164 !s90 -reportprogress|300|-93|-work|work|E:/Semester_3/Digital Systems/Project_Part_B/CPU/Steering_Logic.vhd|
-Z165 !s107 E:/Semester_3/Digital Systems/Project_Part_B/CPU/Steering_Logic.vhd|
+R33
+Z172 !s90 -reportprogress|300|-93|-work|work|E:/Semester_3/Digital Systems/Project_Part_B/CPU/Steering_Logic.vhd|
+Z173 !s107 E:/Semester_3/Digital Systems/Project_Part_B/CPU/Steering_Logic.vhd|
 !i113 1
 R11
 R12
@@ -1237,15 +1315,15 @@ R3
 DEx4 work 14 steering_logic 0 22 NbBB>hUmo?6=GI1W2>o>b0
 l80
 L31
-VWQF?<hf=26[o<gR48[PML0
-!s100 JD]ZMRlgHzVkHe[cRh6aZ1
+VIKCkg;aU]7ca3zPBoaeIz2
+!s100 bUBh?h;O?3gb=QRGF;R_X0
 R6
 31
-R7
+R32
 !i10b 1
-R8
-R164
-R165
+R33
+R172
+R173
 !i113 1
 R11
 R12
