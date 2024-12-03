@@ -32,29 +32,36 @@ architecture behav of CPU_testbench is
 	
 	type regarray is array(31 downto 0) of std_logic_vector(15 downto 0);
 	signal Memory: regarray:=(
---		0 =>  "1010001000000100",--Instr1: LW from Mem Address=4 to RF address = 0; Instr1 at Mem Address = 0
---		1 =>  "1010010001000101",--Instr2: LW from Mem Address=5 to RF address = 1; Instr2 at Mem Address = 1
-		0 => "1001000000001000", --Instr1: LLI value=16 from IR to RF address = 0; Instr1 at Mem Address = 0
---		0 => "1000000000000001", --Instr1: LHI value=1 (will be 8-shifted) from IR to RF address = 0; Instr2 at Mem Address = 0
-		1 => "1000001000000011", --Instr1: LHI value=1 (will be 8-shifted) from IR to RF address = 1; Instr2 at Mem Address = 1
+--		0 =>  "1010000001000100",--Instr1: LW from Mem Address=4 to RF address = 0; Instr1 at Mem Address = 0
+--		1 =>  "1010001000000010",--Instr2: LW from Mem Address=5 to RF address = 1; Instr2 at Mem Address = 1
+----		0 => "1001000000001000", --Instr1: LLI value=16 from IR to RF address = 0; Instr1 at Mem Address = 0
+----		0 => "1000000000000001", --Instr1: LHI value=1 (will be 8-shifted) from IR to RF address = 0; Instr2 at Mem Address = 0
+----		1 => "1000001000000011", --Instr1: LHI value=1 (will be 8-shifted) from IR to RF address = 1; Instr2 at Mem Address = 1
 --		2 =>  "0000000001010000",--Instr3: ADD Reg0 and Reg1 and store in Reg2; Instr3 at Mem Address = 2
---		2 =>  "0001000010111111",--Instr3: ADI -1 and REg0 and store in Reg2; Instr3 at Mem Address = 2
---		2 => "1100000001000111", -- Instr3: BEQ checks Reg0 and Reg1 and branches to PC+7
---		2 => "1111001000000000", -- Instr3: JLR PC goes to address given in Reg0 and writes current PC into reg1
-		2=> "1101001000010000",
-		3 =>  "1011010011000110",--Instr4: SW from RF address=2 to Mem address = 6; Instr4 at Mem Address = 3
---		3 =>  "1110000111111101", --Instr4: J from Current PC=3 to PC=0
-		4 =>  "0000000000010000", -- Number1
-		5 =>  "0000000000000001", -- Number2
-		6 =>  "0110000001010000",
-		7 =>  "1000000000000111",
-		8 =>  "1001000000000100",
-		9 =>  "1010000110001110",
-		14=>  "0000000000000000",
-		15 => "1100100110000010",
-		18 => "1111000001000000",
-		27 => "1101000000000011",
-		30 => "1011000001000101",
+----		2 =>  "0001000010111111",--Instr3: ADI -1 and REg0 and store in Reg2; Instr3 at Mem Address = 2
+----		2 => "1100000001000111", -- Instr3: BEQ checks Reg0 and Reg1 and branches to PC+7
+----		2 => "1111001000000000", -- Instr3: JLR PC goes to address given in Reg0 and writes current PC into reg1
+----		2=> "1101001000010000",
+----		3 =>  "1011010011000110",--Instr4: SW from RF address=2 to Mem address = 6; Instr4 at Mem Address = 3
+----		2 =>  "1110000111111110", --Instr4: J from Current PC=3 to PC=0
+--		4 =>  "0000000000010000", -- Number1
+--		5 =>  "0000000000000001", -- Number2
+--		6 =>  "0110000001010000", 
+--		7 =>  "1000000000000111",
+--		8 =>  "1001000000000100",
+--		9 =>  "1010000110001110",
+--		14=>  "0000000000000000",
+--		15 => "1100100110000010",
+--		18 => "1111000001000000",
+--		27 => "1101000000000011",
+--		30 => "1011000001000101",
+		0=> "1001000000000000",
+		1=> "1001001000000001",
+		2=> "0000000001010000",
+		3=> "1011000011000111",
+		4=> "0001000001000000",
+		5=> "0001001010000000",
+		6=> "1110000111111100",
 		others => x"0000");
 	begin
 		cpuinst: CPU port map(ostate=>cstate, IRout=>IR,clk=>clk,reset=>'0',Mem_add_read=>Mem_add_read,Mem_add_write=>Mem_add_write,Mem_data_write=>Mem_data_write,PCout=>PC,Mem_data_read=>Mem_data_read,Mem_r=>Mem_r,Mem_w=>Mem_w, IRoutcontroller=>IRoutcontroller,RF_A1o=>RF_A1,RF_A2o=>RF_A2,RF_A3o=>RF_A3,RF_D1o=>RF_D1,RF_D2o=>RF_D2,RF_D3o=>RF_D3,T1o=>T1_Data_read, T1w=>T1_data_write, T1e=>T1_en, RFe=>RF_en, reg0=>reg0, reg1=>reg1, reg2=>reg2, T2e=>T2_en, T2w=>T2_data_write, T2o=>T2_data_read, ALU_Zo => ALU_Z);

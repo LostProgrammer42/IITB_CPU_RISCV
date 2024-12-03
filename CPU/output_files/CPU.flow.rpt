@@ -1,5 +1,5 @@
 Flow report for CPU
-Tue Dec 03 15:13:23 2024
+Tue Dec 03 18:44:48 2024
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -40,17 +40,17 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Tue Dec 03 15:13:22 2024       ;
+; Flow Status                        ; Successful - Tue Dec 03 18:44:47 2024       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; CPU                                         ;
 ; Top-level Entity Name              ; CPU                                         ;
 ; Family                             ; MAX 10                                      ;
 ; Device                             ; 10M08DAF484C8G                              ;
 ; Timing Models                      ; Final                                       ;
-; Total logic elements               ; 1,218                                       ;
-;     Total combinational functions  ; 1,105                                       ;
-;     Dedicated logic registers      ; 220                                         ;
-; Total registers                    ; 220                                         ;
+; Total logic elements               ; 1,212                                       ;
+;     Total combinational functions  ; 1,099                                       ;
+;     Dedicated logic registers      ; 221                                         ;
+; Total registers                    ; 221                                         ;
 ; Total pins                         ; 294                                         ;
 ; Total virtual pins                 ; 0                                           ;
 ; Total memory bits                  ; 0                                           ;
@@ -66,7 +66,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 12/03/2024 15:13:13 ;
+; Start date & time ; 12/03/2024 18:44:34 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; CPU                 ;
 +-------------------+---------------------+
@@ -77,7 +77,7 @@ refer to the applicable agreement for further details.
 +--------------------------------------+----------------------------------------+---------------+-------------+----------------+
 ; Assignment Name                      ; Value                                  ; Default Value ; Entity Name ; Section Id     ;
 +--------------------------------------+----------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID                ; 1095260230269.173321899321808          ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID                ; 1095260230269.173323167422144          ; --            ; --          ; --             ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; CPU_testbench  ;
 ; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; CPU_testbench                          ; --            ; --          ; eda_simulation ;
 ; EDA_OUTPUT_DATA_FORMAT               ; Vhdl                                   ; --            ; --          ; eda_simulation ;
@@ -86,7 +86,7 @@ refer to the applicable agreement for further details.
 ; EDA_TEST_BENCH_FILE                  ; CPU_testbench.vhd                      ; --            ; --          ; CPU_testbench  ;
 ; EDA_TEST_BENCH_MODULE_NAME           ; CPU_testbench                          ; --            ; --          ; CPU_testbench  ;
 ; EDA_TEST_BENCH_NAME                  ; CPU_testbench                          ; --            ; --          ; eda_simulation ;
-; EDA_TEST_BENCH_RUN_SIM_FOR           ; 1500 ns                                ; --            ; --          ; CPU_testbench  ;
+; EDA_TEST_BENCH_RUN_SIM_FOR           ; 10000 ns                               ; --            ; --          ; CPU_testbench  ;
 ; EDA_TIME_SCALE                       ; 1 ps                                   ; --            ; --          ; eda_simulation ;
 ; MAX_CORE_JUNCTION_TEMP               ; 85                                     ; --            ; --          ; --             ;
 ; MIN_CORE_JUNCTION_TEMP               ; 0                                      ; --            ; --          ; --             ;
@@ -104,8 +104,8 @@ refer to the applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:09     ; 1.0                     ; 4849 MB             ; 00:00:06                           ;
-; Total                ; 00:00:09     ; --                      ; --                  ; 00:00:06                           ;
+; Analysis & Synthesis ; 00:00:13     ; 1.0                     ; 4848 MB             ; 00:00:06                           ;
+; Total                ; 00:00:13     ; --                      ; --                  ; 00:00:06                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

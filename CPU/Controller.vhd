@@ -9,7 +9,7 @@ entity Controller is
 end entity;
 
 architecture str of Controller is
-type state is (init,s0,s1,s2,s3,s5,s6,s7,s8,s9,s10,s11,s12,s15,s16,s17,s19,s20,s22,s23,s24,s29);
+type state is (init,s0,s1,s2,s3,s5,s6,s7,s8,s9,s10,s11,s12,S13,s15,s16,s17,s19,s20,s22,s23,s24,s29);
 	signal y_present,y_next: state := init;
 	signal counter : integer := 0;
 	begin	
@@ -75,7 +75,10 @@ type state is (init,s0,s1,s2,s3,s5,s6,s7,s8,s9,s10,s11,s12,s15,s16,s17,s19,s20,s
 						y_next <= s12;
 					when s12 =>
 						ostate <= "01100";
-						y_next <= s6;
+						y_next <= s13;
+					when s13 =>
+						ostate <= "01101";
+						y_next <= s0;
 					when s6 =>
 						ostate <= "00110";
 						y_next <= s0;
@@ -91,9 +94,9 @@ type state is (init,s0,s1,s2,s3,s5,s6,s7,s8,s9,s10,s11,s12,s15,s16,s17,s19,s20,s
 					when s7 =>
 						ostate <= "00111";
 						case IR_data_read(15 downto 12) is
-							when "1110" => y_next <= s22;
 							when "1000" => y_next <= s8;
 							when "1001" => y_next <= s9;
+							when "1110" => y_next <= s17;
 							when others => null;
 						end case;
 					when s8 =>
@@ -116,6 +119,7 @@ type state is (init,s0,s1,s2,s3,s5,s6,s7,s8,s9,s10,s11,s12,s15,s16,s17,s19,s20,s
 					when s17 =>
 						ostate <= "10001";
 						case IR_data_read(15 downto 12) is
+							when "1110" => y_next <= s22;
 							when "1100" => y_next <= s20;
 							when "1101"|"1111" => y_next <= s23;
 							when others => null;
